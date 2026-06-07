@@ -1,0 +1,860 @@
+[
+  {
+    "slug": "dragon-warrior",
+    "title": "Dragon Warrior",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co55p3.jpg",
+    "platform": "NES",
+    "status": "playing"
+  },
+  {
+    "slug": "mouse-pi-for-hire",
+    "title": "Mouse: P.I. For Hire",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaacx.jpg",
+    "platform": "Windows PC",
+    "rating": 3,
+    "status": "completed",
+    "date_start": "2026-06-01",
+    "date": "2026-06-05"
+  },
+  {
+    "slug": "mother-3",
+    "title": "Mother 3",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coa3qi.jpg",
+    "platform": "Game Boy Advance",
+    "rating": 4,
+    "status": "completed",
+    "date_start": "2026-05-20",
+    "date": "2026-05-26"
+  },
+  {
+    "slug": "earthbound",
+    "title": "EarthBound",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6v07.jpg",
+    "platform": "SNES",
+    "rating": 5,
+    "status": "completed",
+    "date_start": "2026-05-15",
+    "date": "2026-05-19"
+  },
+  {
+    "slug": "mother",
+    "title": "Mother",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6695.jpg",
+    "platform": "PC (Mesen)",
+    "rating": 3.5,
+    "status": "completed",
+    "date_start": "2026-05-10",
+    "date": "2026-05-14",
+    "review": "Quel classique et quelle aventure unique !\n\nJ'ai adoré le jeu de bout en bout, l'univers cartoony a cette capacité de me rappeler la belle époque de mon enfance quand je me butais à pokemon sur la ds. C'est pas forcément beau (bon c'est de la NES en même temps) mais il a un immense charme, des villes et banlieues communes, c'est coloré, des sprites reconnaissables et cultes, qui n'a jamais vu Starman ?\n\nLe gameplay est simple, on se balade, on parle aux habitants, on apprends des trucs chelous sur ce qui passe dans la zone d'à coté et on y va. C'est très direct comme approche mais c'est efficace et surtout ça donne envie. Y'a des zombies dans le cimetière ? Je vais voir. Les animaux du zoo sont devenus fous et aggressifs ? Bien sur que je vais aller voir.\nCeci dit, le but ultime du jeu est d'apprendre 8 mélodies pour trigger la fin, et si certaines mélodies sont quasi impossible à rater tellement elles sont évidentes, certaines sont très facilement manquable et c'est un peu dommage, heureusement il y a un pnj qui te donne des vagues indices si besoin (ou des guides sur internet).\n\nMaintenant le seul vrai point noir du jeu, le grind. Merci l'émulation, merci la vitesse x5 et les savestates parce que sans ça je pense sérieusement que j'aurais abandonné.\nLe jeu se traine une sale réputation là dessus, et à juste titre. Et c'est pas tant que les combats sont difficiles, mais vers la dernière grosse zone du jeu l'encounter rate est absurdement élevé. Les combats ne sont pas très longs et il y a même un mode auto qui spam juste les attaques de base, mais à la longue ça devient épuisant. Même avec le x5 speed + auto.\nAjoute à ça le fait que level up prends des plombes, la montée des stats est aléatoire, et que le jeu a la bonne idée de faire rejoindre les nouveaux personnages au niveau 1. Donc bienvenue dans le groupe Ana, j'suis niveau 20 mais toi 1. Et bah on est parti pour 2h de grind.\n\nAprès, c'est typique des vieux RPG, donc je lui en veux pas trop. Et je sais qu'il existe des romhacks qui corrigent une bonne partie de ces problèmes, mais je tenais à faire la version vanilla.\n\nJe trouve malheureusement aussi l'orientation assez désagréable. Les maps sont relativement grandes, tout se ressemble et on voit très peu les environs, comme si le jeu était constamment trop \"zoomé\". Du coup, c'est très difficile de jouer sans avoir une carte des zones sous les yeux, ce que j'ai fini par faire sur mon deuxième écran.\n\nEn dehors de ça, le jeu est vraiment génial. Il a une identité unique, une ambiance incroyable, des personnages attachants et une écriture qui mélange parfaitement le sérieux, l'absurde et un humour très bien dosé.\n\nJ'ai hâte de découvrir Mother 2 et 3."
+  },
+  {
+    "slug": "the-evil-within",
+    "title": "The Evil Within",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5wgs.jpg",
+    "platform": "Windows PC",
+    "rating": 1.5,
+    "status": "completed",
+    "date_start": "2026-05-07",
+    "date": "2026-05-09"
+  },
+  {
+    "slug": "elden-ring",
+    "title": "Elden Ring",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4jni.jpg",
+    "platform": "Windows PC",
+    "rating": 3.5,
+    "status": "completed",
+    "date_start": "2026-04-19",
+    "date": "2026-05-05"
+  },
+  {
+    "slug": "water-womb-world",
+    "title": "Water Womb World",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2gga.jpg",
+    "platform": "Windows PC",
+    "rating": 3.5,
+    "status": "completed",
+    "date_start": "2026-04-29",
+    "date": "2026-04-29"
+  },
+  {
+    "slug": "resident-evil-village-shadows-of-rose",
+    "title": "Resident Evil Village: Shadows of Rose",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5zol.jpg",
+    "platform": "Windows PC",
+    "rating": 3.5,
+    "status": "completed",
+    "date_start": "2026-04-18",
+    "date": "2026-04-18"
+  },
+  {
+    "slug": "resident-evil-village",
+    "title": "Resident Evil Village",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coab9q.jpg",
+    "platform": "Windows PC",
+    "rating": 4,
+    "status": "completed",
+    "date_start": "2026-04-16",
+    "date": "2026-04-17"
+  },
+  {
+    "slug": "resident-evil-7-end-of-zoe",
+    "title": "Resident Evil 7: Biohazard - End of Zoe",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5yf7.jpg",
+    "platform": "Windows PC",
+    "rating": 4.5,
+    "status": "completed",
+    "date_start": "2026-04-15",
+    "date": "2026-04-15"
+  },
+  {
+    "slug": "resident-evil-7-not-a-hero",
+    "title": "Resident Evil 7: Biohazard - Not A Hero",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5yf8.jpg",
+    "platform": "Windows PC",
+    "rating": 2,
+    "status": "completed",
+    "date_start": "2026-04-15",
+    "date": "2026-04-15"
+  },
+  {
+    "slug": "resident-evil-7-biohazard",
+    "title": "Resident Evil 7: Biohazard",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobtwh.jpg",
+    "platform": "Windows PC",
+    "rating": 3.5,
+    "status": "completed",
+    "date_start": "2026-04-14",
+    "date": "2026-04-15"
+  },
+  {
+    "slug": "resident-evil-4-separate-ways",
+    "title": "Resident Evil 4: Separate Ways",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7lar.jpg",
+    "platform": "Windows PC",
+    "rating": 5,
+    "status": "completed",
+    "date_start": "2026-04-13",
+    "date": "2026-04-13"
+  },
+  {
+    "slug": "resident-evil-3-nemesis",
+    "title": "Resident Evil 3: Nemesis",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2vvb.jpg",
+    "platform": "Windows PC",
+    "rating": 4,
+    "status": "completed",
+    "date_start": "2026-04-10",
+    "date": "2026-04-12"
+  },
+  {
+    "slug": "resident-evil-2",
+    "title": "Resident Evil 2",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2vz0.jpg",
+    "platform": "Windows PC",
+    "rating": 4.5,
+    "status": "completed",
+    "date_start": "2026-04-09",
+    "date": "2026-04-09"
+  },
+  {
+    "slug": "resident-evil-5",
+    "title": "Resident Evil 5",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobtgs.jpg",
+    "platform": "Windows PC",
+    "rating": 3.5,
+    "status": "completed",
+    "date_start": "2026-04-06",
+    "date": "2026-04-08"
+  },
+  {
+    "slug": "sally-face",
+    "title": "Sally Face",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3wku.jpg",
+    "platform": "Windows PC",
+    "rating": 3.5,
+    "status": "completed",
+    "date_start": "2026-04-03",
+    "date": "2026-04-04"
+  },
+  {
+    "slug": "resident-evil-code-veronica-x",
+    "title": "Resident Evil Code: Veronica X",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2vzv.jpg",
+    "platform": "PlayStation 4",
+    "rating": 5,
+    "status": "completed",
+    "date_start": "2026-03-26",
+    "date": "2026-04-02"
+  },
+  {
+    "slug": "resident-evil",
+    "title": "Resident Evil",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co20bp.jpg",
+    "platform": "PlayStation",
+    "rating": 4.5,
+    "status": "completed",
+    "date_start": "2026-03-24",
+    "date": "2026-03-25"
+  },
+  {
+    "slug": "resident-evil-0",
+    "title": "Resident Evil 0",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1z3p.jpg",
+    "platform": "Windows PC",
+    "rating": 3.5,
+    "status": "completed",
+    "date_start": "2026-03-21",
+    "date": "2026-03-23"
+  },
+  {
+    "slug": "the-witcher-3-wild-hunt-blood-and-wine",
+    "title": "The Witcher 3: Wild Hunt - Blood and Wine",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2lgo.jpg",
+    "platform": "Windows PC",
+    "rating": 4,
+    "status": "completed",
+    "date_start": "2026-03-17",
+    "date": "2026-03-20"
+  },
+  {
+    "slug": "the-witcher-3-wild-hunt-hearts-of-stone",
+    "title": "The Witcher 3: Wild Hunt - Hearts of Stone",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1t7q.jpg",
+    "platform": "Windows PC",
+    "rating": 4.5,
+    "status": "completed",
+    "date_start": "2026-03-08",
+    "date": "2026-03-16"
+  },
+  {
+    "slug": "chants-of-sennaar",
+    "title": "Chants of Sennaar",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9mjo.jpg",
+    "platform": "Windows PC",
+    "rating": 4.5,
+    "status": "completed",
+    "date_start": "2026-03-08",
+    "date": "2026-03-13"
+  },
+  {
+    "slug": "the-witcher-3-wild-hunt",
+    "title": "The Witcher 3: Wild Hunt",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaarl.jpg",
+    "platform": "Windows PC",
+    "rating": 4,
+    "status": "completed",
+    "date_start": "2026-02-08",
+    "date": "2026-03-07"
+  },
+  {
+    "slug": "resident-evil-requiem",
+    "title": "Resident Evil Requiem",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobmj0.jpg",
+    "platform": "Windows PC",
+    "rating": 4.5,
+    "status": "completed",
+    "date_start": "2026-02-27",
+    "date": "2026-03-02"
+  },
+  {
+    "slug": "voyage",
+    "title": "Voyage",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob0d7.jpg",
+    "platform": "Windows PC",
+    "rating": 4,
+    "status": "completed",
+    "date_start": "2026-02-14",
+    "date": "2026-02-14"
+  },
+  {
+    "slug": "avatar-frontiers-of-pandora",
+    "title": "Avatar: Frontiers of Pandora",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9oe3.jpg",
+    "platform": "Windows PC",
+    "rating": 3,
+    "status": "completed",
+    "date_start": "2026-02-10",
+    "date": "2026-02-13"
+  },
+  {
+    "slug": "atomic-heart",
+    "title": "Atomic Heart",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co68ag.jpg",
+    "platform": "Windows PC",
+    "rating": 4,
+    "status": "completed",
+    "date_start": "2026-02-03",
+    "date": "2026-02-07"
+  },
+  {
+    "slug": "tomb-raider-underworld",
+    "title": "Tomb Raider: Underworld",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1voc.jpg",
+    "platform": "Windows PC",
+    "rating": 1.5,
+    "status": "completed",
+    "date_start": "2026-01-28",
+    "date": "2026-01-30"
+  },
+  {
+    "slug": "tomb-raider-anniversary",
+    "title": "Tomb Raider: Anniversary",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaesz.jpg",
+    "platform": "Windows PC",
+    "rating": 2.5,
+    "status": "completed",
+    "date_start": "2026-01-25",
+    "date": "2026-01-27"
+  },
+  {
+    "slug": "tomb-raider-legend",
+    "title": "Tomb Raider: Legend",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1nnv.jpg",
+    "platform": "Windows PC",
+    "rating": 3.5,
+    "status": "completed",
+    "date_start": "2026-01-24",
+    "date": "2026-01-24"
+  },
+  {
+    "slug": "tomb-raider",
+    "title": "Tomb Raider",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3hfx.jpg",
+    "platform": "Windows PC",
+    "rating": 1,
+    "status": "completed",
+    "date_start": "2026-01-23",
+    "date": "2026-01-23"
+  },
+  {
+    "slug": "look-outside",
+    "title": "Look Outside",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9k8n.jpg",
+    "platform": "Windows PC",
+    "rating": 5,
+    "status": "completed",
+    "date_start": "2026-01-18",
+    "date": "2026-01-22"
+  },
+  {
+    "slug": "sorry-were-closed",
+    "title": "Sorry We're Closed",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co79i1.jpg",
+    "platform": "Windows PC",
+    "rating": 3.5,
+    "status": "completed",
+    "date_start": "2026-01-15",
+    "date": "2026-01-17"
+  },
+  {
+    "slug": "half-life-2-episode-two",
+    "title": "Half-Life 2: Episode Two",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2mw2.jpg",
+    "platform": "Windows PC",
+    "rating": 3.5,
+    "status": "completed",
+    "date_start": "2026-01-13",
+    "date": "2026-01-14"
+  },
+  {
+    "slug": "half-life-2-episode-one",
+    "title": "Half-Life 2: Episode One",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9c5r.jpg",
+    "platform": "Windows PC",
+    "rating": 3,
+    "status": "completed",
+    "date_start": "2026-01-11",
+    "date": "2026-01-11"
+  },
+  {
+    "slug": "half-life-2",
+    "title": "Half-Life 2",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1nmw.jpg",
+    "platform": "Windows PC",
+    "rating": 3,
+    "status": "completed",
+    "date_start": "2026-01-03",
+    "date": "2026-01-10"
+  },
+  {
+    "slug": "ena-dream-bbq",
+    "title": "Ena: Dream BBQ",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co62ei.jpg",
+    "platform": "Windows PC",
+    "rating": 4.5,
+    "status": "completed",
+    "date_start": "2026-01-03",
+    "date": "2026-01-03"
+  },
+  {
+    "slug": "felvidek",
+    "title": "Felvidek",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8aiu.jpg",
+    "platform": "Windows PC",
+    "rating": 4.5,
+    "status": "completed",
+    "date_start": "2026-01-01",
+    "date": "2026-01-02"
+  },
+  {
+    "slug": "viewfinder",
+    "title": "Viewfinder",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaev1.jpg",
+    "platform": "Windows PC",
+    "rating": 4,
+    "status": "completed",
+    "date_start": "2025-12-30",
+    "date": "2025-12-30"
+  },
+  {
+    "slug": "naissancee",
+    "title": "NaissanceE",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7cq0.jpg",
+    "platform": "Windows PC",
+    "rating": 1.5,
+    "status": "completed",
+    "date_start": "2025-12-29",
+    "date": "2025-12-29"
+  },
+  {
+    "slug": "portal",
+    "title": "Portal",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coay61.jpg",
+    "platform": "Windows PC",
+    "rating": 4,
+    "status": "completed",
+    "date_start": "2025-12-29",
+    "date": "2025-12-29"
+  },
+  {
+    "slug": "metal-garden",
+    "title": "Metal Garden",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9h5w.jpg",
+    "platform": "Windows PC",
+    "rating": 3,
+    "status": "completed",
+    "date_start": "2025-12-29",
+    "date": "2025-12-29"
+  },
+  {
+    "slug": "half-life-blue-shift",
+    "title": "Half-Life: Blue Shift",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co802z.jpg",
+    "platform": "Windows PC",
+    "rating": 3.5,
+    "status": "completed",
+    "date_start": "2025-12-28",
+    "date": "2025-12-28"
+  },
+  {
+    "slug": "half-life-opposing-force",
+    "title": "Half-Life: Opposing Force",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co802y.jpg",
+    "platform": "Windows PC",
+    "rating": 2.5,
+    "status": "completed",
+    "date_start": "2025-12-28",
+    "date": "2025-12-28"
+  },
+  {
+    "slug": "shipwrecked-64",
+    "title": "Shipwrecked 64",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7oa2.jpg",
+    "platform": "Windows PC",
+    "rating": 4,
+    "status": "completed",
+    "date_start": "2025-12-26",
+    "date": "2025-12-26"
+  },
+  {
+    "slug": "what-remains-of-edith-finch",
+    "title": "What Remains of Edith Finch",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1rbj.jpg",
+    "platform": "Windows PC",
+    "rating": 5,
+    "status": "completed",
+    "date_start": "2025-12-21",
+    "date": "2025-12-21"
+  },
+  {
+    "slug": "half-life",
+    "title": "Half-Life",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc2ea.jpg",
+    "platform": "Windows PC",
+    "rating": 3,
+    "status": "completed",
+    "date_start": "2025-12-17",
+    "date": "2025-12-20"
+  },
+  {
+    "slug": "routine",
+    "title": "Routine",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coay6e.jpg",
+    "platform": "Windows PC",
+    "rating": 4.5,
+    "status": "completed",
+    "date_start": "2025-12-11",
+    "date": "2025-12-14"
+  },
+  {
+    "slug": "stray",
+    "title": "Stray",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4tt2.jpg",
+    "platform": "PlayStation 5",
+    "rating": 4,
+    "status": "completed",
+    "date_start": "2025-11-17",
+    "date": "2025-11-21"
+  },
+  {
+    "slug": "crow-country",
+    "title": "Crow Country",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7ab9.jpg",
+    "platform": "Windows PC",
+    "rating": 4.5,
+    "status": "completed",
+    "date_start": "2025-11-04",
+    "date": "2025-11-07"
+  },
+  {
+    "slug": "amnesia-the-bunker",
+    "title": "Amnesia: The Bunker",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5us3.jpg",
+    "platform": "Windows PC",
+    "rating": 4,
+    "status": "completed",
+    "date_start": "2025-10-30",
+    "date": "2025-10-30"
+  },
+  {
+    "slug": "cruelty-squad",
+    "title": "Cruelty Squad",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9hn0.jpg",
+    "platform": "Windows PC",
+    "rating": 5,
+    "status": "completed",
+    "date_start": "2025-10-17",
+    "date": "2025-10-28"
+  },
+  {
+    "slug": "metal-gear-solid-3-snake-eater-hd-edition",
+    "title": "Metal Gear Solid 3: Snake Eater - HD Edition",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co98hv.jpg",
+    "platform": "PlayStation 3",
+    "rating": 5,
+    "status": "completed",
+    "date_start": "2025-10-09",
+    "date": "2025-10-14"
+  },
+  {
+    "slug": "metal-gear-solid-2-sons-of-liberty-hd-edition",
+    "title": "Metal Gear Solid 2: Sons of Liberty - HD Edition",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co982l.jpg",
+    "platform": "PlayStation 3",
+    "rating": 4.5,
+    "status": "completed",
+    "date_start": "2025-09-30",
+    "date": "2025-10-05"
+  },
+  {
+    "slug": "metal-gear-solid",
+    "title": "Metal Gear Solid",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobpak.jpg",
+    "platform": "PlayStation",
+    "rating": 4.5,
+    "status": "completed",
+    "date_start": "2025-09-26",
+    "date": "2025-09-28"
+  },
+  {
+    "slug": "batman-arkham-city",
+    "title": "Batman: Arkham City",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1voh.jpg",
+    "platform": "Windows PC",
+    "rating": 3.5,
+    "status": "completed",
+    "date_start": "2025-09-22",
+    "date": "2025-09-24"
+  },
+  {
+    "slug": "batman-arkham-asylum",
+    "title": "Batman: Arkham Asylum",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1voj.jpg",
+    "platform": "Windows PC",
+    "rating": 4,
+    "status": "completed",
+    "date_start": "2025-09-19",
+    "date": "2025-09-21"
+  },
+  {
+    "slug": "hollow-knight-silksong",
+    "title": "Hollow Knight: Silksong",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobebu.jpg",
+    "platform": "PlayStation 5",
+    "rating": 4,
+    "status": "completed",
+    "date_start": "2025-09-04",
+    "date": "2025-09-11"
+  },
+  {
+    "slug": "hollow-knight",
+    "title": "Hollow Knight",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobfzp.jpg",
+    "platform": "PlayStation 4",
+    "rating": 4.5,
+    "status": "completed",
+    "date_start": "2025-08-27",
+    "date": "2025-09-02"
+  },
+  {
+    "slug": "lies-of-p",
+    "title": "Lies of P",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6lxr.jpg",
+    "platform": "PlayStation 5",
+    "rating": 3.5,
+    "status": "completed",
+    "date_start": "2025-08-25",
+    "date": "2025-08-26"
+  },
+  {
+    "slug": "castlevania-symphony-of-the-night",
+    "title": "Castlevania: Symphony of the Night",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co53m8.jpg",
+    "platform": "PlayStation",
+    "rating": 4.5,
+    "status": "completed",
+    "date_start": "2025-08-24",
+    "date": "2025-08-25"
+  },
+  {
+    "slug": "kingdom-come-deliverance-ii",
+    "title": "Kingdom Come: Deliverance II",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8qmv.jpg",
+    "platform": "Windows PC",
+    "rating": 3,
+    "status": "completed",
+    "date_start": "2025-07-21",
+    "date": "2025-08-24"
+  },
+  {
+    "slug": "call-of-cthulhu-dark-corners-of-the-earth",
+    "title": "Call of Cthulhu: Dark Corners of the Earth",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1x4v.jpg",
+    "platform": "Windows PC",
+    "rating": 2,
+    "status": "completed",
+    "date_start": "2025-08-16",
+    "date": "2025-08-16"
+  },
+  {
+    "slug": "alisa",
+    "title": "Alisa",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2jtu.jpg",
+    "platform": "Windows PC",
+    "rating": 3,
+    "status": "completed",
+    "date_start": "2025-08-10",
+    "date": "2025-08-10"
+  },
+  {
+    "slug": "arx-fatalis",
+    "title": "Arx Fatalis",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2zpp.jpg",
+    "platform": "Windows PC",
+    "rating": 5,
+    "status": "completed",
+    "date_start": "2025-07-16",
+    "date": "2025-07-20"
+  },
+  {
+    "slug": "raidou-remastered-the-mystery-of-the-soulless-army",
+    "title": "Raidou Remastered: The Mystery of the Soulless Army",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9l0l.jpg",
+    "platform": "PlayStation 5",
+    "rating": 3,
+    "status": "completed",
+    "date_start": "2025-07-06",
+    "date": "2025-07-12"
+  },
+  {
+    "slug": "blasphemous",
+    "title": "Blasphemous",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob0xj.jpg",
+    "platform": "Windows PC",
+    "rating": 3,
+    "status": "completed",
+    "date_start": "2025-07-02",
+    "date": "2025-07-04"
+  },
+  {
+    "slug": "system-shock-2-25th-anniversary-remaster",
+    "title": "System Shock 2: 25th Anniversary Remaster",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9hdg.jpg",
+    "platform": "Windows PC",
+    "rating": 4.5,
+    "status": "completed",
+    "date_start": "2025-06-27",
+    "date": "2025-07-02"
+  },
+  {
+    "slug": "dead-island-2",
+    "title": "Dead Island 2",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5469.jpg",
+    "platform": "Windows PC",
+    "rating": 2.5,
+    "status": "completed",
+    "date_start": "2025-06-17",
+    "date": "2025-06-17"
+  },
+  {
+    "slug": "grand-theft-auto-v",
+    "title": "Grand Theft Auto V",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2lbd.jpg",
+    "platform": "Windows PC",
+    "rating": 4.5,
+    "status": "completed",
+    "date_start": "2025-05-29",
+    "date": "2025-06-16"
+  },
+  {
+    "slug": "grand-theft-auto-vice-city",
+    "title": "Grand Theft Auto: Vice City",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2lbb.jpg",
+    "platform": "Windows PC",
+    "rating": 3.5,
+    "status": "completed",
+    "date_start": "2025-05-21",
+    "date": "2025-05-28"
+  },
+  {
+    "slug": "grand-theft-auto-iii",
+    "title": "Grand Theft Auto III",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2lb8.jpg",
+    "platform": "PlayStation 2",
+    "rating": 3,
+    "status": "completed",
+    "date_start": "2025-05-17",
+    "date": "2025-05-19"
+  },
+  {
+    "slug": "clair-obscur-expedition-33",
+    "title": "Clair Obscur: Expedition 33",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9gam.jpg",
+    "platform": "PlayStation 5",
+    "rating": 4.5,
+    "status": "completed",
+    "date_start": "2025-04-26",
+    "date": "2025-05-15"
+  },
+  {
+    "slug": "fallout-new-vegas",
+    "title": "Fallout: New Vegas",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1u60.jpg",
+    "platform": "Windows PC",
+    "rating": 4.5,
+    "status": "completed",
+    "date_start": "2025-04-15",
+    "date": "2025-04-26"
+  },
+  {
+    "slug": "the-children-of-clay",
+    "title": "The Children of Clay",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9nzf.jpg",
+    "platform": "Windows PC",
+    "rating": 4,
+    "status": "completed",
+    "date_start": "2025-04-15",
+    "date": "2025-04-15"
+  },
+  {
+    "slug": "promise-mascot-agency",
+    "title": "Promise Mascot Agency",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8u8y.jpg",
+    "platform": "Windows PC",
+    "rating": 4,
+    "status": "completed",
+    "date_start": "2025-04-10",
+    "date": "2025-04-14"
+  },
+  {
+    "slug": "the-elder-scrolls-iv-oblivion",
+    "title": "The Elder Scrolls IV: Oblivion",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8fpz.jpg",
+    "platform": "Windows PC",
+    "rating": 2.5,
+    "status": "completed",
+    "date_start": "2025-03-25",
+    "date": "2025-04-05"
+  },
+  {
+    "slug": "fallen-aces",
+    "title": "Fallen Aces",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co39ua.jpg",
+    "platform": "Windows PC",
+    "rating": 4,
+    "status": "completed",
+    "date_start": "2025-03-24",
+    "date": "2025-03-24"
+  },
+  {
+    "slug": "the-elder-scrolls-v-skyrim-special-edition",
+    "title": "The Elder Scrolls V: Skyrim - Special Edition",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1vco.jpg",
+    "platform": "Windows PC",
+    "rating": 4.5,
+    "status": "completed",
+    "date_start": "2025-02-24",
+    "date": "2025-03-23"
+  },
+  {
+    "slug": "kingdom-come-deliverance",
+    "title": "Kingdom Come: Deliverance",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4aqi.jpg",
+    "platform": "Windows PC",
+    "rating": 4,
+    "status": "completed",
+    "date_start": "2025-02-04",
+    "date": "2025-02-15"
+  },
+  {
+    "slug": "fallout-4",
+    "title": "Fallout 4",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1yc6.jpg",
+    "platform": "Windows PC",
+    "rating": 3,
+    "status": "completed",
+    "date_start": "2024-12-31",
+    "date": "2025-01-15"
+  },
+  {
+    "slug": "bendy-and-the-dark-revival",
+    "title": "Bendy and the Dark Revival",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co683q.jpg",
+    "platform": "Windows PC",
+    "rating": 3.5,
+    "status": "completed",
+    "date_start": "2025-01-03",
+    "date": "2025-01-04"
+  },
+  {
+    "slug": "lorelei-and-the-laser-eyes",
+    "title": "Lorelei and the Laser Eyes",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4x7e.jpg",
+    "platform": "Windows PC",
+    "rating": 4.5,
+    "status": "completed",
+    "date_start": "2024-11-30",
+    "date": "2024-12-04"
+  },
+  {
+    "slug": "bendy-and-the-ink-machine",
+    "title": "Bendy and the Ink Machine",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co67zs.jpg",
+    "platform": "Windows PC",
+    "rating": 2.5,
+    "status": "completed",
+    "date_start": "2024-10-03",
+    "date": "2024-10-05"
+  }
+]
