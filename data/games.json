@@ -1,10 +1,129 @@
 [
   {
+    "slug": "dragon-quest-viii",
+    "title": "Dragon Quest VIII: Journey of the Cursed King",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7vf2.jpg",
+    "platform": "PlayStation 2",
+    "date_start": "2026-08-04"
+  },
+  {
+    "slug": "discopup",
+    "title": "Discopup",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co99uf.jpg",
+    "platform": "Windows PC",
+    "rating": 4,
+    "date_start": "2026-08-06",
+    "date": "2026-08-06",
+    "review": "C'est tellement bien. Dommage que ça soit un peu court et que le jeu repose entièrement sur un système de boucle qui peut vite devenir répétitif"
+  },
+  {
+    "slug": "sol-cesto",
+    "title": "Sol Cesto",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7wey.jpg",
+    "platform": "Windows PC",
+    "rating": 2,
+    "date": "2026-08-03",
+    "review": "Le jeu a une DA superbement bien travaillée mais la difficulté est ultra mal gérée, soit t'as pas de chance et tu reset le premier étage en boucle soit t'as un peu de chance et t'arrives à construire un début de build de potable et tu peux espérer avancer un peu.\nLa gestion risk/reward pourrait être intéressante mais ne l'est malheureusement pas"
+  },
+  {
+    "slug": "citizen-sleeper",
+    "title": "Citizen Sleeper",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4zl5.jpg",
+    "platform": "Windows PC",
+    "rating": 4.5,
+    "date_start": "2026-07-28",
+    "date": "2026-07-31",
+    "review": "Citizen Sleeper est ma première vraie expérience de RPG narratif, où le gameplay est au service de l'histoire. J'y allais surtout pour son univers cyberpunk et son histoire, en craignant de me faire submerger par un gameplay complexe. Au final, le jeu lie parfaitement les deux.\n\nLes histoires, ou plutôt les différentes histoires, sont passionnantes, émouvantes et profondes, même si certaines restent assez clichées. Le gameplay, lui, est suffisamment simple pour justifier sa présence sans jamais prendre le dessus, laissant la narration nous emporter.\n\nLa musique est somptueuse, et c'est tellement dommage qu'elle soit si peu présente. Graphiquement, c'est superbe : les interfaces sont magnifiques, et que dire des illustrations de Guillaume Singelin.\n\nUne très bonne découverte qui me donne envie de découvrir plus de RPG narratifs."
+  },
+  {
+    "slug": "soma",
+    "title": "Soma",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2a20.jpg",
+    "platform": "Windows PC",
+    "rating": 4.5,
+    "date_start": "2026-07-26",
+    "date": "2026-07-27",
+    "review": "J'avais ce jeu dans mon backlog depuis des années, et WOW la claque que j'ai prise.\nQuel univers ! Un mélange entre l'horreur de Dead Space et l'ambiance sous-marine terrifiante de Bioshock, et la recette fonctionne parfaitement.\n\nUne des meilleures histoires, et surtout une des meilleures narrations, que j'ai vues dans un jeu d'horreur. Silent Hill 2 reste le roi, mais SOMA est clairement le prince. C'est une histoire psychologique sur l'identité humaine, passionnante du début à la fin, racontée à la perfection à travers son environnement et les discussions entre Simon, notre personnage, et Catherine, qui nous accompagnera pendant quasiment toute l'aventure.\n\nLe seul reproche que j'aurais à lui faire concerne les phases horrifiques avec les monstres, que j'ai trouvées ratées et souvent chiantes. Le jeu se résume alors à les esquiver dans des couloirs ou des petites pièces, ce qui devient rapidement un cache-cache frustrant et inintéressant.\n\nUn pilier de l'horreur."
+  },
+  {
+    "slug": "luto",
+    "title": "Luto",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coa2av.jpg",
+    "platform": "Windows PC",
+    "rating": 4,
+    "date_start": "2026-07-24",
+    "date": "2026-07-24",
+    "review": "Probablement l'une des expériences vidéoludiques les plus étranges et originales que j'ai vécues, surtout venant d'un walking simulator d'horreur psychologique.\n\nC'est vraiment un jeu auquel il faut jouer et ne surtout pas se spoiler, parce que, comme Kojima ou Yoko Taro, il comprend le médium du jeu vidéo et utilise tout ce qu'il a à sa disposition pour jouer avec. Je n'en dirai pas plus, parce qu'il faut se garder la surprise, mais c'est vraiment une expérience unique de 3 à 4 heures qu'il faut essayer.\n\nLe jeu est sublime, tourne bien, même s'il fait cramer mon PC (80 °C en pleine canicule, ce n'était pas la meilleure idée). Je regrette juste qu'il ne fasse pas si peur que ça, et les jeux avec un narrateur à la The Stanley Parable, ce n'est vraiment pas mon délire. Mais ça, c'est très subjectif."
+  },
+  {
+    "slug": "dragon-warrior-vii",
+    "title": "Dragon Warrior VII",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7wq9.jpg",
+    "platform": "PlayStation",
+    "rating": 3.5,
+    "date_start": "2026-07-06",
+    "date": "2026-07-22",
+    "review": "Interminable, mais très sympa !\n\nOn pourrait se dire que le passage à la 3D permettrait des villes et des donjons plus élaborés, et pourtant non. Les donjons surtout sont toujours des couloirs sur plein d'étages avec parfois plusieurs embranchements. D'ailleurs, pour une raison que j'ignore, on peut tourner la caméra à 360° partout... sauf dans les donjons.\n\nLes déplacements et les interactions sont aussi assez mal foutus. Le plus gros défaut vient notamment du fait que certaines interactions dépendent de la position du héros par rapport à l'objet, position qui elle-même dépend de la caméra. Il y avait par exemple un donjon où il fallait pousser une pierre pour avancer. J'avais essayé de la pousser, mais vu que ma caméra était en biais à ce moment-là, je ne pouvais pas la déplacer. J'ai perdu dix minutes à chercher quoi faire avant d'aller voir un guide et de réaliser que le problème venait juste de ça.\n\nLa boucle de gameplay est plaisante, mais terriblement répétitive.\n\nJ'ai adoré retourner dans le passé, vivre une petite histoire sur chaque île, qui sont d'ailleurs très variées en termes d'environnements : du désert égyptien au château aquatique, en passant par des méchants robots ou un peuple avec des ailes. Les petites histoires sont elles aussi variées, et j'adorais voir ce qui s'y passait, aider les habitants, puis réexplorer les îles dans le présent pour voir ce qu'elles étaient devenues.\n\nMais c'est malheureusement aussi le plus gros défaut du jeu. Le premier disque, c'est uniquement cette boucle... et ça dure bien 40 heures. Passé, sauver l'île, la réexplorer dans le présent, puis recommencer, le tout sans véritable fil rouge si ce n'est une très courte explication sur un ancien affrontement entre Dieu et le Demon Lord.\n\nL'histoire commence doucement à décoller vers la fin du disque 1 et pendant le très court disque 2, mais ça reste vraiment très léger. Du coup, au bout de 30 ou 40 heures à faire exactement la même chose, aussi bonnes soient les petites histoires, ça devient très lassant. Je me suis même mis à rusher les dernières îles juste pour enfin passer à autre chose.\n\nHeureusement, le jeu est plutôt simple. Le système de vocations reprend celui du VI avec énormément de classes disponibles, auxquelles s'ajoutent des vocations uniques obtenues grâce à des cœurs de monstres trouvés pendant l'exploration. Ça apporte énormément de sorts et de compétences aux combats, qui restent malheureusement assez simples. À part deux ou trois boss bien relous (ce con de Gracos), le jeu ne m'a jamais vraiment posé problème.\n\nAutre point que j'ai beaucoup aimé : il n'y a quasiment aucun combat dans le présent. Tout se passe dans le passé, et certains donjons n'ont même purement et simplement aucun combat. Et franchement, ça fait un bien fou.\n\nLes personnages ont tous une vraie personnalité, et les voir interagir entre eux est toujours super fun, surtout le trio Héros, Kiefer et Maribel au début de l'aventure. Même les alliés qui rejoignent le groupe plus tard s'intègrent parfaitement.\n\nC'est un jeu bourré de qualités, mais complètement plombé par son rythme affreux et sa lenteur. Je comprends totalement pourquoi le remake corrige autant cet aspect.\n\nSon univers est génial, ses personnages sont de loin mes préférés de la série jusqu'à présent, mais la répétitivité de son gameplay pendant une quarantaine d'heures avant que l'histoire avance vraiment fait que je comprends totalement qu'on puisse le lâcher en cours de route."
+  },
+  {
+    "slug": "dragon-quest-vi",
+    "title": "Dragon Quest VI: Maboroshi no Daichi",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2x9i.jpg",
+    "platform": "Super Famicom",
+    "rating": 2.5,
+    "date_start": "2026-06-24",
+    "date": "2026-07-03",
+    "review": "Eh bah je me suis forcé à finir ce Dragon Quest VI.\n\nJ'ai pas énormément de choses positives à dire dessus, donc on va commencer par ça.\n\nDéjà, il est incroyablement beau. Le pixel art est absolument magnifique, avec des effets visuels par-ci par-là qui m'ont rappelé EarthBound par moments. Les combats sont aussi un peu plus animés, avec des monstres qui ont des animations d'attaque, les sorts ont un peu plus de punch aussi, ça rend les combats plus vivants.\n\nLes musiques sont superbes. Je suis fan de la musique des châteaux, et certains donjons ont des musiques particulièrement dérangeantes qui fonctionnent super bien avec l'ambiance.\n\nEt surtout, le jeu vient avec des QoL qui sont tellement agréables. Tout est plus rapide : les textes, les déplacements... Les persos ont toujours un inventaire limité, mais cette fois on a un sac qui peut contenir le reste, donc plus besoin de gérer l'inventaire ou les coffres. On peut aussi retenir une conversation en appuyant sur un bouton et utiliser un sort pour les revoir plus tard. Vraiment, les QoL de jeu en jeu font très plaisir.\n\nEnsuite, pas vraiment un point négatif, mais pas forcément positif non plus : le système de vocations. C'est un système de classes à la DQ3 où on peut complètement customiser ses personnages, changer leurs classes, même changer leur nom plus tard. Et bien que ce système soit génial dans l'idée, il y a beaucoup trop de vocations. Pour avoir accès aux \"vraies\" vocations, ou en tout cas à celles qui valent vraiment le coup, il faut maxer deux sous-vocations nécessaires, et pour en maxer une, ça prend déjà des plombes.\n\nMaintenant, les vrais points négatifs.\n\nL'histoire est malheureusement inintéressante. Sortir de la magnifique histoire de DQV pour passer à une histoire aussi vide, ça fait mal.\n\nLe double monde, avec le Real World et le Dream World, c'est un enfer. À la limite, si on pouvait passer de l'un à l'autre rapidement, ça irait presque. Mais non, il faut passer par des endroits bien spécifiques, et en plus leur nombre diminue au fur et à mesure qu'on avance dans le jeu.\n\nEt le pire, c'est que ce système fait que parfois c'est compliqué de savoir où aller pour avancer. Même quand on sait à peu près ce qu'on doit faire, on se demande toujours si c'est dans le monde réel ou dans le Dream World.\n\nCertains triggers sont toujours aussi obscurs ou chiants. Devoir parler à TOUS les PNJ d'une ville pour déclencher un événement, par exemple. D'autres fois, un PNJ vous pose une question qui semble sans importance, donc vous répondez ce qui vous paraît logique... sauf qu'une des deux réponses est le trigger pour faire avancer l'histoire. Et bien sûr, c'est celle qui fait le moins de sens.\n\nJ'ai aussi trouvé le jeu absurdement dur. Les boss tapent très fort, ont énormément de PV et certains combats m'ont vraiment donné l'impression d'être de gros stats checks.\n\nIl y a plein de bonnes idées dans Dragon Quest VI, et les améliorations de QoL sont probablement les meilleures de la série jusqu'à présent. Mais entre une histoire qui ne m'a jamais accroché, le système des deux mondes que j'ai trouvé infernal et une progression souvent frustrante, je me suis plus forcé à finir le jeu qu'à l'apprécier."
+  },
+  {
+    "slug": "dragon-quest-v",
+    "title": "Dragon Quest V: Tenkuu no Hanayome",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4vsl.jpg",
+    "platform": "Super Famicom",
+    "rating": 3.5,
+    "date_start": "2026-06-19",
+    "date": "2026-06-23",
+    "review": "Très mitigé sur ce Dragon Quest V.\n\nJ'adore sa structure, son histoire et ses personnages, mais côté gameplay, la série change de direction sans réellement s'améliorer. On se retrouve dans un entre-deux assez bizarre.\n\nDQ5 est dans la continuité de DQ4 : un jeu beaucoup plus centré sur sa narration que sur son gameplay. Cette fois-ci, l'aventure est divisée en trois grandes parties qui suivent différentes étapes de la vie du héros : son enfance, son adolescence puis sa vie adulte. Et honnêtement, j'ai adoré cette structure.\n\nAu lieu de suivre un héros pendant une simple aventure, on suit une énorme partie de sa vie. On le voit grandir, voyager avec son père, se faire des amis, en perdre, traverser des galères, tomber amoureux, fonder une famille... Ça reste une histoire simple dans sa manière d'être racontée, mais c'est facilement la meilleure de la série jusqu'à présent. Elle est émouvante, remplie de rebondissements et de moments qui m'ont vraiment marqué. Certains passages sont même étonnamment durs pour un Dragon Quest. Et ce twist que je n'ai absolument pas vu venir avant genre dix minutes avant qu'il arrive. Pourtant une fois révélé, tout paraît logique.\n\nMalheureusement, c'est aussi là que commencent mes problèmes avec le jeu. Ma plus grosse déception concerne le système de combat et les compagnons.\n\nAprès DQ3 et DQ4 qui proposaient des équipes de quatre personnages, DQ5 repasse à trois. Pourquoi ??\n\nLe jeu garde aussi le système de wagon de DQ4. Cette fois-ci, on peut même changer de personnage en plein combat sans aucune contrepartie. Sur le papier, ça ouvre plein de possibilités. Sauf qu'on n'en a jamais besoin. À part le boss final, que je trouve personnellement assez mal designé puisqu'il se soigne régulièrement et demande de maintenir un certain niveau de dégâts sous peine de voir tous ses efforts annulés, le jeu est étonnamment facile. Pendant quasiment toute l'aventure, taper et se soigner suffit largement.\n\nLes buffs sont forts, mais les boss passent leur temps à les annuler presque instantanément. Du coup, la moitié du temps, les lancer sert surtout à essayer de leur faire gaspiller un tour.\n\nEt puis il y a le gros ajout du jeu : le recrutement de monstres. L'idée est super cool, mais tout repose sur l'aléatoire. Tu ne choisis pas qui tu recrutes, tu ne peux pas vraiment farmer un monstre précis, et les taux de recrutement sont souvent très faibles. Sur toute ma partie, j'ai dû recruter une quinzaine de monstres maximum, pour au final quasiment jamais les utiliser. La plupart rejoignent l'équipe niveau 3 ou 4. Quand ton groupe principal est déjà niveau 20 ou plus, t'as juste pas envie de repartir de zéro pour les entraîner. Du coup ils restent dans le wagon et c'est tout. C'est dommage parce que l'idée est vraiment bonne, mais le jeu ne donne jamais envie de s'investir dans cette mécanique.\n\nAu final, j'ai l'impression que DQ5 marque un tournant pour la série. Là où les épisodes précédents cherchaient encore à améliorer leur gameplay d'un jeu à l'autre, DQ5 semble surtout vouloir raconter une histoire. Et cette histoire est excellente. C'est probablement celle qui m'a le plus accroché jusqu'à présent.\n\nLe problème, c'est que pendant que la narration fait un énorme bond en avant, le gameplay lui semble stagner. Les combats sont simples, les nouvelles mécaniques sont sous-exploitées et la difficulté est tellement normale qu'on n'a jamais vraiment besoin d'utiliser toutes les options mises à notre disposition.\n\nJ'ai pris énormément de plaisir à suivre l'aventure du héros et à découvrir son histoire, mais entre deux gros moments narratifs, il fallait toujours repasser par un gameplay qui m'a laissé complètement indifférent."
+  },
+  {
+    "slug": "dragon-warrior-iv",
+    "title": "Dragon Warrior IV",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7trb.jpg",
+    "platform": "NES",
+    "rating": 4,
+    "date_start": "2026-06-15",
+    "date": "2026-06-18",
+    "review": "Dragon Quest IV est de très loin le meilleur épisode jusqu'à présent.\n\nÇa fait vraiment plaisir de voir l'évolution de la série et comment Dragon Quest devient peu à peu Dragon Quest.\n\nDQ4 est beaucoup plus centré sur la narration que ses prédécesseurs, et on s'en rend compte immédiatement quand le jeu commence par un simple \"Chapitre 1\". Le jeu est ainsi divisé en cinq chapitres. Les quatre premiers servent essentiellement de gros prologue, tandis que le cinquième constitue le véritable cœur de l'aventure.\n\nDurant ces quatre premiers chapitres, on incarne différents personnages, accompagnés ou non d'alliés, et on découvre leur histoire ainsi que leurs motivations. Puis, dans le cinquième chapitre, on prend enfin le contrôle du héros, qui va progressivement retrouver tous les personnages rencontrés auparavant pour former l'équipe principale.\n\nOn perd donc le système de classes et de personnalisation de DQ3. Ici, les personnages ont déjà leur nom, leur rôle et leurs capacités. Mais en échange, on gagne quelque chose de bien plus important : de vrais personnages.\n\nIls ont leur propre histoire, leur propre vie en dehors de l'aventure. On retrouve par exemple un marchand avec une femme et un enfant, un soldat, une princesse, deux soeurs magiciennes, etc. Ce ne sont plus simplement des membres d'équipe qu'on recrute pour leurs statistiques, mais des personnages auxquels on s'attache.\n\nEt avec autant de personnages, comment on gère son équipe ?\n\nAvec un élément de gameplay que j'ai adoré : le wagon.\n\nLe wagon permet de garder les personnages non utilisés en réserve et d'y accéder quasiment n'importe quand. On peut ainsi changer la composition de son équipe selon les besoins, récupérer des places d'inventaire supplémentaires ou encore utiliser certains personnages uniquement comme support.\n\nPlus besoin de vider les MP de son équipe principale pour se soigner : un personnage resté dans le wagon peut très bien servir de healer entre les combats sans jamais y participer. Ça permet également d'explorer un donjon avec une certaine équipe puis, arrivé devant le boss, de remplacer certains membres pour avoir une composition plus adaptée.\n\nCe que je n'ai évidemment jamais fait grâce à mon incroyable équipe composée d'Alena, Cristo et Mara, mes chouchous du jeu. Même si Cristo passait parfois les combats de boss à tenter Beat en boucle au lieu de faire quelque chose d'utile, je t'aime quand même Cristo.\n\nPar contre, il y a un choix de game design que je ne comprends toujours pas. Pendant les quatre premiers chapitres, on contrôle directement tous les personnages, mais une fois arrivé au chapitre 5, on ne contrôle plus que le héros. Le reste de l'équipe est géré par une IA que l'on peut vaguement orienter grâce à différentes tactiques.\n\nHeureusement, cette IA fonctionne étonnamment bien. Mieux que celle de Persona 3 pourtant sorti seize ans plus tard ;)\n\nL'exploration est tout aussi fluide et agréable que dans DQ3. C'est encore une fois un vrai plaisir de parler à tout le monde, prendre des notes à côté et déduire où aller, quoi faire ensuite.\n\nL'histoire est également bien plus présente que dans les épisodes précédents. Elle reste simple, mais elle est suffisamment prenante pour donner envie de voir la suite et découvrir ce qui attend les différents personnages.\n\nEt enfin, le jeu commence doucement à comprendre que le grind et la difficulté, ça se gère. Tout n'est pas encore parfaitement équilibré et ça reste parfois un peu le bordel, mais on sent une nette amélioration.\n\nAprès avoir adoré DQ3, je ne pensais pas que la série réussirait à faire un bond aussi important dès l'épisode suivant. Pourtant, Dragon Quest IV améliore quasiment tout ce qui fonctionnait déjà tout en apportant une identité narrative qui lui est propre.\n\nTout n'est pas parfait, notamment cette décision étrange de confier le contrôle de l'équipe à l'IA dans le dernier chapitre, mais pour la première fois depuis le début de cette rétrospective, j'ai vraiment eu l'impression de jouer à un jeu qui dépasse le simple statut de \"JRPG fondateur\". C'est un excellent jeu tout court."
+  },
+  {
+    "slug": "dragon-warrior-iii",
+    "title": "Dragon Warrior III",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6s7a.jpg",
+    "platform": "NES",
+    "rating": 3.5,
+    "date_start": "2026-06-11",
+    "date": "2026-06-14",
+    "review": "Eh bah je ne pensais pas du tout autant apprécier ce Dragon Warrior 3.\n\nJe vais évidemment commencer par le systeme de classes, on peut vraiment la team qu'on veut, on nomme nos personnages, on choisit leur classe et se retrouve avec notre équipe, des combattants, des mages, des healers, ce qu'on veut. Mais ça ne s'arrête pas la, après quelques temps on découvrira qu'en plus on peut changer leur classe en cours de route, et que par exemple un mage peut devenir un warrior, tout en gardant ses sort, et donc se retrouver avec un warrior bien tanky qui peut lancer des sorts (chose qu'un warrior ne peut pas faire du tout à la base). Et ce système est absolument génial, non seulement il apporte de la customisation très bienvenue, il apporte enfin une vraie dimension stratégique au système de combat. Y'a également bien plus de sorts.\n\nL'exploration est aussi une grosse amélioration par rapport a DQ2 (et DQ1 aussi du coup).\nC'était ultra agréable de parler à tous les pnj, prendre des notes sur ce qu'ils disaient et savoir où aller et pour quoi. L'avancement était assez linéaire pour ne pas se perdre et assez flou en même temps pour devoir prendre des notes et réfléchir. Aussi la map se dévoile petit à petit, contrairement à un DQ2 qui t'abandonne ultra rapidement dans un monde gigantesque, DQ3 lui y va petit à petit, au point où quand on est laché dans le monde, on est pas \"overwhelmed\" et perdu, il ne reste que quelques endroit inconnus, donc on les fait dans l'ordre qu'on veut, on on recolle les morceaux à partir de là.\n\nMais, il fallait bien un point négatif, et c'est encore une fois toujours le même. Le jeu ne sait pas du tout gérer sa difficulté, le grind est toujours présent. Certains boss sont des énormes statcheck (Orochi, Baramos), qui sont impossibles sans certains sorts ou vraiment beaucoup trop compliqués sans ces sorts spécifiques, et notemment le dernier arc du jeu pour pas spoiler est rempli de mobs randoms absurdement sur-staté.\nÉgalement le taux de rencontre qui varie de vide à tu peux pas faire 2 pas sans combats.\nC'est vraiment le seul gros point noir du jeu parce que tous le reste est excellent, même l'histoire, aussi simple soit-elle est super cool. Rempli de clins d'oeil aux deux premier DQ tout étant le premier chronologiquement.\n\nJe ne pensais honnêtement pas autant l'apprécier, mais au final c'est facilement mon préféré de la trilogie et le premier épisode que je peux vraiment recommander sans avoir à ajouter une dizaine de \"mais\" derrière."
+  },
+  {
+    "slug": "dragon-warrior-ii",
+    "title": "Dragon Warrior II",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8003.jpg",
+    "platform": "NES",
+    "rating": 2,
+    "date_start": "2026-06-09",
+    "date": "2026-06-10",
+    "review": "Dragon Warrior 2 donc, c'est clairement une amélioration du premier mais il en garde globalement les défauts.\n\nCe qui frappe le premier c'est les combats, DQ1 se contentait de combat en 1v1 si je peux dire ça comme ça, DQ2 propose maintenant des combats avec plusieurs ennemis, voir beaucoup trop d'ennemis, je ne sais pas de combien est le max mais j'ai eu des combats contre 6 ou 7 ennemis en même temps. Non seulement ça rends les combats bien plus durs, ça les rallonges énormément par la même occasion, avec certains ennemis qui peuvent en appeler d'autres en renfort.\nMais si les ennemis peuvent être plusieurs, nous aussi, ça y est on plus un seul héro solo, on est accompagner du Prince de Cannock et de la Princesse de Moonbrooke, qui serviront principalement de mages. Parce que oui le héro ne sait pas utiliser la magie, c'est donc juste un gros balourd qui ne fera rien d'autre que taper à l'épée (mais vraiment rien d'autres hein). Ça rajoute un chouilla de stratégie mais on est encore loin d'un système de combat où il faut réfléchir.\nNiveau sorts, c'est un peu plus fourni, on reste sur une base de soins, dégats et utilitaires (sommeil, silence etc...) mais vu que maintenant les ennemis sont plusieurs et par groupe, on a des sorts offensive monocible, qui target un groupe ou tous les ennemis, ainsi que l'apparition de buff et debuff. Et la cerise sur le gateau, en fin de jeu, un sort d'instant kill parce que c'est super drole (non).\n\nJ'ai eu espoir au début du jeu que le grind soit mieux mais non, si la progression au début est assez bien géré, il repart vite dans ses travers avec des pics de difficultés absurdes, et notemment le dernier quart du jeu qui est particulièrement violent. L'encounter rate est incroyablement haut aussi, on se tape des combats tous les 2 pas, vraiment c'est pas agréable.\n\nL'exploration est plus développée que dans DQ1, mais pas forcément meilleure. C'est plus intéressant parce qu'il y a davantage de choses à faire et que ces objectifs sont plus variés, mais le jeu conserve son habitude de cacher la progression derrière des PNJ qui donnent des indices extrêmement vagues, voire carrément cryptiques.\n\nLe problème, c'est que cette fois-ci la carte est énorme. Elle doit facilement faire trois fois la taille de celle du premier jeu. Certains objets importants sont tellement bien cachés qu'il est pratiquement impossible de les trouver sans guide ou sans avoir parlé à UN PNJ spécifique perdu quelque part dans le monde qui vous donne un indice flou qu'il faut ensuite interpréter correctement. Et j'ai ni la patience ni le temps pour ça.\n\nMention spéciale au boss final aussi qui est un bon gros tank qui peut se full heal plusieurs fois c'est super fun comme combat...\n\nMalgré toutes les critiques que je peux lui faire, j'ai quand même passé un légèrement meilleur moment que sur le premier. Les améliorations apportées se sentent, mais il traîne encore beaucoup trop de problèmes hérités de DQ1, notamment au niveau du grind et de l'équilibrage mal géré, et de la progression parfois beaucoup trop obscure."
+  },
+  {
     "slug": "dragon-warrior",
     "title": "Dragon Warrior",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co55p3.jpg",
     "platform": "NES",
-    "status": "playing"
+    "rating": 2,
+    "date_start": "2026-06-06",
+    "date": "2026-06-08",
+    "review": "C'est parti pour la découverte de la licence Dragon Quest !\nTous seront faits sur leurs supports d'origine (sortis en Occident) pour voir l'évolution entre chaque jeu en termes de mécaniques, de QoL, etc.\n\nLe moins qu'on puisse dire, c'est que ce premier opus a très mal vieilli. Visuellement déjà, c'est vraiment laid. Mais le plus gros problème reste son gameplay extrêmement simple.\nLes combats se résument quasiment toujours à taper à l'arme. Niveau sorts, c'est soin ou dégâts, avec du sommeil et du silence pour empêcher les ennemis d'utiliser leurs propres sorts. Et évidemment, c'est exactement pareil pour eux. La seule différence, c'est que certains peuvent avoir l'initiative et vous endormir avant même que le combat commence réellement. Vu qu'ils tapent comme des brutes, on peut facilement tout perdre sur de la pure RNG sans aucun moyen de se défendre.\n\nComme Mother, le jeu demande de grind, mais à un niveau que j'avais rarement vu. Il faut farmer l'exp pour monter de niveau, mais aussi l'or pour acheter de l'équipement. Le problème, c'est que les ennemis ne rapportent quasiment rien dans les deux cas, alors que le moindre équipement coûte un rein. Résultat : 80% du jeu consiste littéralement à taper sur des monstres.\n\nEt c'est même pas un grind agréable. On ne peut sauvegarder qu'au château principal, et pour se soigner il faut dormir à l'auberge, qui coûte évidemment de l'argent. En fin de jeu ça ne représente plus grand-chose, mais au début, vu comment on se fait démonter, la moitié de ce qu'on gagne sert juste à récupérer ses PV entre quelques combats.\nEt bien sûr, si on meurt, on réapparaît au château avec la moitié de son or envolée.\nÇa prend des heures et des heures de simplement gagner quelques niveaux et acheter la prochaine arme ou armure, même sur émulateur avec l'avance rapide et les savestates. Rajoutez à ça qu'on est totalement seul pendant toute l'aventure : pas d'alliés, pas de vraie stratégie, juste taper plus fort que l'autre et prier la RNG.\n\nLe reste du jeu n'est pas beaucoup mieux. On va de village en village, on parle aux PNJ qui nous donnent des indices très vagues sur ce qu'il faut faire ensuite (mais vraiment très vagues), on récupère quelques reliques d'Erdrick, puis direction le château du Dragonlord pour lui casser la gueule.\n\nLe combat final résume assez bien le jeu. Il est extrêmement dur, mais principalement à cause de la RNG. La seule tactique consiste à attaquer et se soigner jusqu'à ce que l'un des deux tombe. Les dégâts varient énormément d'un tour à l'autre, donc soit vous avez assez de MP pour tenir jusqu'à la fin, soit c'est reset.\n\nJe savais à quoi m'attendre. C'est un jeu de 1986, il existe des remakes, et découvrir cette version faisait partie de l'expérience que je recherchais. Je ne peux donc pas être trop dur avec lui parce que c'est plus ou moins ce que j'étais venu chercher. Mais en 2026, malgré son importance historique, c'est juste vraiment pas agréable à jouer."
   },
   {
     "slug": "mouse-pi-for-hire",
@@ -12,9 +131,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaacx.jpg",
     "platform": "Windows PC",
     "rating": 3,
-    "status": "completed",
     "date_start": "2026-06-01",
-    "date": "2026-06-05"
+    "date": "2026-06-05",
+    "review": "Une magnifique mais ennuyeuse claque visuelle et auditive.\n\nBon déjà, la DA, rien à dire dessus, elle est dingue, les animations sont exceptionnelles. Le fait d'avoir rendu les personnages en artwork 2D qui pivotent est une excellente idée. Le jeu renouvelle aussi constamment ses environnements et ses décors.\nPar contre, bien que je n'aie rien contre le noir et blanc, et qu'il rende très bien en jeu, au bout de 10 h, j'en pouvais plus.\n\nEnsuite, les musiques, elles sont toutes très réussies. Avec parfois des classiques samplés pour l'occasion et qui passent bien. J'ai aussi beaucoup apprécié que le thème principal du jeu soit remixé plusieurs fois dans différents styles, de façon à toujours être subtilement présent sans qu'on s'en lasse.\n\nL'écriture des dialogues est aussi surprenamment bonne, ça joue à fond sur l'univers des rongeurs, avec des expressions remaniées, des plats remixés, des tonnes de vannes, ça marche bien. Le doublage est aussi extrêmement réussi, et quand on voit les acteurs, on comprend. Par contre, les passages complètement en français dégueulasse, c'était pas nécessaire.\nC'est aussi assez regrettable que les doublages anglais et les sous-titres en VF ne collent pas du tout, les deux sont très bons attention, la traduction joue aussi beaucoup sur les jeux de mots, mais lire et entendre des choses différentes, c'est assez désagréable.\n\nY'a énormément de refs de pop culture, des environnements (le RPD de Resident Evil par exemple), en passant par les musiques, des tableaux, des noms, c'est un plaisir quand on les capte (et je les ai très probablement pas toutes captées).\n\nTout ça, c'est cool, mais voyons les points négatifs :\n\nLe scénario, il est pas très intéressant, et les 2/3 du jeu se passent avec 2 enquêtes en même temps, qui sont parfois difficiles à suivre si tu fais les niveaux qui sautent d'une enquête à une autre.\n\nEnsuite le level design, c'est assez linéaire avec parfois quelques passages secrets, mais le gros problème, c'est que si t'avances un peu dans la bonne direction, tu ne pourras pas revenir en arrière, le jeu va littéralement fermer les portes que tu passes, donc quand t'as plusieurs chemins différents, si par hasard tu prends le bon alors que tu voulais explorer, bah tant pis, soit t'assumes et tu continues, soit t'es forcé de reload une save précédente. Je ne comprends pas pourquoi avoir fait ça, surtout qu'une fois un niveau fini, c'est impossible de les refaire. Et en plus, certaines missions proposent des sous-missions, souvent quelque chose à trouver dans le niveau, souvent très bien caché, pareil, si tu le rates, t'es baisé, faut reload.\n\nLe gameplay. C'est du boomer shooter, mais un boomer shooter très fade. Attention, le gameplay marche, tirer est super cool, mais j'aurais aimé que le jeu, parfois, soit un peu plus stratégique. Il n'est pas aussi nerveux qu'un Doom (il y a d'ailleurs une ÉNORME référence à Doom vers la fin du jeu), ni aussi intéressant qu'un Bioshock qui peut combo plasmides + armes, là c'est juste du shoot un peu banal. Les armes sont aussi assez inégales, au point où j'ai fait quasi tout le jeu avec le James Gun et le lance-acide, et je n'ai jamais eu besoin de changer.\n\nC'est un jeu sympa, un peu long, magnifique visuellement, mais qui tourne beaucoup trop en rond et ne se renouvelle pas assez dans son gameplay pour être plaisant du début à la fin.\nPar contre, je rêve d'un jeu Bendy avec cette qualité."
   },
   {
     "slug": "mother-3",
@@ -22,9 +141,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coa3qi.jpg",
     "platform": "Game Boy Advance",
     "rating": 4,
-    "status": "completed",
     "date_start": "2026-05-20",
-    "date": "2026-05-26"
+    "date": "2026-05-26",
+    "review": "Le jeu est excellent dans beaucoup de domaines, mais il ne pas touché comme je m'y attendais.\n\nQue dire du pixel art magnifique, des musiques exceptionnelles, de l'humour, de l'écriture globale même pour une fantrad (j'ai fait la version anglaise).\nJ'ai eu beaucoup de mal avec l'UI au début, je m'y suis fait rapidement et au final je la trouve excellente, tout est fluide et on passe plus un temps fou dans les menus. On peut enfin recourir aussi (bizarrement mais on peut courir).\n\nLe jeu est aussi beaucoup plus linéaire que les deux premiers Mother. Déjà parce qu’il est découpé en chapitres, mais surtout parce qu’il prend un parti pris que j’ai adoré : pendant les trois premiers chapitres, on joue des personnages différents avant que tout se rejoigne à la fin du troisième, et que l’aventure démarre vraiment avec Lucas au chapitre 4.\nEt franchement, c’était une super idée. Ça permet de varier les situations, les objectifs, les gameplay de combat, et surtout de découvrir le monde sous plusieurs points de vue. J’ai trouvé ça vraiment cool.\nÀ partir du chapitre 4, le jeu s’ouvre vraiment. On joue enfin Lucas, on redécouvre le monde après tous les événements des premiers chapitres, et c’est super satisfaisant de voir à quel point tout a changé.\nJ'ai eu un étrange feeling, comme d'un mal du pays, et je pense que c'était voulu.\n\nComme toujours avec la série, les environnements sont hyper variés et le jeu réussit constamment à surprendre avec ses idées, ses lieux et son ambiance.\n\nMais voilà les dernières heures m’ont beaucoup moins embarqué.\nLe combat final est censé être extrêmement émotionnel, sauf que ça n’a absolument pas marché sur moi. Le gros reveal du personnage était cramé dès sa première apparition, le combat en lui-même est surtout symbolique mais aussi très chiant à jouer, et toute la scène dramatique finale ne m’a presque rien fait.\nC’est dommage parce que le jeu démarrait extrêmement fort. La fin du chapitre 1 elle m’a vraiment touché. Là pour le coup je ne m’y attendais pas du tout, et ça m’a pris de court.\n\nMais malgré cette déception sur la fin, je retiens quand même une très belle aventure. J’adore profondément cet univers, son ton, son identité, son style unique et ce mélange unique entre humour absurde et moments beaucoup plus sombres.\n\nEt honnêtement, j’espère vraiment que cette licence ne mourra jamais et que les fans continueront à la faire vivre encore longtemps."
   },
   {
     "slug": "earthbound",
@@ -32,9 +151,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6v07.jpg",
     "platform": "SNES",
     "rating": 5,
-    "status": "completed",
     "date_start": "2026-05-15",
-    "date": "2026-05-19"
+    "date": "2026-05-19",
+    "review": "C’est absolument exceptionnel.\nEarthBound est probablement devenu l’un de mes jeux préférés.\n\nPrenez tout ce qui faisait de Mother 1 un jeu formidable, puis refaites absolument tout en mieux.\n\nVisuellement, c’est magnifique. Ultra coloré par moments, avec un pixel art maîtrisé à la perfection. Les musiques sont géniales et mythiques. C’est de là que vient la musique du \"What Meme ???\" quand même.\n\nLe gameplay est toujours aussi efficace : on se balade, on parle aux PNJ, on découvre des trucs absurdes et hilarants. Le jeu réussit vraiment à donner envie de parler à tout le monde. Et surtout, il est très logique dans sa progression. On sait globalement où aller et quoi faire sans que le jeu ait besoin de te tenir la main en permanence. Il te guide juste assez pour éviter la frustration.\n\nLe jeu est aussi beaucoup plus linéaire, et honnêtement je préfère ça. Dans sa structure, ça ressemble beaucoup plus à un Pokémon : on va de ville en ville, reliées par des routes ou petites zones, jusqu’à atteindre un cul-de-sac où on débloque quelque chose permettant d’avancer.\n\nEt surtout, le jeu est bourré de QoL qui corrigent énormément de frustrations de Mother 1.\n\nDéjà, le bouton L. Ce bouton est incroyable. Plus besoin d’ouvrir le menu puis choisir \"Parler\" ou \"Check\" selon ce qu’on veut faire. Maintenant, tu te mets devant quelqu’un ou un objet, tu appuies sur un bouton et ça interagit directement. MERCI.\n\nL’inventaire est plus grand, on peut changer d’équipement rapidement, voir directement les stats des objets, équiper automatiquement un nouvel item au moment de l’achat et vendre l’ancien dans la foulée. Et surtout, la map est enfin lisible visuellement, contrairement à celle de Mother 1 qui était un cauchemar.\n\nBon par contre, on ne peut plus courir.\n\nET SURTOUT : on n’a plus besoin de grind.\n\nLe jeu est bien mieux équilibré là-dessus. À aucun moment je n’ai dû m’arrêter pour farmer parce que j’étais bloqué. Et je pense que ça vient surtout du système de progression. Là où Mother 1 se terminait vers le niveau 30-35, EarthBound pousse beaucoup plus loin, avec une fin autour du niveau 70. Du coup il y a plus de level ups, des augmentations de stats plus régulières, et beaucoup moins de murs.\n\nOn passe aussi de 3 à 4 personnages. Paula et Jeff rejoignent le groupe niveau 1, mais ils rattrapent rapidement le retard. Jeff a même une partie solo avant de rejoindre le groupe, donc il arrive déjà bien monté. Poo, lui, rejoint un peu underlevel mais revient vite au niveau des autres. Résultat : pas besoin de perdre des heures à grind dès qu’un nouveau perso arrive.\n\nCôté combats, le groupe fonctionne super bien. Ness est polyvalent, efficace partout. Paula est ultra orientée PSI mais peut quand même taper fort physiquement. Jeff utilise surtout des objets et des gadgets, et Poo est un mélange entre Ness et Paula, très porté sur les PSI lui aussi.\n\nLa difficulté est bien dosée. Certains ennemis sont de vrais brutes et un combat peut très vite partir en couilles. Certaines zones servent clairement de test pour voir si t’es au niveau ou pas.\n\nDommage par contre que le boss final soit une redite de celui de Mother 1. Techniquement il est invincible, il faut juste tanker et répéter une action spécifique jusqu’à la fin. Un peu de nouveauté pour le boss final aurait été sympa quand même.\n\nMais vraiment, ça faisait longtemps que je n’avais pas autant kiffé un jeu. C’est clairement le genre d’expérience qui va me marquer longtemps, et que je me referai probablement de temps en temps."
   },
   {
     "slug": "mother",
@@ -42,10 +161,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6695.jpg",
     "platform": "PC (Mesen)",
     "rating": 3.5,
-    "status": "completed",
     "date_start": "2026-05-10",
     "date": "2026-05-14",
-    "review": "Quel classique et quelle aventure unique !\n\nJ'ai adoré le jeu de bout en bout, l'univers cartoony a cette capacité de me rappeler la belle époque de mon enfance quand je me butais à pokemon sur la ds. C'est pas forcément beau (bon c'est de la NES en même temps) mais il a un immense charme, des villes et banlieues communes, c'est coloré, des sprites reconnaissables et cultes, qui n'a jamais vu Starman ?\n\nLe gameplay est simple, on se balade, on parle aux habitants, on apprends des trucs chelous sur ce qui passe dans la zone d'à coté et on y va. C'est très direct comme approche mais c'est efficace et surtout ça donne envie. Y'a des zombies dans le cimetière ? Je vais voir. Les animaux du zoo sont devenus fous et aggressifs ? Bien sur que je vais aller voir.\nCeci dit, le but ultime du jeu est d'apprendre 8 mélodies pour trigger la fin, et si certaines mélodies sont quasi impossible à rater tellement elles sont évidentes, certaines sont très facilement manquable et c'est un peu dommage, heureusement il y a un pnj qui te donne des vagues indices si besoin (ou des guides sur internet).\n\nMaintenant le seul vrai point noir du jeu, le grind. Merci l'émulation, merci la vitesse x5 et les savestates parce que sans ça je pense sérieusement que j'aurais abandonné.\nLe jeu se traine une sale réputation là dessus, et à juste titre. Et c'est pas tant que les combats sont difficiles, mais vers la dernière grosse zone du jeu l'encounter rate est absurdement élevé. Les combats ne sont pas très longs et il y a même un mode auto qui spam juste les attaques de base, mais à la longue ça devient épuisant. Même avec le x5 speed + auto.\nAjoute à ça le fait que level up prends des plombes, la montée des stats est aléatoire, et que le jeu a la bonne idée de faire rejoindre les nouveaux personnages au niveau 1. Donc bienvenue dans le groupe Ana, j'suis niveau 20 mais toi 1. Et bah on est parti pour 2h de grind.\n\nAprès, c'est typique des vieux RPG, donc je lui en veux pas trop. Et je sais qu'il existe des romhacks qui corrigent une bonne partie de ces problèmes, mais je tenais à faire la version vanilla.\n\nJe trouve malheureusement aussi l'orientation assez désagréable. Les maps sont relativement grandes, tout se ressemble et on voit très peu les environs, comme si le jeu était constamment trop \"zoomé\". Du coup, c'est très difficile de jouer sans avoir une carte des zones sous les yeux, ce que j'ai fini par faire sur mon deuxième écran.\n\nEn dehors de ça, le jeu est vraiment génial. Il a une identité unique, une ambiance incroyable, des personnages attachants et une écriture qui mélange parfaitement le sérieux, l'absurde et un humour très bien dosé.\n\nJ'ai hâte de découvrir Mother 2 et 3."
+    "review": "Quel classique et quelle aventure unique !\n\nJ'ai adoré le jeu de bout en bout, l'univers cartoony a cette capacité de me rappeler la belle époque de mon enfance quand je me butais à pokemon sur la ds. C'est pas forcément beau (bon c'est de la NES en même temps) mais il a un immense charme, des villes et banlieues communes, c'est coloré, des sprites reconnaissables et cultes, qui n'a jamais vu Starman ?\n\nLe gameplay est simple, on se balade, on parle aux habitants, on apprends des trucs chelous sur ce qui passe dans la zone d'à coté et on y va. C'est très direct comme approche mais c'est efficace et surtout ça donne envie. Y'a des zombies dans le cimetière ? Je vais voir. Les animaux du zoo sont devenus fous et aggressifs ? Bien sur que je vais aller voir.\nCeci dit, le but ultime du jeu est d'apprendre 8 mélodies pour trigger la fin, et si certaines mélodies sont quasi impossible à rater tellement elles sont évidentes, certaines sont très facilement manquable et c'est un peu dommage, heureusement il y a un pnj qui te donne des vagues indices si besoin (ou des guides sur internet).\n\nMaintenant le seul vrai point noir du jeu, le grind. Merci l'émulation, merci la vitesse x5 et les savestates parce que sans ça je pense sérieusement que j'aurais abandonné.\nLe jeu se traine une sale réputation la dessus, et à juste titre, d'un jeu qui demande du grind, d'un jeu difficile. Et c'est pas tant que les combats sont difficiles, mais si ils deviennent particulièrement stupide vers la dernière grosse zone du jeu, c'est que l'encounter rate est absurdement élevé. Les combats ne sont pas très longs et il y a même un mode auto qui spam juste les attaques de base, mais à la longue ça devient épuisant. Même avec le x5 speed + auto\nAjoute à ça le fait que level up prends des plombes, la montée des stats est aléatoire, et que le jeu a la bonne idée de faire rejoindre les nouveaux personnages au niveau 1. Donc bienvenue dans le groupe Ana, j'suis niveau 20 mais toi 1. Et bah on est parti pour 2h de grind.\n\nAprès, c’est typique des vieux RPG, donc je lui en veux pas trop. Et je sais qu’il existe des romhacks qui corrigent une bonne partie de ces problèmes, mais je tenais à faire la version vanilla.\n\nJe trouve malheureusement aussi l’orientation assez désagréable. Les maps sont relativement grandes, tout se ressemble et on voit très peu les environs, comme si le jeu était constamment trop “zoomé”. Du coup, c’est très difficile de jouer sans avoir une carte des zones sous les yeux, ce que j’ai fini par faire sur mon deuxième écran.\n\nEn dehors de ça, le jeu est vraiment génial. Il a une identité unique, une ambiance incroyable, des personnages attachants et une écriture qui mélange parfaitement le sérieux, l’absurde et un humour très bien dosé.\n\nJ’ai hâte de découvrir Mother 2 et 3."
   },
   {
     "slug": "the-evil-within",
@@ -53,9 +171,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5wgs.jpg",
     "platform": "Windows PC",
     "rating": 1.5,
-    "status": "completed",
     "date_start": "2026-05-07",
-    "date": "2026-05-09"
+    "date": "2026-05-09",
+    "review": "Mikami mon gars fallait rester chez Capcom.\nJamais je m'étais autant forcer à finir un jeu.\n\nY'a des bonnes idées de mise en scène, vraiment. Le jeu réussi parfaitement à mettre le joueur sous tension, avec des vagues d'ennemis, des angles morts, une ambiance oppressante. L'ambiance et l'horreur sont réellement maitrisé, et je sens là le savoir de Mikami.\n\nMais alors le gameplay, oh la catastrophe. Un sprint limité qui dure pas plus de 3 secondes, un \"inventaire\" limité lui aussi où il faut payer des upgrades pour pouvoir transporter 3 balles et 2 seringues de plus. La visée est bizarre aussi, le reticule peut être en plein milieu d'un ennemi que les balles vont partir complètement à coté. Et le pire, c’est que le jeu tease des idées qu’il abandonne immédiatement. Au début, on a une phase d’infiltration avec un ennemi invincible, on est blessé, impossible de lui échapper, donc la tension fonctionne super bien ! Combien de fois ça sera réutilisé ? ZERO. Pendant tout le reste du jeu, il y a des casiers et des endroits pour se cacher partout, sauf qu’il n’y a aucune situation où se cacher sert vraiment à quelque chose. Cette mécanique n’a quasiment d’intérêt que dans le premier chapitre.\nParlons des boss aussi, je vais passer vite fait sur le boss final parce que c'est juste de la merde purement et simplement. Et pour les autres, c’est souvent du \"tire ou meurs\", avec des ennemis capables de te one-shot à peu près n’importe quand. Super fun. A partir du milieu du jeu aussi il devient un trial and error, le jeu va régulièrement te foutre des pièges à la gueule qui vont te one shot parce que c'est marrant et vu que les checkpoints sont rares bah tu dois te retaper plusieurs minutes pour retourner au piège.\nLe jeu utilise un système de hub qui est plus chiant qu'autre chose, t'es obligée d'y retourner pour save et t'upgrade mais c'est chiant quoi, j'ai pas envie de me taper des temps de chargement d'une zone à l'autre juste pour m'upgrade\n\nL'antagoniste du jeu est naze, ses pouvoirs sont pas impressionnants, il a AUCUN flow c'est terrible.\n\nOn sent les références à Resident Evil et même certaines à Silent Hill, +0,5 points j'aime bien.\n\nEnsuite la version pc, la première fois le jeu s'est lancé 4/3 et faisait des flash d'écrans, j'ai aller chercher sur les forums steam pour empêcher le jeu de crash systématiquement, ensuite le jeu utilise par défaut la vsync a 60 fps dans les options et pour je ne sais quelle raison les cinématique tournaient a 144fps mais le gameplay à 10 ? J'ai du aller modifier un fichier de config et le panneau nvidia pour avoir du 60fps constant. Le jeu est bien sorti en 2014 pas en 1990. Le gameplay clavier souris est pété aussi, la molette de la souris marche pas, donc pour scroll les documents faut utiliser les flèches, y'a pas de bouton retour non plus, des fois vous allez inspecter quelque chose et ne pas pouvoir faire retour, j'ai du brancher ma manette pour pouvoir appuyer sur B. Je veux bien qu’à l’époque le multiplateforme et le cross-gen étaient plus compliqués, mais là c’est juste honteux.\n\nÇa aurait du être un film (encore que l'histoire est nulle elle aussi). Les seuls point positifs du jeu sont son ambiances et ses idées de mise en scène, le reste est juste simplement raté"
   },
   {
     "slug": "elden-ring",
@@ -63,9 +181,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4jni.jpg",
     "platform": "Windows PC",
     "rating": 3.5,
-    "status": "completed",
     "date_start": "2026-04-19",
-    "date": "2026-05-05"
+    "date": "2026-05-05",
+    "review": "J’avais fait le jeu à sa sortie en 2022, j’étais allé au bout mais sans vraiment prendre mon pied. Et pourtant, j’avais envie d’y retourner, de le refaire et de découvrir le DLC que je n’ai jamais fait.\n\nPremier point, l’open world. Je déteste les open worlds, mais celui d’Elden Ring est probablement le mieux foutu que j’ai vu (oui je hais BOTW, laissez-moi tranquille). Je me suis surpris plein de fois à me dire en jouant \"putain c’est trop bien fait\". L’exploration est hyper fluide, on est guidé naturellement par ce qu’on voit sans jamais sentir le jeu nous dire où aller.\n\nTu vois un chemin plus bas, un truc en hauteur, et juste en regardant tu comprends comment y accéder. Et ça reste du FromSoftware, ça se sent direct. Même avec un monde immense, la carte s’impose mais tu peux très bien t’en passer.\n\nLes zones sont variées, chacune avec son ambiance. Tout ne m’a pas plu, je déteste Caelid comme beaucoup, mais visuellement c’est une claque. Il y a énormément de panoramas incroyables.\n\nLe monde est bien rempli sans être étouffant. La carte aide à repérer des points d’intérêt sans trop en dire. Il y a du loot partout, des ennemis partout, et l’exploration est vraiment satisfaisante, bien plus que dans FF7 Rebirth ou The Witcher 3.\n\nDeuxième gros point fort, la diversité du gameplay. Plus que dans les autres Souls, tu peux vraiment jouer ce que tu veux. Il y a une quantité énorme d’armes, de sorts, de cendres de guerre. Tu peux changer les affinités, mélanger les styles, te faire un build comme tu veux. Le côté RPG est ultra poussé et c’est un vrai plaisir.\n\nMais ça amène aussi un gros problème, l’équilibrage.\n\nC’est quasiment impossible d’équilibrer un jeu comme ça. Tu laisses les joueurs aller partout, donc certaines zones doivent être dures pour dire \"reviens plus tard\" et d’autres plus accessibles. Sauf qu’avec tout le contenu secondaire, tu peux vite devenir trop fort et rouler sur le jeu.\n\nEt tu peux pas vraiment corriger ça. Si tu montes la difficulté, ceux qui rush vont se prendre un mur. Le scaling aurait pu aider mais ça aurait trahi l’ADN des Souls, donc c’est compréhensible qu’ils ne l’aient pas fait.\n\nDu coup moi, en partant sur un build foi/force, le début était super dur, je faisais aucun dégât et je me faisais ouvrir. Puis dès que le build a commencé à tourner, je suis devenu beaucoup trop fort. Je détruisais les boss sans réfléchir. J’ai de l’expérience sur les Souls, mais pas à ce point-là. Et c’est dommage, parce que plus tu explores, plus tu simplifies le jeu. Oui je pourrais me limiter moi-même, mais bon, c’est pas vraiment le but.\n\nAutre point faible, les boss.\n\nIl y en a beaucoup trop. Un ennemi devient un boss, puis ce boss devient un mob plus tard. Tu peux affronter plusieurs fois les mêmes avec des variantes ou en duo. À force, ça casse complètement l’impact.\n\nAvant, un boss c’était un moment marquant, un vrai mur. Là, parfois, c’est juste un ennemi avec une grosse barre de vie.\n\nMême les vrais boss, y compris les légendaires, je les ai trouvés moins marquants. Difficile de ne pas penser à Gael, Orphan of Kos, Nameless King ou Artorias. Ici, peu m’ont vraiment marqué, peut-être Maliketh et Mohg.\nLe boss final par exemple ? Une première phase très sympa, ridiculeusement facile mais sympa. Et une deuxième phase qui prend 15 min parce que tu passes ton temps à courir après un boss qui se barre sans arrêt à l'autre bout de l'arène.\n\nEt il y a aussi trop d’ennemis gigantesques. Les dragons à répétition, Radahn, le Géant de Feu... souvent tu vois mal ce qu’il se passe, avec des attaques hors champ, et ça nuit aux combats.\n\nEt pourtant, j’ai pris un plaisir énorme. J’ai passé deux semaines à ne faire que ça. Parce que même si les boss m’ont déçu, l’exploration est complètement maîtrisée.\n\n54 heures pour voir la fin, et j’espère beaucoup plus avec le DLC. Mais je vais laisser passer un peu de temps avant d’y retourner."
   },
   {
     "slug": "water-womb-world",
@@ -73,7 +191,6 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2gga.jpg",
     "platform": "Windows PC",
     "rating": 3.5,
-    "status": "completed",
     "date_start": "2026-04-29",
     "date": "2026-04-29"
   },
@@ -83,9 +200,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5zol.jpg",
     "platform": "Windows PC",
     "rating": 3.5,
-    "status": "completed",
     "date_start": "2026-04-18",
-    "date": "2026-04-18"
+    "date": "2026-04-18",
+    "review": "La relation entre Capcom et les deuxième partie de jeu est vraiment très bizarre.\n\nLe début est génial genre vraiment, j'ai eu des vrais sensations de RE à l'ancienne, avec des petits énigmes à la con (genre les tableaux) le backtracking, les portes à ouvrir avec des clés spéciales et tout. C'était trop bien. La seconde partie dans la maison Beneviento était très sympa aussi, bien que très très similaire au jeu de base.\n\nEt puis Capcom fait du Capcom et part dans un jeu d'infiltration avec des ennemis qui patrouillent, qui faut attirer à certains endroits, c'est pas du Resident Evil ça, c'est pas mauvais en soit mais ça n'a rien à foutre là, c'est principalement ce que je reproche.\n\nEt puis allez ça raccroche tout à Ethan avec un esprit, une manifestation ou je ne sais quoi, laisse le mourir en paix ce pauvre Ethan."
   },
   {
     "slug": "resident-evil-village",
@@ -93,9 +210,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coab9q.jpg",
     "platform": "Windows PC",
     "rating": 4,
-    "status": "completed",
     "date_start": "2026-04-16",
-    "date": "2026-04-17"
+    "date": "2026-04-17",
+    "review": "Le second RE que j’ai 100% avec RE3 Remake, autant dire que je le connais presque par cœur, et je l’apprécie toujours autant.\n\nL’ambiance gothique d’un vieux village enneigé d’Europe, ça marche trop bien sur moi, et encore plus si t’y rajoutes des loups-garous et une famille de belles femmes vampires ;). Plus sérieusement, il y a des panoramas que je n’ai pas pu m’empêcher de screenshot tellement c’est beau. Le RE Engine est maîtrisé, et le château Dimitrescu, le village et la maison Beneviento offrent des plans somptueux.\n\nMalgré une intro terriblement longue (bien 1h30 avant de réellement pouvoir jouer), une fois celle-ci passée, on commence par le château Dimitrescu, le gros point de communication du jeu, et qu’est-ce qu’il est bien ce château. Visuellement magnifique, avec un mélange de doré et de blanc, de luxe et de donjons sales. C’est tellement dommage que ça soit si court : le château est petit (en intérieur, parce que de l’extérieur il est gigantesque, donc on en veut plus), et pas forcément très labyrinthique non plus.\n\nEt Lady Dimitrescu… probablement le pire stalker, et c’est bien dommage. Déjà, elle commence son stalking tard, et en plus la plupart de ses séquences sont scriptées. Elle est beaucoup plus proche de Jack dans RE7 et de Nemesis dans RE3 (1999) que de Mr. X de RE2 Remake qui te pourchasse sans arrêt, donc une triste régression, surtout que ça dure grand max 30 minutes.\n\nLa maison Beneviento reprend un peu le concept d’escape game de Lucas dans RE7 : on se retrouve sans équipement, dans une ambiance sombre, oppressante, avec des bruits qui viennent d’on ne sait où, pour un final qui a marché sur tout le monde je pense. Certes, ça fonctionne moins une fois qu’on l’a déjà expérimenté, mais je me souviens parfaitement de la première fois, ça m’avait tellement bluffé que j’ai appelé un pote pour lui faire jouer la section. Une grande réussite.\n\nPour finir sur les zones de Moreau et d’Heisenberg. Moreau n’est pas aussi terrible que dans mes souvenirs ni que ce que les gens en disent. Certes, ce n’est pas génial, mais c’est franchement ok. Bon, après, j’adore les ambiances de pêcheurs poisseux à la Cthulhu et au Fishing Hamlet de Bloodborne.\nL’usine, en revanche, n’est vraiment pas bonne. Heureusement qu’elle est courte, parce que visuellement, il y a certains plans qui donnent le vertige et ça fonctionne bien, mais le reste, c’est du béton et de la ferraille, et le gameplay n’apporte pas grand-chose de plus.\n\nL’histoire, par contre, m’a surpris en bien. J’en avais très peu de souvenirs, et je ne sais pas si le fait d’avoir refait (quasi) tous les Resident Evil avant a changé ma perception, mais je l’ai franchement bien aimée. Bon, à la toute fin, ça essaye de rattacher ce que ça peut à Umbrella et à Spencer, mais l’histoire d’Ethan est touchante, bien plus que ce que je pensais. Donc oui, la fin m’a eu, et j’en suis très content.\n\nJe suis aussi très fan du retour du backtracking : la façon dont le jeu est construit avec le village au centre et les 4 “Lords” autour fait qu’on repasse sans arrêt par le village, avec potentiellement de nouveaux objets et donc de nouvelles zones accessibles. Souvent du loot, qu’on peut échanger chez le Duc, un marchand énigmatique rappelant bien sûr celui de RE4, chez qui on peut acheter ou améliorer des armes, vendre des trésors et même faire de la cuisine."
   },
   {
     "slug": "resident-evil-7-end-of-zoe",
@@ -103,9 +220,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5yf7.jpg",
     "platform": "Windows PC",
     "rating": 4.5,
-    "status": "completed",
     "date_start": "2026-04-15",
-    "date": "2026-04-15"
+    "date": "2026-04-15",
+    "review": "Passer du chiant Not a Hero à ce banger, MDRR.\n\nUn vieux gars barbu avec une dégaine de pêcheur qui met des patates dignes de JoJo à des tas de merde et à Cthulhu, et qui harponne des alligators dans le bayou nan franchement, merci Capcom, j’ai adoré.\n\n1 petite heure de débilité qui fait du bien."
   },
   {
     "slug": "resident-evil-7-not-a-hero",
@@ -113,9 +230,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5yf8.jpg",
     "platform": "Windows PC",
     "rating": 2,
-    "status": "completed",
     "date_start": "2026-04-15",
-    "date": "2026-04-15"
+    "date": "2026-04-15",
+    "review": "Même en oubliant le visage affreux de Chris c'est pas bien.\nJe me suis vachement emmerdé, mais au moins on sait ce qui arrive à Lucas après RE7"
   },
   {
     "slug": "resident-evil-7-biohazard",
@@ -123,9 +240,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobtwh.jpg",
     "platform": "Windows PC",
     "rating": 3.5,
-    "status": "completed",
     "date_start": "2026-04-14",
-    "date": "2026-04-15"
+    "date": "2026-04-15",
+    "review": "LA renaissance de Resident Evil ! J’en gardais de très bons souvenirs, et ça aurait peut-être mieux fait de rester comme ça.\n\nL’ambiance du bayou aurait tellement dû être plus exploitée, tout comme la famille Baker. Ça part super bien avec une intro qui marche à la perfection, elle est devenue légendaire, et à raison.\n\nLa première section dans la maison avec Jack est beaucoup trop courte, c’en est presque triste. Il est réellement terrifiant, et les rares phases de “stalking” propres à Resident Evil avec lui sont incroyables mais ça se termine beaucoup trop vite.\n\nPuis vient Marguerite, qui fonctionne très bien dans l’aspect horrifique, mais casse les couilles avec ses insectes, au point que ça en devient frustrant.\n\nL’ambiance escape game avec Lucas change complètement le ton sans pour autant le casser, et c’est vraiment cool aussi.\n\nPuis vient le bateau, et là on s’éloigne complètement de la famille Baker pour se focaliser sur l’un des pires antagonistes de la série : Eveline. C’est dur de donner du charisme à un enfant, mais là c’est même l’opposé : elle ne fait pas peur, son design est nul, est-ce qu’il y a un design même ? Elle ne dégage rien, y a absolument rien dans son personnage.\n\nPareil pour Ethan et Mia d’ailleurs. Je comprends l’envie de faire un personnage plus neutre pour qu’on puisse s’identifier, mais est-ce que c’était vraiment nécessaire ? Puis bon sa femme se fait capturer devant ses yeux par un psychopathe, réaction d’Ethan : “Damn it” (vrai dialogue).\n\nTout ce que je voulais, c’était plus de la famille Baker, plus du bayou.\nJ’espère que les DLC m’en donneront.\n\n“Go Tell Aunt Rhody” est une excellente OST, ceci dit."
   },
   {
     "slug": "resident-evil-4-separate-ways",
@@ -133,9 +250,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7lar.jpg",
     "platform": "Windows PC",
     "rating": 5,
-    "status": "completed",
     "date_start": "2026-04-13",
-    "date": "2026-04-13"
+    "date": "2026-04-13",
+    "review": "Je comprends enfin les fans d’Ada.\n\nQuel DLC exceptionnel ! C’est ce genre de double histoire qu’il fallait dans le remake de Resident Evil 2. Vivre l’histoire qu’Ada traverse pendant les événements de Resident Evil 4, et il y a tellement de petites touches qui rajoutent à l’immersion : on entend Leon se battre pendant le tout début du jeu au village, on entend Ashley pleurer dans l’église. Même juste retraverser l’entièreté de RE4 dans une timeline très légèrement différente de celle de Leon, c’est juste génial.\n\nEt j’en ai tellement appris sur le personnage d’Ada Wong (perso dont je n’avais vraiment pas grand-chose à faire avant). Sa personnalité sérieuse avec une petite pointe d’humour et de sarcasme, comme Leon clin d’œil, et les sentiments réels qu’elle a l’air d’avoir pour lui aussi, je pense sincèrement apprécier son personnage grâce à ce DLC.\n\nLe gameplay, c’est du RE4 : c’est super bon. Le pistolet est puissant, fait un bruit hyper satisfaisant. L’ajout du grappin pour arracher les boucliers, se rapprocher au corps à corps après avoir étourdi un ennemi, ça ajoute aussi de la verticalité dans certains rares combats, mais c’est appréciable quand c’est là. C’est un RE4 légèrement sous stéroïdes puisqu’il fait 4 heures au lieu de 15.\n\nLe jeu est malgré tout très, très couloir, presque autant que Resident Evil 5. Ce n’est pas vraiment dérangeant du tout, mais un peu plus de liberté aurait été sympa quand même. Et les quelques “énigmes” à base de scanner d’une Ada sortie de Cyberpunk 2077… bon, on a connu mieux.\n\nMais vraiment un excellent DLC."
   },
   {
     "slug": "resident-evil-3-nemesis",
@@ -143,9 +260,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2vvb.jpg",
     "platform": "Windows PC",
     "rating": 4,
-    "status": "completed",
     "date_start": "2026-04-10",
-    "date": "2026-04-12"
+    "date": "2026-04-12",
+    "review": "J'avais une revanche à prendre avec ce jeu, et je l'ai prise.\n\nJe ne l'avais fini qu'une seule fois, et je l'avais recommencé 2 fois pour abandonner au même endroit les 2 fois.\n\nVisuellement, le jeu est toujours aussi beau, voire peut-être encore plus que RE2 par moments. Les décors pré-calculés sont super détaillés et l’ambiance du centre-ville de Raccoon City est incroyable. Par contre, j’ai eu quelques soucis avec la 3D : parfois, se positionner correctement pour interagir avec un objet est un peu galère, ce qui peut être frustrant.\n\nLà où le jeu m’a vraiment surpris, c’est sur l’horreur. On est clairement sur un des Resident Evil les plus terrifiants. Les jumpscares sont nombreux : zombies qui surgissent de nulle part, fenêtres qui explosent, ennemis qui te tombent dessus sans prévenir… et surtout, ils sont beaucoup plus nombreux que dans RE2. On se retrouve souvent dans des situations où essayer de nettoyer la zone est une mauvaise idée, vaut mieux fuir. Et ça fonctionne super bien niveau tension.\n\nEt évidemment, il y a Nemesis.\n\nPendant toute la première moitié du jeu (le centre-ville), il peut apparaître à la fois dans des scènes scriptées et de manière plus imprévisible. Il peut te suivre sur plusieurs écrans, court vite, frappe fort, et peut même attaquer à distance. C’est un stalker ultra oppressant, bien plus agressif que Mr. X dans RE2.\n\nMais surtout, le jeu introduit un vrai choix : fuir… ou se battre. Parce que oui, il est possible de le mettre à terre temporairement, et il drop du loot. Du coup, chaque rencontre devient une prise de décision : prendre le risque pour une récompense, ou survivre et économiser ses ressources. Même si, globalement, fuir reste souvent la meilleure option.\n\nAutre nouveauté sympa : le système de “Live Selection”. À certains moments, le jeu se met en pause et te propose deux choix. Certains ont peu d’impact, mais d’autres peuvent vraiment changer les choses : éviter un combat, modifier l’ordre d’exploration, ou même influencer certaines rencontres avec Nemesis. Ce n’est pas révolutionnaire, mais ça apporte une petite rejouabilité et une bonne idée de mise en scène.\n\nEt alors… la difficulté.\n\nC’est probablement le Resident Evil que je trouve le plus dur. Nemesis est un vrai sac à PV, surtout en boss. Entre sa mobilité, ses attaques à distance, et les contrôles tank, les combats sont vraiment exigeants. Les arènes n’aident pas non plus : souvent petites ou encombrées, ce qui rend l’esquive compliquée. Il faut vraiment maîtriser ses déplacements et gérer ses ressources intelligemment.\n\nPetit bonus aussi : le jeu introduit des mécaniques comme l’esquive (timée), qui peut sauver la vie mais demande un peu de pratique, et un système de poudre pour fabriquer ses munitions, ce qui ajoute une petite couche de gestion en plus.\n\nAu final, un épisode plus orienté action et pression constante que RE2, mais qui réussit parfaitement à garder une ambiance horrifique très forte. Peut-être moins propre dans son level design, mais largement compensé par son intensité.\n\nUn classique, toujours aussi efficace et l’un des Resident Evil les plus stressants que j’ai faits."
   },
   {
     "slug": "resident-evil-2",
@@ -153,9 +270,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2vz0.jpg",
     "platform": "Windows PC",
     "rating": 4.5,
-    "status": "completed",
     "date_start": "2026-04-09",
-    "date": "2026-04-09"
+    "date": "2026-04-09",
+    "review": "Mais quel jeu ! Je n'avais même pas prévu de le faire mais avec sa ressortie sur steam je me suis dit allez pourquoi pas, et bah je me suis fait Claire A / Léon B en une journée.\n\nC'est le tout premier RE que j'ai fais dans ma vie et j'en avais tellement peu de souvenirs que c'était presque une redécouverte totale et j'ai vraiment adoré. Et le refaire m'a fait encore plus apprécier le remake et l'amour et la fidélité qu'il porte au jeu de base.\n\nLe jeu est très court (j'ai mis 3h30 pour Claire A, 2h30 pour Léon B selon les écrans de fin) mais il a l’avantage d’être extrêmement condensé : on ne s’ennuie jamais. Le commissariat est moins labyrinthique et moins centré sur les puzzles que le manoir Spencer, donc on sait globalement ce qu’on cherche et où le trouver (un point que le remake améliorera encore).\nLes scénarios A / B s’imbriquent moins que ce que j’avais entendu. C’est mieux que dans le remake sur ce point, mais ça reste assez similaire. C'est peut être différent selon Claire A / Leon A mais je n'avais pas envie de refaire le jeu une 3e et 4e fois.\n\nMr X est présent mais très très peu, et uniquement a des moments scriptés, L’ambiance est donc très différente que de l'avoir constamment a nos trousses. Je m'habitue au calme d'un commissariat que j'ai vidé de fond en comble, pour que d'un coup il détruise un mur et change mes plans. On sait qu'il va arriver, mais on ne sait pas quand, et ça marche tout aussi bien.\n\nVisuellement il est absolument magnifique, nativement sur pc, aucun pack de texture hd en IA dégueulasse, juste la beauté des décors pré-calculé de l'époque. Les doublages sont biens plus réussis que le premier et les musiques sont excellentes.\n\nPetite mention également au mode 4th Survivor avec HUNK, un petit mode qui demande d'aller d'un point A à un point B en étant chronométré. Un mode très sympa avec une bonne re jouabilité, ne serait ce que pour améliorer son temps, trouver des routes optimales, ou juste se lancer des défis. Et la version Tofu pour les plus courageux.\n\nUn classique toujours aussi bon 30 ans plus tard"
   },
   {
     "slug": "resident-evil-5",
@@ -163,9 +280,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobtgs.jpg",
     "platform": "Windows PC",
     "rating": 3.5,
-    "status": "completed",
     "date_start": "2026-04-06",
-    "date": "2026-04-08"
+    "date": "2026-04-08",
+    "review": "J'aurais adoré voir la tête de Capcom quand ils ont vu les critiques sur RE5 par rapport à RE4 alors que c'est littéralement un RE4.5\n\nMais je comprends les critiques, et je suis moi même extrêment mitigé sur le jeu.\n\nEst-ce un bon Resident Evil ? Non\nEst-ce un bon jeu ? C'est plutôt sympathique\n\nLà où Resident Evil 4 arrivait encore à conserver une ambiance sombre, un peu glauque, avec quelques puzzles, RE5 abandonne quasiment tout ça. On est face à un pur jeu d’action, très couloir, et pas juste un peu : les missions c'est un enchainement de tout droit avec quelques variations de temps en temps. Et niveau énigmes récupérer trois objets dans une petite zone, c'est pas une énigme.\n\nDonc oui, tout ce qui faisait “Resident Evil” a pratiquement disparu.\n\nMais en tant que jeu d’action, est-ce que ça marche ? Franchement oui.\nIl faut juste le replacer dans son contexte de jeu sorti en 2009, parce qu’aujourd’hui certaines mécaniques sont dures : ne pas pouvoir bouger en visant, les déplacements lourds, l’impossibilité d’esquiver sans QTE c’est raide. Mais une fois qu’on s’y fait, le jeu devient efficace. On est souvent à court de munitions ou de soins, et ça crée une tension qui fonctionne bien.\n\nPar contre, impossible de ne pas parler du plus gros problème du jeu : Sheva.\n\nLe jeu est pensé pour la coop, mais en solo, l’IA de Sheva est désastreuse. On ne peut presque rien lui dire, elle gaspille les munitions en tirant sur tout ce qui bouge (y compris quand il faudrait être discret), elle est inefficace au corps à corps, et quand elle n’a plus de balles… vous êtes seul. Sachant qu’elle canarde tout ce qu'elle voit, ça arrive très vite.\n\nElle a deux modes (“attaque” et “soutien”), mais j’ai jamais compris la différence. Dans tous les cas, elle arrose tout. Et dès que vous essayez d’interagir avec elle pour gérer l’inventaire, elle se barre comme si Chris puait.\n\nConcernant les boss, c’est très inégal : certains sont vraiment cool, d’autres sont bugués (merci le lance-roquettes pour le skip), et certains sont juste mal conçus. Le jeu manque parfois de lisibilité : difficile de savoir si ce qu’on fait est efficace ou non. Le boss final en est un bon exemple, avec son animation qui se répète 5 ou 6 qui donnent l’impression de ne pas faire ce qu'il faut.\n\nMalgré tout, tout n’est pas à jeter. Les environnements sont variés et plutôt réussis : villages africains, grottes façon Tomb Raider/Uncharted, labo classique, usine… même si ça ne fait pas vraiment sens et que c’est linéaire, ça reste agréable à parcourir. Les ennemis sont aussi assez diversifiés et utilisent leur environnement ou leur ancien status (boucliers, armes pour des anciens soldats etc.).\n\nEt puis il y a Chris Redfield en mode giga chad, et Albert Wesker qui reste l’un des antagonistes les plus stylé de l'histoire.\n\nDonc oui, RE5 n’est pas vraiment un Resident Evil. La rupture avait commencé avec RE4, mais ici elle est totale.\nMais ça ne veut pas dire que c’est un mauvais jeu, loin de là. C’est imparfait, frustrant par moments, mais globalement, ça reste une expérience très sympa."
   },
   {
     "slug": "sally-face",
@@ -173,9 +290,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3wku.jpg",
     "platform": "Windows PC",
     "rating": 3.5,
-    "status": "completed",
     "date_start": "2026-04-03",
-    "date": "2026-04-04"
+    "date": "2026-04-04",
+    "review": "Ça partait tellement bien pourquoiiiiii\n\nLes 3 premiers épisodes ? Incroyables. Genre vraiment.\nY’a un mystère qui s’installe, une ambiance hyper lourde, et surtout cette question qui te hante dès le départ : pourquoi Sally est en prison, pourquoi il est jugé pour meurtre, qu’est-ce qui s’est passé ?\nTout le jeu repose là-dessus et ça marche de fou. T’as envie de comprendre, de recoller les morceaux, et plus t’avances plus ça devient intéressant.\n\nEt puis les épisode 4 et 5.\n\nJe sais pas ce qu’il s’est passé.\nLe jeu part complètement ailleurs, dans un délire de secte / culte / trucs cosmiques et perso ça m’a perdu direct.\nAutant au début c’était une horreur assez “terre à terre”, autant là ça devient un truc que j’avais pas signé pour.\nJ’ai vraiment eu le seum parce que ça partait TELLEMENT bien.\nY'a un truc absolument stupide aussi c'est que si tu veux connaitre l'histoire en détail t'es obligé de faire les épisodes à 100% (parce que cacher une partie de l'histoire dans des secrets impossibles à trouver sans soluce c'est marrant), mais en plus dans les épisodes suivants le jeu part du principes que tu as vu ces secrets, donc des fois ça va te parler d'évènements que t'auras jamais vu, des éléments de l'histoire qui sortent de nul part ????\n\nGraphiquement par contre, rien à dire.\nLe style est incroyable, très “sketch”, un peu crado mais super maîtrisé. Et dans l’épisode 5, ils se lâchent complètement avec plein de styles différents : cartoon, vieille 3D bien dégueulasse façon bubsy, stop motion en pâte à modeler et j'en passe c’est un gros mélange mais ça fonctionne super bien.\n\nLa musique aussi, grosse surprise.\nJe suis pas du tout quelqu’un qui fait attention aux OST en général, mais là elle m’a vraiment marqué, donc ça veut dire quelque chose.\n\nCôté gameplay, c’est très simple.\nOn se déplace, on interagit, on explore… c’est du point & click sans vraiment l’être. Pour un jeu narratif ça passe largement.\nPar contre les énigmes… franchement parfois c’est n’importe quoi. Hyper cryptiques, pas claires, et des fois t’as l’impression qu’elles servent à rien.\n\nMais le vrai cœur du jeu, c’est l’histoire.\nEt c’est là où c’est à la fois sa plus grande force… et sa plus grosse déception.\n\nParce que les 3 premiers épisodes sont excellents, vraiment.\nTout est bien construit, intriguant, cohérent, t’es à fond dedans.\nEt derrière, les deux derniers épisodes cassent complètement ce que le jeu avait réussi à construire, avec un changement de direction que j’ai pas du tout apprécié.\n\nPetit point sur la traduction française, des fois y'a des mots mis au hasard (genre y'a \"ours\" qui pop au milieu d'une phrase ?????????) y'a des formulations qui veulent rien dire, et des fois c'est juste pas traduit mdrr\n\nDu coup je ressors avec un sentiment hyper mitigé.\nUn jeu que j’ai adoré mais que j’ai aussi trouvé frustrant de ouf."
   },
   {
     "slug": "resident-evil-code-veronica-x",
@@ -183,9 +300,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2vzv.jpg",
     "platform": "PlayStation 4",
     "rating": 5,
-    "status": "completed",
     "date_start": "2026-03-26",
-    "date": "2026-04-02"
+    "date": "2026-04-02",
+    "review": "J'avais si hate de redécouvrir Code Veronica, un jeu dont j'avais d'excellents souvenir mais aussi de très mauvais de part sa difficulté, et j'suis content de me dire que c'est toujours mon RE préféré.\n\nFini le manoir, commissariat ou une raccoon city labyrinthique. On se retrouve avec notre chère Claire sur une île beaucoup plus ouverte, avec une prison, un petite résidence (et non ce n'est pas un manoir), un camp d'entrainement, on est beaucoup moins perdu, et la progression se fait très naturellement mais avec une surface de jeu plus grande on fini forcément pas faire énormément d'allers-retours, avec en bonus les temps de chargement à chaque ouverture de porte, et c'est la que je regrette d'y avoir joué sur ps5 et pas sur émulateur pour pouvoir skip ça, mais ça fait partie de l'époque.\nLe gameplay est je trouve le meilleur de la série pour ce qui est des \"og\", c'est à dire caméras fixe et tank controls, un mélange parfait d'énigmes, de survie, d'exploration, de petits secrets aussi, bref parlons de tout ça.\n\nTechniquement, le jeu est un peu coincé entre Resident Evil 3 et Resident Evil 4. Là où RE3 brillait avec ses décors précalculés, Code Veronica propose une 3D complète un peu plus lisse, parfois moins détaillée. Ce n’est pas moche, mais clairement moins marquant. En revanche, cette 3D permet des caméras plus dynamiques, qui bougent et suivent le personnage par moments, un petit plus appréciable.\n\nLe jeu est aussi divisé en deux parties distinctes : Claire puis Chris. Contrairement à RE1 ou RE2, ce n’est pas deux scénarios séparés mais une continuité directe. Et c’est là que vient sa réputation de jeu “dur” : le switch entre les personnages se fait à un moment précis, et tout ce que Claire porte à ce moment-là est perdu pour Chris. Donc si vous avez vos meilleures armes sur vous… vaut mieux reload sa save.\nEt pour ce qui est de la difficulté globale, j'ai trouvé le jeu extrêment simple, peut être trop même, j'avais 300 balles de pistolet en reserve, 70 de pompes, j'ai pas touché au magnum (que je me suis fait chier à aller récuperer en plus) ni aux armes automatiques et j'avais beaucoup de soins. Certes, je connaissais déjà les pièges, mais quand même. J'avoue m'être surtout préparé à un boss fight en particulier (ceux qui savent, savent) mais en dehors de ça j'y suis allé relativement à l'aveugle et aux souvenirs. Faut rajouter aussi que le couteau est absolument cracké dans cet épisode, vous pouvez assez facilement faire 80% du jeu avec seulement le couteau (ce qui explique aussi pourquoi j'avais autant de munitions en stock), un petit coup dans les jambes et les zombies se retrouvent au sol (pas tout le temps attention).\n\nEnfin, les doublages et le sound design… bon, c’est du vieux Resident Evil. Les doublages sont souvent catastrophiques (Claire s’en sort encore), les bruitages sont cheap, et les pas beaucoup trop forts. Heureusement, les musiques sont solides, sans être mémorables.\n\nAlors oui 5 étoiles c'est absolument pas objectif mais j'adore ce jeu et c'est tout, vive Code Veronica, et vivement le remake."
   },
   {
     "slug": "resident-evil",
@@ -193,9 +310,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co20bp.jpg",
     "platform": "PlayStation",
     "rating": 4.5,
-    "status": "completed",
     "date_start": "2026-03-24",
-    "date": "2026-03-25"
+    "date": "2026-03-25",
+    "review": "C’est fou comme ça marche tout aussi bien 30 ans plus tard.\n\nJ’avais vraiment peur d’y rejouer : peur de la difficulté, des contrôles lents et rigides, et pourtant rien de tout ça.\nLa difficulté, déjà, est parfaitement dosée. Peut-être un peu simple : les zombies sont très lents, et on a globalement assez de munitions pour vider chaque couloir. Mais on n’est pas non plus inondé de balles, donc le choix de “nettoyer” ou d’esquiver en prenant le risque de se faire croquer est toujours là, et ça fonctionne super bien.\n\nJe trouve par contre que les dégâts ne font pas toujours sens. On peut se prendre un coup de patte d’un Hunter et rester dans le vert, et parfois se faire chopper par un zombie random et passer direct dans le rouge. Je ne sais pas si les dégâts varient selon qu’on se fait attraper de face ou par derrière, donc c’est peut-être ça l’explication.\n\nPar contre, on est littéralement inondé de plantes, c’est hallucinant. Là où je pestais contre Resident Evil 0 qui est radin dessus, ici j’en avais bien plus que ce que je pouvais consommer.\n\nLes persos répondent super bien manette en main. Ils sont même relativement rapides dans leurs déplacements, y compris en diagonale. Franchement, rien à dire : ça marche.\nDu coup, esquiver une attaque est très gratifiant, et s’en prendre une est rarement frustrant, parce qu’on sent que c’est nous qui avons merdé.\n\nPAR CONTRE, s’il y a plusieurs ennemis… rip. Là, on se fait enchaîner en boucle : dès que l’un finit son attaque, on mange celle de l’autre, et ainsi de suite, sans aucune invincibilité. Et ça, c’est vraiment violent.\n\nLes énigmes ne sont pas toujours très claires, mais elles ne sont pas spécialement difficiles non plus. En gros, on ne sait pas toujours si le jeu veut qu’on utilise tous les éléments d’une énigme ou seulement une partie, mais individuellement, ces éléments restent simples à comprendre (contrairement à mon explication).\n\nLe jeu manque peut-être un peu de charme dans ses décors (ce que le REmake corrigera largement), mais en même temps il fait “manoir”, sans chercher à être volontairement glauque. Et du coup, ça reste crédible, on y croit.\n\nLe jeu est aussi connu pour son intro kitsch et ses doublages sans aucune âme, et je ne peux pas le nier, mais ça lui donne un charme de nanar assez parfait.\n\nMais au-delà de ça, le jeu sait aussi être vraiment flippant quand il le veut. Pas en abusant de jumpscares, justement. Le fameux passage des chiens qui explosent la fenêtre marche toujours aussi bien, même en le connaissant, les zombies au sol qui se réveillent d'un coup, un truc qui sort du sol et j'en passe. Et c’est ça qui est fort : le jeu ne s’appuie pas que là-dessus.\n\nLa tension vient surtout de tout le reste. Les angles de caméra qui cachent volontairement ce qu’il y a devant, les couloirs où t’avances sans savoir ce qui t’attend, les bruits hors champ… tout est fait pour te mettre mal à l’aise. Et ça marche encore aujourd’hui.\n\nMême les sauvegardes participent à ça. Les rubans limités te forcent à réfléchir avant de save, à prendre des risques, à continuer un peu plus loin en te disant “allez encore une pièce”. Et forcément, quand tu meurs, ça fait mal, mais ça renforce aussi toute la tension du jeu."
   },
   {
     "slug": "resident-evil-0",
@@ -203,9 +320,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1z3p.jpg",
     "platform": "Windows PC",
     "rating": 3.5,
-    "status": "completed",
     "date_start": "2026-03-21",
-    "date": "2026-03-23"
+    "date": "2026-03-23",
+    "review": "Début de ma rétrospective Resident Evil avec l'épisode Zero !\n\nEt étrangement, c'est une première review compliquée. Je ne sais vraiment pas quoi penser de ce jeu.\n\nPremièrement, la plus grosse différence de cet épisode avec les autres, c'est le gameplay en tandem. On incarne deux personnages : la jeune recrue des Stars Rebecca Chambers, et Billy Coen, un ex-lieutenant de la Marine.\nL'histoire se passe juste avant l'incident du manoir Spencer. Une équipe des Stars est envoyée dans les montagnes de l'Arklay pour enquêter sur des meurtres. Après le crash de leur hélicoptère, Rebecca découvre un convoi militaire renversé et des officiers morts, puis s'aventure dans un train. C'est là qu'elle tombe sur Billy, un criminel condamné à mort qui a profité de l'accident du convoi pour s'échapper, et ils n'ont d'autre choix que de coopérer.\n\nOn peut donc à tout moment (sauf rares exceptions scénaristiques) switcher de personnage, chacun ayant son propre inventaire et des caractéristiques propres : Rebecca est plus fragile, mais plus agile, et elle est la seule à pouvoir combiner les herbes grâce à son mélangeur. Billy, lui, est plus tanky, déplace les objets lourds et possède un briquet (qui ne servira que pour deux énigmes uniquement).\nL'idée sur le papier est cool. Dans les faits, ça marche, mais le concept n'est vraiment pas poussé bien loin. À part lors de l'introduction et d'une séquence vers le milieu/fin du jeu, les personnages passent 80 % de leur temps ensemble. C'est dommage, car les phases où chaque perso est séparé et doit s'échanger des objets via des \"machines\" pour progresser chacun de son côté fonctionnent super bien ! Ils auraient vraiment dû accentuer cet aspect-là du gameplay. Du côté de la relation Billy-Rebecca, ça marche bien aussi. Ce n'est rien de foufou, peut-être même un peu simplet par moments, mais la dynamique opère.\n\nMais les défauts du jeu sont particulièrement impactants. Déjà, c'est le seul jeu de la série à dégager la classique storage box. À la place, on peut laisser ses objets au sol. Ça rend la gestion de l'inventaire beaucoup plus importante et centrale dans cet épisode. Jusque-là pourquoi pas, mais le jeu nous bombarde d'items en même temps. On doit donc constamment laisser nos objets au sol, jongler entre les inventaires de chaque perso, décider quoi garder, ET SURTOUT, ça oblige à backtracker très souvent. Au lieu de juste se rendre dans une safe room et récupérer son objet dans le coffre, on doit marcher jusqu'à l'endroit exact où on a laissé l'objet voulu. Je ne comprends pas cette volonté de gameplay. La gestion de l'inventaire a toujours été un élément important dans les RE, mais là, c'est poussé à un point qui devient juste frustrant et pas agréable.\n\nEnsuite, la difficulté. Je suis mort beaucoup (trop) de fois au début du jeu. On a peu de munitions, très peu de soins, et beaucoup d'ennemis. J'ai ragequit quelques fois, je l'avoue. Puis, une fois le train et le centre d'entraînement passés, le jeu devient extrêmement simple. Il distribue des munitions et des soins à tout va (j'ai fini le jeu avec environ 150 balles de pistolet en rab) et j'ai first try tous les boss de la seconde moitié. Je ne capte pas du tout ce saut de difficulté inversé d'un coup.\n\nConcernant les énigmes, la difficulté est globalement bien dosée. À part une seule qui n'a aucun sens (celle des animaux dans le centre d'entrainement), toutes les autres sont logiques et pas trop difficiles.\n\nDonc, si j'ai particulièrement détesté la première moitié pour sa difficulté et son inventaire laborieux, j'ai franchement bien aimé la deuxième. Elle est plus chill, un peu plus en ligne droite aussi, et après avoir autant souffert au début, ce n'est pas pour me déplaire !"
   },
   {
     "slug": "the-witcher-3-wild-hunt-blood-and-wine",
@@ -213,9 +330,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2lgo.jpg",
     "platform": "Windows PC",
     "rating": 4,
-    "status": "completed",
     "date_start": "2026-03-17",
-    "date": "2026-03-20"
+    "date": "2026-03-20",
+    "review": "Ça y est, enfin je découvre Blood and Wine. Le sud de la France, le vin, les cigales, et bien évidemment nos fameux vampires.\n\nToussaint est un véritable choc visuel. Une région baignée de soleil, de couleurs, presque irréelle par moments. Entre ses vignobles, ses champs de fleurs et ses châteaux, on a l’impression d’être dans un conte de fées (on y reviendra à ça clin d'oeil subtil)\n\nParce que derrière cette façade lumineuse, le jeu n’oublie jamais ce qu’il est. Très vite le masque tombe, et on retrouve cette noirceur, cette violence et ces meurtres sordides. Et c’est justement ce mélange qui fonctionne aussi bien : Blood and Wine joue constamment sur ce contraste entre beauté et horreur.\n\nL’histoire principale est très solide. Le mystère autour de la Bête de Toussaint fonctionne bien, offre un vrai embranchement en fonction de nos choix et surtout, le DLC prend le temps de développer ses personnages.\nLa duchesse Anna Henrietta est particulièrement intéressante : autoritaire, parfois agaçante, mais jamais caricaturale. Elle incarne parfaitement cette noblesse enfermée dans ses propres codes, incapable de voir certaines réalités en face.\n\nMais en dehors de la quête principale, j'ai eu du mal avec les quêtes secondaires. Elles sont nombreuses, peut être trop. Certaines sont excellentes (la banque, Vivienne et Guillaume, une certaine quête avec Ablette, et j'en passe), mais beaucoup sont aussi très peu intéressante, et donnent l'impression d'être la juste pour \"grossir\" le DLC.\n\nCela dit, contrairement à Hearts of Stone qui était extrêmement dense et maîtrisé du début à la fin, Blood and Wine souffre parfois d’un rythme un peu plus inégal. Le DLC est plus long, plus ouvert. Et avec sa nouvelle zone, aussi bien soit-elle, on se retrouve à devoir tout refaire encore une fois.\n\nMais il compense largement avec son histoire et son sentiment de conclusion.\nParce que Blood and Wine, ce n’est pas juste une extension. C’est une véritable fin pour Geralt.\n\nTout est pensé comme un épilogue. La nouvelle propriété, Corvo Bianco, la discussion de fin avec Régis, avec Triss (Team Triss), il y a une vraie volonté de poser une conclusion plus intime, plus apaisée. Après des dizaines d’heures passées dans cet univers, ça fait quelque chose.\nEt c’est probablement là que le DLC est le plus réussi : dans cette sensation de boucle bouclée.\n\nAu final, Blood and Wine est peut-être le DLC le plus “complet” des deux. Moins marquant que Hearts of Stone dans son écriture pure, mais plus généreux, plus dépaysant, plus intime, et surtout plus satisfaisant en tant que conclusion.\nEt c'est malheureusement son plus gros défaut (et le mien aussi), passer en dernier, après une centaine d'heure, un ras le bol se fait sentir et une envie de passer à autre chose. A sa sortie, replonger dans cet univers devait sincèrement être génial, une nouvelle zone, des tonnes de quêtes, des heures et des heures de plaisir, mais après autant de temps je voulais juste en finir.\n\nC’est une dernière aventure qui prend le temps de dire au revoir. Et elle le fait bien."
   },
   {
     "slug": "the-witcher-3-wild-hunt-hearts-of-stone",
@@ -223,9 +340,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1t7q.jpg",
     "platform": "Windows PC",
     "rating": 4.5,
-    "status": "completed",
     "date_start": "2026-03-08",
-    "date": "2026-03-16"
+    "date": "2026-03-16",
+    "review": "Si The Witcher 3 brillait déjà par la qualité de son écriture, Hearts of Stone pousse encore plus loin tout ce qui faisait la force du jeu de base. C’est plus court, plus resserré, plus maîtrisé, et surtout beaucoup plus marquant dans sa façon de raconter son histoire. Là où le jeu principal pouvait parfois se perdre dans son gigantisme, ici tout semble mieux dosé, plus dense.\n\nLe premier énorme point fort du DLC, c’est évidemment Gaunter de Meuré. C’est un antagoniste génial. Il ne paie pas forcément de mine au premier abord, mais il dégage quelque chose de profondément inquiétant. Plus l’histoire avance, plus il devient terrifiant. Il reste extrêmement énigmatique du début à la fin : on ne sait jamais vraiment de quoi il est capable, ni jusqu’où son pouvoir peut aller, mais on comprend très vite qu’on a affaire à une entité bien au-dessus de tout ce que le jeu de base proposait jusque-là. Il joue avec les règles, contourne les mots, exploite les failles, et toute sa logique autour des pactes et des formulations donne lieu à des moments brillants, notamment le fameux passage du « sur la lune », qui résume parfaitement à quel point le personnage est malin, malsain et fascinant.\n\nMais Hearts of Stone, ce n’est pas seulement un grand méchant réussi. C’est aussi une succession de quêtes parmi les meilleures que CD Projekt ait écrites.\n\nDead Man’s Party, déjà, est probablement l’une des meilleures quêtes de l’histoire du jeu vidéo. Vraiment. L’écriture y est brillante du début à la fin. C’est absurde, beauf, totalement assumé, parfois presque ridicule dans son concept, et pourtant ça marche à merveille. Le DLC réussit à faire quelque chose de profondément drôle sans jamais tomber dans le lourd ou dans le “trop”. On rit souvent, mais jamais au détriment des personnages ou de l’histoire. C’est une quête qui a une énergie folle, qui ose plein de choses, et qui reste constamment fun. À aucun moment je ne me suis dit que ça tirait en longueur ou que la blague allait trop loin : au contraire, tout est extrêmement bien dosé. C’est le genre de quête qu’on n’oublie pas.\n\nScenes From a Marriage est tout aussi réussie, mais dans un registre totalement opposé. Là où Dead Man’s Party brille par son humour et son absurdité, cette quête frappe par sa dimension horrifique, sa tristesse et sa dimension tragique. Toute l’histoire d’Iris et d’Olgierd von Everec est bouleversante. On assiste à la chute d’un homme dévoré par son orgueil, ses choix et son incapacité à aimer correctement, et en face, à la souffrance immense d’Iris, enfermée dans une relation qui n’a plus rien de vivant depuis longtemps. C’est sombre, mélancolique, parfois même cruel, mais toujours très juste. Le DLC prend le temps de rendre ces personnages profondément humains, avec leurs fautes, leurs regrets et leurs douleurs. Et c’est précisément ce qui rend cette partie aussi forte émotionnellement.\n\nComme le jeu de base, le DLC traîne évidemment les mêmes problèmes sur certains aspects. La technique reste souvent bancale, avec des bugs visuels, des animations parfois douteuses et une mise en scène qui peut occasionnellement montrer ses limites. La jouabilité, elle non plus, n’a pas miraculeusement été transformée : les combats restent assez peu intéressants, la maniabilité pas toujours agréable, et on sent bien que ce n’est toujours pas là que le jeu excelle.\n\nMais encore une fois, l’écriture parvient presque à faire oublier tous ces défauts. C’est peut-être même encore plus vrai ici que dans l’aventure principale. Parce que le DLC est court et plus concentré, il laisse moins de place aux temps morts et met en avant ce que The Witcher 3 sait faire de mieux : raconter.\nConstruire des situations mémorables, mélanger humour, horreur, tragédie et fantastique avec une maîtrise impressionnante.\n\nAu final, Hearts of Stone réussit presque l’exploit d’être encore plus mémorable que certains pans entiers du jeu principal. Peu de quêtes, oui, mais des quêtes longues, denses, variées et surtout excellentes. Des personnages profondément touchants, d’autres absurdement drôles, et un antagoniste qui surclasse largement la menace principale du jeu de base.\n\nUn DLC particulièrement réussi, qui confirme à quel point The Witcher 3 est à son meilleur quand il resserre son récit autour de quelques personnages et d’une vraie intention dramatique forte.\n\nMaintenant, je n’ai plus qu’une envie : découvrir enfin Blood and Wine."
   },
   {
     "slug": "chants-of-sennaar",
@@ -233,9 +350,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9mjo.jpg",
     "platform": "Windows PC",
     "rating": 4.5,
-    "status": "completed",
     "date_start": "2026-03-08",
-    "date": "2026-03-13"
+    "date": "2026-03-13",
+    "review": "Chants of Sennaar est un magnifique jeu d’énigmes. Le jeu démarre simplement : on fait quelques pas pour comprendre comment se déplacer, puis, sans aucune explication, on se retrouve soudain face à des panneaux, des habitants, des conversations… dans une langue qu’on ne comprend absolument pas. Et c’est à nous de nous débrouiller.\n\nEt ça fonctionne incroyablement bien. Le début du jeu est parfaitement rythmé : on apprend doucement, presque sans s’en rendre compte, mais toujours de manière efficace.\n\nLe concept central qui consiste à déchiffrer des langues uniquement grâce au contexte et à l’observation est brillant. L’idée de départ est simple, mais son exécution est remarquable. Chaque peuple possède sa propre langue, son propre système de glyphes, sa propre logique, et le jeu ne nous prend que très rarement par la main. On observe, on déduit, on teste, on se trompe parfois, puis on confirme nos hypothèses. Et quand, après plusieurs minutes d’observation, on comprend enfin ce que quelqu’un est en train de dire, la satisfaction est difficile à égaler dans le jeu vidéo.\n\nOn repère un glyphe, on pense comprendre quelque chose et on le note : celui-ci veut peut-être dire « haut », celui-là « bas ». On relit ensuite la phrase avec cette hypothèse en tête : parfois ça fait sens, parfois pas du tout. On corrige, on affine, et petit à petit, tout commence à se mettre en place.\n\nEt le jeu évite presque toujours la frustration. Comme dans Return of the Obra Dinn, il dispose d’un système qui vient régulièrement confirmer nos déductions. Dans un carnet rempli de dessins, on doit associer certains glyphes à des situations ou à des images. Si toutes les associations d’une page sont correctes, le jeu valide officiellement les glyphes correspondants. Ce système adoucit énormément la progression : on a toujours l’impression d’avancer, même quand on doute encore un peu de ses conclusions.\n\nIl y a d’ailleurs un moment particulièrement marquant au début du troisième chapitre. On arrive dans une nouvelle zone, on lit le premier panneau et on se dit : « ça va, c’est simple ». On entre nos hypothèses dans le carnet… et rien ne se valide. On ne comprend pas pourquoi. Puis, après quelques tests et un peu de réflexion, on réalise enfin ce que le jeu est en train de faire. Et là, c’est un mélange de « oh wow » et de « j'suis dans la merde ».\n\nLa direction artistique accompagne parfaitement tout ça. Les environnements alternent entre couleurs chaudes et froides, et les décors sont extrêmement variés : on passe d’un quartier général militaire à un jardin suspendu puis à une usine presque steampunk. Chaque civilisation possède une identité visuelle très marquée, sublimée par un cel-shading absolument superbe.\n\nLa musique mérite aussi d’être citée. Douce et discrète la plupart du temps, elle sait se mettre en avant quand il le faut. Les différents différents petit bruits sont aussi très apaisants, presque ASMR par moments.\n\nLa jouabilité est à l’image du reste : minimaliste, et c’est exactement le bon choix. Le jeu n’a pas besoin de plus. On se déplace, on observe, on écoute, et on remplit son carnet.\n\nLa structure du jeu, divisée en différentes civilisations aux ambiances radicalement différentes, évite toute monotonie. Chaque nouvelle langue repart de zéro. Et même si le principe reste toujours le même, le jeu trouve constamment des moyens de renouveler l’expérience. Certaines langues marquent le pluriel avec un symbole spécifique, d’autres doublent simplement un glyphe. Certaines inversent l’ordre des phrases, utilisent des glyphes qui encadrent toute la phrase pour en modifier le sens ou la structure. À chaque zone, il faut réapprendre à penser différemment.\n\nSi je devais lui trouver un défaut, ce serait justement la troisième zone, qui fait grimper la difficulté assez brutalement. J’ai trouvé ce passage nettement plus exigeant que le reste du jeu, avant que les chapitres suivants ne reviennent à une difficulté plus douce. C’est le seul moment où je me suis réellement senti bloqué. On peut aussi assez facilement bruteforce certains glyphes, si on est certains de tous les glyphes d'une page du carnet sauf 1, on peut juste tous les essayer jusqu'à la validation automatique, certes personne ne nous le force à le faire, mais c'est un point à noter.\n\nMais malgré ça, Chants of Sennaar reste un excellent puzzle game : ni trop court, ni trop long, un voyage fascinant à la découverte de civilisations, de langues et de cultures. C’est le genre de jeu qui rappelle à quel point le médium peut proposer des expériences uniques, basées presque uniquement sur la curiosité et l’intelligence du joueur. Une aventure aussi originale que mémorable."
   },
   {
     "slug": "the-witcher-3-wild-hunt",
@@ -243,9 +360,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaarl.jpg",
     "platform": "Windows PC",
     "rating": 4,
-    "status": "completed",
     "date_start": "2026-02-08",
-    "date": "2026-03-07"
+    "date": "2026-03-07",
+    "review": "Ça y est : 1 mois tout pile et 59 heures de jeu plus tard, je termine enfin The Witcher 3 pour la deuxième fois, presque 10 ans après ma première partie.\nAvec les rumeurs d’un nouveau DLC pour cet été, je voulais me replonger dans l’univers pour être prêt, et surtout enfin faire Blood and Wine, que j’avais commencé à l’époque sans jamais le terminer.\n\nCommençons par le jeu principal. J’en gardais d’excellents souvenirs, et le jeu est tellement marquant que je me souvenais de quasiment tout jusqu’à Skellige. Pourtant, j’ai eu beaucoup de mal à me replonger dedans au début. J’avais rarement envie de relancer le jeu quand je pensais à la quantité colossale de contenu qui m’attendait.\n\nPuis j’ai pris la meilleure décision possible : désactiver les points d’intérêt sur la carte.\nPlus aucun point d’interrogation quand j’ouvrais la map, et ça m’a fait un bien fou. J’ai fini par les oublier complètement, et de toute façon je n’avais aucune envie de tous les faire. Je suis tombé dessus quelques fois en traversant la carte, et je les complétais si ça m’intéressait, mais le simple fait de ne plus avoir cette avalanche d’icônes a calmé mon côté complétionniste.\n\nÀ partir de là, j’ai vraiment pu profiter du jeu comme je le voulais : les quêtes principales, les quêtes secondaires et les contrats de sorceleur (je n’ai fait aucune chasse au trésor).\n\nJ’ai aussi installé quelques mods de confort :\n- équipement qui scale avec le niveau pour jouer avec l’armure que je voulais (j’ai utilisé l’équipement de l’école du Loup oublié ajouté dans la mise à jour next-gen pendant environ 50 % du jeu)\n- équipement incassable\n- poids illimité\n\nRien de révolutionnaire, mais ces mods m’ont permis de me concentrer uniquement sur l’essentiel : l’histoire et l’univers, qui sont justement les plus grandes forces du jeu.\n\nL’histoire reste très réussie. On s’attache facilement aux personnages et aux lieux, l’écriture est solide et certains moments sont profondément émotionnels.\nLe jeu sait aussi être drôle. L’humour de Lambert en particulier fonctionne extrêmement bien et apporte souvent des respirations bienvenues.\nLa relation entre Geralt de Riv et Ciri est sans aucun doute l’une des meilleures relations père-fille du jeu vidéo, voire tous médias confondus. À plusieurs moments, je ressentais sincèrement cet amour paternel que Geralt éprouve pour elle.\nLa relation avec Yennefer est également très bien écrite : un mélange d’amour profond, d’inconfort, de tension et d’amitié étrange.\nJe trouve cependant dommage que le jeu laisse théoriquement le choix entre romancer Triss Merigold ou Yennefer, tout en poussant énormément vers Yennefer. Certes, c’est la relation “canon” dans les livres d’Andrzej Sapkowski, mais si le jeu propose un choix au joueur, j’aurais préféré qu’il soit pleinement assumé jusqu’au bout.\nEt puis il y a Novigrad, juste Novigrad, cette ville est incroyable. Elle est vivante, dense, bruyante, et visuellement absolument magnifique. On ressent vraiment l’impression d’une grande métropole médiévale : les marchés bondés, les ruelles étroites, les quartiers pauvres qui côtoient les maisons plus riches… C’est sans doute l’une des villes les plus réussies que j’ai pu voir dans un RPG. En plus de ça, elle abrite certaines des meilleures quêtes du jeu.\nImpossible aussi de ne pas parler du Gwynt, véritable jeu dans le jeu.\nSur le papier, c’est un jeu de cartes extrêmement simple, même comparé à d’autres jeux du genre. Et pourtant, il est incroyablement addictif.\nOn ne joue pas uniquement pour gagner de nouvelles cartes et compléter son deck comme un collectionneur compulsif. On y joue surtout parce que le système est remarquablement bien pensé, avec des parties rapides, stratégiques et toujours plaisantes. Très vite, on se retrouve à défier chaque marchand, aubergiste ou PNJ croisé sur la route, juste pour le plaisir de faire une partie de plus.\n\nLe jeu souffre cependant de gros défauts.\nLe premier concerne son rythme. L’histoire est divisée en trois actes :\n- la recherche de Ciri\n- l’arc d’Uma\n- la bataille finale contre la Chasse Sauvage\n\nLes deux derniers actes sont très bien rythmés. En revanche, la recherche de Ciri représente près de 80 % du jeu, et elle finit par paraître interminable.\n\nArrivé à Skellige, j’étais franchement fatigué. C’est la région que j’aime le moins : tout y est gris, froid, triste, et le fait que ce soit un archipel divise la carte en une multitude d’îles, ce qui rend l’exploration moins agréable.\n\nCe déséquilibre crée un autre problème :\nle jeu prend énormément de temps pour tout mettre en place dans le premier acte… puis accélère brutalement à partir de l’arc d’Uma. Les événements s’enchaînent très vite, parfois un peu trop, avec beaucoup de personnages importants qui réapparaissent ou arrivent presque simultanément.\n\nDeuxième gros défaut : le gameplay.\nLe jeu est clairement sauvé par son écriture, son histoire et son lore. Heureusement que ces aspects sont excellents, car le gameplay est franchement moyen.\nLa maniabilité de Geralt est parfois étrange, avec des animations lourdes et peu précises. Celle d’Ablette est carrément catastrophique.\nLe système de combat, lui, est extrêmement simpliste. Esquive, roulade, attaque et signe… et on répète.\nTrès vite, chaque combat devient mécanique, voire répétitif. Au point que je soupirais parfois quand un combat se lançait : c’était plus une corvée qu’un moment excitant.\n\nDernier point : la technique.\nJ’ai rarement rencontré autant de bugs visuels dans un jeu. Rien de vraiment bloquant, mais beaucoup de petits problèmes graphiques qui cassent l’immersion.\nLe jeu peut être magnifique par moments, certains paysages sont superbes (\"A travers le temps et l'espace\" en tête), mais il peut aussi être franchement daté. Certaines textures sont extrêmement floues, presque dignes de la PS2. Lors de certains gros plans, ça saute vraiment aux yeux.\nLe clipping est fréquent, et à Skellige certaines montagnes deviennent carrément transparentes selon l’angle de la caméra. C’est assez difficile à ignorer.\n\nLe doublage mérite aussi d’être mentionné.\nLes personnages principaux sont excellents : Geralt, Ciri, Triss, Yennefer… rien à redire. En revanche, certains PNJ sont catastrophiques, et même quelques personnages secondaires importants sont difficiles à écouter. Je pense notamment au Batard, la voix de Cartman ne va pas du tout au personnage.\n\nMalgré tout ça, The Witcher 3 reste une expérience marquante grâce à la qualité de son écriture, de ses personnages et de son univers.\nMais avec le recul, je trouve que le jeu mériterait un vrai remaster, voire un remake complet, avec un gameplay modernisé et une technique à la hauteur de son histoire.\nAujourd’hui 4 étoiles ça me paraît même un peu généreux, et ça tient presque uniquement à l’histoire et au lore.\n\nMaintenant, il me reste Hearts of Stone et Blood and Wine"
   },
   {
     "slug": "resident-evil-requiem",
@@ -253,9 +370,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobmj0.jpg",
     "platform": "Windows PC",
     "rating": 4.5,
-    "status": "completed",
     "date_start": "2026-02-27",
-    "date": "2026-03-02"
+    "date": "2026-03-02",
+    "review": "Très probablement mon Resident Evil préféré avec Code Veronica.\n\nUn parfait mélange de tous les opus avant lui, et une grosse lettre d'amour aux fans avec tous ses easter eggs.\n\nAprès tant d'effort Capcom ont enfin maitrisé leur recette de double gameplay, les phases entre Leon et Grace s'imbriquent parfaitement et je n'ai jamais trouvé qu'une phase avec l'un ou l'autre soit trop longue.\nGrace déjà est un bien meilleur personnage qu'Ethan, elle existe, elle a une personnalité, un visage aussi lol. Son gameplay en première personne, très axé sur l'horreur du 7, marche très bien au début, beaucoup moins à la fin où le jeu nous donne de quoi se défendre.\n\nEt pour Leon c'est génial, très ressemblant à RE4 du coup, c'est un défouloir, c'est kitch, mais qu'est-ce que c'est kiffant.\n\nRetourner à Raccoon City et se retrouver inondé de nostalgie de Resident Evil 2 est génial, la séquence à moto c'est du n'importe quoi mais qui fait sourire, pas grimacer.\n\nParlons un peu des antagonistes. Victor Gideon partait si bien, un design excellent, une personnalité imposante et dérangeante qui marche si bien, pour un final si décevant c'est tellement dommage, j'aurais aimé en voir plus.\nEt Zeno bon bah c'est un clone de Wesker, mais Wesker est tellement un bon antagoniste que vouloir en refaire un qui lui ressemble en tout points c'est con, tu peux pas faire mieux que Wesker, donc pourquoi essayer.\n\nJe regrette quand même le léger manque de prise de risque sur la forme, ça reste du Resident Evil très classique :\nUne grande zone labyrinthique au début (type Manoir), on avance petit à petit en trouvant des objets qui débloque tel chose et ainsi de suite, jusqu'à sortir de cette zone et ensuite c'est un grand jeu couloir (Manoir de RE1, Commissariat RE2, Manoir Baker RE7, Manoir Dimitrescu RE8, Centre de soin RE9) pour finir par le classique laboratoire.\n\nPetit point rapide sur le doublage anglais du jeu absolument parfait, Grace, Leon, Zeno (même doubleur que Wesker tiens tiens), Gideon, même Sherry, ils sont tous vraiment excellent.\n\nAu final, Requiem n’est peut-être pas le plus audacieux des Resident Evil, mais c’est sans doute l’un des plus généreux, comme le remake du 4. Il ne révolutionne pas la formule, il ne prend pas toujours les meilleurs risques, mais il maîtrise presque tout ce qu’il entreprend. Entre nostalgie bienvenue et assumée, gameplay maîtrisé et personnages marquants, c’est un épisode qui célèbre les 30 ans de la saga sans la trahir. Et pour un fan, difficile de demander beaucoup plus que ça."
   },
   {
     "slug": "voyage",
@@ -263,9 +380,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob0d7.jpg",
     "platform": "Windows PC",
     "rating": 4,
-    "status": "completed",
     "date_start": "2026-02-14",
-    "date": "2026-02-14"
+    "date": "2026-02-14",
+    "review": "J'ai eu plus peur sur un jeu indé polonais de 40 min que sur Outlast"
   },
   {
     "slug": "avatar-frontiers-of-pandora",
@@ -273,9 +390,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9oe3.jpg",
     "platform": "Windows PC",
     "rating": 3,
-    "status": "completed",
     "date_start": "2026-02-10",
-    "date": "2026-02-13"
+    "date": "2026-02-13",
+    "review": "Une sublime boîte vide\n\nAvatar: Frontiers of Pandora, c’est l’histoire d’un Sarentu kidnappé enfant, élevé par les humains de la RDA, conditionné, formaté… avant de redécouvrir ses origines et de se rebeller. On connaît la chanson. La RDA, Pandora, le conflit homme/nature, tout est là.\n\nEt on va commencer par l’évidence absolue.\n\nCe jeu est magnifique. Non. Ce jeu est absolument magnifique.\n\nPandora est une claque monumentale. Les environnements sont à couper le souffle. Les jungles sont denses, vivantes, colorées. La nuit, la bioluminescence transforme chaque balade en tableau vivant. Les plantes, les créatures, la verticalité, les montagnes flottantes… C’est un des plus beaux open worlds que j’ai vu. Vraiment.\n\nLe jeu brille. Il scintille. Il respire.\n\nAu prix d’un PC qui fait radiateur (heureusement que j’y joue en hiver), et de performances pas toujours stables : 60 FPS dans 80% des cas, des chutes à 50, et surtout quelques bons gros stutters bien secs pour te rappeler que la beauté a un coût.\n\nJ’avais un peu peur du scénario, et honnêtement j’ai été agréablement surpris. Ça fonctionne. Le retour aux racines, la reconquête de notre identité Sarentu.\nMais… On reste quand même très accroché à l’ambiance des films. Il y a des rappels à Jake, Neytiri, à ce qu’on connaît déjà. Les événements des films sont intégrés à la chronologie du jeu. Ça rend l’ensemble cohérent, oui. Mais j’aurais adoré autre chose.\n\nJ’aurais voulu une histoire sans RDA. Une vraie immersion.\nUne expérience de vie Na’vi pure. Découvrir Pandora pour Pandora. Vivre avec un clan. Explorer, chasser, apprendre, sans pollution humaine en arrière-plan.\nJe comprends que la RDA est au cœur du message d’Avatar. Mais à force, ça devient un cadre obligé.\n\nOn rencontre plusieurs clans, plusieurs biomes, et ça, c’est vraiment agréable. Découvrir leurs cultures, leurs environnements, c’est un vrai plaisir.\nMais on sent aussi qu’ils sont surtout là pour varier les décors.\nLe premier clan, chez les Kinglor, sert presque de tutoriel géant. Et une fois parti… on ne les reverra quasiment plus. Ça donne un peu l’impression que tout est là pour la structure du jeu, pas forcément pour enrichir l’histoire.\n\nLe gameplay est agréable… mais sans profondeur\nSe déplacer est un vrai plaisir.\nLa mobilité Na’vi est fluide. Il faut s’habituer au fait de charger certains sauts, mais on prend vite le coup. Le personnage grimpe quasiment tout seul, ce qui rend l’escalade super fluide.\n\nL’Ikran ? Génial.\nMême si j’ai ressenti un petit manque de vitesse.\n\nLe combat, lui, fait le taf. Sans plus.\nArc léger, arc lourd, fusil d’assaut, pompe, lance-lance (inutile), lanceur de mines.\nL’arc lourd est clairement l’arme reine : seule arme vraiment efficace à distance contre les AMP. Le pompe marche bien à courte portée… mais vous ne voulez pas être au corps-à-corps. Clairement pas.\n\nLa puissance du personnage vient surtout de l’équipement.\nEt donc… du contenu secondaire.\nSauf que le secondaire est tellement ennuyant que si vous voulez jouer “en ligne droite”, vous serez constamment légèrement sous-équipé. Le jeu vous donne bien du matos via la quête principale, mais ça reste limite.\n\nEt là on arrive au vrai problème. La formule Ubisoft.\nLe jeu devient vite redondant.\n\nVa parler à X.\nVa chercher Y.\nDétruis une installation RDA.\nRépète.\n\nLes points d’intérêt s’enchaînent : pousses de Tarsyu, tigecloches, installations, bases, récoltes…\nC’est sympa au début. Puis ça devient mécanique.\nAu bout de quelques heures, on finit par ignorer la carte et se concentrer sur la quête principale, qui est longue, en plus.\n\nQuand le jeu brille vraiment, c’est quand il décide volontairement de te mettre une claque visuelle ou un moment spectaculaire.\nChevaucher son premier Equidius, l’ascension des montagnes flottantes pour aller chercher son Ikran sont des moments fantastique. Vraiment.\nMais entre ces moments ?\nC’est creux.\n\nCe n’est pas un mauvais jeu. C’est même un plutôt bon jeu.\nMais ça n’a pas cliqué avec moi.\nL’univers d’Avatar mérite autre chose qu’une formule Ubisoft vue, revue et recyclée. Pandora est peut-être l’un des plus beaux mondes jamais créés en jeu vidéo.\nEt pourtant… On s’y ennuie.\nAu final, Avatar: Frontiers of Pandora reste une démonstration graphique impressionnante.\nUne Pandora magnifique.\nUn monde sublime.\nDans lequel, malheureusement, on se fait un peu chier."
   },
   {
     "slug": "atomic-heart",
@@ -283,9 +400,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co68ag.jpg",
     "platform": "Windows PC",
     "rating": 4,
-    "status": "completed",
     "date_start": "2026-02-03",
-    "date": "2026-02-07"
+    "date": "2026-02-07",
+    "review": "Un mix entre BioShock et Fallout plutôt réussi\n\nAtomic Heart se déroule dans une réalité alternative où l’URSS a pris une avance technologique délirante. Robots omniprésents, science hors de contrôle et ambiance rétrofuturiste servent de décor à une aventure qui assume clairement ses inspirations, sans pour autant se contenter de les copier.\n\nDifficile de ne pas commencer par là : la DA est absolument somptueuse. L’architecture rétrofuturiste est une vraie claque visuelle, avec des environnements autant ultra colorés que volontairement froids et gris. Le jeu propose des décors variés et des panoramas marquants, et chaque zone a une identité bien à elle. Le VDNH, par exemple, reste sans doute mon niveau préféré visuellement, mais chaque chapitre trouve une ambiance qui lui correspond parfaitement. C’est clairement l’un des plus gros points forts du jeu.\n\nCôté gameplay, c'est une belle réussite. On est clairement plus proche de BioShock que de Fallout, avec un mélange d’armes et de pouvoirs qui fonctionne très bien et qui rend les combats fun et dynamiques.\n\nCela dit, j’ai un vrai regret : le sentiment de progression. J’ai joué avec les mêmes compétences du début à la fin, pareil pour les armes, sans jamais ressentir le besoin ni même l’envie de changer. Tout marchait déjà très bien comme ça. Certains y verront un bon point, mais personnellement je trouve ça dommage. Ça donne moins envie de relancer le jeu pour tester un nouveau build, surtout quand le jeu pousse justement à l’expérimentation avec son système de recyclage qui permet de récupérer toutes les ressources investies. Un peu plus de customisation ou d’incitation au changement n’aurait pas fait de mal.\n\nLe jeu propose un monde semi-ouvert, mais c’est sans doute l’un de ses aspects les moins convaincants. Je n’ai pas vraiment pris le temps de l’explorer, et pour être honnête, le jeu ne pousse pas tant que ça à le faire. Il y a très peu de quêtes secondaires à proprement parler : l’essentiel du contenu optionnel repose sur les Testing Grounds, sortes de donjons fermés.\n\nCes donjons servent uniquement à récupérer des plans d’amélioration d’armes, ce qui rejoint directement le problème du build : comme je n’ai jamais ressenti le besoin de changer de style de jeu, la récompense perd rapidement de son intérêt. En plus de ça, les énigmes à l’intérieur de ces zones se répètent beaucoup, ce qui finit par donner une impression de contenu artificiellement étiré.\n\nGlobalement, l’open world est assez vide et manque de surprises. Il fait le job de transition entre les niveaux, mais ne crée jamais un réel sentiment de découverte ou d’envie d’exploration.\n\nLes ennemis sont aussi un point un peu décevant. Ils se répètent beaucoup et, en dehors de leur design, ne proposent pas des comportements très différents : ils foncent sur toi, ont plus ou moins de points de vie, et voilà. Les boss, de leur côté, ne sont pas particulièrement mémorables, ce qui est dommage vu l’univers du jeu.\n\nLe gros point noir reste malheureusement la technique. Certaines animations donnent clairement l’impression de ne pas être finies (l’animation d’élimination discrète des robots bûcherons qui se coupe net, par exemple). Les cinématiques sont très inégales : celles avec les jumelles sont superbes, tandis que les autres sont plutôt passables. Et en VF, le lipsync est franchement catastrophique.\n\nToujours côté VF, le doublage est lui aussi très inégal. P-3 et Charles sont excellents, mais pour les autres personnages, sans faire un mauvais travail, les voix collent rarement aux personnages. Et comme le jeu est extrêmement bavard, ça finit par vraiment nuire à l’expérience.\n\nCar oui, le jeu parle beaucoup. Malgré une histoire plutôt intéressante, surtout sur la fin, j’ai trouvé le récit difficile à suivre. Les nombreux noms russes qui se ressemblent n’aident pas, et on peut vite perdre le fil de qui est qui, et qui est censé être du bon ou du mauvais côté.\n\nJe me rends compte que j’ai listé pas mal de points négatifs, mais malgré tout, Atomic Heart reste un jeu vraiment très sympa. Le gameplay est fun et agréable, les puzzles sont bien dosés et jamais envahissants, et surtout… l’ambiance et la direction artistique me parlent énormément. C’est un jeu imparfait, parfois frustrant, mais avec une vraie identité et une proposition artistique forte."
   },
   {
     "slug": "tomb-raider-underworld",
@@ -293,9 +410,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1voc.jpg",
     "platform": "Windows PC",
     "rating": 1.5,
-    "status": "completed",
     "date_start": "2026-01-28",
-    "date": "2026-01-30"
+    "date": "2026-01-30",
+    "review": "A vouloir trop en faire le jeu se brule les ailes.\n\nAvec un Tomb Raider sur des nouvelles consoles on pouvait s'attendre à un grand jeu, et finalement c'est une purge. Graphiquement ce n'est pas si différent de Legend et Anniversary, par contre ça a ramené une montagne de problèmes.\n\nLa caméra déjà, ça a jamais été le point fort de Legend et Anniversary mais la c'est une catastrophe, probablement l'une des pire caméra que j'ai connu. Elle ne montrera jamais les plateformes potentielles où Lara peut sauter, donc il faudra souvent sauter à l'aveugle. Par contre pour cadrer un mur ou le cul de Lara là elle marche très bien.\n\nEnsuite les plateformes, pas mal de mouvement on été rajoutés (dont un sprint qui fait bien plaisir mais rien à voir avec les plateformes). Lara peut donc sauter de mur en mur à la Mario si ils sont assez proches, monter sur les barres, utiliser le grappin et certaines prises pour descendre en rappel, ou même pousser des objets. Également, Lara passera automatiquement d'une prise à une autre si elle est assez proche, et avec la mémoire musculaire on appuie sur saut, ce qui la fera sauter dans le vide. Ça part d'une bonne intention de QoL, mais si on a fait les deux jeux précédents c'est plus handicapant qu'autre chose, surtout vu la courte durée du jeu on a pas le temps de réapprendre. En bref, des sauts qui ne fonctionnent pas pour la majorité.\n\nLes combats ne sont pas si différents des précédents jeux, on a maintenant une attaque au corps à corps (qu'on utilisera jamais), la barre de vie des ennemis est affichée, mais par contre on n'a le droit qu'à une seule arme supplémentaire, qu'on choisit au début de chaque mission, et qui a des munitions limité et je n'ai jamais compris comment regagner des munitions.\nPas de combat de boss non plus, c'est vraiment dommage.\n\nLes environnements sont par contre très sympa, une longue quête à la recherche d'équipement nous fera parcourir la Thailande, le Mexique, des niveaux aquatiques. Il y a une plutot belle diversité.\n\nLe fond du jeu n'est pas mauvais, mais la maniabilité des sauts couplé aux nombreux bugs c'est juste plus frustrants qu'amusant. Je suis probablement sévère sur la note mais je n'ai vraiment pas passé un bon moment sur le jeu."
   },
   {
     "slug": "tomb-raider-anniversary",
@@ -303,9 +420,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaesz.jpg",
     "platform": "Windows PC",
     "rating": 2.5,
-    "status": "completed",
     "date_start": "2026-01-25",
-    "date": "2026-01-27"
+    "date": "2026-01-27",
+    "review": "Prenez tout ce qui n'allait pas avec Legend et faites en un jeu !\n\nRemake du tout premier Tomb Raider (que j'avais abandonné), j’étais impatient de me lancer dans Anniversary après la très bonne surprise qu’avait été Legend. Malheureusement, si le début fonctionne plutôt bien, le jeu se casse rapidement la gueule dès son deuxième chapitre.\n\nAlors qu'est ce qui ne va pas ?\n\nPremièrement, là où Legend assumait une approche action/aventure, Anniversary est clairement orienté puzzle et plateforme. Les phases de plateforming sont souvent très punitives : une chute, et c’est la mort. Jusque-là c'est logique vu ce que Lara escalade. Mais entre la caméra qui n’en fait qu’à sa tête et décide ou non de montrer où aller, des distinctions décor/plateformes parfois totalement illisibles, et des contrôles qui font n’importe quoi par moments, on se retrouve très souvent à rater des sauts sans vraiment comprendre pourquoi. Ajoutons à cela des pièges omniprésents, hérités du jeu original, et l’expérience devient vite frustrante.\n\nLes combats maintenant. La où dans Legend ils étaient plutôt bienvenus, dans Anniversary ils sont nombreux et franchement désagréables. Les ennemis sont des éponges à balles, foncent sur toi à la vitesse de la lumière, tapent comme des brutes et pour combler le tout si Lara se fait toucher elle tombe et met une éternité à se relever, sans aucune invincibilité pendant ce temps bien sûr. Certaines situations deviennent donc un véritable supplice, où l’on se fait enchaîner au sol sans pouvoir faire grand-chose si les ennemis décident de spammer leurs attaques. Mention spéciale à la caméra, encore elle, qui s’enfonce dans les murs, et au système de visée qui reste parfois bloqué sur une cible et refuse catégoriquement d’en changer.\n\nPar contre il faut citer les points positifs aussi, les boss sont très cool, utilisant pleinement le système d'esquive parfaite.\n\nPour ce qui est des niveaux et \"mondes\" en eux mêmes, ils sont très réussis visuellement, Pérou, Grèce, Egypte, jusqu'à l'Atlantide. Quand je pense à cette île mythique je m'attends à un temple aquatique ou une ville engloutie, pas un donjon rempli de lave, et encore j'ai cru comprendre que c'était pire dans l'original.\n\nUne vraie déception après Legend, c'est très dommage."
   },
   {
     "slug": "tomb-raider-legend",
@@ -313,9 +430,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1nnv.jpg",
     "platform": "Windows PC",
     "rating": 3.5,
-    "status": "completed",
     "date_start": "2026-01-24",
-    "date": "2026-01-24"
+    "date": "2026-01-24",
+    "review": "Eh bah voilà ça c'est un Tomb Raider sympa !\n\nLe jeu m'a donné un étrange sentiment de nostalgie alors que je n'y avais jamais joué, mais il est tellement dans son jus de l'époque que j'imagine que ça vient de là.\n\nL'histoire n'est pas incroyable, c'est pas mauvais non plus mais c'est très moyen. Par contre le gameplay marche très bien, Lara répond bien, les phases de plateforming sont rarement frustrante (certaines le sont quand même) et les gunfights, bien qu'extrêmement simple, y'a même pas besoin de vraiment viser, s'intègre bien et ne casse jamais le rythme.\n\nJ'ai été étonné même de voir des boss qui sont plutôt intéressant, sauf le boss final malheureusement qui est absolument ridicule.\n\nLes puzzles quand à eux sont parfois un peu compliqué du grandement au manque de clarté dans les environnement, mais merci on a le temps de réfléchir, j'avais oublié à quel point c'était agréable de chercher par nous même sans qu'un pnj nous crie la solution dessus.\n\nSi on retire les QTE (c'est dans son jus de l'époque je l'ai dit) c'est un jeu très très sympa !"
   },
   {
     "slug": "tomb-raider",
@@ -323,9 +440,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3hfx.jpg",
     "platform": "Windows PC",
     "rating": 1,
-    "status": "completed",
     "date_start": "2026-01-23",
-    "date": "2026-01-23"
+    "date": "2026-01-23",
+    "review": "Je souhaitait enfin découvrir cette saga légendaire et quelle douche froide.\n\nJe vais commencer par le seul point positif que je lui trouve, c'est étonnement beau pour son âge, voila.\n\nMaintenant pour les points négatifs : c'est probablement le gameplay le plus lent que j'ai jamais expérimenté, Lara court lentement, elle tourne lentement, elle grimpe EXTRÊMEMENT lentement, pousser des objets prends des plombes, 50% de mon temps de jeu doit être à juste regarder les très nombreuses animations se jouer.\nLes gunfights sont ridicules, plus on avances plus les ennemis sont des tanks qui prennent un montant absurde de balles pour tomber, et te rush la gueule au point de vouloir fusionner avec Lara j'en sais rien, mais ça rend les combats vraiment stupides.\n\nMais surtout, c'est un jeu de plateformes avec le pire système de saut jamais créé, il y a un délai gigantesque entre le moment où on appui, et le moment ou Lara saute, donc si on veut sauter, il faut aller au bout de la plateforme en marchant pour ne pas tomber, puis faire un dash arrière, puis enfin courir puis sauter.\n\nBref après 6 niveaux j'abandonne ça ne m'intéresse absolument pas, je vais passer directement à la trilogie de Crystal Dynamics (Legend, Anniversary et Underworld)"
   },
   {
     "slug": "look-outside",
@@ -333,9 +450,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9k8n.jpg",
     "platform": "Windows PC",
     "rating": 5,
-    "status": "completed",
     "date_start": "2026-01-18",
-    "date": "2026-01-22"
+    "date": "2026-01-22",
+    "review": "Après une quinzaine d’heures de jeu, j’ai malheureusement déjà terminé ma première run, et j'avais terriblement envie de continuer. J’ai clairement l’impression de n’avoir vu qu’un tiers de ce que le jeu a réellement à offrir, et pourtant je suis déjà totalement conquis.\n\nLook Outside est un jeu extraordinaire, surtout parce que chaque partie est réellement unique. Entre les rencontres aléatoires avec les personnages qui viennent frapper à votre porte : certains pouvant devenir des compagnons et donc former une équipe différente à chaque run; et les choix qui ont un véritable impact sur le déroulement des événements, tout donne envie de recommencer encore et encore.\n\nDéjà graphiquement c'est du très beau pixel art, ça arrive à être gore et particulièrement glauque dans son propre style très cartoon. Le nombre de designs est tout simplement ahurissant, aussi bien pour les ennemis que pour les alliés. Il n’y a quasiment jamais de sensation de redondance : dans 95 % des cas, chaque rencontre introduit un nouvel ennemi, et vu le style graphique, on a toujours envie de découvrir à quoi il ressemble.\n\nL’ambiance sonore est tout aussi réussie. Les musiques synthé à la vibe rétro fonctionnent à merveille, les sons stridents lors de l’apparition de certains ennemis mettent immédiatement mal à l’aise, et parfois… l’absence totale de son crée un vrai malaise. Intentionnel ou non (bug ou choix artistique, impossible à dire), l’effet fonctionne parfaitement.\n\nLe système de combat est un gros mélange de mécaniques très bien pensées. Les armes sont divisées en plusieurs types (crush, slash, pierce), qu’il faut adapter selon les résistances ou faiblesses des ennemis. S’ajoutent à cela des armes à feu et surtout des compétences très variées, propres à chaque personnage. Sans spoiler, les coups spéciaux sont toujours en accord avec l’identité de celui qui les utilise, ce qui renforce énormément l’immersion.\nIl y'a aussi une bonne dizaine de problèmes de status, l'aveuglement, la paralysie, le saignement pour n'en citer que quelques uns.\nMon seul léger regret concerne le système de durabilité des armes, qui oblige à en changer régulièrement. Cela dit, certaines compétences étant très puissantes mais risquées (gros dégâts avec un risque d’endommager l’arme), on comprend vite que ce choix sert aussi à équilibrer le jeu.\n\nLe lore est également une grande réussite. La menace du Visiteur, inconnue et omniprésente, plane constamment au-dessus du joueur. Le jeu se permet aussi beaucoup d’humour sans jamais casser l’ambiance, au contraire : c’est souvent très bien amené et réellement drôle.\n\nUn autre point que j’ai adoré, c’est la manière dont le jeu se renouvelle jour après jour. Certaines zones évoluent, d’autres s’ouvrent, de nouveaux chemins apparaissent grâce à des éléments débloqués précédemment… La progression est extrêmement naturelle. Je ne me suis jamais senti perdu : il y a toujours quelque chose à faire ou un endroit à explorer. Et même après cette première run, je suis convaincu d’avoir manqué des zones, des quêtes, voire seulement une partie de certaines, selon les choix effectués.\n\nUn véritable chef-d’œuvre indé, incroyablement profond, qui mérite d’être découvert."
   },
   {
     "slug": "sorry-were-closed",
@@ -343,9 +460,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co79i1.jpg",
     "platform": "Windows PC",
     "rating": 3.5,
-    "status": "completed",
     "date_start": "2026-01-15",
-    "date": "2026-01-17"
+    "date": "2026-01-17",
+    "review": "Une DA et ambiance unique qui ne plaira pas à tout le monde.\n\nSorry We're Closed est un petit jeu très sympa dans lequel on incarne Michelle (paye ton nom de protagoniste) qui est choisie par un démon pour être son amante, ou quelque chose comme ça ^^, mais forcément l'amour dans un sens ça marche rarement, donc on va devoir briser la malédiction qu'elle nous a infligée.\n\nLe gameplay est séparé en 2 phases à la manière d'un Persona, une phase en ville où on pourra parler à différentes personnes, faire des quêtes secondaires qui serviront aux différentes fins du jeu, en apprendre un peu plus sur les personnages. L'autre phase est elle un Silent Hill like, exploration de petits donjons, énigmes et ennemis.\n\nBien que la phase en ville n'est pas exceptionnelle, elle a le mérite de remplir parfaitement son rôle, mais la phase de donjons est elle plutôt réussie, et c'est justement le premier donjon qui a été utilisé pour la démo du jeu et qui m'a vraiment donné envie de me le faire.\nLe jeu utilise des caméra fixes mais qui suivent le joueur de manière à l'avoir toujours au centre de l'écran, et certains points où est placée la caméra sont vraiment bien pensés. Le combat lui repose principalement sur le fait de frapper les points faibles des ennemis, points faibles qui sont uniquement visible au corps a corps lorsqu'on utilise le \"Troisième Oeil\", mécanique centrale du jeu, qui sert aussi aux énigmes, et enchainer les points faibles remplis une jauge qui permet de d'utiliser une attaque spécial qui one shot les ennemis. L'arsenal d'armes est très restreint et pas très varié malheureusement. Et les combats de boss sont plus des gros ennemis qu'on tape, remplis la jauge spéciale, et utilise l'attaque spé sur un point faible, puis répète jusqu'à ce qu'il meurt, pas dure mais pas très intéressant.\n\nLa musique est très bonne et colle bien à la DA... sauf les musiques de boss, qui sont des morceaux de rap ???? Non seulement ils sont horribles mais en plus ne colle pas du tout avec l'ambiance, à aucun moment.\n\nEt pour finir la fameuse DA, un jeu en low poly, avec des beaux plans, des moment ou la caméra bouge dans des scènes freezés, les designs des personnages sont réussis pour la plupart, un peu en manque d'inspiration pour d'autres (coucou Darrel), les anges et les démons, les portraits et artworks sont magnifiques.\nMais ce qui risque de diviser, c’est le côté très LGBT du jeu. Il y a énormément de couples homosexuels, beaucoup de personnages androgynes, certains non binaires, avec donc l’usage répété de pronoms neutres. En soi ça ne me dérange absolument pas, et ce n’est pas un reproche sur la représentation en elle-même. Le problème, c’est plutôt que le jeu semble parfois construire toute son identité autour de ça, au point que ça devient très omniprésent. À titre personnel, j’ai trouvé que ça faisait un peu trop, même si c’est clairement assumé et cohérent avec l’univers que le jeu cherche à proposer."
   },
   {
     "slug": "half-life-2-episode-two",
@@ -353,9 +470,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2mw2.jpg",
     "platform": "Windows PC",
     "rating": 3.5,
-    "status": "completed",
     "date_start": "2026-01-13",
-    "date": "2026-01-14"
+    "date": "2026-01-14",
+    "review": "20h d'Half-Life pour atteindre le fameux cliffhanger et... c'est tout ?\n\nJe vais pas répété ce que j'ai déjà dit sur les précédentes reviews. J'ai du mal à accrocher à la licence, l'espère et les personnages sont très sympas mais le gameplay j'y arrive pas, c'est basique et on se fait vite fait chier.\n\nEncore une séquence en véhicule, assez courte encore heureux. Mais alors la séquence de fin avec les striders, bien que pas difficile bordel ce que c'est horrible, les chasseurs sont des mobs horribles à affronter."
   },
   {
     "slug": "half-life-2-episode-one",
@@ -363,9 +480,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9c5r.jpg",
     "platform": "Windows PC",
     "rating": 3,
-    "status": "completed",
     "date_start": "2026-01-11",
-    "date": "2026-01-11"
+    "date": "2026-01-11",
+    "review": "Petite extension sympa.\n\nOn reprend directement à la fin d’Half-Life 2, et le début est excellent : ambiance très oppressante, presque horrifique. Il fait souvent noir, on n’a que le Gravity Gun pour se défendre, et le jeu l’exploite à fond, aussi bien pour les puzzles que pour les combats, entre les tonneaux explosifs et les objets de l’environnement.\n\nMais bon il fallait donner des rockets et des fusils d'assauts pour les autres, donc la seconde moitié s'écroule... c'est juste du gunfight puis du gunfight, puis du gunfight. Barney nous rend notre pied de biche, plus pour la ref qu'autre chose puisqu'à ce niveau là il n'a absolument aucune utilité.\n\nEt la dernière mission est une escort mission interminable, et mal foutue, suivi d'un \"boss\" fight exécrable.\n\nÇa partait super bien c'est dommage"
   },
   {
     "slug": "half-life-2",
@@ -373,9 +490,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1nmw.jpg",
     "platform": "Windows PC",
     "rating": 3,
-    "status": "completed",
     "date_start": "2026-01-03",
-    "date": "2026-01-10"
+    "date": "2026-01-10",
+    "review": "Je n'arrive pas du tout à accrocher à cette licence, je veux les faire (et je les ferais) parce qu'ils font partis des plus grands classiques et incontournable, mais alors vraiment je ne comprends pas l'engouement autour de HL.\n\nCertes le jeu est très beau pour un jeu de 2004, vraiment, mais les environnements sont inintéressant pour la pluparts. Ravenholm sort un peu du lot avec son ambiance horrifique, glauque et très gore (je ne m'y attendais pas du tout) et la Citadelle et visuellement très sympa aussi avec son côte sci-fi brutaliste. Autrement c'est égouts et parkings.\n\nPour le gameplay c'est du shoot tout ce qu'il y a de plus basique (trop basique même), ouais le Gravity Gun permet de lancer des objets sur des ennemis, est-ce vraiment utile ? Pas vraiment, la portée de l'arme est ridicule, autant prendre une smg ou un fusil d'assaut, ça fera largement plus le taf.\n\nCertains passages sont affreusement longs aussi, l'hydroglisseur et l'espèce de buggy la, mon dieu ce que c'était infâme, long et inintéressant au possible, pendant ce passage on nous donne aussi un appât pour utiliser les fourmis-lion à notre avantage, c'est génial ! Bah on s'en sert uniquement dans cette mission, certes voir des fourmis-lion dans d'autres missions n'aurait pas de sens vu les environnements mais c'est con, on s'est tapé pleins de niveau avec des fourmis-lion avant, et c'est que dans le dernier qu'on nous le donne ?\n\nPlus tard, on obtient même une escouade que l’on peut commander. Leur utilité ? Me bloquer le passage. Ils sont plus gênants qu’autre chose, et j’ai très vite préféré les laisser dans leur coin et jouer solo plutôt que de subir leurs body blocks constants.\n\nLe scénario est aguichant et donne envie d'en savoir plus avec les Episodes One et Two.\n\nCertainement révolutionnaires avec le moteur source et sa physique, mais ne tiens pas la route sur pleins d'autres aspects."
   },
   {
     "slug": "ena-dream-bbq",
@@ -383,9 +500,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co62ei.jpg",
     "platform": "Windows PC",
     "rating": 4.5,
-    "status": "completed",
     "date_start": "2026-01-03",
-    "date": "2026-01-03"
+    "date": "2026-01-03",
+    "review": "Un premier chapitre très sympa qui donne vraiment envie d'avoir la suite, une DA phénoménale, un très doublage qui a le luxe de mixer pleins de langues, une bonne dose d'absurde et d'humour et un gameplay très simple, c'est tout ce qu'on lui demande"
   },
   {
     "slug": "felvidek",
@@ -393,9 +510,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8aiu.jpg",
     "platform": "Windows PC",
     "rating": 4.5,
-    "status": "completed",
     "date_start": "2026-01-01",
-    "date": "2026-01-02"
+    "date": "2026-01-02",
+    "review": "Une expérience unique.\n\nUn court RPG de 4-5 heures, avant tout scénaristique. Les personnages n’ont pas de niveaux, la progression se fait uniquement via l’équipement, qui augmente légèrement les HP, les stats et débloque quelques compétences. Les combats servent donc surtout l’histoire.\n\nEt justement, l’histoire est très intéressante, mélangeant culture, histoire et science-fiction, avec une bonne dose d’humour et d’absurde.\n\nLa direction artistique est un vrai régal. C’est grotesque, peu coloré mais suffisamment pour donner une identité forte au jeu. Les visages des personnages sont tirés de vraies personnes, ce qui donne une vibe de vieux FMV très cheap et c’est un pur bonheur à regarder.\n\nLe seul vrai bémol reste l’absence d’une version française, couplée à l’utilisation d’un vieil anglais parfois difficile à suivre, même avec un très bon niveau.\n\nUne courte aventure absurde mais unique, que tout le monde devrait vivre."
   },
   {
     "slug": "viewfinder",
@@ -403,9 +520,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaev1.jpg",
     "platform": "Windows PC",
     "rating": 4,
-    "status": "completed",
     "date_start": "2025-12-30",
-    "date": "2025-12-30"
+    "date": "2025-12-30",
+    "review": "Un excellent puzzle game, clairement dans le très haut du panier du genre (aux côtés de Portal ou The Witness), mais qui se saborde un peu tout seul en voulant absolument raconter une histoire pas très intéressante.\n\nL’idée de base — être un sujet de test, un contexte minimal pour justifier les puzzles — ça marche très bien, Portal l’a prouvé depuis longtemps. Mais Viewfinder va trop loin avec un lore cliché dont on se fout un peu, surtout dans un puzzle game où on vient avant tout pour réfléchir. Entre les notes audio via les gramophones et CAIT qui parle non-stop sans jamais dire grand-chose d’utile, la narration devient plus envahissante que captivante.\n\nHeureusement, côté gameplay, c’est très réussi. Chaque chapitre introduit sa propre mécanique et renouvelle constamment les idées : l’appareil photo qui permet de prendre ses propres photos du coup et offre une immense liberté pour résoudre les enigmes, les portails entre différentes dimensions et styles graphiques, certains éléments impossible à photographier ou remplacer, ou encore le fait de prendre des photos de soi-même pour se téléporter. Le jeu est constamment en train de te surprendre, sans jamais te prendre par la main. Également le jeu n'est jamais très dur, mais les défis secondaire peuvent parfois offrir un bon challenge.\n\nLa direction artistique est aussi très réussie, avec des environnements simples mais élégants, et des variations visuelles qui sont bienvenues."
   },
   {
     "slug": "naissancee",
@@ -413,9 +530,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7cq0.jpg",
     "platform": "Windows PC",
     "rating": 1.5,
-    "status": "completed",
     "date_start": "2025-12-29",
-    "date": "2025-12-29"
+    "date": "2025-12-29",
+    "review": "Une horreur absolu, un gameplay infame à peu près sauvé par son incroyable univers.\n\nNaissanceE est un plateformer dans une immense structure brutaliste, avec un coté science fiction. Parfois on ne saura pas où aller, mais on sera surpris de voir qu'on va très souvent dans la bonne direction, il y aura quelques pièges dont le seul intérêt est de vous faire perdre du temps.\n\nLe gros reproche c'est que c'est très souvent frustrant, les checkpoints assez éloignés, et surtout une mécanique de respiration qui nous force à cliquer toutes les 2 secondes quand on sprint, ça n'a aucun intérêt si ce n'est être juste chiant.\n\nC'est gratuit, à tester juste pour l'univers"
   },
   {
     "slug": "portal",
@@ -423,9 +540,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coay61.jpg",
     "platform": "Windows PC",
     "rating": 4,
-    "status": "completed",
     "date_start": "2025-12-29",
-    "date": "2025-12-29"
+    "date": "2025-12-29",
+    "review": "Je me suis rendu compte que je n'avais jamais fini le premier Portal, alors autant le faire.\n\nMalgré les premières salles inintéressantes mais qui font office de tuto, le jeu devient rapidement un très bon puzzle game, dès l'acquisition du portail orange le jeu se lâche et propose vraiment certaines excellente salle qui mélange plein de mécaniques différentes et c'est vraiment très plaisant.\nJe suis par contre un peu moins fan de tout le dernier chapitre dans les \"entrailles\" d'Aperture Science\n\nMerci à GLaDOS d'exister, cet humour noir, les tacles à répétition, j'aime beaucoup, et son affrontement à la fin, bien que simple, est très sympa.\n\nÉgalement le meilleur générique de fin tout jeu confondu"
   },
   {
     "slug": "metal-garden",
@@ -433,9 +550,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9h5w.jpg",
     "platform": "Windows PC",
     "rating": 3,
-    "status": "completed",
     "date_start": "2025-12-29",
-    "date": "2025-12-29"
+    "date": "2025-12-29",
+    "review": "Metal Garden est un FPS minimaliste et court qui mise avant tout sur son ambiance et son architecture.\n\nLe gameplay est simple : on explore, on fait du platforming, et on se bagarre. Mais ça fonctionne, les déplacements sont agréable, le système de shoot avec un long travel time des balles offre une belle opportunité de prédir (légèrement) les mouvement des ennemis, et à l'inverse de les \"bait\" à tirer dans une certaine direction.\n\nLe jeu laisse toute la place à un univers brutaliste, immense, silencieux, mais vide, un impression d’être minuscule dans un monde qui nous dépasse.\n\nLa narration est entièrement environnementale et volontairement cryptique. Le jeu ne cherche jamais à expliquer ce qu’il raconte, c'est une bonne chose pour certains, moi je trouve ça chiant. On ne comprend pas vraiment “l’histoire”, mais on ressent très bien l’idée d’un monde artificiel qui continue d’exister sans but, presque indifférent à notre présence."
   },
   {
     "slug": "half-life-blue-shift",
@@ -443,9 +560,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co802z.jpg",
     "platform": "Windows PC",
     "rating": 3.5,
-    "status": "completed",
     "date_start": "2025-12-28",
-    "date": "2025-12-28"
+    "date": "2025-12-28",
+    "review": "Deuxième DLC d'Half-Life, court, simple mais efficace.\n\nUne expérience plus humaine et mieux rythmée. On incarne un simple agent de sécurité et ça fonctionne étonnamment bien : la catastrophe de Black Mesa et son impact paraît plus crédible, plus proche.\n\nLe jeu est court, mais justement bien dosé. La difficulté est enfin équilibrée, sans pics frustrants, et chaque chapitre a un objectif clair.\n\nRien d’inoubliable sur le plan du gameplay pur, mais une narration discrète et une progression fluide qui rendent l’ensemble très agréable."
   },
   {
     "slug": "half-life-opposing-force",
@@ -453,9 +570,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co802y.jpg",
     "platform": "Windows PC",
     "rating": 2.5,
-    "status": "completed",
     "date_start": "2025-12-28",
-    "date": "2025-12-28"
+    "date": "2025-12-28",
+    "review": "Premier DLC d'Half-Life, Opposing Force est sympa sans plus.\n\nSur le papier, jouer l'ennemi qu'on affrontait dans le jeu original est une excellente idée. Mais le jeu empile les armes, les ennemis et les phases pas marrantes et difficiles\n\nLa difficulté devient franchement déséquilibrée sur la fin, avec des combats longs, beaucoup d'ennemis très tanky et peu de soins."
   },
   {
     "slug": "shipwrecked-64",
@@ -463,9 +580,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7oa2.jpg",
     "platform": "Windows PC",
     "rating": 4,
-    "status": "completed",
     "date_start": "2025-12-26",
-    "date": "2025-12-26"
+    "date": "2025-12-26",
+    "review": "J'ai clairement pas l'envie ni la patience de tout trouver par moi même mais pour l'idée de l'ARG est très cool et surtout extrêmement bien réalisé, c'est glauque et horrifique comme il faut. Dommage que j'sois à chier pour les puzzles et que je doive suivre un guide pour savoir quoi faire"
   },
   {
     "slug": "what-remains-of-edith-finch",
@@ -473,9 +590,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1rbj.jpg",
     "platform": "Windows PC",
     "rating": 5,
-    "status": "completed",
     "date_start": "2025-12-21",
-    "date": "2025-12-21"
+    "date": "2025-12-21",
+    "review": "Un pur chef d'œuvre.\nUn walking simulator qui raconte une histoire émouvante, à travers la mort de chacun de ses personnages. Mais plutôt que de les raconter, on les vit, et chaque histoire à son propre gameplay.\n\nJe retiens notamment celle de Barbara, qui est un comics interactif, une des meilleures expériences de gameplay de ma vie, dans un walking simulator, il faut le faire.\n\nC'est touchant, marquant, jamais ennuyant. Juste un chef d'œuvre."
   },
   {
     "slug": "half-life",
@@ -483,9 +600,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc2ea.jpg",
     "platform": "Windows PC",
     "rating": 3,
-    "status": "completed",
     "date_start": "2025-12-17",
-    "date": "2025-12-20"
+    "date": "2025-12-20",
+    "review": "J'imagine que pour son année de sortie c'était un chef d'oeuvre ?\n\nMais comparé à Deus Ex qui n'est sorti que 1 ans et demi après c'est le jour et la nuit. En terme de gameplay déjà c'est assez infâme, Freeman est constamment sur de la glace ce qui rend les déplacements assez imprécis de base, rajouté à ça l'inertie des saut qui est bizarre, appuyer sur arrière brise complètement l'inertie, ce qui aide parfois à condition d'avoir le bon timing pour atterrir où on le souhaite.\n\nLes gunfights sont logiquement ce qui a le mieux vieilli, le feeling est bon, c'est malheureusement gâché à partir de la moitié du jeu où la difficulté explose, ça fait sens je dirais d'un point de vu lore où Freeman doit absolument être stoppé mais tu te retrouve juste à faire des sauvegardes rapides h24.\n\nLes environnements changent assez souvent ce qui apporte un peu de diversité même si la redondance se fait sentir quelques fois à cause du fait d'être constamment sous terre (oui on sort parfois), la fin est par contre une purge absolu, j'ai rarement vu un jeu avec des derniers niveaux dans des dimensions alien qui s'en sortait bien, et Half Life n'y échappe pas.\n\nUn jeu sympa, je n'arrive pas vraiment à le resituer dans son époque et à l'apprécier certainement pour sa juste valeur, encore plus après Deus Ex qui fait absolument tout en mieux, gameplay, environnement, personnages, histoire.\nTrès curieux de découvrir HL2 tout de même"
   },
   {
     "slug": "routine",
@@ -493,9 +610,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coay6e.jpg",
     "platform": "Windows PC",
     "rating": 4.5,
-    "status": "completed",
     "date_start": "2025-12-11",
-    "date": "2025-12-14"
+    "date": "2025-12-14",
+    "review": "J'avais ce jeu dans ma liste de souhait steam depuis des années sans même vraiment savoir ce que c'était, puis j'ai appris qu'il sortait en décembre et que c'était un meilleur Alien Isolation qu'Alien Isolation lui même, alors je me suis laissé tenté...\n\nEt je ne regrette pas, le style graphique qui se veut un mix entre réalisme et old school avec un espèce de filtre VHS marche trop bien, c'est fluide comme pas possible pour un jeu UE\n\nL'ambiance seule dans l'espace est particulièrement oppressante, et si on repense à Alien et sa catchphrase \"Dans l'espace, personne ne vous entendra crier\", ça marche encore mieux avec Routine, on est constamment sur ses gardes, le danger est partout et en même temps assez rare pour surprendre à chaque fois qu'il intervient\n\nLe gameplay est efficace, tout passe par le CAT, que ce soit en arme, en outil ou en tant qu'interface (sauvegarde, tracking des missions etc...), les énigmes sont assez intelligentes pour nous forcer vraiment réfléchir, d'autant plus qu'elles sont uniques à chaque run\n\nJe regrette juste la durée de vie un chouilla trop courte et quelques bugs (dont un qui je ne sais pas si est vraiment un bug mais de ce que j'ai pu lire avait l'air d'en être un, et ruine un peu assez l'aspect vraiment horrifique du jeu)"
   },
   {
     "slug": "stray",
@@ -503,9 +620,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4tt2.jpg",
     "platform": "PlayStation 5",
     "rating": 4,
-    "status": "completed",
     "date_start": "2025-11-17",
-    "date": "2025-11-21"
+    "date": "2025-11-21",
+    "review": "C'est beau et mignon purée... Bien que l'histoire soit très classique et qu'on sente les retournements venir à des kilomètres bah ça fonctionne, ça touche, et qu'on a tous ce petit pincement au coeur à la fin."
   },
   {
     "slug": "crow-country",
@@ -513,9 +630,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7ab9.jpg",
     "platform": "Windows PC",
     "rating": 4.5,
-    "status": "completed",
     "date_start": "2025-11-04",
-    "date": "2025-11-07"
+    "date": "2025-11-07",
+    "review": "Très très cool, gameplay très sympa évidemment inspiré des vieux Resident Evil, l'ambiance parc à thème abandonné marche bien, les énigmes et secrets sont ni trop faciles ni trop durs.\nDans l'ensemble vraiment excellent malgré une durée de vie très courte (4-5h) et des pièges dignes des looney tunes qui sont plus frustrants qu'amusants"
   },
   {
     "slug": "amnesia-the-bunker",
@@ -523,9 +640,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5us3.jpg",
     "platform": "Windows PC",
     "rating": 4,
-    "status": "completed",
     "date_start": "2025-10-30",
-    "date": "2025-10-30"
+    "date": "2025-10-30",
+    "review": "J'ai essayé plusieurs fois, et sérieusement, et à chaque fois c'est une purge. Le jeu est juste un die and retry frustrant avec un monstre qui se rapproche beaucoup du Xénomorphe d'Alien Isolation mais en pire, on a très peu de ressources pour se défendre (et c'est cool ça le rend vraiment dangereux), mais ça rend aussi les niveau particulièrement pénible à explorer. Le seul vrai moyen d'être safe c'est d'activer la lumière via le générateur dans la pièce central du bunker. Mais ça dure très très peu de temps, l'inventaire est tellement limité qu'on peut quasiment rien ramasser et quand on a plus de lumière on doit se cacher et attendre entre 5 et 10 minutes sous un lit que le monstre change d'endroit. Au final t'essayes, tu meurs, tu réessaye, tu meurs etc... jusqu'au moment où tu sais où tu dois aller et quoi chercher, met la lumière et sprint comme dans un taré à tous les endroit utiles et basta, donc le jeu perd absolument tout son intérêt. C'est juste dommage\nBon j'ai donné une dernière chance au jeu et je l'ai finis, je faisais juste aucun effort en fait. Ce que j'ai dit reste vrai pour la plupart, ça reste un die and retry dans le fond mais il est plus logique que dur pour rien en fait. L'ambiance est archi réussi, j'ai très rarement autant stressé dans un jeu d'horreur"
   },
   {
     "slug": "cruelty-squad",
@@ -533,9 +650,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9hn0.jpg",
     "platform": "Windows PC",
     "rating": 5,
-    "status": "completed",
     "date_start": "2025-10-17",
-    "date": "2025-10-28"
+    "date": "2025-10-28",
+    "review": "Nique le capitalisme et vive la pêche.\nRIP Fred"
   },
   {
     "slug": "metal-gear-solid-3-snake-eater-hd-edition",
@@ -543,9 +660,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co98hv.jpg",
     "platform": "PlayStation 3",
     "rating": 5,
-    "status": "completed",
     "date_start": "2025-10-09",
-    "date": "2025-10-14"
+    "date": "2025-10-14",
+    "review": "Merci The Boss\nMerci Snake\nMerci Kojima pour ce chef d'oeuvre"
   },
   {
     "slug": "metal-gear-solid-2-sons-of-liberty-hd-edition",
@@ -553,9 +670,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co982l.jpg",
     "platform": "PlayStation 3",
     "rating": 4.5,
-    "status": "completed",
     "date_start": "2025-09-30",
-    "date": "2025-10-05"
+    "date": "2025-10-05",
+    "review": "C'était le MGS que j'aimais le plus dans mes souvenirs, un poil déçu de la partie Big Shell mais globalement un jeu de fou quand même.\nRaiden mon GOAT"
   },
   {
     "slug": "metal-gear-solid",
@@ -563,9 +680,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobpak.jpg",
     "platform": "PlayStation",
     "rating": 4.5,
-    "status": "completed",
     "date_start": "2025-09-26",
-    "date": "2025-09-28"
+    "date": "2025-09-28",
+    "review": "Jeu de fou"
   },
   {
     "slug": "batman-arkham-city",
@@ -573,9 +690,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1voh.jpg",
     "platform": "Windows PC",
     "rating": 3.5,
-    "status": "completed",
     "date_start": "2025-09-22",
-    "date": "2025-09-24"
+    "date": "2025-09-24",
+    "review": "J'ai moins aimé qu'Asylum.\nL'histoire est plus profonde et complexe et c'est cool, les phases avec Catwoman sont fun et changent un peu. Le gameplay est un peu plus poussé, plus de gadgets, plus d'option de combos, des rares ennemis qu'on doit battre différemment, des boss vraiment différent les uns des autres.\nMAIS je déteste l'open world, les missions secondaires sont inintéressante et Gotham n'est pas très sympa à parcourir (contrairement à Knight que j'ai adoré)"
   },
   {
     "slug": "batman-arkham-asylum",
@@ -583,9 +700,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1voj.jpg",
     "platform": "Windows PC",
     "rating": 4,
-    "status": "completed",
     "date_start": "2025-09-19",
-    "date": "2025-09-21"
+    "date": "2025-09-21",
+    "review": "Qu'est-ce que c'est cool, que ce soit les vilains ou Batman lui même sont représentés à la perfection, l'ambiance de l'Asile d'Arkham est géniale, le doublage est fantastique.\nLes seuls léger défauts du jeu sont l'exploration et le gameplay, on se retrouve à beaucoup utiliser l'espèce de scanner pour voir les ennemis, les objets avec lesquels on peut interagir etc. Le système de combat est très réussi, particulièrement simple mais il fonctionne si bien qu'on ne peut vraiment le lui reprocher, ça manque juste un peu d'utilisation de gadget en combat, et les phases de semi infiltration contre des ennemis armés sont particulièrement désagréable.\nUne vraie réussite pour autant"
   },
   {
     "slug": "hollow-knight-silksong",
@@ -593,9 +710,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobebu.jpg",
     "platform": "PlayStation 5",
     "rating": 4,
-    "status": "completed",
     "date_start": "2025-09-04",
-    "date": "2025-09-11"
+    "date": "2025-09-11",
+    "review": "50H, j'abandonne à l'acte 3, j'en ai juste marre, si tout inflige 2 dégats autant juste mettre moins de vie dès le départ, les boss font que se téléporter et te dash dessus depuis l'autre bout de l'écran, les runbacks sont juste chiants.\nLe gameplay est génial mais la difficulté sent le \"rendre le jeu difficile juste pour faire chier\".\nJ'ai plus le temps de passer 2 heures sur un boss, surtout que le \"boss\"en question est juste 4-5 vagues d'ennemis random de la zone"
   },
   {
     "slug": "hollow-knight",
@@ -603,9 +720,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobfzp.jpg",
     "platform": "PlayStation 4",
     "rating": 4.5,
-    "status": "completed",
     "date_start": "2025-08-27",
-    "date": "2025-09-02"
+    "date": "2025-09-02",
+    "review": "Après Symphony of the Night j'étais bien obligé de passer par Hollow Knight.\nUn metroidvania très sympa mélangé à un coté souls-like avec des boss difficiles, des paternes à apprendre, on a peu de vie et il faut bien choisir le moment pour se soigner.\nJe regrette juste qu'il penche beaucoup trop dans la philosophie \"on met des pièges absolument partout\", ça peut devenir très vite frustrant et que les stations de coléoptère, en gros les point de TP, soient très très espacés les uns et des autres et qu'à cause de ça un simple backtrack peut vraiment être très très long"
   },
   {
     "slug": "lies-of-p",
@@ -613,9 +730,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6lxr.jpg",
     "platform": "PlayStation 5",
     "rating": 3.5,
-    "status": "completed",
     "date_start": "2025-08-25",
-    "date": "2025-08-26"
+    "date": "2025-08-26",
+    "review": "Très sympa mais les boss au design catastrophique ça m'a saoulé"
   },
   {
     "slug": "castlevania-symphony-of-the-night",
@@ -623,9 +740,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co53m8.jpg",
     "platform": "PlayStation",
     "rating": 4.5,
-    "status": "completed",
     "date_start": "2025-08-24",
-    "date": "2025-08-25"
+    "date": "2025-08-25",
+    "review": "Jeu de fou, musique de fou, mais le château inversé peut aller se faire enculer"
   },
   {
     "slug": "kingdom-come-deliverance-ii",
@@ -633,9 +750,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8qmv.jpg",
     "platform": "Windows PC",
     "rating": 3,
-    "status": "completed",
     "date_start": "2025-07-21",
-    "date": "2025-08-24"
+    "date": "2025-08-24",
+    "review": "J'ai moins aimé que le premier.\nJe trouve Sasau/Rattay bien plus riche, beau et agréable à parcourir que Trosky/Kuttenberg\nJ'ai globalement préféré les missions et l'histoire générale du premier.\n\nMême 6 mois après la sortie du jeu, une bonne partie du doublage est toujours fait par IA et le jeu est toujours rempli de bug.\nLe système de combat est encore pire que dans le premier j'ai l'impression (déjà que je ne l'aimais pas).\nLe jeu traine tellement en longueur pendant sa deuxième partie, Trosky est bien rythmé et une fois à Kuttenberg le jeu traine énormément jusqu'aux dernières missions (qui pour le coup sont très bonnes)\nEn bref, une bonne suite mais une petite déception de mon côté."
   },
   {
     "slug": "call-of-cthulhu-dark-corners-of-the-earth",
@@ -643,9 +760,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1x4v.jpg",
     "platform": "Windows PC",
     "rating": 2,
-    "status": "completed",
     "date_start": "2025-08-16",
-    "date": "2025-08-16"
+    "date": "2025-08-16",
+    "review": "Une ambiance lovecraftienne et horrifique particulièrement réussie, je me suis surpris plusieurs fois à sursauter ; les environnements sont beaux (pour un jeu de 2005).\nLe tout est anéanti par un gameplay infernal dès qu'on récupère notre première arme (environ 2 h de jeu), on passe d'un gameplay très réussi à la outlast, où la peur vient du fait d'être impuissant dans un endroit mystérieux et flippant, à un jeu d'action avec des ennemis qui respawn à l'infini.\nLa visée est dure, entre les ennemis qui zigzag aléatoirement et les distortions de l'écran vous allez utiliser beaucoup de balles que nécessaires.\nLe jeu est très cryptique dans ce qu'il attend du joueur, des fois, il faut parler à un seul personnage random dans une pièce random pour faire avancer le script, des fois faut faire une action qui n'a pas vraiment de sens (s'accrocher à la barre du bateau et la seule option valide pour survivre par exemple, alors que se réfugier à l'intérieur serait plus logique, mais non le jeu, il préfère sa version.), les environnements sont blindés de pièges pas drôle.\nEt enfin parlons de la sanité du personnage, regarder des trucs ou assister à des évènements vont impacter la sanité du perso, ce qui résulte en le jeu qui ralenti, une distortions de l'écran, des tremblements du perso, un effet de \"glitch\" infâme, des voix à l'intérieur de notre tête, c'est marrant quelques minutes, mais quand ça arrive toutes les 15 minutes dans un jeu d'une douzaine d'heures ça devient très vite insupportable.\nFaites le début du jeu pour l'ambiance particulièrement réussi, arrêtez dès que vous récupérer le fusil à pompe"
   },
   {
     "slug": "alisa",
@@ -653,9 +770,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2jtu.jpg",
     "platform": "Windows PC",
     "rating": 3,
-    "status": "completed",
     "date_start": "2025-08-10",
-    "date": "2025-08-10"
+    "date": "2025-08-10",
+    "review": "Un jeu injuste, mauvais et stupide… mais fun, avec beaucoup de charme.\n\nC’est très joli et ça reproduit parfaitement l’ambiance des premiers Resident Evil. Le doublage est très cheap, et c’est justement pour ça que je l’adore (je l’ai dit que c’est un jeu avec beaucoup de charme, non ?). L'univers est très sympa, rappelant évidemment American McGee’s Alice, et les différentes zones sont également réussies visuellement.\n\nPassons maintenant aux défauts. J’ai dit que le jeu était injuste, et la plus grosse raison, c’est que la plupart des ennemis (pour ne pas dire tous) peuvent te stun-lock en boucle. S’ils te touchent une fois, ils te stun assez longtemps pour te retaper… encore, et encore, et encore. Techniquement, tu peux leur faire pareil, puisque tes coups les stun aussi, mais pour je ne sais quelle raison, ils arrivent toujours à placer une attaque à un moment donné, comme si ils récupéraient leur tour, et là, c’est toi qui te retrouves encore stun en boucle.\n\nEnsuite, il y a les énigmes chronométrées : tu rates ? Tant pis, tu meurs. Le sabre a un système de parade qui fonctionne parfois (ou alors j'suis juste nul avec). Il y a aussi une séquence d’infiltration façon Metal Gear Solid qui dure moins d’une minute, mais qui est tellement nulle qu'on ne peut que la détester.\n\nLe jeu a encore des bugs aujourd’hui. Si tu tues un ennemi en plein milieu de son attaque, il meurt en restant figé dans son animation. Ça m’est arrivé après le premier boss : vu que son animation de mort ne s'est pas lancé, le trigger pour la suite ne s'est pas lancé non plus, obligé de restart le jeu.\n\nAu final, c’est une expérience fun, parfois frustrante, mais que j’ai vraiment appréciée. J’ai de gros espoirs pour la sequel."
   },
   {
     "slug": "arx-fatalis",
@@ -663,9 +780,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2zpp.jpg",
     "platform": "Windows PC",
     "rating": 5,
-    "status": "completed",
     "date_start": "2025-07-16",
-    "date": "2025-07-20"
+    "date": "2025-07-20",
+    "review": "Probablement le second meilleur immersive sim de l'histoire après Deus Ex, bien que l'histoire ne soit pas plus intéressante que ça, la façon de la découvrir et de faire les quêtes est très immersive, presque aucune indication à part quelque lignes dans notre carnet. Il faut se rappeler de ce qu'on a exploré, croisé, aller parler aux pnj. Le seul défaut du jeu est son système de combat, très clunky, vieux, et le système de runes qui est une excellente idée, mais mal executé, ce qui ne donne pas vraiment envie d'utiliser la magie bien que ce soit excessivement fort"
   },
   {
     "slug": "raidou-remastered-the-mystery-of-the-soulless-army",
@@ -673,9 +790,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9l0l.jpg",
     "platform": "PlayStation 5",
     "rating": 3,
-    "status": "completed",
     "date_start": "2025-07-06",
-    "date": "2025-07-12"
+    "date": "2025-07-12",
+    "review": "Le jeu devient beaucoup trop répétitif, les boss sont des gigantesques sacs à pv qui peuvent te stun, te one shot, pas forcément compliqué mais long et frustrant"
   },
   {
     "slug": "blasphemous",
@@ -683,9 +800,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob0xj.jpg",
     "platform": "Windows PC",
     "rating": 3,
-    "status": "completed",
     "date_start": "2025-07-02",
-    "date": "2025-07-04"
+    "date": "2025-07-04",
+    "review": "La DA et l'ambiance est réussi et les décors sont très jolis. Malheureusement le jeu penche plus du côté Dark Souls que Metroidvania, est l'exécute extrêmement mal, les bosses ne sont pas forcément durs mais absolument inintéressants et essayent du mieux qu'ils peuvent d'avoir l'adn d'un boss des Souls, bref heureusement qu'il est court"
   },
   {
     "slug": "system-shock-2-25th-anniversary-remaster",
@@ -693,9 +810,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9hdg.jpg",
     "platform": "Windows PC",
     "rating": 4.5,
-    "status": "completed",
     "date_start": "2025-06-27",
-    "date": "2025-07-02"
+    "date": "2025-07-02",
+    "review": "Un classique qui a inspiré toute une génération de jeux, enfin jouable sans avoir à installer 20+ mods"
   },
   {
     "slug": "dead-island-2",
@@ -703,9 +820,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5469.jpg",
     "platform": "Windows PC",
     "rating": 2.5,
-    "status": "completed",
     "date_start": "2025-06-17",
-    "date": "2025-06-17"
+    "date": "2025-06-17",
+    "review": "C'est sympa 1 heure, au bout de trois j'ai déjà l'impression d'avoir fait le tour, on se fait autant chier que sur un stream de potatoz"
   },
   {
     "slug": "grand-theft-auto-v",
@@ -713,9 +830,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2lbd.jpg",
     "platform": "Windows PC",
     "rating": 4.5,
-    "status": "completed",
     "date_start": "2025-05-29",
-    "date": "2025-06-16"
+    "date": "2025-06-16",
+    "review": "Je t'aime Trevor <3"
   },
   {
     "slug": "grand-theft-auto-vice-city",
@@ -723,7 +840,6 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2lbb.jpg",
     "platform": "Windows PC",
     "rating": 3.5,
-    "status": "completed",
     "date_start": "2025-05-21",
     "date": "2025-05-28"
   },
@@ -733,7 +849,6 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2lb8.jpg",
     "platform": "PlayStation 2",
     "rating": 3,
-    "status": "completed",
     "date_start": "2025-05-17",
     "date": "2025-05-19"
   },
@@ -743,9 +858,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9gam.jpg",
     "platform": "PlayStation 5",
     "rating": 4.5,
-    "status": "completed",
     "date_start": "2025-04-26",
-    "date": "2025-05-15"
+    "date": "2025-05-15",
+    "review": "fuck simon"
   },
   {
     "slug": "fallout-new-vegas",
@@ -753,7 +868,6 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1u60.jpg",
     "platform": "Windows PC",
     "rating": 4.5,
-    "status": "completed",
     "date_start": "2025-04-15",
     "date": "2025-04-26"
   },
@@ -763,7 +877,6 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9nzf.jpg",
     "platform": "Windows PC",
     "rating": 4,
-    "status": "completed",
     "date_start": "2025-04-15",
     "date": "2025-04-15"
   },
@@ -773,9 +886,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8u8y.jpg",
     "platform": "Windows PC",
     "rating": 4,
-    "status": "completed",
     "date_start": "2025-04-10",
-    "date": "2025-04-14"
+    "date": "2025-04-14",
+    "review": "DA excellente, mix entre GTA like et jeu de gestion très sympa\nUn gros creux de quelques heures où on se retrouve à devoir gérer beaucoup trop de choses en même temps, une fois ce creux passé on se retrouve avec au contraire plus rien à faire jusqu'à la fin du jeu à part suivre la quête principale, en s'emmerde vraiment sur les dernières heures"
   },
   {
     "slug": "the-elder-scrolls-iv-oblivion",
@@ -783,9 +896,9 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8fpz.jpg",
     "platform": "Windows PC",
     "rating": 2.5,
-    "status": "completed",
     "date_start": "2025-03-25",
-    "date": "2025-04-05"
+    "date": "2025-04-05",
+    "review": "Qu'est ce qu'on s'emmerde"
   },
   {
     "slug": "fallen-aces",
@@ -793,7 +906,6 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co39ua.jpg",
     "platform": "Windows PC",
     "rating": 4,
-    "status": "completed",
     "date_start": "2025-03-24",
     "date": "2025-03-24"
   },
@@ -803,7 +915,6 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1vco.jpg",
     "platform": "Windows PC",
     "rating": 4.5,
-    "status": "completed",
     "date_start": "2025-02-24",
     "date": "2025-03-23"
   },
@@ -812,10 +923,10 @@
     "title": "Kingdom Come: Deliverance",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4aqi.jpg",
     "platform": "Windows PC",
-    "rating": 4,
-    "status": "completed",
+    "rating": 3.5,
     "date_start": "2025-02-04",
-    "date": "2025-02-15"
+    "date": "2025-02-15",
+    "review": "Le système de combat se veut réaliste mais ça devient une purge après une dizaine d'heures.\nL'histoire, les quêtes, l'ambiance sont très réussies ceci dit"
   },
   {
     "slug": "fallout-4",
@@ -823,7 +934,6 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1yc6.jpg",
     "platform": "Windows PC",
     "rating": 3,
-    "status": "completed",
     "date_start": "2024-12-31",
     "date": "2025-01-15"
   },
@@ -833,7 +943,6 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co683q.jpg",
     "platform": "Windows PC",
     "rating": 3.5,
-    "status": "completed",
     "date_start": "2025-01-03",
     "date": "2025-01-04"
   },
@@ -843,7 +952,6 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4x7e.jpg",
     "platform": "Windows PC",
     "rating": 4.5,
-    "status": "completed",
     "date_start": "2024-11-30",
     "date": "2024-12-04"
   },
@@ -853,7 +961,6 @@
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co67zs.jpg",
     "platform": "Windows PC",
     "rating": 2.5,
-    "status": "completed",
     "date_start": "2024-10-03",
     "date": "2024-10-05"
   }

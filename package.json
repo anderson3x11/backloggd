@@ -1,0 +1,13 @@
+{
+  "name": "backloggd",
+  "private": true,
+  "description": "Journal de jeux vidéo — site statique. Node ne sert qu'au script de synchronisation, le site lui-même n'a aucune étape de build.",
+  "scripts": {
+    "sync": "node sync.js",
+    "sync:dry": "node sync.js --dry",
+    "sync:prune": "node sync.js --prune"
+  },
+  "devDependencies": {
+    "playwright": "^1.62.1"
+  }
+}

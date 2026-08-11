@@ -4,31 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>backloggd. — anderson3x11</title>
-  <meta name="description" content="Journal de jeux vidéo — anderson3x11">
+  <meta name="description" content="Journal de jeux vidéo — notes et critiques de anderson3x11.">
+  <meta name="theme-color" content="#0a0a0a">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="backloggd.">
+  <meta property="og:title" content="backloggd. — anderson3x11">
+  <meta property="og:description" content="Journal de jeux vidéo — notes et critiques de anderson3x11.">
+  <meta name="twitter:card" content="summary">
+
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
+  <canvas id="ascii-bg" aria-hidden="true"></canvas>
+
   <header>
-    <a href="./index.html" class="site-title">backloggd<span class="dot">.</span></a>
+    <div class="shell">
+      <a href="./index.html" class="site-title">backloggd<span class="dot">.</span></a>
+      <div class="nav-right">
+        <span class="nav-chip"><b id="nav-count">—</b> jeux</span>
+      </div>
+    </div>
   </header>
 
   <div class="page-wrap">
-
-    <div class="stats-bar">
-      <div class="stat-cell stat-cell--wide">
-        <div class="stat-num stat-game" id="stat-playing">—</div>
-        <div class="stat-label">En cours</div>
-      </div>
-      <div class="stat-cell">
-        <div class="stat-num" id="stat-completed">—</div>
-        <div class="stat-label">Terminés</div>
-      </div>
-      <div class="stat-cell">
-        <div class="stat-num" id="stat-year">—</div>
-        <div class="stat-label">Cette année</div>
-      </div>
-    </div>
 
     <div class="controls">
       <div class="search-wrap">
@@ -41,6 +42,15 @@
           autocomplete="off"
         >
       </div>
+      <div class="sort-wrap">
+        <select class="sort-select" id="sort" aria-label="Trier les jeux">
+          <option value="date-desc">Plus récents</option>
+          <option value="date-asc">Plus anciens</option>
+          <option value="rating-desc">Mieux notés</option>
+          <option value="rating-asc">Moins bien notés</option>
+          <option value="title-asc">Titre (A–Z)</option>
+        </select>
+      </div>
     </div>
 
     <div class="results-count" id="results-count"></div>
@@ -50,6 +60,8 @@
 
   </div>
 
+  <script src="./ascii-bg.js"></script>
+  <script src="./nav.js"></script>
   <script src="./main.js"></script>
 </body>
 </html>

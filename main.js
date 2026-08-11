@@ -1,5 +1,6 @@
 let allGames = [];
 let currentSearch = '';
+let currentSort = 'date-desc';
 
 async function init() {
   try {
@@ -10,28 +11,46 @@ async function init() {
       '<div class="empty-state">Impossible de charger les jeux.</div>';
     return;
   }
-  updateStats();
+  document.getElementById('nav-count').textContent = allGames.length;
   render();
-}
-
-function updateStats() {
-  const thisYear = new Date().getFullYear().toString();
-  const playing = allGames.find(g => g.status === 'playing');
-  const completed = allGames.filter(g => g.status === 'completed').length;
-  const completedThisYear = allGames.filter(g =>
-    g.status === 'completed' && g.date && g.date.startsWith(thisYear)
-  ).length;
-
-  document.getElementById('stat-playing').textContent = playing ? playing.title : '—';
-  document.getElementById('stat-completed').textContent = completed;
-  document.getElementById('stat-year').textContent = completedThisYear;
 }
 
 function getFiltered() {
   const q = currentSearch.toLowerCase();
-  return allGames.filter(g =>
-    !q || g.title.toLowerCase().includes(q)
-  );
+  const list = allGames.filter(g => !q || g.title.toLowerCase().includes(q));
+  return sortGames(list, currentSort);
+}
+
+function sortGames(list, mode) {
+  // L'ordre du fichier est déjà du plus récent au plus ancien, les jeux en
+  // cours en tête — on ne le recalcule pas pour le tri par défaut.
+  if (mode === 'date-desc') return list;
+
+  const when = g => g.date || g.date_start || '';
+  const arr = [...list];
+
+  switch (mode) {
+    case 'date-asc':
+      return arr.sort((a, b) => when(a).localeCompare(when(b)));
+    case 'rating-desc':
+      // Les jeux non notés (en cours) partent en fin de liste dans les deux sens.
+      return arr.sort((a, b) => (b.rating ?? -1) - (a.rating ?? -1));
+    case 'rating-asc':
+      return arr.sort((a, b) => (a.rating ?? 99) - (b.rating ?? 99));
+    case 'title-asc':
+      return arr.sort((a, b) => a.title.localeCompare(b.title, 'fr'));
+    default:
+      return arr;
+  }
+}
+
+function starsHTML(rating) {
+  const pct = rating == null ? 0 : Math.max(0, Math.min(100, (rating / 5) * 100));
+  const label = rating == null ? 'non noté' : `${rating} sur 5`;
+  return `<span class="stars stars--sm" role="img" aria-label="${label}">` +
+    `<span class="stars-bg">★★★★★</span>` +
+    `<span class="stars-fg" style="width:${pct}%">★★★★★</span>` +
+    `</span>`;
 }
 
 function cardHTML(game) {
@@ -43,6 +62,7 @@ function cardHTML(game) {
     <a class="game-card" href="./game.html?slug=${encodeURIComponent(game.slug)}">
       <div class="card-cover-wrap">${cover}</div>
       <div class="card-title" title="${escAttr(game.title)}">${escHtml(game.title)}</div>
+      ${starsHTML(game.rating)}
     </a>`;
 }
 
@@ -74,9 +94,32 @@ function escAttr(str) {
   return escHtml(str).replace(/"/g, '&quot;');
 }
 
-document.getElementById('search').addEventListener('input', e => {
+const searchEl = document.getElementById('search');
+
+searchEl.addEventListener('input', e => {
   currentSearch = e.target.value;
   render();
+});
+
+document.getElementById('sort').addEventListener('change', e => {
+  currentSort = e.target.value;
+  render();
+});
+
+const isTyping = () =>
+  /^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement.tagName);
+
+document.addEventListener('keydown', e => {
+  if (e.key === '/' && !isTyping()) {
+    e.preventDefault();
+    searchEl.focus();
+    searchEl.select();
+  } else if (e.key === 'Escape' && document.activeElement === searchEl) {
+    searchEl.value = '';
+    currentSearch = '';
+    render();
+    searchEl.blur();
+  }
 });
 
 init();

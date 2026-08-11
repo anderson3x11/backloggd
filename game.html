@@ -4,18 +4,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>backloggd. — anderson3x11</title>
+  <meta name="description" content="Journal de jeux vidéo — notes et critiques de anderson3x11.">
+  <meta name="theme-color" content="#0a0a0a">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- Valeurs de repli : game.js les réécrit avec le jeu chargé. -->
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="backloggd.">
+  <meta property="og:title" content="backloggd. — anderson3x11">
+  <meta property="og:description" content="Journal de jeux vidéo — notes et critiques de anderson3x11.">
+  <meta property="og:image" content="">
+  <meta name="twitter:card" content="summary_large_image">
+
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
+  <canvas id="ascii-bg" aria-hidden="true"></canvas>
+
   <header>
-    <a href="./index.html" class="site-title">backloggd<span class="dot">.</span></a>
+    <div class="shell">
+      <a href="./index.html" class="site-title">backloggd<span class="dot">.</span></a>
+      <div class="nav-right">
+        <a href="./index.html" class="nav-link">← Retour</a>
+      </div>
+    </div>
   </header>
 
-  <div id="game-page">
+  <div class="page-wrap" id="game-page">
     <div class="empty-state">Chargement…</div>
   </div>
 
+  <script src="./ascii-bg.js"></script>
+  <script src="./nav.js"></script>
   <script src="./game.js"></script>
 </body>
 </html>
