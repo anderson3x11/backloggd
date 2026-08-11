@@ -96,6 +96,22 @@ const grabLibrary = () => [...document.querySelectorAll('.game-cover')].map(c =>
   };
 }).filter(g => g.bgSlug && g.title);
 
+// Les 5 favoris occupent la rangée qui contient le favori couronné
+// (.ultimate_fav) sur la page de profil.
+const grabFavorites = () => {
+  const crown = document.querySelector('.ultimate_fav');
+  if (!crown || !crown.parentElement) return [];
+  return [...crown.parentElement.querySelectorAll('.game-cover')].map(c => {
+    const link = c.querySelector('a[href^="/games/"]');
+    const img = c.querySelector('img');
+    return {
+      bgSlug: link ? link.getAttribute('href').replace(/^\/games\//, '').replace(/\/$/, '') : null,
+      title: img ? img.getAttribute('alt') : null,
+      ultimate: !!c.closest('.ultimate_fav'),
+    };
+  }).filter(g => g.bgSlug);
+};
+
 const grabReviews = () => [...document.querySelectorAll('.review-card')].map(card => {
   const link = card.querySelector('a[href^="/games/"]');
   const img = card.querySelector('img.card-img');
@@ -183,7 +199,7 @@ function sortGames(list, originalIndex, libIndex) {
     if (ab !== bb) return ab - bb;
     if (ab === 1) {
       // Sans date, on garde l'ordre de la bibliothèque Backloggd.
-      return (libIndex.get(a.__bg) ?? 1e9) - (libIndex.get(b.__bg) ?? 1e9);
+      return (libIndex.get(a.bg) ?? 1e9) - (libIndex.get(b.bg) ?? 1e9);
     }
     if (a.date !== b.date) return a.date < b.date ? 1 : -1;
     // À date égale, on conserve l'ordre actuel du fichier pour limiter le diff.
@@ -202,11 +218,15 @@ function sortGames(list, originalIndex, libIndex) {
   const ctx = await browser.newContext({ userAgent: UA });
   const page = await ctx.newPage();
 
-  let events, reviews, library;
+  let events, reviews, library, favorites = [];
   try {
     events = await scrapeAll(page, `https://backloggd.com/u/${USER}/journal`, grabJournal, 'journal');
     reviews = await scrapeAll(page, `https://backloggd.com/u/${USER}/reviews`, grabReviews, 'reviews');
     library = await scrapeAll(page, `https://backloggd.com/u/${USER}/games`, grabLibrary, 'jeux   ');
+    await page.goto(`https://backloggd.com/u/${USER}/`, { waitUntil: 'domcontentloaded', timeout: 45000 });
+    await page.waitForTimeout(2200);
+    favorites = await page.evaluate(grabFavorites);
+    console.log(`  favoris     : ${favorites.length}`);
   } finally {
     await browser.close();
   }
@@ -224,10 +244,12 @@ function sortGames(list, originalIndex, libIndex) {
     titleToSlugs.get(t).push(s);
   }
 
-  // Retrouve à quel jeu Backloggd correspond une entrée du fichier. Une critique
-  // donne une ancre exacte ; sinon on n'accepte qu'un titre sans homonyme.
+  // Retrouve à quel jeu Backloggd correspond une entrée du fichier. Le champ
+  // `bg` stocké fait foi : sans lui, deux jeux homonymes (original / remake)
+  // seraient indiscernables au passage suivant et redupliqués.
   const ambigus = [];
   function resolve(g) {
+    if (g.bg && (libBySlug.has(g.bg) || journal.has(g.bg))) return g.bg;
     const key = norm(g.title);
     const candidates = titleToSlugs.get(key) || [];
     if (candidates.length === 1) return candidates[0];
@@ -248,7 +270,7 @@ function sortGames(list, originalIndex, libIndex) {
     const j = bg ? journal.get(bg) : null;
     const r = bg ? revBySlug.get(bg) : null;
     const l = bg ? libBySlug.get(bg) : null;
-    if (bg) { seenKeys.add(bg); g.__bg = bg; }
+    if (bg) { seenKeys.add(bg); g.bg = bg; }
 
     const set = (field, value) => {
       if (value == null || g[field] === value) return;
@@ -307,7 +329,7 @@ function sortGames(list, originalIndex, libIndex) {
     if (j && j.date) game.date = j.date;
     if (r && r.review) game.review = cleanReview(r.review);
 
-    game.__bg = bg;
+    game.bg = bg;
     merged.push(game);
     if (game.date) changes.push(`  + ${title} (nouveau)`);
     else if (!enCours(game)) ajoutsSansDate++;
@@ -322,7 +344,22 @@ function sortGames(list, originalIndex, libIndex) {
   const exclus = merged.filter(enCours);
   for (const g of exclus) changes.push(`  · ${g.title} — en cours, non publié`);
 
-  const ORDER = ['slug', 'title', 'cover', 'platform', 'rating', 'date_start', 'date', 'review'];
+  // Rang des favoris : 1 à 5 dans l'ordre d'affichage de Backloggd.
+  const favRank = new Map(favorites.map((f, i) => [f.bgSlug, i + 1]));
+  for (const g of merged) {
+    const rank = g.bg ? favRank.get(g.bg) : undefined;
+    if (g.favorite !== rank) {
+      changes.push(rank
+        ? `  ★ ${g.title} — favori nº${rank}`
+        : `  ☆ ${g.title} — n'est plus un favori`);
+    }
+    if (rank) g.favorite = rank; else delete g.favorite;
+  }
+  if (favorites.length && favorites.length !== 5) {
+    changes.push(`  ? ${favorites.length} favoris trouvés au lieu de 5 — vérifier la page de profil`);
+  }
+
+  const ORDER = ['slug', 'bg', 'title', 'cover', 'platform', 'rating', 'favorite', 'date_start', 'date', 'review'];
   const out = sortGames(merged.filter(g => !enCours(g)), originalIndex, libIndex)
     .map(g => Object.fromEntries(ORDER.filter(k => g[k] !== undefined && g[k] !== null).map(k => [k, g[k]])));
 

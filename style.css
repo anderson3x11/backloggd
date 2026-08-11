@@ -258,6 +258,25 @@ header.is-pinned .nav-link {
   color: var(--muted);
 }
 
+/* ─── TOP 5 ──────────────────────────────────────────────── */
+
+.favorites { margin-bottom: 2.75rem; }
+
+.section-label {
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--muted);
+  margin-bottom: 1.1rem;
+}
+
+.fav-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1.5rem 1.4rem;
+}
+
 /* ─── CONTROLS ───────────────────────────────────────────── */
 
 .controls {
@@ -713,6 +732,8 @@ header.is-pinned .nav-link {
   /* minmax(0, …) is required: a bare 1fr floors at min-content, which the
      nowrap card titles blow past and overflow the page horizontally. */
   .games-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem 1rem; }
+  .fav-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.25rem 1rem; }
+  .favorites { margin-bottom: 2rem; }
 
   .game-layout { grid-template-columns: 1fr; gap: 1.75rem; }
   .game-left {

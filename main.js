@@ -12,7 +12,17 @@ async function init() {
     return;
   }
   document.getElementById('nav-count').textContent = allGames.length;
+  renderFavorites();
   render();
+}
+
+function renderFavorites() {
+  const favs = allGames
+    .filter(g => g.favorite)
+    .sort((a, b) => a.favorite - b.favorite);
+  if (!favs.length) return;
+  document.getElementById('fav-grid').innerHTML = favs.map(cardHTML).join('');
+  document.getElementById('favorites').hidden = false;
 }
 
 function getFiltered() {
@@ -74,6 +84,11 @@ function render() {
   countEl.textContent = currentSearch
     ? `${filtered.length} résultat${filtered.length !== 1 ? 's' : ''}`
     : '';
+
+  // Le top 5 n'a rien à faire au-dessus d'une liste de résultats. Remettre
+  // display à '' suffit : l'attribut hidden reprend la main s'il n'y a pas
+  // de favoris.
+  document.getElementById('favorites').style.display = currentSearch ? 'none' : '';
 
   if (filtered.length === 0) {
     grid.innerHTML = '<div class="empty-state">Aucun jeu trouvé.</div>';
