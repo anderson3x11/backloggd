@@ -4,8 +4,13 @@
  *   node sync.js --dry     affiche les changements sans rien écrire
  *   node sync.js           applique les changements
  *   node sync.js --prune   retire aussi les jeux supprimés de Backloggd
+ *   node sync.js --details=40   ne complète que 40 fiches de jeu ce tour-ci
  *
- * Les deux options se combinent : `node sync.js --dry --prune`.
+ * Les options se combinent : `node sync.js --dry --prune`.
+ *
+ * La récupération des fiches (studio, année, genres, résumé) coûte une requête
+ * par jeu. Elle est reprenable : le fichier est réécrit tous les 10 jeux, et
+ * chaque exécution ne traite que ceux à qui il manque encore les infos.
  *
  * Ce que le script prend sur Backloggd (source de vérité) :
  *   - la note et la critique   (page /reviews)
@@ -28,6 +33,12 @@ const DATA = path.join(__dirname, 'data', 'games.json');
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
 const DRY = process.argv.includes('--dry');
 const PRUNE = process.argv.includes('--prune');
+
+// Nombre de fiches de jeu récupérées par exécution, et intervalle entre deux
+// requêtes. Backloggd n'est pas rapide : on reste volontairement lent.
+const detailsArg = (process.argv.find(a => a.startsWith('--details=')) || '').split('=')[1];
+const DETAILS = detailsArg ? parseInt(detailsArg, 10) : Infinity;
+const DETAIL_DELAY = 2500;
 
 const MONTHS = ['january', 'february', 'march', 'april', 'may', 'june',
   'july', 'august', 'september', 'october', 'november', 'december'];
@@ -110,6 +121,28 @@ const grabFavorites = () => {
       ultimate: !!c.closest('.ultimate_fav'),
     };
   }).filter(g => g.bgSlug);
+};
+
+// Fiche d'un jeu : studio, année, genres, plateformes d'existence, résumé.
+// Tout est rendu deux fois (desktop + mobile), d'où les dédoublonnages.
+const grabGamePage = () => {
+  const uniq = a => [...new Set(a.map(s => s.trim()).filter(Boolean))];
+  const studios = uniq([...document.querySelectorAll('.game-subtitle a[href*="/company/"]')]
+    .map(a => a.innerText));
+  const releaseLink = document.querySelector('a[href*="release_year:"]');
+  const yearMatch = releaseLink && releaseLink.innerText.match(/(\d{4})/);
+  // Le résumé est le premier vrai paragraphe hors bannière de consentement.
+  const summary = [...document.querySelectorAll('p.mb-0')]
+    .map(p => (p.innerText || '').trim())
+    .find(t => t.length > 60 && !/cookie|consent|identifiers|vendors/i.test(t));
+
+  return {
+    developer: studios[0] || null,
+    year: yearMatch ? yearMatch[1] : null,
+    genres: uniq([...document.querySelectorAll('a[href*="genre"]')].map(a => a.innerText)),
+    platforms: uniq([...document.querySelectorAll('.game-page-platform')].map(a => a.innerText)),
+    summary: summary || null,
+  };
 };
 
 const grabReviews = () => [...document.querySelectorAll('.review-card')].map(card => {
@@ -359,9 +392,55 @@ function sortGames(list, originalIndex, libIndex) {
     changes.push(`  ? ${favorites.length} favoris trouvés au lieu de 5 — vérifier la page de profil`);
   }
 
-  const ORDER = ['slug', 'bg', 'title', 'cover', 'platform', 'rating', 'favorite', 'date_start', 'date', 'review'];
-  const out = sortGames(merged.filter(g => !enCours(g)), originalIndex, libIndex)
+  const ORDER = ['slug', 'bg', 'title', 'cover', 'year', 'developer', 'genres', 'platforms',
+    'platform', 'rating', 'favorite', 'date_start', 'date', 'summary', 'review'];
+  const serialise = () => sortGames(merged.filter(g => !enCours(g)), originalIndex, libIndex)
     .map(g => Object.fromEntries(ORDER.filter(k => g[k] !== undefined && g[k] !== null).map(k => [k, g[k]])));
+
+  // Fiches de jeu : une requête chacune, donc réservée à ceux dont les infos
+  // manquent encore. On écrit au fil de l'eau — une interruption ne doit pas
+  // jeter le travail déjà fait, et le passage suivant reprend où on s'est
+  // arrêté. --details=N limite le nombre de fiches par exécution.
+  const aCompleter = merged.filter(g => !enCours(g) && g.bg && !g.developer && !g.summary);
+  const lot = aCompleter.slice(0, DETAILS);
+  if (lot.length && !DRY) {
+    console.log(`\nInfos manquantes : ${aCompleter.length} jeu(x). Traitement de ${lot.length} ce tour, une requête toutes les ${(DETAIL_DELAY / 1000).toFixed(1)} s.`);
+    const browser2 = await chromium.launch();
+    const ctx2 = await browser2.newContext({ userAgent: UA });
+    const page2 = await ctx2.newPage();
+    let faits = 0;
+    try {
+      for (let i = 0; i < lot.length; i++) {
+        const g = lot[i];
+        try {
+          await page2.goto(`https://backloggd.com/games/${g.bg}/`, { waitUntil: 'domcontentloaded', timeout: 45000 });
+          await page2.waitForTimeout(1200);
+          const d = await page2.evaluate(grabGamePage);
+          if (d.developer) g.developer = d.developer;
+          if (d.year) g.year = d.year;
+          if (d.genres && d.genres.length) g.genres = d.genres.slice(0, 3);
+          if (d.platforms && d.platforms.length) g.platforms = d.platforms.slice(0, 6);
+          if (d.summary) g.summary = d.summary;
+          faits++;
+        } catch {
+          console.log(`  ! ${g.title} — fiche illisible, ignorée`);
+        }
+        // Sauvegarde régulière : c'est ce qui rend l'opération reprenable.
+        if ((i + 1) % 10 === 0 || i === lot.length - 1) {
+          fs.writeFileSync(DATA, JSON.stringify(serialise(), null, 2) + '\n');
+          console.log(`  ${i + 1}/${lot.length} (enregistré)`);
+        }
+        await sleep(DETAIL_DELAY);
+      }
+    } finally {
+      await browser2.close();
+    }
+    changes.push(`  i infos récupérées pour ${faits} jeu(x)${aCompleter.length > lot.length ? `, ${aCompleter.length - lot.length} restants` : ''}`);
+  } else if (lot.length && DRY) {
+    changes.push(`  i ${aCompleter.length} jeu(x) sans infos (non récupérées en --dry)`);
+  }
+
+  const out = serialise();
 
   console.log(`\n${changes.length} changement(s)`);
   console.log(changes.length ? changes.join('\n') : '  (rien à faire)');

@@ -400,7 +400,6 @@ header.is-pinned .nav-link {
   color: var(--accent);
 }
 
-.stars--sm { font-size: 0.78rem; }
 .stars--lg { font-size: 1.7rem; }
 
 .stars-none {
@@ -471,7 +470,52 @@ header.is-pinned .nav-link {
   color: var(--muted2);
 }
 
+/* Titre à gauche, marque « critique écrite » à droite, sous la jaquette. */
+.card-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.card-review {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.card-review svg {
+  width: 11px;
+  height: 11px;
+  fill: #9c9c9c;
+  transition: fill 0.15s;
+}
+
+.game-card:hover .card-review svg { fill: var(--accent); }
+
+.grid-divider {
+  grid-column: 1 / -1;
+  height: 1px;
+  background: var(--border);
+  margin: 1.1rem 0 0.6rem;
+}
+
+/* Intitulés de groupe : ils occupent une ligne entière de la grille. */
+.grid-label {
+  grid-column: 1 / -1;
+  margin-bottom: 0;
+}
+
+.grid-label-count {
+  color: #5c5c5c;
+  margin-left: 0.4rem;
+  letter-spacing: 0.08em;
+}
+
 .card-title {
+  /* min-width:0 est indispensable : sans lui l'ellipse ne se déclenche pas et
+     le titre pousse l'icône hors de la carte. */
+  flex: 1 1 auto;
+  min-width: 0;
   font-size: 0.85rem;
   font-weight: 450;
   line-height: 1.3;
@@ -479,7 +523,6 @@ header.is-pinned .nav-link {
   overflow: hidden;
   text-overflow: ellipsis;
   color: var(--text);
-  margin-bottom: 0.3rem;
 }
 
 /* ─── EMPTY / LOADING ────────────────────────────────────── */
@@ -603,6 +646,52 @@ header.is-pinned .nav-link {
 .game-nav-title {
   line-height: 1.35;
   overflow-wrap: anywhere;
+}
+
+/* ─── INFOS DU JEU (colonne gauche) ──────────────────────── */
+
+.game-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-top: 0.4rem;
+}
+
+.info-row {
+  display: flex;
+  gap: 0.8rem;
+  align-items: baseline;
+  font-size: 0.78rem;
+  line-height: 1.4;
+}
+
+.info-key {
+  flex: none;
+  width: 62px;
+  font-family: var(--font-display);
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.info-val {
+  min-width: 0;
+  color: var(--text);
+}
+
+.game-summary {
+  margin-top: 0.35rem;
+  font-size: 0.78rem;
+  line-height: 1.6;
+  color: var(--muted);
+  /* Borné à 5 lignes : la colonne est collante, elle ne doit pas dépasser
+     la hauteur de l'écran sous peine de devenir défilante. */
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .game-right {

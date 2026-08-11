@@ -3,7 +3,23 @@ const MONTHS_FR = [
   'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre',
 ];
 
+// Si on arrive depuis la liste, « ← Retour » ramène à la liste telle qu'elle
+// était (recherche et tri compris) plutôt qu'à l'accueil par défaut.
+function restoreBackLink() {
+  const back = document.querySelector('header .nav-link');
+  if (!back || !document.referrer) return;
+  try {
+    const ref = new URL(document.referrer);
+    if (ref.origin === window.location.origin && /(^|\/)index\.html$|\/$/.test(ref.pathname)) {
+      back.href = ref.href;
+    }
+  } catch {
+    /* referrer inexploitable : on garde le lien par défaut */
+  }
+}
+
 async function init() {
+  restoreBackLink();
   const slug = new URLSearchParams(window.location.search).get('slug');
   const page = document.getElementById('game-page');
 
@@ -32,7 +48,7 @@ async function init() {
   const newer = games[i - 1];
   const older = games[i + 1];
 
-  document.title = `${game.title} — backloggd.`;
+  document.title = `${game.title} - backloggd`;
   updateMeta(game);
   page.innerHTML = renderGame(game, newer, older);
   bindArrowKeys(newer, older);
@@ -87,6 +103,29 @@ function navLink(game, dir) {
     </a>`;
 }
 
+// Colonne de gauche : ce qui concerne le jeu lui-même. Volontairement bref,
+// cette zone ne doit jamais dépasser la hauteur de l'écran.
+function gameInfo(game) {
+  const rows = [
+    game.year ? infoRow('Sortie', escHtml(game.year)) : '',
+    game.developer ? infoRow('Studio', escHtml(game.developer)) : '',
+    game.genres && game.genres.length ? infoRow('Genre', escHtml(game.genres.slice(0, 3).join(', '))) : '',
+    game.platforms && game.platforms.length
+      ? infoRow('Support', escHtml(game.platforms.slice(0, 4).join(', '))) : '',
+  ].filter(Boolean).join('');
+
+  const summary = game.summary
+    ? `<p class="game-summary">${escHtml(game.summary)}</p>`
+    : '';
+
+  if (!rows && !summary) return '';
+  return `<div class="game-info">${rows}${summary}</div>`;
+}
+
+function infoRow(key, value) {
+  return `<div class="info-row"><span class="info-key">${key}</span><span class="info-val">${value}</span></div>`;
+}
+
 function renderGame(game, newer, older) {
   const cover = game.cover
     ? `<img class="game-cover-full" src="${game.cover}" alt="${escAttr(game.title)}">`
@@ -108,13 +147,12 @@ function renderGame(game, newer, older) {
       </div>
     </div>`;
 
-  const review = `
+  // Sans critique, pas d'encadré : une boîte vide souligne l'absence.
+  const review = game.review ? `
     <div class="panel section">
       <div class="panel-label">Critique</div>
-      ${game.review
-        ? `<div class="review-body">${formatReview(game.review)}</div>`
-        : '<div class="review-empty">Pas encore de critique pour ce jeu.</div>'}
-    </div>`;
+      <div class="review-body">${formatReview(game.review)}</div>
+    </div>` : '';
 
   return `
     <div class="game-layout">
@@ -125,6 +163,7 @@ function renderGame(game, newer, older) {
           ${navLink(newer, 'newer')}
           ${navLink(older, 'older')}
         </nav>` : ''}
+        ${gameInfo(game)}
       </div>
       <div class="game-right">
         <div class="game-head">

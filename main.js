@@ -1,6 +1,51 @@
 let allGames = [];
-let currentSearch = '';
-let currentSort = 'date-desc';
+
+// L'état de la liste vit dans l'URL : en revenant depuis la fiche d'un jeu,
+// le navigateur restaure l'adresse et donc la recherche et le tri.
+const params = new URLSearchParams(window.location.search);
+let currentSearch = params.get('q') || '';
+let currentSort = params.get('sort') || 'date-desc';
+
+// La grille étant construite en JS, le navigateur restaure le défilement avant
+// qu'elle existe et retombe donc à zéro. On le fait nous-mêmes, après le rendu.
+// nav.js efface cette même clé au clic sur le logo : garder les deux en phase.
+const SCROLL_KEY = 'backloggd:listScroll';
+
+if ('scrollRestoration' in window.history) {
+  window.history.scrollRestoration = 'manual';
+}
+
+function rememberScroll() {
+  try {
+    sessionStorage.setItem(SCROLL_KEY, JSON.stringify({
+      url: window.location.search,
+      y: Math.round(window.scrollY),
+    }));
+  } catch { /* stockage indisponible : on s'en passe */ }
+}
+
+function restoreScroll() {
+  try {
+    const raw = sessionStorage.getItem(SCROLL_KEY);
+    // Usage unique : consommée dès la lecture, pour qu'un rechargement ou un
+    // clic sur le logo repartent bien du haut.
+    sessionStorage.removeItem(SCROLL_KEY);
+    const saved = JSON.parse(raw || 'null');
+    if (saved && saved.url === window.location.search && saved.y > 0) {
+      window.scrollTo(0, saved.y);
+    }
+  } catch { /* idem */ }
+}
+
+function syncURL() {
+  const q = new URLSearchParams();
+  if (currentSearch) q.set('q', currentSearch);
+  if (currentSort !== 'date-desc') q.set('sort', currentSort);
+  const query = q.toString();
+  // replaceState et non pushState : sinon chaque frappe empilerait une entrée
+  // d'historique et le bouton Retour deviendrait inutilisable.
+  window.history.replaceState(null, '', query ? `?${query}` : window.location.pathname);
+}
 
 async function init() {
   try {
@@ -14,6 +59,7 @@ async function init() {
   document.getElementById('nav-count').textContent = allGames.length;
   renderFavorites();
   render();
+  restoreScroll();
 }
 
 function renderFavorites() {
@@ -54,14 +100,16 @@ function sortGames(list, mode) {
   }
 }
 
-function starsHTML(rating) {
-  const pct = rating == null ? 0 : Math.max(0, Math.min(100, (rating / 5) * 100));
-  const label = rating == null ? 'non noté' : `${rating} sur 5`;
-  return `<span class="stars stars--sm" role="img" aria-label="${label}">` +
-    `<span class="stars-bg">★★★★★</span>` +
-    `<span class="stars-fg" style="width:${pct}%">★★★★★</span>` +
-    `</span>`;
-}
+// Repris de l'icône « lignes de texte » que Backloggd pose sur les jeux critiqués.
+const REVIEW_ICON = `
+  <span class="card-review" title="Critique écrite" aria-label="Critique écrite">
+    <svg viewBox="0 0 14 14" aria-hidden="true">
+      <rect x="1" y="2"   width="12" height="1.6" rx="0.8"/>
+      <rect x="1" y="5.4" width="12" height="1.6" rx="0.8"/>
+      <rect x="1" y="8.8" width="12" height="1.6" rx="0.8"/>
+      <rect x="1" y="12.2" width="7.5" height="1.6" rx="0.8"/>
+    </svg>
+  </span>`;
 
 function cardHTML(game) {
   const cover = game.cover
@@ -71,8 +119,10 @@ function cardHTML(game) {
   return `
     <a class="game-card" href="./game.html?slug=${encodeURIComponent(game.slug)}">
       <div class="card-cover-wrap">${cover}</div>
-      <div class="card-title" title="${escAttr(game.title)}">${escHtml(game.title)}</div>
-      ${starsHTML(game.rating)}
+      <div class="card-meta">
+        <span class="card-title" title="${escAttr(game.title)}">${escHtml(game.title)}</span>
+        ${game.review ? REVIEW_ICON : ''}
+      </div>
     </a>`;
 }
 
@@ -95,7 +145,27 @@ function render() {
     return;
   }
 
-  grid.innerHTML = filtered.map(cardHTML).join('');
+  // Les jeux critiqués d'abord, puis les autres — mais pas pendant une
+  // recherche : on veut alors tous les résultats d'un bloc.
+  const critiques = filtered.filter(g => g.review);
+  const sansCritique = filtered.filter(g => !g.review);
+  const scinde = !currentSearch && critiques.length > 0 && sansCritique.length > 0;
+
+  if (!scinde) {
+    grid.innerHTML = filtered.map(cardHTML).join('');
+    return;
+  }
+
+  const label = (texte, n) =>
+    `<h2 class="section-label grid-label">${texte} <span class="grid-label-count">${n}</span></h2>`;
+
+  grid.innerHTML = [
+    label('Avec critique', critiques.length),
+    critiques.map(cardHTML).join(''),
+    '<div class="grid-divider"></div>',
+    label('Sans critique', sansCritique.length),
+    sansCritique.map(cardHTML).join(''),
+  ].join('');
 }
 
 function escHtml(str) {
@@ -111,15 +181,37 @@ function escAttr(str) {
 
 const searchEl = document.getElementById('search');
 
+const sortEl = document.getElementById('sort');
+
+// Rétablit ce que l'URL contenait au chargement.
+searchEl.value = currentSearch;
+sortEl.value = currentSort;
+
 searchEl.addEventListener('input', e => {
   currentSearch = e.target.value;
+  resetScrollMemory();
+  syncURL();
   render();
 });
 
-document.getElementById('sort').addEventListener('change', e => {
+sortEl.addEventListener('change', e => {
   currentSort = e.target.value;
+  resetScrollMemory();
+  syncURL();
   render();
 });
+
+// On ne mémorise la position qu'en partant vers la fiche d'un jeu. Toute autre
+// sortie (logo, rechargement, lien externe) ne laisse rien derrière elle.
+document.addEventListener('click', e => {
+  if (e.target.closest && e.target.closest('a.game-card')) rememberScroll();
+}, true);
+
+// Une recherche ou un tri repart du haut : garder l'ancienne position n'aurait
+// aucun sens sur une liste dont le contenu vient de changer.
+function resetScrollMemory() {
+  try { sessionStorage.removeItem(SCROLL_KEY); } catch { /* rien à faire */ }
+}
 
 const isTyping = () =>
   /^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement.tagName);
@@ -132,6 +224,7 @@ document.addEventListener('keydown', e => {
   } else if (e.key === 'Escape' && document.activeElement === searchEl) {
     searchEl.value = '';
     currentSearch = '';
+    syncURL();
     render();
     searchEl.blur();
   }
