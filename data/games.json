@@ -1,12 +1,5 @@
 [
   {
-    "slug": "dragon-quest-viii",
-    "title": "Dragon Quest VIII: Journey of the Cursed King",
-    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7vf2.jpg",
-    "platform": "PlayStation 2",
-    "date_start": "2026-08-04"
-  },
-  {
     "slug": "discopup",
     "title": "Discopup",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co99uf.jpg",
@@ -923,7 +916,7 @@
     "title": "Kingdom Come: Deliverance",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4aqi.jpg",
     "platform": "Windows PC",
-    "rating": 3.5,
+    "rating": 4,
     "date_start": "2025-02-04",
     "date": "2025-02-15",
     "review": "Le système de combat se veut réaliste mais ça devient une purge après une dizaine d'heures.\nL'histoire, les quêtes, l'ambiance sont très réussies ceci dit"
@@ -963,5 +956,1073 @@
     "rating": 2.5,
     "date_start": "2024-10-03",
     "date": "2024-10-05"
+  },
+  {
+    "slug": "unlucky-mummy",
+    "title": "Unlucky Mummy",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc2c1.jpg",
+    "rating": 3
+  },
+  {
+    "slug": "storyteller",
+    "title": "Storyteller",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3hem.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "baba-is-you",
+    "title": "Baba Is You",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2hqt.jpg",
+    "rating": 4,
+    "review": "Ce jeu me fait sentir con et c'est étrangement agréable"
+  },
+  {
+    "slug": "scritchy-scratchy",
+    "title": "Scritchy Scratchy",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc2j8.jpg",
+    "rating": 4,
+    "review": "J'avais poncé la demo y'a quelques mois sur itch.io et cette version finale est très convaincante. Le sentiments de progression propre aux jeux incrémentaux est particulièrement satisfaisant, chaque run est de plus en courte, les upgrades avec les prestiges sont vraiment utiles.\nBref vraiment un peu jeu incrémental comme je les aimes, juste le jeu est beaucoup trop actif à mon gout, y'a un système d'idle mais il intervient tard, et nécessite pas mal d'upgrades avant de pouvoir reposer entièrement sur lui"
+  },
+  {
+    "slug": "animal-crossing-new-horizons",
+    "title": "Animal Crossing: New Horizons",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3wls.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "super-smash-bros-ultimate",
+    "title": "Super Smash Bros. Ultimate",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2255.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "horripilant",
+    "title": "Horripilant",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob1nd.jpg",
+    "rating": 3.5
+  },
+  {
+    "slug": "resident-evil-4",
+    "title": "Resident Evil 4",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2wk8.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "arc-raiders",
+    "title": "ARC Raiders",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9rk1.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "ball-x-pit",
+    "title": "Ball x Pit",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9xid.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "hades-ii",
+    "title": "Hades II",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaknx.jpg",
+    "rating": 5,
+    "review": "Après 50h sur l'early access il m'aura fallu 30h sur une nouvelle save pour voir la fin et compléter pas mal de petites quêtes secondaires, le gameplay est génial, la DA est somptueuse, les diversités de builds avec les aspects des armes offrent une très bonne rejouabilitée.\nLE jeu indé de 2025 (déso silksong)"
+  },
+  {
+    "slug": "deus-ex-invisible-war",
+    "title": "Deus Ex: Invisible War",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coboyb.jpg",
+    "rating": 1,
+    "review": "Faire une suite a l'un des meilleurs jeux de tout les temps était déjà une mission difficile, mais faire un jeu affreux tout court je sais pas comment ils ont pu faire, le jeu est moche, bugué, vide, chiant, y'a rien qui va"
+  },
+  {
+    "slug": "e-y-e-divine-cybermancy",
+    "title": "E.Y.E: Divine Cybermancy",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7eny.jpg",
+    "rating": 2
+  },
+  {
+    "slug": "poco",
+    "title": "Poco",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9u38.jpg",
+    "rating": 4.5,
+    "review": "Pour 5 euros je l'achète quand même"
+  },
+  {
+    "slug": "vampire-the-masquerade-bloodlines",
+    "title": "Vampire: The Masquerade - Bloodlines",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2n14.jpg",
+    "rating": 2
+  },
+  {
+    "slug": "mafia-definitive-edition",
+    "title": "Mafia: Definitive Edition",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co26vl.jpg",
+    "rating": 2.5
+  },
+  {
+    "slug": "path-of-exile-2",
+    "title": "Path of Exile 2",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8ae0.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "metaphor-refantazio",
+    "title": "Metaphor: ReFantazio",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8d9t.jpg",
+    "rating": 2.5
+  },
+  {
+    "slug": "mouthwashing",
+    "title": "Mouthwashing",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co70oi.jpg",
+    "rating": 3.5
+  },
+  {
+    "slug": "alan-wake-ii-the-lake-house",
+    "title": "Alan Wake II: The Lake House",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8z06.jpg",
+    "rating": 3
+  },
+  {
+    "slug": "silent-hill-2",
+    "title": "Silent Hill 2",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coavaf.jpg",
+    "rating": 5
+  },
+  {
+    "slug": "scorn",
+    "title": "Scorn",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4v5c.jpg",
+    "rating": 3.5
+  },
+  {
+    "slug": "warhammer-40-000-space-marine-ii",
+    "title": "Warhammer 40,000: Space Marine II",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5vab.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "final-fantasy-x-x-2-hd-remaster",
+    "title": "Final Fantasy X/X-2 HD Remaster",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2zpl.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "bayonetta-2",
+    "title": "Bayonetta 2",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob9e9.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "bayonetta",
+    "title": "Bayonetta",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9xp1.jpg",
+    "rating": 3
+  },
+  {
+    "slug": "final-fantasy-ix",
+    "title": "Final Fantasy IX",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9okj.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "devil-may-cry-5",
+    "title": "Devil May Cry 5",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1rb4.jpg",
+    "rating": 3.5
+  },
+  {
+    "slug": "devil-may-cry-4-special-edition",
+    "title": "Devil May Cry 4: Special Edition",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobbuu.jpg",
+    "rating": 3.5
+  },
+  {
+    "slug": "devil-may-cry",
+    "title": "Devil May Cry",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5tkk.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "devil-may-cry-2",
+    "title": "Devil May Cry 2",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5mud.jpg",
+    "rating": 2
+  },
+  {
+    "slug": "devil-may-cry-3-dante-s-awakening-special-edition",
+    "title": "Devil May Cry 3: Dante's Awakening - Special Edition",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5mue.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "max-payne-3",
+    "title": "Max Payne 3",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2mjo.jpg",
+    "rating": 3.5
+  },
+  {
+    "slug": "heretic-s-fork",
+    "title": "Heretic's Fork",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6g1u.jpg",
+    "rating": 3.5
+  },
+  {
+    "slug": "max-payne-2-the-fall-of-max-payne",
+    "title": "Max Payne 2: The Fall of Max Payne",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2lcl.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "max-payne",
+    "title": "Max Payne",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3wb2.jpg",
+    "rating": 2.5
+  },
+  {
+    "slug": "alan-wake-ii-night-springs",
+    "title": "Alan Wake II: Night Springs",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8c6g.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "alan-wake-ii",
+    "title": "Alan Wake II",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6jar.jpg",
+    "rating": 5
+  },
+  {
+    "slug": "shin-megami-tensei-v-vengeance",
+    "title": "Shin Megami Tensei V: Vengeance",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7sv4.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "alan-wake",
+    "title": "Alan Wake",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2dft.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "dishonored-2",
+    "title": "Dishonored 2",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9e29.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "gloomwood",
+    "title": "Gloomwood",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3b61.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "control-awe",
+    "title": "Control: AWE",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co97ix.jpg",
+    "rating": 5
+  },
+  {
+    "slug": "control-the-foundation",
+    "title": "Control: The Foundation",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2eb5.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "deus-ex-mankind-divided-a-criminal-past",
+    "title": "Deus Ex: Mankind Divided - A Criminal Past",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co25kw.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "deus-ex-mankind-divided-system-rift",
+    "title": "Deus Ex: Mankind Divided - System Rift",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co25kv.jpg",
+    "rating": 3.5
+  },
+  {
+    "slug": "deus-ex-mankind-divided-desperate-measures",
+    "title": "Deus Ex: Mankind Divided - Desperate Measures",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9a4q.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "deus-ex-mankind-divided",
+    "title": "Deus Ex: Mankind Divided",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co25jt.jpg",
+    "rating": 3.5
+  },
+  {
+    "slug": "deus-ex-human-revolution-director-s-cut",
+    "title": "Deus Ex: Human Revolution - Director's Cut",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2tgb.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "deus-ex-game-of-the-year-edition",
+    "title": "Deus Ex: Game of the Year Edition",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2hm2.jpg",
+    "rating": 5,
+    "review": "C'est encore meilleur la deuxième fois, vraiment l'un des meilleurs jeu de tout les temps"
+  },
+  {
+    "slug": "thief",
+    "title": "Thief",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co22nc.jpg",
+    "rating": 2
+  },
+  {
+    "slug": "final-fantasy-vii-rebirth",
+    "title": "Final Fantasy VII Rebirth",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob9k6.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "prey",
+    "title": "Prey",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9aoh.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "lust-for-darkness",
+    "title": "Lust for Darkness",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7hvu.jpg",
+    "rating": 2
+  },
+  {
+    "slug": "persona-3-reload",
+    "title": "Persona 3 Reload",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc4jz.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "tekken-8",
+    "title": "Tekken 8",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7lbb.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "mario-kart-super-circuit",
+    "title": "Mario Kart: Super Circuit",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7o0u.jpg",
+    "rating": 3.5
+  },
+  {
+    "slug": "super-mario-bros",
+    "title": "Super Mario Bros.",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "mario-kart-wii",
+    "title": "Mario Kart Wii",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co214e.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "mario-kart-ds",
+    "title": "Mario Kart DS",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob9rx.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "mario-kart-8-deluxe",
+    "title": "Mario Kart 8 Deluxe",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co213p.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "kao-challengers",
+    "title": "Kao Challengers",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co292o.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "the-simpsons-game",
+    "title": "The Simpsons Game",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2ma9.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "mario-luigi-bowser-s-inside-story",
+    "title": "Mario & Luigi: Bowser's Inside Story",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21vr.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "goldeneye-007",
+    "title": "GoldenEye 007",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3dx3.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "cars-2",
+    "title": "Cars 2",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4zwr.jpg",
+    "rating": 3.5
+  },
+  {
+    "slug": "day-of-the-tentacle-remastered",
+    "title": "Day of the Tentacle Remastered",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2865.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "thief-deadly-shadows",
+    "title": "Thief: Deadly Shadows",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2rom.jpg",
+    "rating": 3.5
+  },
+  {
+    "slug": "firewatch",
+    "title": "Firewatch",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob1ts.jpg",
+    "rating": 2.5
+  },
+  {
+    "slug": "dead-space",
+    "title": "Dead Space",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobkv5.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "shin-megami-tensei-persona-2-innocent-sin",
+    "title": "Shin Megami Tensei: Persona 2 - Innocent Sin",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6k6b.jpg",
+    "rating": 5
+  },
+  {
+    "slug": "persona-q2-new-cinema-labyrinth",
+    "title": "Persona Q2: New Cinema Labyrinth",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8l09.jpg",
+    "rating": 2
+  },
+  {
+    "slug": "persona-3-dancing-in-moonlight",
+    "title": "Persona 3: Dancing in Moonlight",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1ob9.jpg",
+    "rating": 2.5
+  },
+  {
+    "slug": "persona-4-dancing-all-night",
+    "title": "Persona 4: Dancing All Night",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4hmn.jpg",
+    "rating": 2.5
+  },
+  {
+    "slug": "persona-5-dancing-in-starlight",
+    "title": "Persona 5: Dancing in Starlight",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5cbi.jpg",
+    "rating": 2.5
+  },
+  {
+    "slug": "persona-4-arena-ultimax",
+    "title": "Persona 4 Arena Ultimax",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k1y.jpg",
+    "rating": 3
+  },
+  {
+    "slug": "persona-4-golden",
+    "title": "Persona 4 Golden",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc4k1.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "persona-3-portable",
+    "title": "Persona 3 Portable",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1n1z.jpg",
+    "rating": 3.5
+  },
+  {
+    "slug": "shin-megami-tensei-strange-journey-redux",
+    "title": "Shin Megami Tensei: Strange Journey Redux",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2w7i.jpg",
+    "rating": 2.5
+  },
+  {
+    "slug": "red-dead-redemption-2",
+    "title": "Red Dead Redemption 2",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1q1f.jpg",
+    "rating": 5
+  },
+  {
+    "slug": "south-park-the-fractured-but-whole",
+    "title": "South Park: The Fractured But Whole",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1v8w.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "south-park-the-stick-of-truth",
+    "title": "South Park: The Stick of Truth",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1v8x.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "thief-ii-the-metal-age",
+    "title": "Thief II: The Metal Age",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co698n.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "thief-gold",
+    "title": "Thief Gold",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co44le.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "inside",
+    "title": "Inside",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2fca.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "the-last-of-us-remastered",
+    "title": "The Last of Us Remastered",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5zks.jpg",
+    "rating": 5
+  },
+  {
+    "slug": "american-arcadia",
+    "title": "American Arcadia",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6pr7.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "cyberpunk-2077-phantom-liberty",
+    "title": "Cyberpunk 2077: Phantom Liberty",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7566.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "cyberpunk-2077",
+    "title": "Cyberpunk 2077",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaih8.jpg",
+    "rating": 5
+  },
+  {
+    "slug": "marvel-s-spider-man-2",
+    "title": "Marvel's Spider-Man 2",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobg1k.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "signalis",
+    "title": "Signalis",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co62ig.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "a-plague-tale-requiem",
+    "title": "A Plague Tale: Requiem",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5pwb.jpg",
+    "rating": 2
+  },
+  {
+    "slug": "cuphead",
+    "title": "Cuphead",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co62ao.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "mirror-s-edge",
+    "title": "Mirror's Edge",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5gbw.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "dishonored",
+    "title": "Dishonored",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coabgu.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "death-stranding",
+    "title": "Death Stranding",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobksf.jpg",
+    "rating": 3.5
+  },
+  {
+    "slug": "alien-isolation",
+    "title": "Alien: Isolation",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1vzu.jpg",
+    "rating": 5
+  },
+  {
+    "slug": "bioshock-infinite",
+    "title": "BioShock Infinite",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2n12.jpg",
+    "rating": 5
+  },
+  {
+    "slug": "bioshock-2",
+    "title": "BioShock 2",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2mlj.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "bioshock",
+    "title": "BioShock",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2mli.jpg",
+    "rating": 5
+  },
+  {
+    "slug": "star-wars-jedi-fallen-order",
+    "title": "Star Wars Jedi: Fallen Order",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1rbi.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "the-legend-of-zelda-the-wind-waker-hd",
+    "title": "The Legend of Zelda: The Wind Waker HD",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3ozi.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "the-legend-of-zelda-majora-s-mask-3d",
+    "title": "The Legend of Zelda: Majora's Mask 3D",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob9x9.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "the-legend-of-zelda-twilight-princess-hd",
+    "title": "The Legend of Zelda: Twilight Princess HD",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3mqa.jpg",
+    "rating": 5
+  },
+  {
+    "slug": "the-legend-of-zelda-ocarina-of-time",
+    "title": "The Legend of Zelda: Ocarina of Time",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3nnx.jpg",
+    "rating": 5
+  },
+  {
+    "slug": "persona-5-strikers",
+    "title": "Persona 5 Strikers",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2zoq.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "persona-5-royal",
+    "title": "Persona 5 Royal",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coclf1.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "the-last-of-us-part-ii",
+    "title": "The Last of Us Part II",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5ziw.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "a-plague-tale-innocence",
+    "title": "A Plague Tale: Innocence",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1lat.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "final-fantasy-vii-remake",
+    "title": "Final Fantasy VII Remake",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobcwt.jpg",
+    "rating": 3.5
+  },
+  {
+    "slug": "final-fantasy-vii",
+    "title": "Final Fantasy VII",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2kx2.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "marvel-s-spider-man-miles-morales",
+    "title": "Marvel's Spider-Man: Miles Morales",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobg1j.jpg",
+    "rating": 2.5
+  },
+  {
+    "slug": "demon-s-souls",
+    "title": "Demon's Souls",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2kj9.jpg",
+    "rating": 3
+  },
+  {
+    "slug": "dark-souls",
+    "title": "Dark Souls",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1x78.jpg",
+    "rating": 3
+  },
+  {
+    "slug": "dark-souls-ii",
+    "title": "Dark Souls II",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobysr.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "pokemon-legends-arceus",
+    "title": "Pokémon Legends: Arceus",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3d03.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "sekiro-shadows-die-twice",
+    "title": "Sekiro: Shadows Die Twice",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2a23.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "marvel-s-spider-man",
+    "title": "Marvel's Spider-Man",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1r77.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "dark-souls-iii",
+    "title": "Dark Souls III",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob9ed.jpg",
+    "rating": 5
+  },
+  {
+    "slug": "nier-automata",
+    "title": "NieR: Automata",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5pcj.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "bloodborne",
+    "title": "Bloodborne",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob99l.jpg",
+    "rating": 5
+  },
+  {
+    "slug": "hades",
+    "title": "Hades",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob9kr.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "the-legend-of-zelda-breath-of-the-wild",
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3p2d.jpg",
+    "rating": 3.5
+  },
+  {
+    "slug": "minecraft-java-edition",
+    "title": "Minecraft: Java Edition",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coa77e.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "god-of-war",
+    "title": "God of War",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobkt6.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "resident-evil-2--1",
+    "title": "Resident Evil 2",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1ir3.jpg",
+    "rating": 3.5
+  },
+  {
+    "slug": "resident-evil-3",
+    "title": "Resident Evil 3",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co22l7.jpg",
+    "rating": 3
+  },
+  {
+    "slug": "resident-evil--3",
+    "title": "Resident Evil",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1taw.jpg",
+    "rating": 3.5
+  },
+  {
+    "slug": "shin-megami-tensei-devil-summoner-raidou-kuzunoha-vs-the-soulless-army",
+    "title": "Shin Megami Tensei Devil Summoner: Raidou Kuzunoha vs. The Soulless Army",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co26ig.jpg",
+    "rating": 3.5
+  },
+  {
+    "slug": "devil-summoner-soul-hackers",
+    "title": "Devil Summoner: Soul Hackers",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co84yg.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "shin-megami-tensei-devil-survivor-overclocked",
+    "title": "Shin Megami Tensei: Devil Survivor Overclocked",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coavoq.jpg",
+    "rating": 3.5
+  },
+  {
+    "slug": "shin-megami-tensei-digital-devil-saga-2",
+    "title": "Shin Megami Tensei: Digital Devil Saga 2",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4psm.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "shin-megami-tensei-digital-devil-saga",
+    "title": "Shin Megami Tensei: Digital Devil Saga",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2y4s.jpg",
+    "rating": 5
+  },
+  {
+    "slug": "digital-devil-story-megami-tensei",
+    "title": "Digital Devil Story: Megami Tensei",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2zhj.jpg",
+    "rating": 2
+  },
+  {
+    "slug": "shin-megami-tensei-strange-journey",
+    "title": "Shin Megami Tensei: Strange Journey",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co26fw.jpg",
+    "rating": 2.5
+  },
+  {
+    "slug": "shin-megami-tensei-iv-apocalypse",
+    "title": "Shin Megami Tensei IV: Apocalypse",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2ufc.jpg",
+    "rating": 3.5
+  },
+  {
+    "slug": "shin-megami-tensei-iv",
+    "title": "Shin Megami Tensei IV",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1n26.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "shin-megami-tensei-if",
+    "title": "Shin Megami Tensei if...",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co26hy.jpg",
+    "rating": 2.5
+  },
+  {
+    "slug": "shin-megami-tensei-ii",
+    "title": "Shin Megami Tensei II",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc1ye.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "shin-megami-tensei-nocturne",
+    "title": "Shin Megami Tensei: Nocturne",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5rw7.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "shin-megami-tensei",
+    "title": "Shin Megami Tensei",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co26i0.jpg",
+    "rating": 3.5
+  },
+  {
+    "slug": "shin-megami-tensei-v",
+    "title": "Shin Megami Tensei V",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co39zk.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "shin-megami-tensei-persona",
+    "title": "Shin Megami Tensei: Persona",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4ejn.jpg",
+    "rating": 1.5
+  },
+  {
+    "slug": "persona-2-eternal-punishment",
+    "title": "Persona 2: Eternal Punishment",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6k6n.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "persona-3-fes",
+    "title": "Persona 3 FES",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6j8n.jpg",
+    "rating": 3.5
+  },
+  {
+    "slug": "persona-5",
+    "title": "Persona 5",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1r76.jpg",
+    "rating": 5
+  },
+  {
+    "slug": "persona-4",
+    "title": "Persona 4",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1u07.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "american-mcgee-s-alice",
+    "title": "American McGee's Alice",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2bwl.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "alice-madness-returns",
+    "title": "Alice: Madness Returns",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2n91.jpg",
+    "rating": 5
+  },
+  {
+    "slug": "control",
+    "title": "Control",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2evj.jpg",
+    "rating": 5
+  },
+  {
+    "slug": "batman-arkham-knight",
+    "title": "Batman: Arkham Knight",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coagib.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "clock-tower-3",
+    "title": "Clock Tower 3",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1otl.jpg",
+    "rating": 3.5
+  },
+  {
+    "slug": "clock-tower-ii-the-struggle-within",
+    "title": "Clock Tower II: The Struggle Within",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3wmj.jpg",
+    "rating": 2
+  },
+  {
+    "slug": "clock-tower",
+    "title": "Clock Tower",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co23s2.jpg",
+    "rating": 3.5
+  },
+  {
+    "slug": "clock-tower-2",
+    "title": "Clock Tower",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4q4f.jpg",
+    "rating": 3.5
+  },
+  {
+    "slug": "beyond-good-evil",
+    "title": "Beyond Good & Evil",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2n6b.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "system-shock",
+    "title": "System Shock",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1ik8.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "paradise-killer",
+    "title": "Paradise Killer",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9910.jpg",
+    "rating": 4.5
+  },
+  {
+    "slug": "star-wars-jedi-survivor",
+    "title": "Star Wars Jedi: Survivor",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5uzk.jpg",
+    "rating": 3.5
+  },
+  {
+    "slug": "metal-gear-rising-revengeance",
+    "title": "Metal Gear Rising: Revengeance",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2l1t.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "system-shock-2",
+    "title": "System Shock 2",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4bak.jpg",
+    "rating": 5
+  },
+  {
+    "slug": "resident-evil-4--1",
+    "title": "Resident Evil 4",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6bo0.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "hogwarts-legacy",
+    "title": "Hogwarts Legacy",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaav6.jpg",
+    "rating": 3.5
+  },
+  {
+    "slug": "fire-emblem-engage",
+    "title": "Fire Emblem Engage",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc5d3.jpg",
+    "rating": 2.5
+  },
+  {
+    "slug": "undertale",
+    "title": "Undertale",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob1t2.jpg",
+    "rating": 3.5
+  },
+  {
+    "slug": "silent-hill-origins",
+    "title": "Silent Hill: Origins",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2vyq.jpg",
+    "rating": 3
+  },
+  {
+    "slug": "silent-hill-4-the-room",
+    "title": "Silent Hill 4: The Room",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2vyk.jpg",
+    "rating": 3.5
+  },
+  {
+    "slug": "silent-hill-3",
+    "title": "Silent Hill 3",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3kol.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "silent-hill-2-2",
+    "title": "Silent Hill 2",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2vyg.jpg",
+    "rating": 5
+  },
+  {
+    "slug": "silent-hill",
+    "title": "Silent Hill",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2vye.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "god-of-war-ragnarok",
+    "title": "God of War Ragnarök",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coba3d.jpg",
+    "rating": 3
+  },
+  {
+    "slug": "god-of-war-iii",
+    "title": "God of War III",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3koi.jpg",
+    "rating": 4
+  },
+  {
+    "slug": "god-of-war-ii",
+    "title": "God of War II",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3dik.jpg",
+    "rating": 3.5
+  },
+  {
+    "slug": "god-of-war-2",
+    "title": "God of War",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3ddc.jpg",
+    "rating": 3.5
+  },
+  {
+    "slug": "fire-emblem-three-houses",
+    "title": "Fire Emblem: Three Houses",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1n8t.jpg",
+    "rating": 5
+  },
+  {
+    "slug": "baldur-s-gate-iii",
+    "title": "Baldur's Gate III",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co670h.jpg",
+    "rating": 5
+  },
+  {
+    "slug": "outer-wilds",
+    "title": "Outer Wilds",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co65ac.jpg",
+    "rating": 4.5
   }
 ]

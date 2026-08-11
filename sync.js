@@ -82,6 +82,20 @@ const grabJournal = () => {
   return out;
 };
 
+// Grille de tous les jeux joués : la note y est portée par data-rating, sur une
+// échelle /10. Pas de plateforme ni de date ici, seulement note et jaquette.
+const grabLibrary = () => [...document.querySelectorAll('.game-cover')].map(c => {
+  const link = c.querySelector('a[href^="/games/"]');
+  const img = c.querySelector('img.card-img');
+  const dr = c.getAttribute('data-rating');
+  return {
+    title: img ? img.getAttribute('alt') : null,
+    bgSlug: link ? link.getAttribute('href').replace(/^\/games\//, '').replace(/\/$/, '') : null,
+    cover: img ? img.getAttribute('src') : null,
+    rating: dr ? parseFloat(dr) / 2 : null,
+  };
+}).filter(g => g.bgSlug && g.title);
+
 const grabReviews = () => [...document.querySelectorAll('.review-card')].map(card => {
   const link = card.querySelector('a[href^="/games/"]');
   const img = card.querySelector('img.card-img');
@@ -126,13 +140,16 @@ async function scrapeAll(page, url, extractor, label) {
 
 /* ---------- assemblage ---------- */
 
+// Tout est indexé par le slug Backloggd, jamais par le titre : Backloggd
+// héberge l'original et le remake sous un titre identique (Resident Evil,
+// Resident Evil 2, God of War…), et une clé par titre en écrase un des deux.
 function buildFromEvents(events) {
   const games = new Map();
   for (const e of events) {
     const mi = MONTHS.indexOf(e.month.toLowerCase());
     if (mi < 0) continue;
     const date = `${e.year}-${String(mi + 1).padStart(2, '0')}-${e.day.padStart(2, '0')}`;
-    const key = norm(e.title);
+    const key = e.bgSlug;
     if (!games.has(key)) {
       games.set(key, { title: e.title, bgSlug: e.bgSlug, cover: e.cover, platform: e.platform, starts: [], finishes: [] });
     }
@@ -150,13 +167,25 @@ function buildFromEvents(events) {
   return games;
 }
 
-function sortGames(list, originalIndex) {
+// Un jeu en cours (commencé, pas fini) n'a ni note ni critique : il n'a rien à
+// montrer et se retrouverait en tête de liste. On l'exclut du fichier ; il y
+// entrera de lui-même à la prochaine synchro une fois terminé.
+const enCours = g => !!g.date_start && !g.date;
+
+// 0 = terminé et daté, 1 = noté sans aucune date (antérieur au journal).
+function bucket(g) {
+  return g.date ? 0 : 1;
+}
+
+function sortGames(list, originalIndex, libIndex) {
   return [...list].sort((a, b) => {
-    const aOpen = !a.date, bOpen = !b.date;
-    if (aOpen !== bOpen) return aOpen ? -1 : 1;
-    const av = aOpen ? (a.date_start || '') : a.date;
-    const bv = bOpen ? (b.date_start || '') : b.date;
-    if (av !== bv) return av < bv ? 1 : -1;
+    const ab = bucket(a), bb = bucket(b);
+    if (ab !== bb) return ab - bb;
+    if (ab === 1) {
+      // Sans date, on garde l'ordre de la bibliothèque Backloggd.
+      return (libIndex.get(a.__bg) ?? 1e9) - (libIndex.get(b.__bg) ?? 1e9);
+    }
+    if (a.date !== b.date) return a.date < b.date ? 1 : -1;
     // À date égale, on conserve l'ordre actuel du fichier pour limiter le diff.
     return (originalIndex.get(a.slug) ?? 1e9) - (originalIndex.get(b.slug) ?? 1e9);
   });
@@ -173,25 +202,53 @@ function sortGames(list, originalIndex) {
   const ctx = await browser.newContext({ userAgent: UA });
   const page = await ctx.newPage();
 
-  let events, reviews;
+  let events, reviews, library;
   try {
     events = await scrapeAll(page, `https://backloggd.com/u/${USER}/journal`, grabJournal, 'journal');
     reviews = await scrapeAll(page, `https://backloggd.com/u/${USER}/reviews`, grabReviews, 'reviews');
+    library = await scrapeAll(page, `https://backloggd.com/u/${USER}/games`, grabLibrary, 'jeux   ');
   } finally {
     await browser.close();
   }
 
   const journal = buildFromEvents(events);
-  const byTitle = new Map(reviews.map(r => [norm(r.title), r]));
-  const bySlug = new Map(reviews.map(r => [r.bgSlug, r]));
+  const revBySlug = new Map(reviews.map(r => [r.bgSlug, r]));
+  const libBySlug = new Map(library.map(g => [g.bgSlug, g]));
+  const libIndex = new Map(library.map((g, i) => [g.bgSlug, i]));
+
+  // norm(titre) → liste des slugs Backloggd portant ce titre.
+  const titleToSlugs = new Map();
+  for (const s of new Set([...libBySlug.keys(), ...journal.keys()])) {
+    const t = norm((libBySlug.get(s) || journal.get(s)).title);
+    if (!titleToSlugs.has(t)) titleToSlugs.set(t, []);
+    titleToSlugs.get(t).push(s);
+  }
+
+  // Retrouve à quel jeu Backloggd correspond une entrée du fichier. Une critique
+  // donne une ancre exacte ; sinon on n'accepte qu'un titre sans homonyme.
+  const ambigus = [];
+  function resolve(g) {
+    const key = norm(g.title);
+    const candidates = titleToSlugs.get(key) || [];
+    if (candidates.length === 1) return candidates[0];
+    if (candidates.length > 1) {
+      const viaReview = reviews.find(r => norm(r.title) === key);
+      if (viaReview && candidates.includes(viaReview.bgSlug)) return viaReview.bgSlug;
+      ambigus.push(`${g.title} (${candidates.join(', ')})`);
+      return null;
+    }
+    return null;
+  }
 
   const changes = [];
   const seenKeys = new Set();
 
   const merged = existing.map(g => {
-    const j = journal.get(norm(g.title));
-    const r = byTitle.get(norm(g.title)) || bySlug.get(g.slug);
-    if (j) seenKeys.add(norm(g.title));
+    const bg = resolve(g);
+    const j = bg ? journal.get(bg) : null;
+    const r = bg ? revBySlug.get(bg) : null;
+    const l = bg ? libBySlug.get(bg) : null;
+    if (bg) { seenKeys.add(bg); g.__bg = bg; }
 
     const set = (field, value) => {
       if (value == null || g[field] === value) return;
@@ -203,39 +260,70 @@ function sortGames(list, originalIndex) {
       set('date_start', j.date_start);
       set('date', j.date);
     }
+    // La note vient de la grille /games (elle couvre aussi les jeux sans
+    // critique) ; la page reviews sert de repli.
+    if (l) set('rating', l.rating);
+    else if (r) set('rating', r.rating);
     if (r) {
-      set('rating', r.rating);
       const rev = cleanReview(r.review);
       if (rev && g.review !== rev) {
         changes.push(`  ~ ${g.title} · critique (${(g.review || '').length} → ${rev.length} car.)`);
         g.review = rev;
       }
     }
-    if (!j && !r) {
+    if (!j && !r && !l) {
       g.__gone = true;
       changes.push(`  ${PRUNE ? '-' : '!'} ${g.title} — absent de Backloggd${PRUNE ? ', supprimé' : ' (--prune pour le retirer)'}`);
     }
     return g;
   }).filter(g => !(PRUNE && g.__gone));
 
+  // On parcourt toute la bibliothèque, pas seulement le journal : les jeux notés
+  // avant que l'utilisateur ne commence à logger n'ont aucune entrée de journal.
   const usedSlugs = new Set(merged.map(g => g.slug));
-  for (const [key, j] of journal) {
-    if (seenKeys.has(key)) continue;
-    let slug = slugify(j.title);
-    while (usedSlugs.has(slug)) slug = slug + '-2';
+  const candidates = new Map();
+  for (const [bg, j] of journal) candidates.set(bg, { j, l: libBySlug.get(bg) });
+  for (const [bg, l] of libBySlug) if (!candidates.has(bg)) candidates.set(bg, { j: null, l });
+
+  let ajoutsSansDate = 0;
+  for (const [bg, { j, l }] of candidates) {
+    if (seenKeys.has(bg)) continue;
+    const title = (j || l).title;
+    // En cas d'homonyme (original vs remake), on retombe sur le slug Backloggd,
+    // unique et stable : « resident-evil--3 » plutôt qu'un « resident-evil-2-2 »
+    // qu'on confondrait avec Resident Evil 2.
+    let slug = slugify(title);
+    if (usedSlugs.has(slug)) slug = bg;
+    let n = 2;
+    while (usedSlugs.has(slug)) slug = `${bg}-${n++}`;
     usedSlugs.add(slug);
-    const r = byTitle.get(key) || bySlug.get(j.bgSlug);
-    const game = { slug, title: j.title, cover: big2x(j.cover), platform: j.platform };
-    if (r && r.rating != null) game.rating = r.rating;
-    if (j.date_start) game.date_start = j.date_start;
-    if (j.date) game.date = j.date;
+
+    const r = revBySlug.get(bg);
+    const game = { slug, title, cover: big2x((j && j.cover) || (l && l.cover)) };
+    if (j && j.platform) game.platform = j.platform;
+    if (l && l.rating != null) game.rating = l.rating;
+    else if (r && r.rating != null) game.rating = r.rating;
+    if (j && j.date_start) game.date_start = j.date_start;
+    if (j && j.date) game.date = j.date;
     if (r && r.review) game.review = cleanReview(r.review);
+
+    game.__bg = bg;
     merged.push(game);
-    changes.push(`  + ${j.title} (nouveau)`);
+    if (game.date) changes.push(`  + ${title} (nouveau)`);
+    else if (!enCours(game)) ajoutsSansDate++;
+  }
+  if (ajoutsSansDate) {
+    changes.push(`  + ${ajoutsSansDate} jeux notés sans entrée de journal (antérieurs au journal), ajoutés en fin de liste`);
+  }
+  if (ambigus.length) {
+    changes.push(`  ? ${ambigus.length} titre(s) ambigu(s), note et dates laissées intactes : ${ambigus.join(' ; ')}`);
   }
 
+  const exclus = merged.filter(enCours);
+  for (const g of exclus) changes.push(`  · ${g.title} — en cours, non publié`);
+
   const ORDER = ['slug', 'title', 'cover', 'platform', 'rating', 'date_start', 'date', 'review'];
-  const out = sortGames(merged, originalIndex)
+  const out = sortGames(merged.filter(g => !enCours(g)), originalIndex, libIndex)
     .map(g => Object.fromEntries(ORDER.filter(k => g[k] !== undefined && g[k] !== null).map(k => [k, g[k]])));
 
   console.log(`\n${changes.length} changement(s)`);
