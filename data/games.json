@@ -1,5 +1,69 @@
 [
   {
+    "slug": "dragon-quest-viii-journey-of-the-cursed-king",
+    "bg": "dragon-quest-viii-journey-of-the-cursed-king",
+    "title": "Dragon Quest VIII: Journey of the Cursed King",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7vf2.jpg",
+    "year": "2004",
+    "developer": "LEVEL-5",
+    "genres": [
+      "Adventure",
+      "RPG",
+      "Strategy"
+    ],
+    "platforms": [
+      "PlayStation 2"
+    ],
+    "platform": "PlayStation 2",
+    "rating": 4.5,
+    "date_start": "2026-08-15",
+    "date": "2026-08-31",
+    "summary": "Dragon Quest VIII: Journey of the Cursed King is the eighth installment in the Dragon Quest series, developed by Level-5 and published by Square Enix for the PlayStation 2 video game console. It was also later released for the Nintendo 3DS in 2015. It is a traditional Japanese-style role-playing game with random enemy encounters, simple turn-based combat mechanics, and management of a party consisting of four characters, each belonging to a clearly defined class. Unlike its predecessors in the series and most Japanese RPGs in general, the game features a continuous world with fairly vast landscapes and integrated towns and dungeons, as opposed to world map traveling and locations represented by icons. The game features full camera rotation and optional first-person view. Like in the previous Dragon Quest games, many objects can be interacted with; for example, barrels can be physically lifted, carried, and broken, to reveal items hidden within.",
+    "review": "Premier vrai Dragon Quest en 3D (on va dire que le VII compte pas trop) et quelle réussite !\n\nLe jeu est super beau, ce cel-shadin lui va à merveille et la talent de Toriyama est parfaitement mis en valeur. Il est aussi bien plus coloré, avec des environnements variés et des donjons qui commencent à vraiment ressembler à des donjons. Et explorer tant de lieux auparavant en 2D en 3D m'a vraiment fait quelque chose, les tavernes, les auberges, les églises... Pour la première fois dans la licence, on a aussi un jeu traduit en français, avec en plus du doublage anglais.\n\nPour ce qui est de la traduction, après avoir fait 7 jeux en anglais, j'avais un peu peur de ce que ça allait donner, et finalement c'est probablement l'une des meilleures adaptations que j'ai pu voir. Les noms des monstres sont souvent des blagues, l'humour global du jeu est parfaitement retranscrit, j'ai franchement rien à redire. Si seulement Atlus pouvait faire aussi bien avec les MegaTen. Le doublage, lui, est beaucoup plus questionnable. Certains personnages sont parfaits, typiquement Jessica a de loin le meilleur doublage, les personnages principaux sont corrects, mais alors les personnages secondaires frôlent parfois la catastrophe. Les barmans avec un fort accent français ? C'est absolument horrible.\n\nLe jeu se tente au semi open world, et sur PS2 c'est fort. On est rarement perdu vu que le jeu reste assez linéaire et bloque certains passages via des événements scénaristiques, mais entre deux villages on a souvent de grandes étendues à visiter qui ne servent malheureusement pas à grand-chose. On va trouver quelques coffres, quelques monstres célèbres (des monstres à recruter pour l'arène), et puis c'est tout. Pas de zones secrètes avant la quasi toute fin du jeu, où on va débloquer un nouveau moyen de transport, mais là encore c'est très léger.\n\nOn a aussi des quêtes secondaires, peu nombreuses mais franchement sympas : l'arène de monstres de Morry, le Smilodon, Cash et Carrie... Rarement longues et plutôt bienvenues, j'ai vraiment apprécié les faire.\n\nCependant, si le monde est relativement vide, les villes elles sont très fournies. Beaucoup de maisons à visiter, de PNJ à qui parler, et visiter ces villes dans un environnement en full 3D est tellement plaisant. On ressent enfin de la profondeur et la taille des lieux.\n\nCôté gameplay, le jeu change encore. Fini les vocations, maintenant on gagne des points de compétences à chaque niveau et on peut se spécialiser dans certaines armes (épées, haches, fouets, etc.) ainsi qu'une \"stat\" unique à chaque perso (humanité pour Yangus, courage pour le Héros, séduction pour Jessica, etc.). Ça offre beaucoup moins de diversité, mais c'est compensé par une énorme quantité d'équipements et de compétences. Donc au final, chacun peut build ses persos comme il veut avec les armes et équipements.\n\nLe jeu se concentre aussi sur uniquement 4 personnages jouables du début à la fin, ce que j'apprécie beaucoup. Ça évite de s'éparpiller partout et la narration en bénéficie grandement.\n\nEn parlant de narration, l'histoire de DQ8 est de loin ma préférée pour l'instant. Elle reste simple, on poursuit des gens tout le long du jeu en gros, mais il y a des rebondissements, de l'émotion, les personnages interagissent énormément entre eux et, comme dans le VII, ils ont chacun leur personnalité, ce qui enrichit vraiment l'ambiance globale de l'équipe. Et la fin est douce et magnifique.\n\nFinalement, le seul vrai défaut du jeu, c'est sa lenteur. Le monde n'est pas si grand que ça, mais le Héros n'avance pas très vite (oui, il y a le Smilodon, mais je l'ai quasi jamais utilisé), et surtout les combats sont absurdement lents, c'est impressionnant. Vraiment, j'avais l'impression que les combats étaient en 0,5x, les animations, les transitions, tout est tellement lent.\n\nPetit point négatif aussi sur les musiques : il y en a peu, donc on les entend en boucle, et elles ne sont pas très bonnes non plus malheureusement.\n\nMais malgré ça, DQ8 est de très loin mon préféré de la série pour l'instant. La 3D en cel-shading lui va parfaitement, les personnages sont excellents, l'histoire est vraiment plaisante à suivre et le gameplay reste suffisamment simple pour ne jamais prendre le dessus sur tout le reste. Après les hauts et les bas des épisodes précédents, j'ai enfin l'impression que Dragon Quest a trouvé une formule qui fonctionne presque parfaitement."
+  },
+  {
+    "slug": "twin-peaks-into-the-night",
+    "bg": "twin-peaks-into-the-night",
+    "title": "Twin Peaks: Into the Night",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6x24.jpg",
+    "developer": "BlueRoseTeam",
+    "genres": [
+      "Adventure",
+      "Puzzle"
+    ],
+    "platforms": [
+      "Windows PC"
+    ],
+    "platform": "Windows PC",
+    "rating": 5,
+    "date_start": "2026-08-21",
+    "date": "2026-08-21",
+    "summary": "Created as an hommage to good old 90s game classics, Twin Peaks: Into the Night is a fan game adaptation of the eponymous series created by Mark Frost and David Lynch.",
+    "review": "J'suis dépité que le jeu est été annulé à cause de la Paramount.\nEn tant qu'immense fan de Twin Peaks cette démo est tout ce que je demandais, c'est superbement bien réalisé, c'est la série mais interactive sous forme de jeu vidéo, et c'est français.\nJ'attends que de voir ce que la team derrière le projet fera ensuite"
+  },
+  {
+    "slug": "restory-chill-electronics-repairs",
+    "bg": "restory-chill-electronics-repairs",
+    "title": "ReStory: Chill Electronics Repairs",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coazo7.jpg",
+    "year": "2026",
+    "developer": "Mandragora",
+    "genres": [
+      "Indie",
+      "Simulator"
+    ],
+    "platforms": [
+      "Windows PC",
+      "Mac"
+    ],
+    "platform": "Windows PC",
+    "rating": 3.5,
+    "date_start": "2026-08-11",
+    "date": "2026-08-14",
+    "summary": "Run a quaint electronics repair shop in mid-2000s Tokyo. Grow your business by carefully restoring iconic video game consoles, cell phones, music players, and other nostalgic devices. Talk to customers, hear their stories, and see how your decisions impact both their lives and your shop.",
+    "review": "Jeu chill et cozy très sympathique, le meilleur dans le style nettoyage/restauration, ça faisait longtemps que j'en cherchais un comme ça.\nPlutôt bonne durée de vie (environ 8h) mais qui parait vraiment interminable sur ses dernières heures, c'est excessivement répétitif et les quelques ajouts de temps en temps sont tellement minimes que c'est pas assez pour se renouveler.\nLe jeu tente de mettre un scénario mais il est osef au possible avec des personnages plus insupportables les uns que les autres.\nLes musiques sont géniales... mais y'en a genre 5, donc elles tournent en boucle, et aussi bien soient-elles au bout de la 20e fois t'en peux plus.\n\nSi vous voulez tester, faites une session de 2-3h, vous aurez largement vu assez du jeu"
+  },
+  {
     "slug": "discopup",
     "bg": "discopup",
     "title": "Discopup",
@@ -2382,6 +2446,23 @@
     "date_start": "2024-10-03",
     "date": "2024-10-05",
     "summary": "Bendy and the Ink Machine is an indie first person puzzle-action-horror game with a unique cartoon atmosphere and an intense, frightening story line that keeps you guessing throughout."
+  },
+  {
+    "slug": "bloodborne-the-old-hunters",
+    "bg": "bloodborne-the-old-hunters--1",
+    "title": "Bloodborne: The Old Hunters",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob99k.jpg",
+    "year": "2015",
+    "developer": "FromSoftware",
+    "genres": [
+      "Adventure",
+      "RPG"
+    ],
+    "platforms": [
+      "PlayStation 4"
+    ],
+    "rating": 5,
+    "summary": "The Old Hunters is the first Expansion for Bloodborne. It features all-new locations, bosses, weapons, and armour. Set in a nightmare world where hunters from the past are trapped forever, explore brand new stages full of dangers, rewards and deadly beasts to overcome. You’ll find multiple new outfits and weapons to add to your arsenal as well as additional magic to wield and add more variety to your combat strategy. With new story details, learn the tale of hunters who once made Yharnam their hunting grounds, meet new NPCs, and discover another side of the history and world of Bloodborne."
   },
   {
     "slug": "unlucky-mummy",
