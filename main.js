@@ -32,7 +32,8 @@ function restoreScroll() {
     sessionStorage.removeItem(SCROLL_KEY);
     const saved = JSON.parse(raw || 'null');
     if (saved && saved.url === window.location.search && saved.y > 0) {
-      window.scrollTo(0, saved.y);
+      // instant : sinon le scroll-behavior: smooth du CSS anime la descente.
+      window.scrollTo({ top: saved.y, behavior: 'instant' });
     }
   } catch { /* idem */ }
 }
