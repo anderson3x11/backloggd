@@ -134,6 +134,7 @@ function renderGame(game, newer, older) {
   const sub = [
     buildDateText(game),
     game.platform ? escHtml(game.platform) : '',
+    game.replay ? '↺ Rejoué' : '',
   ].filter(Boolean).join('<span class="sep">/</span>');
 
   const rating = `

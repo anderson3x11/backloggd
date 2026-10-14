@@ -1,5 +1,216 @@
 [
   {
+    "slug": "control-resonant",
+    "title": "Control Resonant",
+    "cover": "https://shared.steamstatic.com/store_item_assets/steam/apps/3669870/7d4b4f430dc4d07e6562eb445456f9615cb52f77/library_capsule_2x.jpg",
+    "year": "2026",
+    "developer": "Remedy Entertainment",
+    "genres": [
+      "Action",
+      "Adventure",
+      "RPG"
+    ],
+    "platforms": [
+      "Windows PC"
+    ],
+    "platform": "Windows PC",
+    "rating": 4,
+    "date_start": "2026-09-24",
+    "date": "2026-10-13",
+    "summary": "Explore a warped Manhattan on the brink of paranatural annihilation in this thrilling action-adventure RPG. Unleash the extraordinary powers of Dylan Faden as he fights for his humanity and our survival against a reality-bending cosmic threat."
+  },
+  {
+    "slug": "carimara-beneath-the-forlorn-limbs",
+    "title": "Carimara: Beneath the Forlorn Limbs",
+    "cover": "https://shared.steamstatic.com/store_item_assets/steam/apps/3570370/library_600x900_2x.jpg",
+    "year": "2025",
+    "developer": "Bastinus Rex",
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "platforms": [
+      "Windows PC"
+    ],
+    "platform": "Windows PC",
+    "rating": 4,
+    "date_start": "2026-10-02",
+    "date": "2026-10-02",
+    "summary": "A mute little thing with borrowed magic. A house that murmurs back. Ask wrong, and you might wake something that remembers your name."
+  },
+  {
+    "slug": "no-one-lives-under-the-lighthouse",
+    "title": "No One Lives Under the Lighthouse",
+    "cover": "https://shared.steamstatic.com/store_item_assets/steam/apps/1254370/library_600x900_2x.jpg",
+    "year": "2020",
+    "developer": "Marevo Collective",
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "platforms": [
+      "Windows PC"
+    ],
+    "platform": "Windows PC",
+    "rating": 2.5,
+    "date_start": "2026-10-01",
+    "date": "2026-10-01",
+    "summary": "A slow burn retro horror game, in which you arrive at the old lighthouse on a small island near the coast of the United States. After the previous keeper has gone missing, you need to take over his duties and watch after the light."
+  },
+  {
+    "slug": "alan-wake-ii-the-lake-house",
+    "bg": "alan-wake-ii-the-lake-house",
+    "title": "Alan Wake II: The Lake House",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8z06.jpg",
+    "year": "2024",
+    "developer": "Remedy Entertainment",
+    "genres": [
+      "Adventure",
+      "Shooter"
+    ],
+    "platforms": [
+      "Windows PC",
+      "PlayStation 5",
+      "Xbox Series X|S"
+    ],
+    "platform": "Windows PC",
+    "rating": 3.5,
+    "replay": true,
+    "date_start": "2026-09-22",
+    "date": "2026-09-22",
+    "summary": "Alan Wake II: The Lake House is a DLC expansion for Alan Wake II. It introduces new story content set in an isolated lake house near Bright Falls, where players uncover additional clues about the supernatural forces affecting Alan Wake. The expansion retains the base game’s focus on psychological horror and narrative-driven exploration."
+  },
+  {
+    "slug": "alan-wake-ii",
+    "bg": "alan-wake-ii",
+    "title": "Alan Wake II",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6jar.jpg",
+    "year": "2023",
+    "developer": "Remedy Entertainment",
+    "genres": [
+      "Adventure",
+      "Shooter"
+    ],
+    "platforms": [
+      "Windows PC",
+      "PlayStation 5",
+      "Xbox Series X|S"
+    ],
+    "platform": "Windows PC",
+    "rating": 5,
+    "replay": true,
+    "date_start": "2026-09-16",
+    "date": "2026-09-22",
+    "summary": "Alan Wake 2 marks Remedy Entertainment’s first foray into the survival horror genre. Ritualistic murders in a small town. A writer trapped in a nightmare. An FBI agent looking for answers. Two realities. Two hero characters. One horror story that wants them dead."
+  },
+  {
+    "slug": "control",
+    "bg": "control",
+    "title": "Control",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2evj.jpg",
+    "year": "2019",
+    "developer": "Remedy Entertainment",
+    "genres": [
+      "Adventure",
+      "Shooter"
+    ],
+    "platforms": [
+      "Windows PC",
+      "PlayStation 5",
+      "Xbox Series X|S",
+      "PlayStation 4",
+      "Xbox One",
+      "Google Stadia"
+    ],
+    "platform": "Windows PC",
+    "rating": 5,
+    "favorite": 1,
+    "replay": true,
+    "date_start": "2026-09-11",
+    "date": "2026-09-15",
+    "summary": "Control is a third-person action-adventure game set in the Federal Bureau of Control, a secretive U.S. government agency that studies paranormal phenomena. Players control Jesse Faden, who arrives at the Bureau's headquarters, the Oldest House, to find it invaded by a hostile force called the Hiss. Gameplay combines supernatural abilities with a shape-shifting firearm, and the environment is reactive and destructible."
+  },
+  {
+    "slug": "alan-wakes-american-nightmare",
+    "title": "Alan Wake's American Nightmare",
+    "cover": "https://shared.steamstatic.com/store_item_assets/steam/apps/202750/library_600x900_2x.jpg",
+    "year": "2012",
+    "developer": "Remedy Entertainment",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "platforms": [
+      "Windows PC"
+    ],
+    "platform": "Windows PC",
+    "rating": 4,
+    "date_start": "2026-09-10",
+    "date": "2026-09-10",
+    "summary": "A thrilling new storyline, hordes of creepy enemies, serious firepower and beautiful Arizona locations, combined with a fun and challenging new game mode!"
+  },
+  {
+    "slug": "alan-wake",
+    "bg": "alan-wake",
+    "title": "Alan Wake",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2dft.jpg",
+    "year": "2010",
+    "developer": "Remedy Entertainment",
+    "genres": [
+      "Adventure",
+      "Shooter"
+    ],
+    "platforms": [
+      "Windows PC",
+      "Xbox 360"
+    ],
+    "platform": "Windows PC",
+    "rating": 3.5,
+    "replay": true,
+    "date_start": "2026-09-04",
+    "date": "2026-09-08",
+    "summary": "Alan Wake is a psychological horror action-adventure game developed by Remedy Entertainment. The narrative centres on Alan Wake, a bestselling thriller novelist experiencing writer's block. He travels to the small town of Bright Falls with his wife, Alice, seeking a change of environment. Shortly after their arrival, Alice vanishes under mysterious circumstances. As Alan searches for her, he discovers pages of a thriller novel he does not recall writing. The events described in these pages begin to manifest in reality, and Alan encounters hostile supernatural entities known as the \"Taken,\" who are controlled by darkness. The gameplay involves navigating Bright Falls and using light to combat these dark forces. The storyline explores themes of reality and fiction, along with the influence of the written word."
+  },
+  {
+    "slug": "the-new-flesh",
+    "title": "The New Flesh",
+    "cover": "https://shared.steamstatic.com/store_item_assets/steam/apps/3692660/ab12b8e74f7f1f70ddaf1a7e41e8d1e5acadefd6/library_600x900_2x.jpg",
+    "year": "2025",
+    "developer": "Freshly Baked Games",
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "platforms": [
+      "Windows PC"
+    ],
+    "platform": "Windows PC",
+    "rating": 5,
+    "date_start": "2026-09-03",
+    "date": "2026-09-03",
+    "summary": "Explore the strange world within the screen in this ambient exploration experience featuring the music of Red Vox."
+  },
+  {
+    "slug": "mole",
+    "title": "MOLE",
+    "cover": "https://shared.steamstatic.com/store_item_assets/steam/apps/4064510/7fa8a566cf19dffdecc7d3bb1e3721036255bd09/library_capsule_2x.jpg",
+    "year": "2026",
+    "developer": "Off Black Creations",
+    "genres": [
+      "Adventure",
+      "Indie",
+      "Simulation"
+    ],
+    "platforms": [
+      "Windows PC"
+    ],
+    "platform": "Windows PC",
+    "rating": 3.5,
+    "date_start": "2026-09-03",
+    "date": "2026-09-03",
+    "summary": "Pilot the MOLE, a monstrous post-war drilling machine built to descend deep below the Slavic soil. Fix failing systems, follow voices of the dead, and pray you can survive whatever is sharing your coffin. Will the vessel or your mind break first?"
+  },
+  {
     "slug": "dragon-quest-viii-journey-of-the-cursed-king",
     "bg": "dragon-quest-viii-journey-of-the-cursed-king",
     "title": "Dragon Quest VIII: Journey of the Cursed King",
@@ -2840,25 +3051,6 @@
     "summary": "The five crew members of The Tulpar are stranded in the empty reaches of space, shrouded in perpetual sunset. God is not watching."
   },
   {
-    "slug": "alan-wake-ii-the-lake-house",
-    "bg": "alan-wake-ii-the-lake-house",
-    "title": "Alan Wake II: The Lake House",
-    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8z06.jpg",
-    "year": "2024",
-    "developer": "Remedy Entertainment",
-    "genres": [
-      "Adventure",
-      "Shooter"
-    ],
-    "platforms": [
-      "Windows PC",
-      "PlayStation 5",
-      "Xbox Series X|S"
-    ],
-    "rating": 3,
-    "summary": "Alan Wake II: The Lake House is a DLC expansion for Alan Wake II. It introduces new story content set in an isolated lake house near Bright Falls, where players uncover additional clues about the supernatural forces affecting Alan Wake. The expansion retains the base game’s focus on psychological horror and narrative-driven exploration."
-  },
-  {
     "slug": "silent-hill-2",
     "bg": "silent-hill-2--1",
     "title": "Silent Hill 2",
@@ -3202,25 +3394,6 @@
     "summary": "Alan Wake II: Night Springs is a DLC expansion for Alan Wake II. It adds new story content that delves into mysterious broadcasts and eerie environments connected to the Night Springs phenomenon. The expansion continues the base game's focus on psychological horror and narrative-driven exploration."
   },
   {
-    "slug": "alan-wake-ii",
-    "bg": "alan-wake-ii",
-    "title": "Alan Wake II",
-    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6jar.jpg",
-    "year": "2023",
-    "developer": "Remedy Entertainment",
-    "genres": [
-      "Adventure",
-      "Shooter"
-    ],
-    "platforms": [
-      "Windows PC",
-      "PlayStation 5",
-      "Xbox Series X|S"
-    ],
-    "rating": 5,
-    "summary": "Alan Wake 2 marks Remedy Entertainment’s first foray into the survival horror genre. Ritualistic murders in a small town. A writer trapped in a nightmare. An FBI agent looking for answers. Two realities. Two hero characters. One horror story that wants them dead."
-  },
-  {
     "slug": "shin-megami-tensei-v-vengeance",
     "bg": "shin-megami-tensei-v-vengeance",
     "title": "Shin Megami Tensei V: Vengeance",
@@ -3241,24 +3414,6 @@
     ],
     "rating": 4.5,
     "summary": "Embark on this definitive version of the critically acclaimed Shin Megami Tensei V, massively expanded with a brand-new storyline featuring new locations, demons, and choices to make that will dictate the fate of all existence."
-  },
-  {
-    "slug": "alan-wake",
-    "bg": "alan-wake",
-    "title": "Alan Wake",
-    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2dft.jpg",
-    "year": "2010",
-    "developer": "Remedy Entertainment",
-    "genres": [
-      "Adventure",
-      "Shooter"
-    ],
-    "platforms": [
-      "Windows PC",
-      "Xbox 360"
-    ],
-    "rating": 4,
-    "summary": "Alan Wake is a psychological horror action-adventure game developed by Remedy Entertainment. The narrative centres on Alan Wake, a bestselling thriller novelist experiencing writer's block. He travels to the small town of Bright Falls with his wife, Alice, seeking a change of environment. Shortly after their arrival, Alice vanishes under mysterious circumstances. As Alan searches for her, he discovers pages of a thriller novel he does not recall writing. The events described in these pages begin to manifest in reality, and Alan encounters hostile supernatural entities known as the \"Taken,\" who are controlled by darkness. The gameplay involves navigating Bright Falls and using light to combat these dark forces. The storyline explores themes of reality and fiction, along with the influence of the written word."
   },
   {
     "slug": "dishonored-2",
@@ -5372,29 +5527,6 @@
     "rating": 5,
     "favorite": 4,
     "summary": "Return to Wonderland and experience an all new nightmare as Alice fights to regain her sanity as she fights for the truth behind her past. Can Alice save Wonderland - and herself - from the madness that consumes them both?"
-  },
-  {
-    "slug": "control",
-    "bg": "control",
-    "title": "Control",
-    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2evj.jpg",
-    "year": "2019",
-    "developer": "Remedy Entertainment",
-    "genres": [
-      "Adventure",
-      "Shooter"
-    ],
-    "platforms": [
-      "Windows PC",
-      "PlayStation 5",
-      "Xbox Series X|S",
-      "PlayStation 4",
-      "Xbox One",
-      "Google Stadia"
-    ],
-    "rating": 5,
-    "favorite": 1,
-    "summary": "Control is a third-person action-adventure game set in the Federal Bureau of Control, a secretive U.S. government agency that studies paranormal phenomena. Players control Jesse Faden, who arrives at the Bureau's headquarters, the Oldest House, to find it invaded by a hostile force called the Hiss. Gameplay combines supernatural abilities with a shape-shifting firearm, and the environment is reactive and destructible."
   },
   {
     "slug": "batman-arkham-knight",

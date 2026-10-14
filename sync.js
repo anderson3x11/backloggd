@@ -399,7 +399,7 @@ function sortGames(list, originalIndex, libIndex) {
   }
 
   const ORDER = ['slug', 'bg', 'title', 'cover', 'year', 'developer', 'genres', 'platforms',
-    'platform', 'rating', 'favorite', 'date_start', 'date', 'summary', 'review'];
+    'platform', 'rating', 'favorite', 'replay', 'date_start', 'date', 'summary', 'review'];
   const serialise = () => sortGames(merged.filter(g => !enCours(g)), originalIndex, libIndex)
     .map(g => Object.fromEntries(ORDER.filter(k => g[k] !== undefined && g[k] !== null).map(k => [k, g[k]])));
 

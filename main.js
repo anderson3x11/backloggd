@@ -111,6 +111,14 @@ const REVIEW_ICON = `
     </svg>
   </span>`;
 
+// Flèche circulaire, comme le marqueur « replay » du journal Backloggd.
+const REPLAY_ICON = `
+  <span class="card-review" title="Rejoué" aria-label="Rejoué">
+    <svg viewBox="0 0 14 14" aria-hidden="true">
+      <path d="M7 1.5a5.5 5.5 0 1 1-5.2 3.7l1.5.5A3.9 3.9 0 1 0 7 3.1v1.9L3.9 2.3 7 -.4z"/>
+    </svg>
+  </span>`;
+
 function cardHTML(game) {
   const cover = game.cover
     ? `<img class="card-cover" src="${game.cover}" alt="${escAttr(game.title)}" loading="lazy">`
@@ -122,6 +130,7 @@ function cardHTML(game) {
       <div class="card-meta">
         <span class="card-title" title="${escAttr(game.title)}">${escHtml(game.title)}</span>
         ${game.review ? REVIEW_ICON : ''}
+        ${game.replay ? REPLAY_ICON : ''}
       </div>
     </a>`;
 }
