@@ -264,6 +264,12 @@ function sortGames(list, originalIndex, libIndex) {
     await browser.close();
   }
 
+  // Page anti-bot ou structure changée : rien lu, donc rien à écrire.
+  if (!library.length) {
+    console.error('Aucun jeu lu sur Backloggd (anti-bot ?). Fichier non modifié.');
+    process.exit(1);
+  }
+
   const journal = buildFromEvents(events);
   const revBySlug = new Map(reviews.map(r => [r.bgSlug, r]));
   const libBySlug = new Map(library.map(g => [g.bgSlug, g]));
