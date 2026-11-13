@@ -6,7 +6,7 @@ const MONTHS_FR = [
 // Si on arrive depuis la liste, « ← Retour » ramène à la liste telle qu'elle
 // était (recherche et tri compris) plutôt qu'à l'accueil par défaut.
 function restoreBackLink() {
-  const back = document.querySelector('header .nav-link');
+  const back = document.querySelector('nav .back');
   if (!back || !document.referrer) return;
   try {
     const ref = new URL(document.referrer);
@@ -33,7 +33,7 @@ async function init() {
     const res = await fetch('./data/games.json');
     games = await res.json();
   } catch {
-    page.innerHTML = '<div class="not-found-wrap"><h2>Erreur</h2><p>Impossible de charger les données.</p></div>';
+    page.innerHTML = '<div class="not-found"><h1>Erreur</h1><p>Impossible de charger les données.</p></div>';
     return;
   }
 
@@ -48,9 +48,9 @@ async function init() {
   const newer = games[i - 1];
   const older = games[i + 1];
 
-  document.title = `${game.title} - backloggd`;
+  document.title = `${game.title} - Journal de jeux`;
   updateMeta(game);
-  page.innerHTML = renderGame(game, newer, older);
+  page.innerHTML = renderGame(game, newer, older, i, games.length);
   bindArrowKeys(newer, older);
 }
 
@@ -85,96 +85,76 @@ function bindArrowKeys(newer, older) {
 }
 
 function starsHTML(rating) {
-  const pct = rating == null ? 0 : Math.max(0, Math.min(100, (rating / 5) * 100));
-  const label = rating == null ? 'non noté' : `${rating} sur 5`;
-  return `<span class="stars stars--lg" role="img" aria-label="${label}">` +
-    `<span class="stars-bg">★★★★★</span>` +
-    `<span class="stars-fg" style="width:${pct}%">★★★★★</span>` +
-    `</span>`;
+  const pct = Math.max(0, Math.min(100, (rating / 5) * 100));
+  return `<span class="stars" role="img" aria-label="${rating} sur 5">★★★★★` +
+    `<span class="stars-fg" style="width:${pct}%">★★★★★</span></span>`;
 }
 
-function navLink(game, dir) {
-  // Aux extrémités de la liste, on n'affiche rien.
-  if (!game) return '';
+function fact(key, value) {
+  return value ? `<div><dt class="mono">${key}</dt><dd>${value}</dd></div>` : '';
+}
+
+// Bas de page : jeu précédent / suivant en grand, comme le « projet suivant »
+// des études de cas du portfolio.
+function nextLink(game, dir) {
+  if (!game) return '<span></span>';
   return `
-    <a class="game-nav-item ${dir}" href="${gameURL(game)}">
-      <span class="game-nav-arrow">${dir === 'newer' ? '←' : '→'}</span>
-      <span class="game-nav-title">${escHtml(game.title)}</span>
+    <a href="${gameURL(game)}">
+      <span class="mono">${dir === 'newer' ? '← Plus récent' : 'Plus ancien →'}</span>
+      <strong>${escHtml(game.title)}</strong>
     </a>`;
 }
 
-// Colonne de gauche : ce qui concerne le jeu lui-même. Volontairement bref,
-// cette zone ne doit jamais dépasser la hauteur de l'écran.
-function gameInfo(game) {
-  const rows = [
-    game.year ? infoRow('Sortie', escHtml(game.year)) : '',
-    game.developer ? infoRow('Studio', escHtml(game.developer)) : '',
-    game.genres && game.genres.length ? infoRow('Genre', escHtml(game.genres.slice(0, 3).join(', '))) : '',
-    game.platforms && game.platforms.length
-      ? infoRow('Support', escHtml(game.platforms.slice(0, 4).join(', '))) : '',
-  ].filter(Boolean).join('');
+// Le titre doit tenir dans sa colonne sans couper de mot : la taille dépend
+// du mot le plus long, et les titres à rallonge restent plus sobres.
+function titleSize(title) {
+  const longest = Math.max(...title.split(/\s+/).map(w => w.length));
+  return `--w:${longest};--cap:${title.length > 24 ? 'min(120px, 22cqi)' : '200px'}`;
+}
 
-  const summary = game.summary
-    ? `<p class="game-summary">${escHtml(game.summary)}</p>`
+function renderGame(game, newer, older, index, total) {
+  const cover = game.cover
+    ? `<img src="${game.cover}" alt="${escAttr(game.title)}">`
     : '';
 
-  if (!rows && !summary) return '';
-  return `<div class="game-info">${rows}${summary}</div>`;
-}
+  const rating = game.rating != null
+    ? `${starsHTML(game.rating)}<span class="rating-num">${game.rating}<small> / 5</small></span>`
+    : '<span class="stars-none mono">Pas encore noté</span>';
 
-function infoRow(key, value) {
-  return `<div class="info-row"><span class="info-key">${key}</span><span class="info-val">${value}</span></div>`;
-}
+  const facts = [
+    fact('Joué', buildDateText(game)),
+    fact('Plateforme', game.platform ? escHtml(game.platform) + (game.replay ? ' <span class="replay">· ↺ Rejoué</span>' : '') : ''),
+    fact('Sortie', game.year ? escHtml(game.year) : ''),
+    fact('Studio', game.developer ? escHtml(game.developer) : ''),
+    fact('Genre', game.genres && game.genres.length ? escHtml(game.genres.slice(0, 3).join(', ')) : ''),
+    fact('Support', game.platforms && game.platforms.length ? escHtml(game.platforms.slice(0, 4).join(', ')) : ''),
+  ].join('');
 
-function renderGame(game, newer, older) {
-  const cover = game.cover
-    ? `<img class="game-cover-full" src="${game.cover}" alt="${escAttr(game.title)}">`
-    : `<div class="game-cover-placeholder-full">${escHtml(game.title[0])}</div>`;
-
-  const sub = [
-    buildDateText(game),
-    game.platform ? escHtml(game.platform) : '',
-    game.replay ? '↺ Rejoué' : '',
-  ].filter(Boolean).join('<span class="sep">/</span>');
-
-  const rating = `
-    <div class="rating-bare">
-      <div class="panel-label">Note</div>
-      <div class="rating-row">
-        ${starsHTML(game.rating)}
-        ${game.rating != null
-          ? `<span class="rating-num"><b>${game.rating}</b> / 5</span>`
-          : '<span class="stars-none">pas encore noté</span>'}
+  // Lettrage (A), (B)… comme les cellules du portfolio, sans trou quand une
+  // section manque.
+  const letters = 'BCD';
+  let n = 0;
+  const section = (label, body) => `
+    <div class="row full">
+      <div class="cell">
+        <span class="lab mono">(${letters[n++]}) ${label}</span>
+        ${body}
       </div>
     </div>`;
-
-  // Sans critique, pas d'encadré : une boîte vide souligne l'absence.
-  const review = game.review ? `
-    <div class="panel section">
-      <div class="panel-label">Critique</div>
-      <div class="review-body">${formatReview(game.review)}</div>
-    </div>` : '';
 
   return `
-    <div class="game-layout">
-      <div class="game-left">
-        <div class="panel cover-frame">${cover}</div>
-        ${newer || older ? `
-        <nav class="game-nav${newer && older ? '' : ' is-single'}">
-          ${navLink(newer, 'newer')}
-          ${navLink(older, 'older')}
-        </nav>` : ''}
-        ${gameInfo(game)}
+    <div class="row">
+      <div class="cell">
+        <div class="cap mono"><span>(A) Journal</span><span>${String(index + 1).padStart(3, '0')} / ${total}</span></div>
+        <h1 class="title" style="${titleSize(game.title)}">${escHtml(game.title)}</h1>
+        <div class="rating">${rating}</div>
+        <dl class="facts">${facts}</dl>
       </div>
-      <div class="game-right">
-        <div class="game-head">
-          <h1 class="game-title">${escHtml(game.title)}</h1>
-          ${sub ? `<div class="game-sub">${sub}</div>` : ''}
-        </div>
-        ${rating}
-        ${review}
-      </div>
-    </div>`;
+      <div class="cell media">${cover}</div>
+    </div>
+    ${game.review ? section('Critique', `<div class="prose">${formatReview(game.review)}</div>`) : ''}
+    ${game.summary ? section('Résumé', `<p class="summary">${escHtml(game.summary)}</p>`) : ''}
+    ${newer || older ? `<div class="next">${nextLink(newer, 'newer')}${nextLink(older, 'older')}</div>` : ''}`;
 }
 
 function buildDateText(game) {
@@ -228,9 +208,9 @@ function escAttr(str) {
 
 function renderNotFound(page) {
   page.innerHTML = `
-    <div class="not-found-wrap">
-      <h2>Jeu introuvable.</h2>
-      <p><a class="back-link" href="./index.html">← retour à la liste</a></p>
+    <div class="not-found">
+      <h1>Jeu introuvable</h1>
+      <a class="pill mono" href="./index.html">← Retour au journal</a>
     </div>`;
 }
 

@@ -9,7 +9,6 @@ let currentReview = params.get('critique') || 'tous';
 
 // La grille étant construite en JS, le navigateur restaure le défilement avant
 // qu'elle existe et retombe donc à zéro. On le fait nous-mêmes, après le rendu.
-// nav.js efface cette même clé au clic sur le logo : garder les deux en phase.
 const SCROLL_KEY = 'backloggd:listScroll';
 
 if ('scrollRestoration' in window.history) {
@@ -56,13 +55,31 @@ async function init() {
     allGames = await res.json();
   } catch {
     document.getElementById('games-grid').innerHTML =
-      '<div class="empty-state">Impossible de charger les jeux.</div>';
+      '<div class="empty-state mono">Impossible de charger les jeux.</div>';
     return;
   }
+  renderHero();
   renderStats();
   renderFavorites();
   render();
   restoreScroll();
+}
+
+// Le hero met en avant la dernière partie, et fait défiler les titres récents
+// comme le bandeau du portfolio fait défiler le nom.
+function renderHero() {
+  const last = allGames[0];
+  if (last) {
+    const el = document.getElementById('latest');
+    el.href = `./game.html?slug=${encodeURIComponent(last.slug)}`;
+    el.innerHTML = `
+      ${last.cover ? `<img src="${last.cover}" alt="${escAttr(last.title)}">` : ''}
+      <span class="cap mono"><b>${escHtml(last.title)}</b>Dernière partie${last.rating != null ? ` · ${last.rating} / 5` : ''}</span>`;
+    el.hidden = false;
+  }
+  // Deux copies identiques : l'animation glisse de -50 % et boucle sans saut.
+  const titles = allGames.slice(0, 8).map(g => `<span>${escHtml(g.title)} ✦</span>`).join('');
+  document.getElementById('marquee').innerHTML = titles + titles;
 }
 
 // Même présentation que le bandeau de profil Backloggd : trois chiffres.
@@ -71,14 +88,14 @@ function renderStats() {
   const inYear = allGames.filter(g =>
     (g.date || '').startsWith(year) || (g.date_start || '').startsWith(year)).length;
   const stats = [
-    [allGames.length, 'Jeux joués'],
-    [inYear, `Joués en ${year}`],
-    [allGames.filter(g => g.review).length, 'Critiques'],
+    [allGames.length, '(A) Jeux joués'],
+    [inYear, `(B) Joués en ${year}`],
+    [allGames.filter(g => g.review).length, '(C) Critiques'],
   ];
   document.getElementById('stats').innerHTML = stats.map(([n, label]) => `
-    <div class="stat">
+    <div class="cell">
+      <span class="lab mono">${label}</span>
       <span class="stat-num">${String(n).padStart(3, '0')}</span>
-      <span class="stat-label">${label}</span>
     </div>`).join('');
 }
 
@@ -87,7 +104,7 @@ function renderFavorites() {
     .filter(g => g.favorite)
     .sort((a, b) => a.favorite - b.favorite);
   if (!favs.length) return;
-  document.getElementById('fav-grid').innerHTML = favs.map(cardHTML).join('');
+  document.getElementById('fav-grid').innerHTML = favs.map((g, i) => cardHTML(g, i + 1)).join('');
   document.getElementById('favorites').hidden = false;
 }
 
@@ -122,7 +139,7 @@ function sortGames(list, mode) {
 
 // Repris de l'icône « lignes de texte » que Backloggd pose sur les jeux critiqués.
 const REVIEW_ICON = `
-  <span class="card-review" title="Critique écrite" aria-label="Critique écrite">
+  <span class="card-icon" title="Critique écrite" aria-label="Critique écrite">
     <svg viewBox="0 0 14 14" aria-hidden="true">
       <rect x="1" y="2"   width="12" height="1.6" rx="0.8"/>
       <rect x="1" y="5.4" width="12" height="1.6" rx="0.8"/>
@@ -133,22 +150,23 @@ const REVIEW_ICON = `
 
 // Flèche circulaire, comme le marqueur « replay » du journal Backloggd.
 const REPLAY_ICON = `
-  <span class="card-review" title="Rejoué" aria-label="Rejoué">
+  <span class="card-icon" title="Rejoué" aria-label="Rejoué">
     <svg viewBox="0 0 14 14" aria-hidden="true">
       <path d="M7 1.5a5.5 5.5 0 1 1-5.2 3.7l1.5.5A3.9 3.9 0 1 0 7 3.1v1.9L3.9 2.3 7 -.4z"/>
     </svg>
   </span>`;
 
-function cardHTML(game) {
+function cardHTML(game, rank) {
   const cover = game.cover
     ? `<img class="card-cover" src="${game.cover}" alt="${escAttr(game.title)}" loading="lazy">`
     : `<div class="card-cover-placeholder">${escHtml(game.title[0])}</div>`;
 
   return `
     <a class="game-card" href="./game.html?slug=${encodeURIComponent(game.slug)}">
-      <div class="card-cover-wrap">${cover}</div>
-      <div class="card-meta">
-        <span class="card-title" title="${escAttr(game.title)}">${escHtml(game.title)}</span>
+      <div class="card-cover-wrap">${cover}${rank ? `<span class="card-rank mono">${String(rank).padStart(2, '0')}</span>` : ''}</div>
+      <span class="card-title" title="${escAttr(game.title)}">${escHtml(game.title)}</span>
+      <div class="card-meta mono">
+        ${game.rating != null ? `<span class="note">★ ${game.rating}</span>` : ''}
         ${game.review ? REVIEW_ICON : ''}
         ${game.replay ? REPLAY_ICON : ''}
       </div>
@@ -163,9 +181,7 @@ const REVIEW_FILTERS = [
 
 function renderReviewFilter(list) {
   document.getElementById('review-filter').innerHTML = REVIEW_FILTERS.map(([key, texte, keep]) => `
-    <button type="button" class="review-filter-btn" data-critique="${key}" aria-pressed="${key === currentReview}">
-      ${texte} <span class="grid-label-count">${list.filter(keep).length}</span>
-    </button>`).join('');
+    <button type="button" data-critique="${key}" aria-pressed="${key === currentReview}">${texte}<span>${list.filter(keep).length}</span></button>`).join('');
 }
 
 function render() {
@@ -185,7 +201,7 @@ function render() {
   document.getElementById('favorites').style.display = currentSearch ? 'none' : '';
 
   if (filtered.length === 0) {
-    grid.innerHTML = '<div class="empty-state">Aucun jeu trouvé.</div>';
+    grid.innerHTML = '<div class="empty-state mono">Aucun jeu trouvé.</div>';
     return;
   }
 
@@ -196,16 +212,15 @@ function render() {
   const scinde = !currentSearch && currentReview === 'tous' && critiques.length > 0 && sansCritique.length > 0;
 
   if (!scinde) {
-    grid.innerHTML = filtered.map(cardHTML).join('');
+    grid.innerHTML = filtered.map(g => cardHTML(g)).join('');
     return;
   }
 
   // Le filtre au-dessus tient lieu d'intitulé pour le premier groupe.
   grid.innerHTML = [
-    critiques.map(cardHTML).join(''),
-    '<div class="grid-divider"></div>',
-    `<h2 class="section-label grid-label">Sans critique <span class="grid-label-count">${sansCritique.length}</span></h2>`,
-    sansCritique.map(cardHTML).join(''),
+    critiques.map(g => cardHTML(g)).join(''),
+    `<div class="grid-divider"><h3>Sans critique</h3><span class="mono">${sansCritique.length} jeux</span></div>`,
+    sansCritique.map(g => cardHTML(g)).join(''),
   ].join('');
 }
 

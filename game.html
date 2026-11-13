@@ -3,43 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>backloggd - anderson3x11</title>
-  <meta name="description" content="Journal de jeux vidéo — notes et critiques de anderson3x11.">
-  <meta name="theme-color" content="#0a0a0a">
+  <title>Journal de jeux - Thomas C.</title>
+  <meta name="description" content="Journal de jeux vidéo de Thomas C. (anderson3x11) : notes, critiques et backlog.">
+  <meta name="theme-color" content="#12141c">
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
 
   <!-- Valeurs de repli : game.js les réécrit avec le jeu chargé. -->
   <meta property="og:type" content="article">
-  <meta property="og:site_name" content="backloggd.">
-  <meta property="og:title" content="backloggd. - anderson3x11">
-  <meta property="og:description" content="Journal de jeux vidéo - notes et critiques de anderson3x11.">
+  <meta property="og:site_name" content="Journal de jeux">
+  <meta property="og:title" content="Journal de jeux - Thomas C.">
+  <meta property="og:description" content="Notes, critiques et backlog de Thomas C. (anderson3x11).">
   <meta property="og:image" content="">
   <meta name="twitter:card" content="summary_large_image">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Gothic:wdth@75..100&family=JetBrains+Mono:wght@400;500&family=Inter+Tight:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
 </head>
-<body>
+<body class="case">
 
-  <canvas id="ascii-bg" aria-hidden="true"></canvas>
+<nav class="mono solid">
+  <div class="l"><a class="back" href="./index.html">← Journal</a></div>
+  <div class="r"><a class="pill" href="https://anderson3x11.dev">Portfolio ↗</a></div>
+</nav>
 
-  <header>
-    <div class="shell">
-      <div class="nav-left">
-        <a href="./index.html" class="site-title">backloggd<span class="dot">.</span></a>
-        <span class="site-handle">anderson3x11</span>
-      </div>
-      <div class="nav-right">
-        <a href="./index.html" class="nav-link">← Retour</a>
-      </div>
-    </div>
-  </header>
+<main class="bp" id="game-page">
+  <div class="empty-state mono">Chargement…</div>
+</main>
 
-  <div class="page-wrap" id="game-page">
-    <div class="empty-state">Chargement…</div>
-  </div>
+<footer class="mini mono"><span>© 2026 Thomas C. · anderson3x11</span><span>← → pour changer de jeu</span></footer>
 
-  <script src="./ascii-bg.js"></script>
-  <script src="./nav.js"></script>
-  <script src="./game.js"></script>
+<script src="./game.js"></script>
 </body>
 </html>
