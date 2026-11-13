@@ -59,7 +59,6 @@ async function init() {
       '<div class="empty-state">Impossible de charger les jeux.</div>';
     return;
   }
-  document.getElementById('nav-count').textContent = allGames.length;
   renderStats();
   renderFavorites();
   render();

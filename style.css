@@ -123,7 +123,7 @@ header .shell {
 header.is-pinned { padding-top: 0.85rem; }
 
 /* Pinned: the bar draws in — shorter and slightly narrower — while its inner
-   padding collapses, so the wordmark and the count push out toward the pill's
+   padding collapses, so the wordmark and the link push out toward the pill's
    ends instead of staying aligned to the content column. */
 header.is-pinned .shell {
   height: 52px;
@@ -147,41 +147,36 @@ body { padding-top: var(--header-h); }
   text-transform: uppercase;
   line-height: 1;
   color: var(--accent);
-  transition: opacity 0.15s, font-size 0.28s ease;
+  transition: opacity 0.15s;
 }
 
 .site-title:hover { opacity: 0.75; }
 .site-title .dot { color: #525252; }
 
-header.is-pinned .site-title { font-size: 1.18rem; }
+.nav-left {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  min-width: 0;
+}
+
+.site-handle {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.site-handle::before {
+  content: '/';
+  margin-right: 0.6rem;
+  color: var(--muted2);
+}
 
 .nav-right {
   display: flex;
   align-items: center;
   gap: 0.6rem;
-}
-
-.nav-chip {
-  font-family: var(--font-mono);
-  font-size: 0.68rem;
-  letter-spacing: 0.06em;
-  color: var(--muted);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
-  padding: 0.28rem 0.8rem;
-  background: var(--surface);
-  white-space: nowrap;
-  transition: font-size 0.28s ease, padding 0.28s ease;
-}
-
-header.is-pinned .nav-chip {
-  font-size: 0.78rem;
-  padding: 0.36rem 0.95rem;
-}
-
-.nav-chip b {
-  font-weight: 500;
-  color: var(--accent);
 }
 
 .nav-link {
@@ -198,12 +193,8 @@ header.is-pinned .nav-chip {
   border-radius: var(--radius-sm);
   padding: 0.34rem 0.9rem;
   background: var(--surface);
-  transition: color 0.15s, border-color 0.15s, font-size 0.28s ease, padding 0.28s ease;
-}
-
-header.is-pinned .nav-link {
-  font-size: 0.76rem;
-  padding: 0.42rem 1.05rem;
+  white-space: nowrap;
+  transition: color 0.15s, border-color 0.15s;
 }
 
 .nav-link:hover { color: var(--accent); border-color: var(--border2); }
@@ -884,7 +875,6 @@ header.is-pinned .nav-link {
     max-width: 260px;
     margin: 0 auto;
   }
-  .nav-chip { display: none; }
 
   /* Below the container width the pill would run edge to edge, so inset it —
      and shave the same amount off the inner padding to keep the logo from
