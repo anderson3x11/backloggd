@@ -5,6 +5,7 @@ let allGames = [];
 const params = new URLSearchParams(window.location.search);
 let currentSearch = params.get('q') || '';
 let currentSort = params.get('sort') || 'date-desc';
+let currentReview = params.get('critique') || 'tous';
 
 // La grille étant construite en JS, le navigateur restaure le défilement avant
 // qu'elle existe et retombe donc à zéro. On le fait nous-mêmes, après le rendu.
@@ -42,6 +43,7 @@ function syncURL() {
   const q = new URLSearchParams();
   if (currentSearch) q.set('q', currentSearch);
   if (currentSort !== 'date-desc') q.set('sort', currentSort);
+  if (currentReview !== 'tous') q.set('critique', currentReview);
   const query = q.toString();
   // replaceState et non pushState : sinon chaque frappe empilerait une entrée
   // d'historique et le bouton Retour deviendrait inutilisable.
@@ -154,8 +156,23 @@ function cardHTML(game) {
     </a>`;
 }
 
+const REVIEW_FILTERS = [
+  ['tous', 'Tous', () => true],
+  ['avec', 'Avec critique', g => g.review],
+  ['sans', 'Sans critique', g => !g.review],
+];
+
+function renderReviewFilter(list) {
+  document.getElementById('review-filter').innerHTML = REVIEW_FILTERS.map(([key, texte, keep]) => `
+    <button type="button" class="review-filter-btn" data-critique="${key}" aria-pressed="${key === currentReview}">
+      ${texte} <span class="grid-label-count">${list.filter(keep).length}</span>
+    </button>`).join('');
+}
+
 function render() {
-  const filtered = getFiltered();
+  const searched = getFiltered();
+  renderReviewFilter(searched);
+  const filtered = searched.filter(REVIEW_FILTERS.find(f => f[0] === currentReview)[2]);
   const countEl = document.getElementById('results-count');
   const grid = document.getElementById('games-grid');
 
@@ -173,26 +190,22 @@ function render() {
     return;
   }
 
-  // Les jeux critiqués d'abord, puis les autres — mais pas pendant une
-  // recherche : on veut alors tous les résultats d'un bloc.
+  // Sur « Tous », les jeux critiqués d'abord, puis les autres — mais pas
+  // pendant une recherche : on veut alors tous les résultats d'un bloc.
   const critiques = filtered.filter(g => g.review);
   const sansCritique = filtered.filter(g => !g.review);
-  const scinde = !currentSearch && critiques.length > 0 && sansCritique.length > 0;
+  const scinde = !currentSearch && currentReview === 'tous' && critiques.length > 0 && sansCritique.length > 0;
 
   if (!scinde) {
     grid.innerHTML = filtered.map(cardHTML).join('');
     return;
   }
 
-  const label = (texte, n, extra = '') =>
-    `<h2 class="section-label grid-label">${texte} <span class="grid-label-count">${n}</span>${extra}</h2>`;
-
+  // Le filtre au-dessus tient lieu d'intitulé pour le premier groupe.
   grid.innerHTML = [
-    label('Avec critique', critiques.length,
-      '<button type="button" class="grid-jump" id="jump-sans-critique">Sans critique ↓</button>'),
     critiques.map(cardHTML).join(''),
     '<div class="grid-divider"></div>',
-    label('Sans critique', sansCritique.length).replace('<h2 ', '<h2 id="sans-critique" '),
+    `<h2 class="section-label grid-label">Sans critique <span class="grid-label-count">${sansCritique.length}</span></h2>`,
     sansCritique.map(cardHTML).join(''),
   ].join('');
 }
@@ -242,10 +255,13 @@ function resetScrollMemory() {
   try { sessionStorage.removeItem(SCROLL_KEY); } catch { /* rien à faire */ }
 }
 
-document.addEventListener('click', e => {
-  if (e.target.id === 'jump-sans-critique') {
-    document.getElementById('sans-critique').scrollIntoView();
-  }
+document.getElementById('review-filter').addEventListener('click', e => {
+  const btn = e.target.closest('[data-critique]');
+  if (!btn) return;
+  currentReview = btn.dataset.critique;
+  resetScrollMemory();
+  syncURL();
+  render();
 });
 
 const isTyping = () =>

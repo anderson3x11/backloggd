@@ -532,25 +532,32 @@ header.is-pinned .nav-link {
 .grid-label {
   grid-column: 1 / -1;
   margin-bottom: 0;
-  display: flex;
-  align-items: baseline;
-  /* Le header flottant masquerait l'intitulé visé par « Sans critique ↓ ». */
-  scroll-margin-top: calc(var(--header-h) + 1.5rem);
 }
 
-.grid-jump {
-  margin-left: auto;
+/* Filtre Tous / Avec / Sans critique, habillé comme les intitulés de section. */
+.review-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.6rem;
+  margin-bottom: 1.1rem;
+}
+
+.review-filter-btn {
   background: none;
   border: none;
-  font: inherit;
-  letter-spacing: inherit;
-  text-transform: inherit;
+  padding: 0;
+  font-family: var(--font-display);
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
   color: var(--muted);
   cursor: pointer;
   transition: color 0.15s;
 }
 
-.grid-jump:hover { color: var(--accent); }
+.review-filter-btn:hover,
+.review-filter-btn[aria-pressed="true"] { color: var(--accent); }
 
 .grid-label-count {
   color: #5c5c5c;
