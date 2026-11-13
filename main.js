@@ -58,9 +58,27 @@ async function init() {
     return;
   }
   document.getElementById('nav-count').textContent = allGames.length;
+  renderStats();
   renderFavorites();
   render();
   restoreScroll();
+}
+
+// Même présentation que le bandeau de profil Backloggd : trois chiffres.
+function renderStats() {
+  const year = String(new Date().getFullYear());
+  const inYear = allGames.filter(g =>
+    (g.date || '').startsWith(year) || (g.date_start || '').startsWith(year)).length;
+  const stats = [
+    [allGames.length, 'Jeux joués'],
+    [inYear, `Joués en ${year}`],
+    [allGames.filter(g => g.review).length, 'Critiques'],
+  ];
+  document.getElementById('stats').innerHTML = stats.map(([n, label]) => `
+    <div class="stat">
+      <span class="stat-num">${String(n).padStart(3, '0')}</span>
+      <span class="stat-label">${label}</span>
+    </div>`).join('');
 }
 
 function renderFavorites() {
@@ -166,14 +184,15 @@ function render() {
     return;
   }
 
-  const label = (texte, n) =>
-    `<h2 class="section-label grid-label">${texte} <span class="grid-label-count">${n}</span></h2>`;
+  const label = (texte, n, extra = '') =>
+    `<h2 class="section-label grid-label">${texte} <span class="grid-label-count">${n}</span>${extra}</h2>`;
 
   grid.innerHTML = [
-    label('Avec critique', critiques.length),
+    label('Avec critique', critiques.length,
+      '<button type="button" class="grid-jump" id="jump-sans-critique">Sans critique ↓</button>'),
     critiques.map(cardHTML).join(''),
     '<div class="grid-divider"></div>',
-    label('Sans critique', sansCritique.length),
+    label('Sans critique', sansCritique.length).replace('<h2 ', '<h2 id="sans-critique" '),
     sansCritique.map(cardHTML).join(''),
   ].join('');
 }
@@ -222,6 +241,12 @@ document.addEventListener('click', e => {
 function resetScrollMemory() {
   try { sessionStorage.removeItem(SCROLL_KEY); } catch { /* rien à faire */ }
 }
+
+document.addEventListener('click', e => {
+  if (e.target.id === 'jump-sans-critique') {
+    document.getElementById('sans-critique').scrollIntoView();
+  }
+});
 
 const isTyping = () =>
   /^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement.tagName);

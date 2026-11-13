@@ -258,6 +258,35 @@ header.is-pinned .nav-link {
   color: var(--muted);
 }
 
+/* ─── STATS ──────────────────────────────────────────────── */
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border-block: 1px solid var(--border);
+  padding: 1.6rem 0 1.4rem;
+  margin-bottom: 2.75rem;
+  text-align: center;
+}
+
+.stat { display: flex; flex-direction: column; gap: 0.35rem; }
+
+.stat-num {
+  font-family: var(--font-mono);
+  font-size: clamp(2.2rem, 7vw, 3.8rem);
+  font-weight: 500;
+  line-height: 1;
+  color: var(--accent);
+}
+
+.stat-label {
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--muted);
+}
+
 /* ─── TOP 5 ──────────────────────────────────────────────── */
 
 .favorites { margin-bottom: 2.75rem; }
@@ -503,7 +532,25 @@ header.is-pinned .nav-link {
 .grid-label {
   grid-column: 1 / -1;
   margin-bottom: 0;
+  display: flex;
+  align-items: baseline;
+  /* Le header flottant masquerait l'intitulé visé par « Sans critique ↓ ». */
+  scroll-margin-top: calc(var(--header-h) + 1.5rem);
 }
+
+.grid-jump {
+  margin-left: auto;
+  background: none;
+  border: none;
+  font: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  color: var(--muted);
+  cursor: pointer;
+  transition: color 0.15s;
+}
+
+.grid-jump:hover { color: var(--accent); }
 
 .grid-label-count {
   color: #5c5c5c;
