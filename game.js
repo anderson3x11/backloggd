@@ -52,6 +52,7 @@ async function init() {
   updateMeta(game);
   page.innerHTML = renderGame(game, newer, older, i, games.length);
   bindArrowKeys(newer, older);
+  bindGallery(game);
 }
 
 function gameURL(game) {
@@ -78,6 +79,8 @@ function setMeta(attr, key, value) {
 function bindArrowKeys(newer, older) {
   document.addEventListener('keydown', e => {
     if (e.metaKey || e.ctrlKey || e.altKey) return;
+    // Visionneuse ouverte : les flèches font défiler les images, pas les jeux.
+    if (document.querySelector('dialog[open]')) return;
     if (/^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement.tagName)) return;
     if (e.key === 'ArrowLeft' && newer) window.location.href = gameURL(newer);
     if (e.key === 'ArrowRight' && older) window.location.href = gameURL(older);
@@ -115,6 +118,78 @@ function nextCell(game, dir) {
     </a>`;
 }
 
+const IGDB = 'https://images.igdb.com/igdb/image/upload';
+const shotURL = (id, size) => `${IGDB}/${size}/${id}.jpg`;
+
+// Carrousel : défilement natif (scroll-snap), les flèches avancent d'une image.
+// Un clic ouvre la visionneuse, un <dialog> natif : Échap le ferme tout seul.
+function bindGallery(game) {
+  const shots = game.screenshots || [];
+  const track = document.getElementById('shots');
+  const dialog = document.getElementById('viewer');
+  if (!track || !dialog) return;
+
+  const img = dialog.querySelector('img');
+  const count = dialog.querySelector('.viewer-count');
+  let current = 0;
+  const show = i => {
+    current = (i + shots.length) % shots.length;
+    img.src = shotURL(shots[current], 't_1080p');
+    count.textContent = `${current + 1} / ${shots.length}`;
+  };
+
+  track.addEventListener('click', e => {
+    const btn = e.target.closest('[data-shot]');
+    if (!btn) return;
+    show(Number(btn.dataset.shot));
+    dialog.showModal();
+  });
+
+  document.querySelectorAll('[data-scroll]').forEach(btn => btn.addEventListener('click', () => {
+    const step = track.querySelector('.shot').offsetWidth + 16;
+    track.scrollBy({ left: step * Number(btn.dataset.scroll), behavior: 'smooth' });
+  }));
+
+  dialog.querySelector('.viewer-prev').addEventListener('click', () => show(current - 1));
+  dialog.querySelector('.viewer-next').addEventListener('click', () => show(current + 1));
+  dialog.querySelector('.viewer-close').addEventListener('click', () => dialog.close());
+  // Un clic sur le fond (le dialog lui-même, hors de l'image) ferme aussi.
+  dialog.addEventListener('click', e => { if (e.target === dialog) dialog.close(); });
+  dialog.addEventListener('keydown', e => {
+    if (e.key === 'ArrowLeft') show(current - 1);
+    if (e.key === 'ArrowRight') show(current + 1);
+  });
+}
+
+function galleryHTML(game, label) {
+  const shots = game.screenshots || [];
+  if (!shots.length) return '';
+  const items = shots.map((id, i) => `
+    <button type="button" class="shot" data-shot="${i}" aria-label="Agrandir l'image ${i + 1}">
+      <img src="${shotURL(id, 't_screenshot_big')}" alt="" loading="lazy">
+    </button>`).join('');
+  return `
+    <div class="row full gallery">
+      <div class="cell">
+        <div class="gallery-head">
+          <span class="lab">${label} Images</span>
+          ${shots.length > 2 ? `<div class="gallery-nav">
+            <button type="button" class="round" data-scroll="-1" aria-label="Images précédentes">←</button>
+            <button type="button" class="round" data-scroll="1" aria-label="Images suivantes">→</button>
+          </div>` : ''}
+        </div>
+        <div class="shots" id="shots">${items}</div>
+      </div>
+    </div>
+    <dialog class="viewer" id="viewer" aria-label="Images du jeu">
+      <img alt="">
+      <button type="button" class="round viewer-prev" aria-label="Image précédente">←</button>
+      <button type="button" class="round viewer-next" aria-label="Image suivante">→</button>
+      <button type="button" class="round viewer-close" aria-label="Fermer">✕</button>
+      <span class="viewer-count"></span>
+    </dialog>`;
+}
+
 function renderGame(game, newer, older, index, total) {
   const cover = game.cover
     ? `<img src="${game.cover}" alt="${escAttr(game.title)}">`
@@ -139,12 +214,16 @@ function renderGame(game, newer, older, index, total) {
   // Lettrage (B), (C)… comme les cellules du portfolio, sans trou quand une
   // section manque.
   let n = 0;
-  const letter = () => `(${'BCDE'[n++]})`;
+  const letter = () => `(${'BCDEF'[n++]})`;
 
-  // Colonne de gauche : l'en-tête du jeu (sur sa jaquette floutée), puis la
-  // fiche et le résumé. Colonne de droite : la critique, sur toute la hauteur.
-  const backdrop = game.cover
-    ? `<div class="head-bg" aria-hidden="true" style="background-image:url('${escAttr(game.cover)}')"></div>`
+  // Colonne de gauche : l'en-tête du jeu, puis la fiche et le résumé, calée
+  // sur la hauteur de l'écran. Colonne de droite : la critique.
+  // Le fond de l'en-tête est une capture tirée au hasard à chaque chargement,
+  // comme sur Backloggd ; la jaquette sert de repli.
+  const shots = game.screenshots || [];
+  const bg = shots.length ? shotURL(shots[Math.floor(Math.random() * shots.length)], 't_screenshot_big') : game.cover;
+  const backdrop = bg
+    ? `<div class="head-bg" aria-hidden="true" style="background-image:url('${escAttr(bg)}')"></div>`
     : '';
   const head = `
     <div class="game-head">
@@ -171,6 +250,7 @@ function renderGame(game, newer, older, index, total) {
       <div class="side">${head}${fiche}${summary}</div>
       ${review}
     </div>
+    ${galleryHTML(game, letter())}
     ${newer || older ? `<div class="row next">${nextCell(newer, 'newer')}${nextCell(older, 'older')}</div>` : ''}`;
 }
 
