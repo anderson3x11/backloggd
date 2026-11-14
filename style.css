@@ -703,16 +703,19 @@ a.site-handle:hover { color: var(--accent); }
 
 /* ─── En-tête : bandeau bleu du portfolio ─── */
 
-.row.head { background: #2141c4; border-bottom: 0; }
+.row.head { background: #2141c4; border-bottom: 0; grid-template-columns: auto minmax(0, 1fr); }
 .row.head::after { display: none; }
-.row.head .cell { display: flex; flex-direction: column; container-type: inline-size; }
+/* Seule la cellule du titre sert de conteneur : sur la cellule de la jaquette,
+   la containment annulerait sa largeur, alors que sa colonne en dépend. */
+.row.head .cell { display: flex; flex-direction: column; }
+.row.head .cell:not(.media) { container-type: inline-size; }
 .row.head .cell + .cell { border-left-color: rgba(242, 239, 230, 0.16); }
 .row.head .cap { display: flex; justify-content: space-between; color: #dfe6ff; margin-bottom: 0; }
 
 /* League Gothic en capitales : environ 0,4 em par lettre. */
 .game-title {
-  margin: auto 0 1.6rem;
-  padding-top: 2.5rem;
+  margin: auto 0 1.1rem;
+  padding-top: 1.2rem;
   font-family: var(--font-display);
   font-size: min(var(--cap, 128px), 100cqi / (var(--w, 8) * 0.4));
   font-weight: 400;
@@ -728,13 +731,13 @@ a.site-handle:hover { color: var(--accent); }
 .row.head .stars-bg { color: rgba(242, 239, 230, 0.22); }
 .row.head .stars-none { color: #dfe6ff; }
 
-.cell.media { display: grid; place-items: center; background: #182a85; padding-block: 2.6rem; }
+.bp .cell.media { display: grid; place-items: center; background: #182a85; padding: 1.8rem var(--gutter); }
 .cell.media img {
-  width: min(100%, 280px);
+  width: 170px;
   aspect-ratio: 3 / 4;
   object-fit: cover;
   border-radius: 8px;
-  rotate: 3deg;
+  rotate: -3deg;
   box-shadow: 0 3px 0 rgba(0, 0, 0, 0.25), 0 24px 40px rgba(0, 0, 0, 0.35);
   transition: rotate 0.35s;
 }
@@ -742,7 +745,7 @@ a.site-handle:hover { color: var(--accent); }
 .cell.media img:hover { rotate: 0deg; }
 
 .game-cover-placeholder-full {
-  width: min(100%, 280px);
+  width: 170px;
   aspect-ratio: 3 / 4;
   display: grid;
   place-items: center;
@@ -764,6 +767,8 @@ a.site-handle:hover { color: var(--accent); }
 }
 .facts dd { font-size: 0.95rem; line-height: 1.45; }
 .facts .replay { color: var(--accent); white-space: nowrap; }
+
+.side-block + .side-block { margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--border); }
 
 .game-summary { font-size: 0.95rem; line-height: 1.7; color: var(--muted); max-width: 62ch; }
 
@@ -865,7 +870,12 @@ footer.shell { position: relative; z-index: 1; }
   .bp .cell + .cell { border-left: 0; border-top: 1px solid var(--border); }
   .bp .cell { padding: 1.8rem var(--gutter) 2rem; }
   .row.head .cell + .cell { border-top-color: rgba(242, 239, 230, 0.16); }
-  .cell.media img { width: min(62%, 220px); }
+  /* L'en-tête reste sur deux colonnes : jaquette en vignette à côté du titre. */
+  .row.head { grid-template-columns: auto minmax(0, 1fr); }
+  .row.head .cell + .cell { border-top: 0; border-left: 1px solid rgba(242, 239, 230, 0.16); }
+  .bp .cell.media { padding: 1.2rem 1rem; }
+  .cell.media img, .game-cover-placeholder-full { width: 96px; }
+  .rating-big { font-size: 2.6rem; }
   .facts { grid-template-columns: 1fr; gap: 0.9rem; }
   .bp .cell:empty { display: none; }
   .next-link.older { text-align: left; }

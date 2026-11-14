@@ -97,7 +97,7 @@ function starsHTML(rating) {
 // mot le plus long, et les titres à rallonge restent plus sobres.
 function titleSize(title) {
   const longest = Math.max(...title.split(/\s+/).map(w => w.length));
-  return `--w:${longest};--cap:${title.length > 24 ? 'min(84px, 16cqi)' : '128px'}`;
+  return `--w:${longest};--cap:${title.length > 24 ? 'min(72px, 14cqi)' : '104px'}`;
 }
 
 function fact(key, value) {
@@ -141,31 +141,29 @@ function renderGame(game, newer, older, index, total) {
   let n = 0;
   const letter = () => `(${'BCDE'[n++]})`;
 
+  // Avec une critique, elle prend la moitié gauche et la fiche + le résumé se
+  // rangent à côté ; sans critique, fiche et résumé se partagent la rangée.
+  const review = game.review
+    ? `<div class="cell"><span class="lab">${letter()} Critique</span><div class="review-body">${formatReview(game.review)}</div></div>`
+    : '';
+  const ficheHTML = `<div class="side-block"><span class="lab">${letter()} Fiche</span><dl class="facts">${facts}</dl></div>`;
+  const summaryHTML = game.summary
+    ? `<div class="side-block"><span class="lab">${letter()} Résumé</span><p class="game-summary">${escHtml(game.summary)}</p></div>`
+    : '';
+  const body = game.review
+    ? `${review}<div class="cell side">${ficheHTML}${summaryHTML}</div>`
+    : `<div class="cell">${ficheHTML}</div><div class="cell">${summaryHTML}</div>`;
+
   return `
     <div class="row head">
+      <div class="cell media">${cover}</div>
       <div class="cell">
         <div class="cap"><span>(A) Journal</span><span>${String(index + 1).padStart(3, '0')} / ${total}</span></div>
         <h1 class="game-title" style="${titleSize(game.title)}">${escHtml(game.title)}</h1>
         ${rating}
       </div>
-      <div class="cell media">${cover}</div>
     </div>
-    <div class="row">
-      <div class="cell">
-        <span class="lab">${letter()} Fiche</span>
-        <dl class="facts">${facts}</dl>
-      </div>
-      <div class="cell">
-        ${game.summary ? `<span class="lab">${letter()} Résumé</span><p class="game-summary">${escHtml(game.summary)}</p>` : ''}
-      </div>
-    </div>
-    ${game.review ? `
-    <div class="row full">
-      <div class="cell">
-        <span class="lab">${letter()} Critique</span>
-        <div class="review-body">${formatReview(game.review)}</div>
-      </div>
-    </div>` : ''}
+    <div class="row">${body}</div>
     ${newer || older ? `<div class="row next">${nextCell(newer, 'newer')}${nextCell(older, 'older')}</div>` : ''}`;
 }
 
