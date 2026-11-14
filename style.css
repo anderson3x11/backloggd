@@ -703,7 +703,27 @@ a.site-handle:hover { color: var(--accent); }
 
 /* ─── En-tête : bandeau bleu du portfolio ─── */
 
-.row.head { background: #2141c4; border-bottom: 0; grid-template-columns: auto minmax(0, 1fr); }
+.row.head { background: #2141c4; border-bottom: 0; grid-template-columns: auto minmax(0, 1fr); overflow: hidden; }
+
+/* Jaquette floutée sous un voile bleu : on la devine, le titre reste lisible. */
+.head-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center 30%;
+  filter: blur(14px) saturate(1.2);
+  transform: scale(1.1);
+  opacity: 0.75;
+}
+
+.head-bg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(24, 42, 133, 0.3), rgba(33, 65, 196, 0.62) 60%);
+}
+
+.row.head > .cell { position: relative; z-index: 1; }
 .row.head::after { display: none; }
 /* Seule la cellule du titre sert de conteneur : sur la cellule de la jaquette,
    la containment annulerait sa largeur, alors que sa colonne en dépend. */
@@ -731,7 +751,7 @@ a.site-handle:hover { color: var(--accent); }
 .row.head .stars-bg { color: rgba(242, 239, 230, 0.22); }
 .row.head .stars-none { color: #dfe6ff; }
 
-.bp .cell.media { display: grid; place-items: center; background: #182a85; padding: 1.8rem var(--gutter); }
+.bp .cell.media { display: grid; place-items: center; background: rgba(24, 42, 133, 0.45); padding: 1.8rem var(--gutter); }
 .cell.media img {
   width: 170px;
   aspect-ratio: 3 / 4;
@@ -767,6 +787,9 @@ a.site-handle:hover { color: var(--accent); }
 }
 .facts dd { font-size: 0.95rem; line-height: 1.45; }
 .facts .replay { color: var(--accent); white-space: nowrap; }
+
+/* Les infos suivent la lecture de la critique. */
+.side-inner { position: sticky; top: calc(var(--header-h) + 2rem); }
 
 .side-block + .side-block { margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--border); }
 
@@ -866,6 +889,7 @@ footer.shell { position: relative; z-index: 1; }
   .favorites { margin-bottom: 2rem; }
 
   .bp .row { grid-template-columns: 1fr; }
+  .side-inner { position: static; }
   .bp .row::after { display: none; }
   .bp .cell + .cell { border-left: 0; border-top: 1px solid var(--border); }
   .bp .cell { padding: 1.8rem var(--gutter) 2rem; }
@@ -876,7 +900,7 @@ footer.shell { position: relative; z-index: 1; }
   .bp .cell.media { padding: 1.2rem 1rem; }
   .cell.media img, .game-cover-placeholder-full { width: 96px; }
   .rating-big { font-size: 2.6rem; }
-  .facts { grid-template-columns: 1fr; gap: 0.9rem; }
+  .facts { gap: 0.9rem 1.2rem; }
   .bp .cell:empty { display: none; }
   .next-link.older { text-align: left; }
   .nav-text { display: none; }

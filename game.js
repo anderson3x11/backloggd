@@ -141,21 +141,26 @@ function renderGame(game, newer, older, index, total) {
   let n = 0;
   const letter = () => `(${'BCDE'[n++]})`;
 
-  // Avec une critique, elle prend la moitié gauche et la fiche + le résumé se
-  // rangent à côté ; sans critique, fiche et résumé se partagent la rangée.
-  const review = game.review
-    ? `<div class="cell"><span class="lab">${letter()} Critique</span><div class="review-body">${formatReview(game.review)}</div></div>`
-    : '';
+  // Avec une critique : les infos du jeu à gauche (collantes), la critique à
+  // droite sur toute la hauteur. Sans critique, fiche et résumé se partagent
+  // la rangée.
   const ficheHTML = `<div class="side-block"><span class="lab">${letter()} Fiche</span><dl class="facts">${facts}</dl></div>`;
   const summaryHTML = game.summary
     ? `<div class="side-block"><span class="lab">${letter()} Résumé</span><p class="game-summary">${escHtml(game.summary)}</p></div>`
     : '';
   const body = game.review
-    ? `${review}<div class="cell side">${ficheHTML}${summaryHTML}</div>`
+    ? `<div class="cell side"><div class="side-inner">${ficheHTML}${summaryHTML}</div></div>
+       <div class="cell"><span class="lab">${letter()} Critique</span><div class="review-body">${formatReview(game.review)}</div></div>`
     : `<div class="cell">${ficheHTML}</div><div class="cell">${summaryHTML}</div>`;
+
+  // Jaquette floutée derrière le bandeau, teintée de bleu.
+  const backdrop = game.cover
+    ? `<div class="head-bg" aria-hidden="true" style="background-image:url('${escAttr(game.cover)}')"></div>`
+    : '';
 
   return `
     <div class="row head">
+      ${backdrop}
       <div class="cell media">${cover}</div>
       <div class="cell">
         <div class="cap"><span>(A) Journal</span><span>${String(index + 1).padStart(3, '0')} / ${total}</span></div>
