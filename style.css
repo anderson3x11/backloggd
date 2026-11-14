@@ -901,7 +901,42 @@ a.site-handle:hover { color: var(--accent); }
 .facts dd { font-size: 0.95rem; line-height: 1.45; }
 .facts .replay { color: var(--accent); white-space: nowrap; }
 
-.game-summary { font-size: 0.95rem; line-height: 1.7; color: var(--muted); max-width: 62ch; }
+.game-summary { font-size: 0.95rem; line-height: 1.7; color: var(--muted); }
+
+/* Visible seulement quand le résumé est coupé. */
+.summary-more {
+  display: none;
+  align-self: flex-start;
+  margin-top: 0.6rem;
+  padding: 0;
+  background: none;
+  border: none;
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  cursor: pointer;
+}
+
+.game-summary.is-clipped + .summary-more { display: inline-block; }
+.summary-more:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+.summary-dialog {
+  width: min(640px, calc(100vw - 2rem));
+  margin: auto;
+  padding: 1.6rem 1.8rem 2rem;
+  border: 1px solid var(--border2);
+  border-radius: 12px;
+  background: var(--ink-2);
+  color: var(--text);
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.55);
+}
+
+.summary-dialog::backdrop { background: rgba(10, 11, 16, 0.7); }
+.summary-dialog-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem; }
+.summary-dialog-head .lab { margin-bottom: 0; }
+.summary-dialog p { font-size: 1rem; line-height: 1.75; color: #e4e1d8; }
 
 /* ─── Critique ─── */
 

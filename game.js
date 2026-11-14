@@ -55,6 +55,7 @@ async function init() {
   bindGallery(game);
   markClippedSummary();
   window.addEventListener('resize', markClippedSummary);
+  bindSummaryDialog();
 }
 
 function gameURL(game) {
@@ -83,6 +84,16 @@ function setMeta(attr, key, value) {
 function markClippedSummary() {
   const p = document.querySelector('.game-summary');
   if (p) p.classList.toggle('is-clipped', p.scrollHeight > p.clientHeight + 1);
+}
+
+// « Lire la suite » ouvre le résumé complet : le déplier sur place ferait
+// déborder la colonne, calée sur la hauteur de l'écran.
+function bindSummaryDialog() {
+  const dialog = document.getElementById('summary-dialog');
+  if (!dialog) return;
+  document.getElementById('summary-more').addEventListener('click', () => dialog.showModal());
+  document.getElementById('summary-close').addEventListener('click', () => dialog.close());
+  dialog.addEventListener('click', e => { if (e.target === dialog) dialog.close(); });
 }
 
 function bindArrowKeys(newer, older) {
@@ -259,7 +270,18 @@ function renderGame(game, newer, older, index, total) {
     </div>`;
   const fiche = `<div class="side-block"><span class="lab">${letter()} Fiche</span><dl class="facts">${facts}</dl></div>`;
   const summary = game.summary
-    ? `<div class="side-block"><span class="lab">${letter()} Résumé</span><p class="game-summary">${escHtml(game.summary)}</p></div>`
+    ? `<div class="side-block">
+        <span class="lab">${letter()} Résumé</span>
+        <p class="game-summary">${escHtml(game.summary)}</p>
+        <button type="button" class="summary-more" id="summary-more">Lire la suite</button>
+        <dialog class="summary-dialog" id="summary-dialog" aria-label="Résumé">
+          <div class="summary-dialog-head">
+            <span class="lab">Résumé</span>
+            <button type="button" class="round" id="summary-close" aria-label="Fermer">${ICON.close}</button>
+          </div>
+          <p>${escHtml(game.summary)}</p>
+        </dialog>
+      </div>`
     : '';
   const review = game.review
     ? `<div class="cell review"><span class="lab">${letter()} Critique</span><div class="review-body">${formatReview(game.review)}</div></div>`
