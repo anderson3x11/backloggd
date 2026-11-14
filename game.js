@@ -118,6 +118,14 @@ function nextCell(game, dir) {
     </a>`;
 }
 
+// Icônes en SVG plutôt qu'en caractères : un glyphe « ← » se décale selon la
+// police, un tracé reste centré dans le bouton rond.
+const ICON = {
+  prev: '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M13 8H3M7 4 3 8l4 4"/></svg>',
+  next: '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>',
+  close: '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8"/></svg>',
+};
+
 const IGDB = 'https://images.igdb.com/igdb/image/upload';
 const shotURL = (id, size) => `${IGDB}/${size}/${id}.jpg`;
 
@@ -177,8 +185,8 @@ function galleryHTML(game, label) {
         <div class="gallery-head">
           <span class="lab">${label} Images</span>
           ${shots.length > 2 ? `<div class="gallery-nav">
-            <button type="button" class="round" data-scroll="-1" aria-label="Images précédentes">←</button>
-            <button type="button" class="round" data-scroll="1" aria-label="Images suivantes">→</button>
+            <button type="button" class="round" data-scroll="-1" aria-label="Images précédentes">${ICON.prev}</button>
+            <button type="button" class="round" data-scroll="1" aria-label="Images suivantes">${ICON.next}</button>
           </div>` : ''}
         </div>
         <div class="shots" id="shots">${items}</div>
@@ -186,9 +194,9 @@ function galleryHTML(game, label) {
     </div>
     <dialog class="viewer" id="viewer" aria-label="Images du jeu">
       <img src="${shotURL(shots[0], 't_1080p')}" alt="Capture d'écran de ${escAttr(game.title)}" loading="lazy">
-      <button type="button" class="round viewer-prev" aria-label="Image précédente">←</button>
-      <button type="button" class="round viewer-next" aria-label="Image suivante">→</button>
-      <button type="button" class="round viewer-close" aria-label="Fermer">✕</button>
+      <button type="button" class="round viewer-prev" aria-label="Image précédente">${ICON.prev}</button>
+      <button type="button" class="round viewer-next" aria-label="Image suivante">${ICON.next}</button>
+      <button type="button" class="round viewer-close" aria-label="Fermer">${ICON.close}</button>
       <span class="viewer-count"></span>
     </dialog>`;
 }
