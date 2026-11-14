@@ -827,10 +827,12 @@ a.site-handle:hover { color: var(--accent); }
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-padding-left: 0;
-  padding: 0 var(--gutter) 0.5rem 0;
-  scrollbar-width: thin;
-  scrollbar-color: var(--border2) transparent;
+  padding: 0 var(--gutter) 0 0;
+  /* Barre masquée : les flèches, le trackpad et le doigt suffisent. */
+  scrollbar-width: none;
 }
+
+.shots::-webkit-scrollbar { display: none; }
 
 .shot {
   flex: none;
