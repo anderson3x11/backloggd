@@ -899,7 +899,12 @@ a.site-handle:hover { color: var(--accent); }
   .section { padding: 1.15rem 1.15rem; }
 
   /* Le filtre tient sur une ligne : on resserre plutôt que de le replier. */
-  .review-filter { display: flex; flex-wrap: nowrap; }
-  .review-filter-btn { flex: 1; padding: 0.38rem 0.4rem; font-size: 0.58rem; letter-spacing: 0.06em; white-space: nowrap; }
-  .grid-label-count { margin-left: 0.25rem; }
+  .review-filter { display: flex; flex-wrap: nowrap; gap: 0; padding: 2px; }
+  .review-filter-btn { flex: 1; padding: 0.38rem 0.3rem; font-size: 0.6875rem; letter-spacing: 0.02em; white-space: nowrap; }
+  .grid-label-count { margin-left: 0.2rem; letter-spacing: 0; }
+}
+
+/* Plus étroit encore : les compteurs du filtre sautent, les libellés restent. */
+@media (max-width: 380px) {
+  .review-filter-btn .grid-label-count { display: none; }
 }
