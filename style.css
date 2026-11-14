@@ -701,41 +701,72 @@ a.site-handle:hover { color: var(--accent); }
   margin-bottom: 1.3rem;
 }
 
-/* ─── En-tête : bandeau bleu du portfolio ─── */
+/* ─── Deux colonnes : infos du jeu à gauche, critique à droite ─── */
 
-.row.head { background: #2141c4; border-bottom: 0; grid-template-columns: auto minmax(0, 1fr); overflow: hidden; }
+.row.split { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+.row.split::after { display: none; }
+.side { display: flex; flex-direction: column; min-width: 0; }
+.side > .side-block { padding: 2rem var(--gutter) 2.2rem; border-top: 1px solid var(--border); }
+.cell.review { border-left: 1px solid var(--border); }
+.cell.review.is-empty .lab { color: var(--muted); }
 
-/* Jaquette floutée sous un voile bleu : on la devine, le titre reste lisible. */
+/* En-tête : sur la jaquette floutée, sous un léger voile sombre. */
+.game-head {
+  position: relative;
+  overflow: hidden;
+  padding: 1.6rem var(--gutter) 2rem;
+  container-type: inline-size;
+}
+
 .head-bg {
   position: absolute;
   inset: 0;
   background-size: cover;
   background-position: center 30%;
-  filter: blur(14px) saturate(1.2);
-  transform: scale(1.1);
-  opacity: 0.75;
+  filter: blur(14px) saturate(1.15);
+  transform: scale(1.12);
+  opacity: 0.7;
 }
 
 .head-bg::after {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, rgba(24, 42, 133, 0.3), rgba(33, 65, 196, 0.62) 60%);
+  background: linear-gradient(180deg, rgba(18, 20, 28, 0.25), rgba(18, 20, 28, 0.7));
 }
 
-.row.head > .cell { position: relative; z-index: 1; }
-.row.head::after { display: none; }
-/* Seule la cellule du titre sert de conteneur : sur la cellule de la jaquette,
-   la containment annulerait sa largeur, alors que sa colonne en dépend. */
-.row.head .cell { display: flex; flex-direction: column; }
-.row.head .cell:not(.media) { container-type: inline-size; }
-.row.head .cell + .cell { border-left-color: rgba(242, 239, 230, 0.16); }
-.row.head .cap { display: flex; justify-content: space-between; color: #dfe6ff; margin-bottom: 0; }
+.game-head > :not(.head-bg) { position: relative; z-index: 1; }
+.game-head .cap { display: flex; justify-content: space-between; color: var(--text); margin-bottom: 1.6rem; }
+
+.head-main { display: flex; align-items: flex-end; gap: 1.6rem; }
+.head-cover { flex: none; }
+.head-text { flex: 1; min-width: 0; container-type: inline-size; }
+
+.head-cover img,
+.game-cover-placeholder-full {
+  width: 150px;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: 8px;
+  rotate: -3deg;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.25), 0 20px 34px rgba(0, 0, 0, 0.4);
+  transition: rotate 0.35s;
+}
+
+.head-cover img:hover { rotate: 0deg; }
+
+.game-cover-placeholder-full {
+  display: grid;
+  place-items: center;
+  background: var(--ink-2);
+  font-family: var(--font-display);
+  font-size: 4rem;
+  color: var(--accent);
+}
 
 /* League Gothic en capitales : environ 0,4 em par lettre. */
 .game-title {
-  margin: auto 0 1.1rem;
-  padding-top: 1.2rem;
+  margin-bottom: 0.9rem;
   font-family: var(--font-display);
   font-size: min(var(--cap, 128px), 100cqi / (var(--w, 8) * 0.4));
   font-weight: 400;
@@ -746,33 +777,8 @@ a.site-handle:hover { color: var(--accent); }
 }
 
 .rating-block { display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; }
-.rating-big { font-family: var(--font-display); font-size: 3.4rem; line-height: 0.85; color: #f2efe6; }
-.rating-of { font-family: var(--font-mono); font-size: 0.85rem; color: #dfe6ff; margin-right: 0.8rem; }
-.row.head .stars-bg { color: rgba(242, 239, 230, 0.22); }
-.row.head .stars-none { color: #dfe6ff; }
-
-.bp .cell.media { display: grid; place-items: center; background: rgba(24, 42, 133, 0.45); padding: 1.8rem var(--gutter); }
-.cell.media img {
-  width: 170px;
-  aspect-ratio: 3 / 4;
-  object-fit: cover;
-  border-radius: 8px;
-  rotate: -3deg;
-  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.25), 0 24px 40px rgba(0, 0, 0, 0.35);
-  transition: rotate 0.35s;
-}
-
-.cell.media img:hover { rotate: 0deg; }
-
-.game-cover-placeholder-full {
-  width: 170px;
-  aspect-ratio: 3 / 4;
-  display: grid;
-  place-items: center;
-  font-family: var(--font-display);
-  font-size: 5rem;
-  color: var(--accent);
-}
+.rating-big { font-family: var(--font-display); font-size: 3rem; line-height: 0.85; color: var(--text); }
+.rating-of { font-family: var(--font-mono); font-size: 0.85rem; color: var(--muted); margin-right: 0.6rem; }
 
 /* ─── Fiche et résumé ─── */
 
@@ -788,21 +794,16 @@ a.site-handle:hover { color: var(--accent); }
 .facts dd { font-size: 0.95rem; line-height: 1.45; }
 .facts .replay { color: var(--accent); white-space: nowrap; }
 
-/* Les infos suivent la lecture de la critique. */
-.side-inner { position: sticky; top: calc(var(--header-h) + 2rem); }
-
-.side-block + .side-block { margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--border); }
-
 .game-summary { font-size: 0.95rem; line-height: 1.7; color: var(--muted); max-width: 62ch; }
 
 /* ─── Critique ─── */
 
 .review-body {
-  font-size: 1.05rem;
+  font-size: 1.1rem;
   line-height: 1.75;
   color: #e4e1d8;
-  /* Environ 80 caractères par ligne. */
-  max-width: 44rem;
+  /* Remplit la colonne ; la limite ne joue qu'au-delà de 1600 px de large. */
+  max-width: 42rem;
 }
 
 .review-body p + p { margin-top: 1.1rem; }
@@ -888,18 +889,17 @@ footer.shell { position: relative; z-index: 1; }
   .fav-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.25rem 1rem; }
   .favorites { margin-bottom: 2rem; }
 
-  .bp .row { grid-template-columns: 1fr; }
-  .side-inner { position: static; }
+  .bp .row, .row.split { grid-template-columns: 1fr; }
+  .cell.review { border-left: 0; border-top: 1px solid var(--border); }
+  .cell.review.is-empty { display: none; }
   .bp .row::after { display: none; }
   .bp .cell + .cell { border-left: 0; border-top: 1px solid var(--border); }
   .bp .cell { padding: 1.8rem var(--gutter) 2rem; }
-  .row.head .cell + .cell { border-top-color: rgba(242, 239, 230, 0.16); }
-  /* L'en-tête reste sur deux colonnes : jaquette en vignette à côté du titre. */
-  .row.head { grid-template-columns: auto minmax(0, 1fr); }
-  .row.head .cell + .cell { border-top: 0; border-left: 1px solid rgba(242, 239, 230, 0.16); }
-  .bp .cell.media { padding: 1.2rem 1rem; }
-  .cell.media img, .game-cover-placeholder-full { width: 96px; }
-  .rating-big { font-size: 2.6rem; }
+  .game-head { padding: 1.3rem var(--gutter) 1.6rem; }
+  .head-main { gap: 1.1rem; }
+  .head-cover img, .game-cover-placeholder-full { width: 96px; }
+  .rating-big { font-size: 2.4rem; }
+  .side > .side-block { padding: 1.6rem var(--gutter) 1.8rem; }
   .facts { gap: 0.9rem 1.2rem; }
   .bp .cell:empty { display: none; }
   .next-link.older { text-align: left; }

@@ -141,34 +141,36 @@ function renderGame(game, newer, older, index, total) {
   let n = 0;
   const letter = () => `(${'BCDE'[n++]})`;
 
-  // Avec une critique : les infos du jeu à gauche (collantes), la critique à
-  // droite sur toute la hauteur. Sans critique, fiche et résumé se partagent
-  // la rangée.
-  const ficheHTML = `<div class="side-block"><span class="lab">${letter()} Fiche</span><dl class="facts">${facts}</dl></div>`;
-  const summaryHTML = game.summary
-    ? `<div class="side-block"><span class="lab">${letter()} Résumé</span><p class="game-summary">${escHtml(game.summary)}</p></div>`
-    : '';
-  const body = game.review
-    ? `<div class="cell side"><div class="side-inner">${ficheHTML}${summaryHTML}</div></div>
-       <div class="cell"><span class="lab">${letter()} Critique</span><div class="review-body">${formatReview(game.review)}</div></div>`
-    : `<div class="cell">${ficheHTML}</div><div class="cell">${summaryHTML}</div>`;
-
-  // Jaquette floutée derrière le bandeau, teintée de bleu.
+  // Colonne de gauche : l'en-tête du jeu (sur sa jaquette floutée), puis la
+  // fiche et le résumé. Colonne de droite : la critique, sur toute la hauteur.
   const backdrop = game.cover
     ? `<div class="head-bg" aria-hidden="true" style="background-image:url('${escAttr(game.cover)}')"></div>`
     : '';
+  const head = `
+    <div class="game-head">
+      ${backdrop}
+      <div class="cap"><span>(A) Journal</span><span>${String(index + 1).padStart(3, '0')} / ${total}</span></div>
+      <div class="head-main">
+        <div class="head-cover">${cover}</div>
+        <div class="head-text">
+          <h1 class="game-title" style="${titleSize(game.title)}">${escHtml(game.title)}</h1>
+          ${rating}
+        </div>
+      </div>
+    </div>`;
+  const fiche = `<div class="side-block"><span class="lab">${letter()} Fiche</span><dl class="facts">${facts}</dl></div>`;
+  const summary = game.summary
+    ? `<div class="side-block"><span class="lab">${letter()} Résumé</span><p class="game-summary">${escHtml(game.summary)}</p></div>`
+    : '';
+  const review = game.review
+    ? `<div class="cell review"><span class="lab">${letter()} Critique</span><div class="review-body">${formatReview(game.review)}</div></div>`
+    : '<div class="cell review is-empty"><span class="lab">Pas encore de critique</span></div>';
 
   return `
-    <div class="row head">
-      ${backdrop}
-      <div class="cell media">${cover}</div>
-      <div class="cell">
-        <div class="cap"><span>(A) Journal</span><span>${String(index + 1).padStart(3, '0')} / ${total}</span></div>
-        <h1 class="game-title" style="${titleSize(game.title)}">${escHtml(game.title)}</h1>
-        ${rating}
-      </div>
+    <div class="row split">
+      <div class="side">${head}${fiche}${summary}</div>
+      ${review}
     </div>
-    <div class="row">${body}</div>
     ${newer || older ? `<div class="row next">${nextCell(newer, 'newer')}${nextCell(older, 'older')}</div>` : ''}`;
 }
 
