@@ -221,33 +221,17 @@ function galleryHTML(game, label) {
     </dialog>`;
 }
 
-// Sans critique, la colonne de droite ne reste pas vide : un sticker du
-// portfolio, une phrase selon la note et un lien vers les avis Backloggd.
+// Sans critique, la colonne de droite ne reste pas vide : un gros sticker
+// du portfolio, tiré au hasard.
 const STICKERS = ['kuro-headphones', 'pip-detective', 'sparkletrio', 'eye-splat', 'mochi-rocket'];
 
 function noReviewHTML(game, label) {
-  const r = game.rating;
-  const verdict = r == null ? 'Pas encore noté non plus.'
-    : r >= 4.5 ? 'Coup de cœur : les mots viendront.'
-    : r >= 3.5 ? 'Une bonne partie, le verdict tient dans la note.'
-    : r >= 2.5 ? 'Mitigé, la note dit l\'essentiel.'
-    : 'Pas grand-chose à en dire, et c\'est déjà un avis.';
-  const meta = [
-    buildDateText(game) ? `Joué : ${buildDateText(game)}` : '',
-    r != null ? `Noté ${r} / 5` : '',
-  ].filter(Boolean).join(' · ');
   const sticker = STICKERS[Math.floor(Math.random() * STICKERS.length)];
   const tilt = Math.round(Math.random() * 16 - 8);
   return `
     <div class="cell review is-empty">
       <span class="lab">${label} Critique</span>
-      <div class="no-review">
-        <img class="no-review-sticker" src="assets/stickers/${sticker}.svg" alt="" style="rotate:${tilt}deg">
-        <p class="no-review-title">Pas de critique<span>… pour l'instant.</span></p>
-        <p class="no-review-text">${verdict}</p>
-        ${meta ? `<p class="no-review-meta">${meta}</p>` : ''}
-        ${game.bg ? `<a class="no-review-link" href="https://backloggd.com/games/${encodeURIComponent(game.bg)}/" target="_blank" rel="noopener">Lire les critiques sur Backloggd ↗</a>` : ''}
-      </div>
+      <img class="no-review-sticker" src="assets/stickers/${sticker}.svg" alt="" style="rotate:${tilt}deg">
     </div>`;
 }
 
