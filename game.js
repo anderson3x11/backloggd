@@ -53,6 +53,8 @@ async function init() {
   page.innerHTML = renderGame(game, newer, older, i, games.length);
   bindArrowKeys(newer, older);
   bindGallery(game);
+  markClippedSummary();
+  window.addEventListener('resize', markClippedSummary);
 }
 
 function gameURL(game) {
@@ -74,6 +76,13 @@ function updateMeta(game) {
 function setMeta(attr, key, value) {
   const el = document.querySelector(`meta[${attr}="${key}"]`);
   if (el) el.setAttribute('content', value);
+}
+
+// Le résumé prend la place qui reste dans la colonne : on ne le fond en bas
+// que s'il déborde vraiment.
+function markClippedSummary() {
+  const p = document.querySelector('.game-summary');
+  if (p) p.classList.toggle('is-clipped', p.scrollHeight > p.clientHeight + 1);
 }
 
 function bindArrowKeys(newer, older) {

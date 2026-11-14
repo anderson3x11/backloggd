@@ -723,6 +723,10 @@ a.site-handle:hover { color: var(--accent); }
   flex: 1;
   min-height: 0;
   overflow: hidden;
+}
+
+/* Fondu seulement si le résumé est réellement coupé (classe posée par game.js). */
+.game-summary.is-clipped {
   -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 3rem), transparent);
   mask-image: linear-gradient(to bottom, #000 calc(100% - 3rem), transparent);
 }
