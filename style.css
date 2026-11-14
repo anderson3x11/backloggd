@@ -571,19 +571,6 @@ a.site-handle:hover { color: var(--accent); }
 .game-card:hover .card-review svg { fill: var(--accent); }
 .game-card:hover .card-title { color: var(--accent); }
 
-.grid-divider {
-  grid-column: 1 / -1;
-  height: 1px;
-  background: var(--border);
-  margin: 1.1rem 0 0.6rem;
-}
-
-/* Intitulés de groupe : ils occupent une ligne entière de la grille. */
-.grid-label {
-  grid-column: 1 / -1;
-  margin-bottom: 0;
-}
-
 /* Filtre Tous / Avec / Sans critique : une barre d'onglets soulignés. */
 .review-filter {
   display: flex;

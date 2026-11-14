@@ -195,24 +195,8 @@ function render() {
     return;
   }
 
-  // Sur « Tous », les jeux critiqués d'abord, puis les autres — mais pas
-  // pendant une recherche : on veut alors tous les résultats d'un bloc.
-  const critiques = filtered.filter(g => g.review);
-  const sansCritique = filtered.filter(g => !g.review);
-  const scinde = !currentSearch && currentReview === 'tous' && critiques.length > 0 && sansCritique.length > 0;
-
-  if (!scinde) {
-    grid.innerHTML = filtered.map(cardHTML).join('');
-    return;
-  }
-
-  // Le filtre au-dessus tient lieu d'intitulé pour le premier groupe.
-  grid.innerHTML = [
-    critiques.map(cardHTML).join(''),
-    '<div class="grid-divider"></div>',
-    `<h2 class="section-label grid-label">Sans critique <span class="grid-label-count">${sansCritique.length}</span></h2>`,
-    sansCritique.map(cardHTML).join(''),
-  ].join('');
+  // Une seule liste, chronologique : les onglets servent à filtrer.
+  grid.innerHTML = filtered.map(cardHTML).join('');
 }
 
 function escHtml(str) {
