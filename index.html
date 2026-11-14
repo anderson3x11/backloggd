@@ -3,96 +3,74 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Journal de jeux - Thomas C.</title>
-  <meta name="description" content="Journal de jeux vidéo de Thomas C. (anderson3x11) : notes, critiques et backlog.">
-  <meta name="theme-color" content="#2141c4">
+  <title>backloggd - anderson3x11</title>
+  <meta name="description" content="Journal de jeux vidéo — notes et critiques de anderson3x11.">
+  <meta name="theme-color" content="#12141c">
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
 
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Journal de jeux">
-  <meta property="og:title" content="Journal de jeux - Thomas C.">
-  <meta property="og:description" content="Notes, critiques et backlog de Thomas C. (anderson3x11).">
+  <meta property="og:site_name" content="backloggd">
+  <meta property="og:title" content="backloggd. - anderson3x11">
+  <meta property="og:description" content="Journal de jeux vidéo — notes et critiques de anderson3x11.">
   <meta name="twitter:card" content="summary">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=League+Gothic:wdth@75..100&family=JetBrains+Mono:wght@400;500&family=Inter+Tight:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
-<header class="hero">
-  <nav class="mono">
-    <div class="l"><a class="back" href="https://anderson3x11.dev">← anderson3x11.dev</a></div>
-    <a class="me" href="./index.html"><b>Thomas C.</b>Journal de jeux</a>
-    <div class="r"><a class="pill" href="https://backloggd.com/u/glaive3x11/" target="_blank" rel="noopener">Backloggd ↗</a></div>
-  </nav>
-
-  <a class="latest" id="latest" hidden></a>
-
-  <div class="marquee" id="marquee" aria-hidden="true"></div>
-
-  <div aria-hidden="true">
-    <img class="sticker" style="left:12%;top:20%;rotate:-9deg" src="assets/stickers/kuro-headphones.svg" alt="">
-    <img class="sticker" style="right:14%;top:18%;rotate:10deg;--r2:-3deg" src="assets/stickers/eye-splat.svg" alt="">
-    <img class="sticker" style="right:24%;bottom:36%;rotate:-12deg;--r2:5deg" src="assets/stickers/flame.svg" alt="">
-  </div>
-</header>
-
-<main>
-  <section class="bp stats-block" aria-label="Statistiques">
-    <div class="row thirds" id="stats"></div>
-  </section>
-
-  <section class="favorites" id="favorites" hidden>
-    <div class="shead">
-      <h2>Top 5</h2>
-      <span class="mono">Les favoris de toujours</span>
+  <header>
+    <div class="shell">
+      <div class="nav-left">
+        <a href="./index.html" class="site-title">backloggd<span class="dot">.</span></a>
+        <a href="https://anderson3x11.dev" class="site-handle" title="Portfolio">anderson3x11</a>
+      </div>
+      <div class="nav-right">
+        <a href="https://backloggd.com/u/glaive3x11/" class="nav-link is-primary" target="_blank" rel="noopener" title="Mon profil sur Backloggd">Profil ↗</a>
+      </div>
     </div>
-    <img class="sticker" style="left:min(250px, 60vw);top:34px;width:74px;rotate:-6deg" src="assets/stickers/sparkletrio.svg" alt="" aria-hidden="true">
-    <div class="fav-grid" id="fav-grid"></div>
-  </section>
+  </header>
 
-  <section class="journal" aria-label="Journal">
-    <div class="shead">
-      <h2>Journal</h2>
-      <span class="mono">Du plus récent au plus ancien</span>
-    </div>
+  <div class="page-wrap">
+
+    <section class="stats" id="stats"></section>
+
+    <section class="favorites" id="favorites" hidden>
+      <h2 class="section-label">Top 5</h2>
+      <div class="fav-grid" id="fav-grid"></div>
+    </section>
 
     <div class="controls">
       <div class="search-wrap">
-        <input type="search" class="search-input" id="search" placeholder="Chercher un jeu…" autocomplete="off">
-        <kbd class="mono">/</kbd>
+        <span class="search-icon">⌕</span>
+        <input
+          type="search"
+          class="search-input"
+          id="search"
+          placeholder="Chercher un jeu…"
+          autocomplete="off"
+        >
       </div>
-      <select class="sort-select mono" id="sort" aria-label="Trier les jeux">
-        <option value="date-desc">Plus récents</option>
-        <option value="date-asc">Plus anciens</option>
-        <option value="rating-desc">Mieux notés</option>
-        <option value="rating-asc">Moins bien notés</option>
-        <option value="title-asc">Titre (A–Z)</option>
-      </select>
-      <div class="seg mono" id="review-filter" role="group" aria-label="Filtrer par critique"></div>
+      <div class="sort-wrap">
+        <select class="sort-select" id="sort" aria-label="Trier les jeux">
+          <option value="date-desc">Plus récents</option>
+          <option value="date-asc">Plus anciens</option>
+          <option value="rating-desc">Mieux notés</option>
+          <option value="rating-asc">Moins bien notés</option>
+          <option value="title-asc">Titre (A–Z)</option>
+        </select>
+      </div>
     </div>
 
-    <div class="results-count mono" id="results-count"></div>
+    <div class="review-filter" id="review-filter" role="group" aria-label="Filtrer par critique"></div>
+
+    <div class="results-count" id="results-count"></div>
     <div class="games-grid" id="games-grid">
-      <div class="empty-state mono">Chargement…</div>
+      <div class="empty-state">Chargement…</div>
     </div>
-  </section>
-</main>
 
-<footer class="contact">
-  <div class="top">
-    <img class="sticker" src="assets/stickers/peace-hand.svg" alt="">
-    <div>
-      <h2>Bonne partie</h2>
-      <span class="mono">Notes et critiques, aussi sur Backloggd</span>
-    </div>
-    <a class="pill dark mono" href="https://anderson3x11.dev">Voir le portfolio ↗</a>
   </div>
-  <div class="foot mono"><span>© 2026 Thomas C. · anderson3x11</span><a href="#">Haut de page ↑</a></div>
-</footer>
 
-<script src="./main.js"></script>
+  <script src="./nav.js"></script>
+  <script src="./main.js"></script>
 </body>
 </html>
