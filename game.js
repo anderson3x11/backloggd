@@ -51,6 +51,8 @@ async function init() {
   document.title = `${game.title} - backloggd`;
   updateMeta(game);
   page.innerHTML = renderGame(game, newer, older);
+  // Fond flouté tiré de la jaquette, en haut de page.
+  if (game.cover) document.getElementById('backdrop').style.backgroundImage = `url("${game.cover}")`;
   bindArrowKeys(newer, older);
 }
 
@@ -93,18 +95,21 @@ function starsHTML(rating) {
     `</span>`;
 }
 
-function navLink(game, dir) {
-  // Aux extrémités de la liste, on n'affiche rien.
-  if (!game) return '';
+// Bas de colonne : jeu plus récent / plus ancien, en cartes avec vignette.
+function navCard(game, dir) {
+  if (!game) return '<span></span>';
+  const thumb = game.cover ? `<img src="${game.cover}" alt="" loading="lazy">` : '<span class="nav-thumb-empty"></span>';
   return `
-    <a class="game-nav-item ${dir}" href="${gameURL(game)}">
-      <span class="game-nav-arrow">${dir === 'newer' ? '←' : '→'}</span>
-      <span class="game-nav-title">${escHtml(game.title)}</span>
+    <a class="nav-card ${dir}" href="${gameURL(game)}">
+      ${thumb}
+      <span class="nav-card-text">
+        <span class="nav-card-dir">${dir === 'newer' ? '← Plus récent' : 'Plus ancien →'}</span>
+        <span class="nav-card-title">${escHtml(game.title)}</span>
+      </span>
     </a>`;
 }
 
-// Colonne de gauche : ce qui concerne le jeu lui-même. Volontairement bref,
-// cette zone ne doit jamais dépasser la hauteur de l'écran.
+// Colonne de gauche : la fiche technique du jeu, sous la jaquette.
 function gameInfo(game) {
   const rows = [
     game.year ? infoRow('Sortie', escHtml(game.year)) : '',
@@ -113,13 +118,7 @@ function gameInfo(game) {
     game.platforms && game.platforms.length
       ? infoRow('Support', escHtml(game.platforms.slice(0, 4).join(', '))) : '',
   ].filter(Boolean).join('');
-
-  const summary = game.summary
-    ? `<p class="game-summary">${escHtml(game.summary)}</p>`
-    : '';
-
-  if (!rows && !summary) return '';
-  return `<div class="game-info">${rows}${summary}</div>`;
+  return rows ? `<div class="game-info">${rows}</div>` : '';
 }
 
 function infoRow(key, value) {
@@ -131,22 +130,18 @@ function renderGame(game, newer, older) {
     ? `<img class="game-cover-full" src="${game.cover}" alt="${escAttr(game.title)}">`
     : `<div class="game-cover-placeholder-full">${escHtml(game.title[0])}</div>`;
 
-  const sub = [
-    buildDateText(game),
-    game.platform ? escHtml(game.platform) : '',
-    game.replay ? '↺ Rejoué' : '',
-  ].filter(Boolean).join('<span class="sep">/</span>');
+  const chips = [
+    buildDateText(game) ? `<span class="chip">${buildDateText(game)}</span>` : '',
+    game.platform ? `<span class="chip">${escHtml(game.platform)}</span>` : '',
+    game.replay ? '<span class="chip is-accent">↺ Rejoué</span>' : '',
+  ].join('');
 
-  const rating = `
-    <div class="rating-bare">
-      <div class="panel-label">Note</div>
-      <div class="rating-row">
-        ${starsHTML(game.rating)}
-        ${game.rating != null
-          ? `<span class="rating-num"><b>${game.rating}</b> / 5</span>`
-          : '<span class="stars-none">pas encore noté</span>'}
-      </div>
-    </div>`;
+  const rating = game.rating != null ? `
+    <div class="rating-block">
+      <span class="rating-big">${game.rating}</span>
+      <span class="rating-of">/ 5</span>
+      ${starsHTML(game.rating)}
+    </div>` : '<div class="rating-block"><span class="stars-none">Pas encore noté</span></div>';
 
   // Sans critique, pas d'encadré : une boîte vide souligne l'absence.
   const review = game.review ? `
@@ -155,24 +150,27 @@ function renderGame(game, newer, older) {
       <div class="review-body">${formatReview(game.review)}</div>
     </div>` : '';
 
+  const summary = game.summary ? `
+    <div class="summary-block">
+      <div class="panel-label">Résumé</div>
+      <p class="game-summary">${escHtml(game.summary)}</p>
+    </div>` : '';
+
   return `
     <div class="game-layout">
-      <div class="game-left">
+      <aside class="game-left">
         <div class="panel cover-frame">${cover}</div>
-        ${newer || older ? `
-        <nav class="game-nav${newer && older ? '' : ' is-single'}">
-          ${navLink(newer, 'newer')}
-          ${navLink(older, 'older')}
-        </nav>` : ''}
         ${gameInfo(game)}
-      </div>
+      </aside>
       <div class="game-right">
         <div class="game-head">
+          ${chips ? `<div class="chips">${chips}</div>` : ''}
           <h1 class="game-title">${escHtml(game.title)}</h1>
-          ${sub ? `<div class="game-sub">${sub}</div>` : ''}
         </div>
         ${rating}
         ${review}
+        ${summary}
+        ${newer || older ? `<nav class="game-nav">${navCard(newer, 'newer')}${navCard(older, 'older')}</nav>` : ''}
       </div>
     </div>`;
 }

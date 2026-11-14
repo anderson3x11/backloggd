@@ -149,6 +149,7 @@ function cardHTML(game) {
       <div class="card-cover-wrap">${cover}</div>
       <div class="card-meta">
         <span class="card-title" title="${escAttr(game.title)}">${escHtml(game.title)}</span>
+        ${game.rating != null ? `<span class="card-rating">★ ${game.rating}</span>` : ''}
         ${game.review ? REVIEW_ICON : ''}
         ${game.replay ? REPLAY_ICON : ''}
       </div>
