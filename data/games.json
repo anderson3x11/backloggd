@@ -4,6 +4,14 @@
     "bg": "retrospace",
     "title": "Retrospace",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cod15a.jpg",
+    "screenshots": [
+      "sckjcg",
+      "sc15i3a",
+      "sc15i30",
+      "sc15i35",
+      "sc15i2x",
+      "sc15i2y"
+    ],
     "year": "2026",
     "developer": "The Wild Gentlemen",
     "genres": [
@@ -31,6 +39,13 @@
     "bg": "skin-deep",
     "title": "Skin Deep",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9qg3.jpg",
+    "screenshots": [
+      "sc8yr9",
+      "sc8yra",
+      "sc8yrb",
+      "sc8yrc",
+      "sc8yrd"
+    ],
     "year": "2025",
     "developer": "Blendo Games",
     "genres": [
@@ -53,6 +68,14 @@
     "bg": "twisted-tower",
     "title": "Twisted Tower",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocs18.jpg",
+    "screenshots": [
+      "scvdny",
+      "scvdnx",
+      "scvdnv",
+      "sc14xah",
+      "sc14xai",
+      "sc14xaj"
+    ],
     "year": "2026",
     "developer": "Atmos Games",
     "genres": [
@@ -75,6 +98,9 @@
     "bg": "endacopia",
     "title": "Endacopia",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocnnk.jpg",
+    "screenshots": [
+      "scjtux"
+    ],
     "year": "2026",
     "developer": "Andyl4nd",
     "genres": [
@@ -97,6 +123,14 @@
     "bg": "agent-a-a-puzzle-in-disguise",
     "title": "Agent A: A Puzzle In Disguise",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co24bn.jpg",
+    "screenshots": [
+      "ckrbc8abu72znsihik0j",
+      "e9rzb424gt7otnbxbdcp",
+      "lsp5vznmletshc73e4k1",
+      "pg4za9dhccqalyttdmhw",
+      "p0aezufskkxaf1pql82n",
+      "edkvabe3o7rkupf6p6g4"
+    ],
     "year": "2015",
     "developer": "Yakuto",
     "genres": [
@@ -125,6 +159,14 @@
     "bg": "bad-cheese",
     "title": "Bad Cheese",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8ydf.jpg",
+    "screenshots": [
+      "scu871",
+      "scu872",
+      "scu873",
+      "scu874",
+      "scu875",
+      "scu870"
+    ],
     "year": "2025",
     "developer": "Lukasik.art",
     "genres": [
@@ -152,6 +194,14 @@
     "bg": "filcher",
     "title": "Filcher",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co464i.jpg",
+    "screenshots": [
+      "scbe3r",
+      "scbe3c",
+      "scbe3j",
+      "scbe3i",
+      "scbe3m",
+      "scbe3t"
+    ],
     "year": "2021",
     "developer": "Johan Hjärpe",
     "genres": [
@@ -173,6 +223,14 @@
     "bg": "control-resonant--1",
     "title": "Control Resonant",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc64f.jpg",
+    "screenshots": [
+      "sc10td0",
+      "sc10td1",
+      "sc10td2",
+      "sc10td3",
+      "sc10tcz",
+      "scuxut"
+    ],
     "year": "2026",
     "developer": "Remedy Entertainment",
     "genres": [
@@ -195,6 +253,11 @@
     "bg": "carimara-beneath-the-forlorn-limbs",
     "title": "Carimara: Beneath the Forlorn Limbs",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9ub9.jpg",
+    "screenshots": [
+      "scw8fl",
+      "scw8fm",
+      "scw8fn"
+    ],
     "year": "2025",
     "developer": "Bastinus Rex",
     "genres": [
@@ -215,6 +278,14 @@
     "bg": "no-one-lives-under-the-lighthouse",
     "title": "No One Lives Under the Lighthouse",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co97es.jpg",
+    "screenshots": [
+      "sc812o",
+      "sc812p",
+      "sc812q",
+      "sc812n",
+      "sc812m",
+      "sc812l"
+    ],
     "year": "2020",
     "developer": "Marevo Collective",
     "genres": [
@@ -235,6 +306,14 @@
     "bg": "alan-wake-ii-the-lake-house",
     "title": "Alan Wake II: The Lake House",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8z06.jpg",
+    "screenshots": [
+      "scu86a",
+      "scu86b",
+      "scu86c",
+      "scu86d",
+      "scu86e",
+      "scu869"
+    ],
     "year": "2024",
     "developer": "Remedy Entertainment",
     "genres": [
@@ -258,6 +337,14 @@
     "bg": "alan-wake-ii",
     "title": "Alan Wake II",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6jar.jpg",
+    "screenshots": [
+      "scmnco",
+      "scmncn",
+      "scmnck",
+      "scmncl",
+      "scmncj",
+      "scmncm"
+    ],
     "year": "2023",
     "developer": "Remedy Entertainment",
     "genres": [
@@ -282,6 +369,14 @@
     "bg": "control",
     "title": "Control",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2evj.jpg",
+    "screenshots": [
+      "vbbxokluzwqft27e0dak",
+      "sc6dao",
+      "xbmyupl5qae3c3txekoa",
+      "dbncichrmtqoxbejg4sm",
+      "mn6mrrh5l102zxymspcr",
+      "sq0fojs2sff78e1bhl0v"
+    ],
     "year": "2019",
     "developer": "Remedy Entertainment",
     "genres": [
@@ -310,6 +405,14 @@
     "bg": "alan-wake-s-american-nightmare",
     "title": "Alan Wake's American Nightmare",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2eh1.jpg",
+    "screenshots": [
+      "wu139npcqcq58lxcf0qe",
+      "scppqh",
+      "scppqi",
+      "scppqj",
+      "zvnk1n2tqiwh6x7otclo",
+      "twj9ushrvbym01k4ynia"
+    ],
     "year": "2012",
     "developer": "Remedy Entertainment",
     "genres": [
@@ -331,6 +434,14 @@
     "bg": "alan-wake",
     "title": "Alan Wake",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2dft.jpg",
+    "screenshots": [
+      "scppqk",
+      "scppqn",
+      "yvbeukf7akfc2fkkzpmc",
+      "mxscclds496mp4wqrhje",
+      "o3bjopus7brxrqxqal3m",
+      "scppql"
+    ],
     "year": "2010",
     "developer": "Remedy Entertainment",
     "genres": [
@@ -354,6 +465,14 @@
     "bg": "the-new-flesh",
     "title": "The New Flesh",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocbt4.jpg",
+    "screenshots": [
+      "scwui7",
+      "scwui8",
+      "scwui6",
+      "scwuhz",
+      "scwui2",
+      "scwui4"
+    ],
     "year": "2025",
     "developer": "Freshly Baked Games",
     "genres": [
@@ -375,6 +494,14 @@
     "bg": "mole--4",
     "title": "MOLE",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobcv3.jpg",
+    "screenshots": [
+      "sc10ff1",
+      "sc10ff0",
+      "sc10ff2",
+      "sc10ff3",
+      "sc10ff6",
+      "sc10ff4"
+    ],
     "year": "2026",
     "developer": "Off Black Creations",
     "genres": [
@@ -397,6 +524,14 @@
     "bg": "dragon-quest-viii-journey-of-the-cursed-king",
     "title": "Dragon Quest VIII: Journey of the Cursed King",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7vf2.jpg",
+    "screenshots": [
+      "sc9855",
+      "sc9856",
+      "sc9857",
+      "sc9858",
+      "sc9859",
+      "sc985a"
+    ],
     "year": "2004",
     "developer": "LEVEL-5",
     "genres": [
@@ -419,6 +554,14 @@
     "bg": "twin-peaks-into-the-night",
     "title": "Twin Peaks: Into the Night",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6x24.jpg",
+    "screenshots": [
+      "scnv97",
+      "scnv98",
+      "scnv99",
+      "scnv9a",
+      "scnv9b",
+      "scnv9c"
+    ],
     "developer": "BlueRoseTeam",
     "genres": [
       "Adventure",
@@ -439,6 +582,14 @@
     "bg": "restory-chill-electronics-repairs",
     "title": "ReStory: Chill Electronics Repairs",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coazo7.jpg",
+    "screenshots": [
+      "sc10rkp",
+      "sc10rkr",
+      "sc10rks",
+      "sc10rkt",
+      "sc10rku",
+      "sc10rkv"
+    ],
     "year": "2026",
     "developer": "Mandragora",
     "genres": [
@@ -461,6 +612,14 @@
     "bg": "discopup",
     "title": "Discopup",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co99uf.jpg",
+    "screenshots": [
+      "scv1ao",
+      "scv1ap",
+      "scv1aq",
+      "scv1it",
+      "scv1iu",
+      "scv1iv"
+    ],
     "year": "2025",
     "developer": "Parry Mechanics",
     "genres": [
@@ -482,6 +641,14 @@
     "bg": "sol-cesto",
     "title": "Sol Cesto",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7wey.jpg",
+    "screenshots": [
+      "scqjfp",
+      "scqjfj",
+      "scqjfc",
+      "scqjfm",
+      "scqjfg",
+      "scqjfk"
+    ],
     "year": "2026",
     "developer": "Tambouille",
     "genres": [
@@ -501,6 +668,13 @@
     "bg": "citizen-sleeper",
     "title": "Citizen Sleeper",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4zl5.jpg",
+    "screenshots": [
+      "scahmc",
+      "scahmd",
+      "scahme",
+      "scahmf",
+      "scahmg"
+    ],
     "year": "2022",
     "developer": "Jump Over the Age",
     "genres": [
@@ -528,6 +702,14 @@
     "bg": "soma",
     "title": "Soma",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2a20.jpg",
+    "screenshots": [
+      "xlfhw5nokrdxjkqip8bx",
+      "scu1ee",
+      "sc77qd",
+      "lwcp5uxzztypel1m5auz",
+      "mtarkrsb2pshigoogx16",
+      "sc5j8c"
+    ],
     "year": "2015",
     "developer": "Frictional Games",
     "genres": [
@@ -555,6 +737,14 @@
     "bg": "luto",
     "title": "Luto",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coa2av.jpg",
+    "screenshots": [
+      "scxsfa",
+      "scxsfb",
+      "scxsfc",
+      "scxsfd",
+      "scxsfe",
+      "scxsff"
+    ],
     "year": "2025",
     "developer": "Broken Bird Games",
     "genres": [
@@ -578,6 +768,14 @@
     "bg": "dragon-warrior-vii",
     "title": "Dragon Warrior VII",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7wq9.jpg",
+    "screenshots": [
+      "sc9v8y",
+      "schj9m",
+      "schj9l",
+      "schj9k",
+      "schj9j",
+      "schj9i"
+    ],
     "year": "2000",
     "developer": "Heartbeat",
     "genres": [
@@ -599,6 +797,14 @@
     "bg": "dragon-quest-vi-maboroshi-no-daichi",
     "title": "Dragon Quest VI: Maboroshi no Daichi",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2x9i.jpg",
+    "screenshots": [
+      "scrd9h",
+      "scrd9i",
+      "scrd9j",
+      "scrd9k",
+      "scrd9l",
+      "scrd9m"
+    ],
     "year": "1995",
     "developer": "Heartbeat",
     "genres": [
@@ -621,6 +827,13 @@
     "bg": "dragon-quest-v-tenkuu-no-hanayome",
     "title": "Dragon Quest V: Tenkuu no Hanayome",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4vsl.jpg",
+    "screenshots": [
+      "scrd86",
+      "scrd87",
+      "scrd88",
+      "scrd89",
+      "scrd8a"
+    ],
     "year": "1992",
     "developer": "Chunsoft",
     "genres": [
@@ -643,6 +856,14 @@
     "bg": "dragon-warrior-iv",
     "title": "Dragon Warrior IV",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7trb.jpg",
+    "screenshots": [
+      "scrd7x",
+      "scrd7y",
+      "scrd7t",
+      "scrd7u",
+      "scrd7s",
+      "scrd7z"
+    ],
     "year": "1990",
     "developer": "Chunsoft",
     "genres": [
@@ -666,6 +887,14 @@
     "bg": "dragon-warrior-iii",
     "title": "Dragon Warrior III",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6s7a.jpg",
+    "screenshots": [
+      "scrd7n",
+      "scrd7o",
+      "scrd7p",
+      "scrd7q",
+      "scrd7r",
+      "scrd7m"
+    ],
     "year": "1988",
     "developer": "Chunsoft",
     "genres": [
@@ -688,6 +917,14 @@
     "bg": "dragon-warrior-ii",
     "title": "Dragon Warrior II",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8003.jpg",
+    "screenshots": [
+      "scrd7j",
+      "scrd7e",
+      "scrd7f",
+      "scrd7g",
+      "scrd7i",
+      "scrd7c"
+    ],
     "year": "1987",
     "developer": "Chunsoft",
     "genres": [
@@ -713,6 +950,14 @@
     "bg": "dragon-warrior",
     "title": "Dragon Warrior",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co55p3.jpg",
+    "screenshots": [
+      "scrd77",
+      "scrd78",
+      "scrd79",
+      "scrd75",
+      "scrd76",
+      "scrd7b"
+    ],
     "year": "1986",
     "developer": "Chunsoft",
     "genres": [
@@ -737,6 +982,14 @@
     "bg": "mouse-pi-for-hire--1",
     "title": "Mouse: P.I. For Hire",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaacx.jpg",
+    "screenshots": [
+      "sc1302w",
+      "sc1302x",
+      "sc1302y",
+      "sc13033",
+      "sc13034",
+      "sc13035"
+    ],
     "year": "2026",
     "developer": "Fumi Games",
     "genres": [
@@ -762,6 +1015,14 @@
     "bg": "mother-3",
     "title": "Mother 3",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coa3qi.jpg",
+    "screenshots": [
+      "tyhcoervcntjuy3bfucd",
+      "atriw4eqwcrniqg7zyf7",
+      "dgxfvv7iqgvsohqqhoxr",
+      "wsoxexajngzwpmffcput",
+      "efac0ai1rs3rckeppwlb",
+      "ixmlrvcqn59ph3p8amqe"
+    ],
     "year": "2006",
     "developer": "HAL Laboratory",
     "genres": [
@@ -784,6 +1045,14 @@
     "bg": "earthbound",
     "title": "EarthBound",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6v07.jpg",
+    "screenshots": [
+      "sc78jl",
+      "sc78jn",
+      "f3k5vdt7h8zhfitudsdh",
+      "scftzl",
+      "sc78jm",
+      "sc78jk"
+    ],
     "year": "1994",
     "developer": "HAL Laboratory",
     "genres": [
@@ -810,6 +1079,12 @@
     "bg": "mother--4",
     "title": "Mother",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6695.jpg",
+    "screenshots": [
+      "scn6wo",
+      "scn6wp",
+      "scn6wr",
+      "scn6wq"
+    ],
     "year": "1989",
     "developer": "Ape",
     "genres": [
@@ -831,6 +1106,13 @@
     "bg": "the-evil-within",
     "title": "The Evil Within",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5wgs.jpg",
+    "screenshots": [
+      "vijpv4dvt06fsimepmc0",
+      "yl1heuwq3kk2szoh5nwk",
+      "gal6crdb4gj3dzc5zahq",
+      "n7koht6e3j6nooarwxej",
+      "gnajbm5mhsnbdqtozbia"
+    ],
     "year": "2014",
     "developer": "Tango Gameworks",
     "genres": [
@@ -857,6 +1139,14 @@
     "bg": "elden-ring",
     "title": "Elden Ring",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4jni.jpg",
+    "screenshots": [
+      "scagdo",
+      "scu5kw",
+      "scu5kx",
+      "scf2s1",
+      "scagdq",
+      "scagdr"
+    ],
     "year": "2022",
     "developer": "FromSoftware",
     "genres": [
@@ -883,6 +1173,12 @@
     "bg": "water-womb-world",
     "title": "Water Womb World",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2gga.jpg",
+    "screenshots": [
+      "sccwgi",
+      "sccwgj",
+      "sccwgk",
+      "sccwgl"
+    ],
     "year": "2020",
     "developer": "Yames",
     "genres": [
@@ -905,6 +1201,14 @@
     "bg": "resident-evil-village-shadows-of-rose--2",
     "title": "Resident Evil Village: Shadows of Rose",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5zol.jpg",
+    "screenshots": [
+      "sckgtl",
+      "sckgti",
+      "sckgth",
+      "sckgtg",
+      "sckgtk",
+      "sckgtj"
+    ],
     "year": "2022",
     "developer": "Capcom Development Division 1",
     "genres": [
@@ -931,6 +1235,14 @@
     "bg": "resident-evil-village",
     "title": "Resident Evil Village",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coab9q.jpg",
+    "screenshots": [
+      "sc99kk",
+      "sc99kl",
+      "sctkez",
+      "sc99ks",
+      "sc8zrh",
+      "sc99kn"
+    ],
     "year": "2021",
     "developer": "Capcom Development Division 1",
     "genres": [
@@ -957,6 +1269,14 @@
     "bg": "resident-evil-7-biohazard-end-of-zoe",
     "title": "Resident Evil 7: Biohazard - End of Zoe",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5yf7.jpg",
+    "screenshots": [
+      "esfbdsrwlqirftzu337z",
+      "wuyr3zb9grz4gncpqftm",
+      "jcn8lvpdj9jdp2v8zcus",
+      "kvklk6augv9trpu1yu9u",
+      "qtv5g9bw3gvrw1jtlqpo",
+      "qb94kdllndrsajb2llop"
+    ],
     "year": "2017",
     "developer": "Capcom Development Division 1",
     "genres": [
@@ -984,6 +1304,14 @@
     "bg": "resident-evil-7-biohazard-not-a-hero",
     "title": "Resident Evil 7: Biohazard - Not A Hero",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5yf8.jpg",
+    "screenshots": [
+      "bczqoxopofwj3agqimtc",
+      "yr0dws1xq2fc10nd4fm5",
+      "mu6xrphbryrdkviq0f8f",
+      "l7881fqk6pp0mepfeapq",
+      "rwyievc77ap04uipurtb",
+      "tn5fnrrr8ob74nvdczfg"
+    ],
     "year": "2017",
     "developer": "HexaDrive",
     "genres": [
@@ -1009,6 +1337,13 @@
     "bg": "resident-evil-7-biohazard",
     "title": "Resident Evil 7: Biohazard",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobtwh.jpg",
+    "screenshots": [
+      "wyn4sipweizrkjvshid9",
+      "io6hffcfxfgtibwwn9jl",
+      "r03xsdmmrxyddimojni1",
+      "ctxtlpyzlo3q5hvshysw",
+      "tc63ssff6rzvaiq1xjuw"
+    ],
     "year": "2017",
     "developer": "Capcom Development Division 1",
     "genres": [
@@ -1036,6 +1371,14 @@
     "bg": "resident-evil-4-separate-ways--1",
     "title": "Resident Evil 4: Separate Ways",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7lar.jpg",
+    "screenshots": [
+      "scojev",
+      "scxq9g",
+      "scojer",
+      "scojeq",
+      "scojet",
+      "scojeu"
+    ],
     "year": "2023",
     "developer": "Capcom Development Division 1",
     "genres": [
@@ -1059,6 +1402,14 @@
     "bg": "resident-evil-3-nemesis",
     "title": "Resident Evil 3: Nemesis",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2vvb.jpg",
+    "screenshots": [
+      "jfcrdcguoxfuldo5blr3",
+      "v5taxpsxbengllwhep6n",
+      "rvjb70g68lwwehqnqpa9",
+      "wiwmyubr1753px6p5emi",
+      "dac3qjahaxymbnuh4j18",
+      "ptgwkx3xebyhs2lqkg0a"
+    ],
     "year": "1999",
     "developer": "Capcom Planning Room 2",
     "genres": [
@@ -1085,6 +1436,14 @@
     "bg": "resident-evil-2",
     "title": "Resident Evil 2",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2vz0.jpg",
+    "screenshots": [
+      "scibe2",
+      "scibe3",
+      "scibe4",
+      "scibe5",
+      "scibe7",
+      "scibej"
+    ],
     "year": "1998",
     "developer": "Capcom Planning Room 2",
     "genres": [
@@ -1112,6 +1471,14 @@
     "bg": "resident-evil-5",
     "title": "Resident Evil 5",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobtgs.jpg",
+    "screenshots": [
+      "sc6sy6",
+      "sc6sy3",
+      "sc6sy7",
+      "sc6sy8",
+      "sc6sy5",
+      "sc6sy4"
+    ],
     "year": "2009",
     "developer": "Capcom",
     "genres": [
@@ -1135,6 +1502,14 @@
     "bg": "sally-face",
     "title": "Sally Face",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3wku.jpg",
+    "screenshots": [
+      "omc8kwfxmpp4cb978xui",
+      "wtbwt6wne2iuxyyycudc",
+      "cb9uqie4hmbngck9zu6r",
+      "scz7f4",
+      "scz7f2",
+      "ervykt8hs6r3fckfe9nl"
+    ],
     "year": "2016",
     "developer": "Portable Moose",
     "genres": [
@@ -1162,6 +1537,14 @@
     "bg": "resident-evil-code-veronica-x",
     "title": "Resident Evil Code: Veronica X",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2vzv.jpg",
+    "screenshots": [
+      "ngornmeoiu6cfvgjpn6a",
+      "enxvsz2d4thua1yzqber",
+      "w8uolvscggmym7dqf79z",
+      "r1g1quqm6obczi0d0aee",
+      "tuxljkvoddes8cswulze",
+      "jlu4yjfl9wakaawrpbj7"
+    ],
     "year": "2001",
     "developer": "Nextech",
     "genres": [
@@ -1188,6 +1571,14 @@
     "bg": "resident-evil",
     "title": "Resident Evil",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co20bp.jpg",
+    "screenshots": [
+      "sciaep",
+      "sciaeq",
+      "sciaeu",
+      "sciaey",
+      "sciaer",
+      "sciaes"
+    ],
     "year": "1996",
     "developer": "Capcom Planning Room 2",
     "genres": [
@@ -1210,6 +1601,12 @@
     "bg": "resident-evil-0",
     "title": "Resident Evil 0",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1z3p.jpg",
+    "screenshots": [
+      "sc8kzx",
+      "sc8l00",
+      "sc8kzz",
+      "sc8kzy"
+    ],
     "year": "2016",
     "developer": "Capcom Production Studio 3",
     "genres": [
@@ -1236,6 +1633,13 @@
     "bg": "the-witcher-3-wild-hunt-blood-and-wine",
     "title": "The Witcher 3: Wild Hunt - Blood and Wine",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2lgo.jpg",
+    "screenshots": [
+      "iuzxf8iboeyxkggywbsj",
+      "ixuz3ti1kiqnlzrtodnf",
+      "gynhuum2yb8imujgjlxn",
+      "k6zrdwofvuccfkkj6qus",
+      "bhvtikx5as53awacxlac"
+    ],
     "year": "2016",
     "developer": "CD Projekt RED",
     "genres": [
@@ -1262,6 +1666,13 @@
     "bg": "the-witcher-3-wild-hunt-hearts-of-stone",
     "title": "The Witcher 3: Wild Hunt - Hearts of Stone",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1t7q.jpg",
+    "screenshots": [
+      "lz3gmntnjo5fojxzvrg5",
+      "wrke9dxtduvuubfrm0kq",
+      "rzpm2ms8e15uekzlwrvy",
+      "wiw1xlpfihxbe1xlft3t",
+      "wv5bxefrjdgzxkdufqjg"
+    ],
     "year": "2015",
     "developer": "CD Projekt RED",
     "genres": [
@@ -1288,6 +1699,14 @@
     "bg": "chants-of-sennaar",
     "title": "Chants of Sennaar",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9mjo.jpg",
+    "screenshots": [
+      "scgqt6",
+      "scgqt3",
+      "scgqt4",
+      "scgqt8",
+      "scgqt5",
+      "scgqt7"
+    ],
     "year": "2023",
     "developer": "Rundisc",
     "genres": [
@@ -1315,6 +1734,14 @@
     "bg": "the-witcher-3-wild-hunt",
     "title": "The Witcher 3: Wild Hunt",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaarl.jpg",
+    "screenshots": [
+      "sctj8u",
+      "farvemmmxav0bgt6wx7t",
+      "em1y2ugcwy2myuhvb9db",
+      "usxccsncekxg0wd1v6ee",
+      "sciabf",
+      "sctj8t"
+    ],
     "year": "2015",
     "developer": "CD Projekt RED",
     "genres": [
@@ -1341,6 +1768,14 @@
     "bg": "resident-evil-requiem",
     "title": "Resident Evil Requiem",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobmj0.jpg",
+    "screenshots": [
+      "scx9r1",
+      "sc10tjs",
+      "sc10tnu",
+      "sc10tnv",
+      "sc10tnw",
+      "sc10tnx"
+    ],
     "year": "2026",
     "developer": "Capcom Development Division 1",
     "genres": [
@@ -1366,6 +1801,11 @@
     "bg": "voyage--2",
     "title": "Voyage",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob0d7.jpg",
+    "screenshots": [
+      "sc10s6m",
+      "sc10s6n",
+      "sc10s6o"
+    ],
     "year": "2025",
     "genres": [
       "Adventure"
@@ -1385,6 +1825,14 @@
     "bg": "avatar-frontiers-of-pandora",
     "title": "Avatar: Frontiers of Pandora",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9oe3.jpg",
+    "screenshots": [
+      "scahcb",
+      "scahcc",
+      "scahcd",
+      "scahce",
+      "scahcf",
+      "sctjbl"
+    ],
     "year": "2023",
     "developer": "Massive Entertainment",
     "genres": [
@@ -1407,6 +1855,14 @@
     "bg": "atomic-heart",
     "title": "Atomic Heart",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co68ag.jpg",
+    "screenshots": [
+      "uttbnsozii22jvyscw0d",
+      "scahog",
+      "sctke8",
+      "btovpbevg3sny1v7tbxa",
+      "scahoj",
+      "kdibfssvgrekpigruiny"
+    ],
     "year": "2023",
     "developer": "Mundfish",
     "genres": [
@@ -1433,6 +1889,14 @@
     "bg": "tomb-raider-underworld",
     "title": "Tomb Raider: Underworld",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1voc.jpg",
+    "screenshots": [
+      "r3cyapuphthgod3hoil2",
+      "scyyy6",
+      "scyyy7",
+      "scyyy8",
+      "scyyy5",
+      "kkwm9kvc9axftz7mnvua"
+    ],
     "year": "2008",
     "developer": "Crystal Dynamics",
     "genres": [
@@ -1460,6 +1924,14 @@
     "bg": "tomb-raider-anniversary",
     "title": "Tomb Raider: Anniversary",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaesz.jpg",
+    "screenshots": [
+      "sccr3z",
+      "scyyw9",
+      "scyywb",
+      "sccr3x",
+      "sccr41",
+      "scyywa"
+    ],
     "year": "2007",
     "developer": "Crystal Dynamics",
     "genres": [
@@ -1487,6 +1959,13 @@
     "bg": "tomb-raider-legend",
     "title": "Tomb Raider: Legend",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1nnv.jpg",
+    "screenshots": [
+      "sccqqt",
+      "sccqqu",
+      "sccqqr",
+      "sccqqs",
+      "sccqqq"
+    ],
     "year": "2006",
     "developer": "Crystal Dynamics",
     "genres": [
@@ -1512,6 +1991,14 @@
     "bg": "tomb-raider",
     "title": "Tomb Raider",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3hfx.jpg",
+    "screenshots": [
+      "scbub0",
+      "scbub3",
+      "scbub4",
+      "scbub2",
+      "scbuaz",
+      "scbub5"
+    ],
     "year": "1996",
     "developer": "Core Design",
     "genres": [
@@ -1539,6 +2026,14 @@
     "bg": "look-outside",
     "title": "Look Outside",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9k8n.jpg",
+    "screenshots": [
+      "scv258",
+      "scv259",
+      "scv25a",
+      "scv25b",
+      "scvst9",
+      "scvstc"
+    ],
     "year": "2025",
     "developer": "FrankieSmileShow",
     "genres": [
@@ -1561,6 +2056,14 @@
     "bg": "sorry-were-closed",
     "title": "Sorry We're Closed",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co79i1.jpg",
+    "screenshots": [
+      "scfrm6",
+      "scfrm5",
+      "scfrm4",
+      "scfrm8",
+      "scfrm9",
+      "scfrm7"
+    ],
     "year": "2024",
     "developer": "à la mode games",
     "genres": [
@@ -1588,6 +2091,13 @@
     "bg": "half-life-2-episode-two",
     "title": "Half-Life 2: Episode Two",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2mw2.jpg",
+    "screenshots": [
+      "ebhf5jfk1hjdsblezs3q",
+      "o1sqj8kuxsjpg6lrnkih",
+      "juuqkcl4pnuvfostoesr",
+      "cunhmgl7cqjfmonhd1ig",
+      "pxwyrtg7bm3q9e8mpyha"
+    ],
     "year": "2007",
     "developer": "Valve",
     "genres": [
@@ -1613,6 +2123,13 @@
     "bg": "half-life-2-episode-one",
     "title": "Half-Life 2: Episode One",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9c5r.jpg",
+    "screenshots": [
+      "qapcthrq12heqm4sow4r",
+      "nyujlsu0srmahlpssasb",
+      "blmazii73evq4wvkrzgx",
+      "cxvtgu8w0ewbu4ucsgqf",
+      "doj4wbwj7bmqhmcvk9ss"
+    ],
     "year": "2006",
     "developer": "Valve",
     "genres": [
@@ -1637,6 +2154,13 @@
     "bg": "half-life-2",
     "title": "Half-Life 2",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1nmw.jpg",
+    "screenshots": [
+      "iau5t12jemoelx0xuzna",
+      "nnlfbf8blflrlmuarfej",
+      "muyxb9cljgsy245fcimx",
+      "mpphkihhk8yh9m2zaafd",
+      "ga0lj5zqeqd7moyzxij9"
+    ],
     "year": "2004",
     "developer": "Valve",
     "genres": [
@@ -1662,6 +2186,13 @@
     "bg": "ena-dream-bbq",
     "title": "Ena: Dream BBQ",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co62ei.jpg",
+    "screenshots": [
+      "scksuh",
+      "scksud",
+      "scksue",
+      "scksuf",
+      "scksug"
+    ],
     "year": "2025",
     "developer": "Joel G",
     "genres": [
@@ -1685,6 +2216,14 @@
     "bg": "felvidek",
     "title": "Felvidek",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8aiu.jpg",
+    "screenshots": [
+      "sclf4p",
+      "sclf4o",
+      "sclf4q",
+      "sclf4r",
+      "sclf4n",
+      "sclf4u"
+    ],
     "year": "2024",
     "developer": "Jozef Pavelka",
     "genres": [
@@ -1706,6 +2245,14 @@
     "bg": "viewfinder",
     "title": "Viewfinder",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaev1.jpg",
+    "screenshots": [
+      "sckabd",
+      "sckabe",
+      "sckabh",
+      "sckabf",
+      "sckabg",
+      "sckabi"
+    ],
     "year": "2023",
     "developer": "Sad Owl Studios",
     "genres": [
@@ -1732,6 +2279,14 @@
     "bg": "naissancee",
     "title": "NaissanceE",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7cq0.jpg",
+    "screenshots": [
+      "sc5iro",
+      "sc5irp",
+      "bezvbteyzwjwz5cieqwu",
+      "l5uwmauagipizgbihris",
+      "fhpurjdzefivvzilbpmt",
+      "ant9pqx0v8yfzjrslxsu"
+    ],
     "year": "2014",
     "developer": "Limasse Five",
     "genres": [
@@ -1754,6 +2309,13 @@
     "bg": "portal",
     "title": "Portal",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coay61.jpg",
+    "screenshots": [
+      "oycbiasvmiewjxncqlgd",
+      "gdgj7p0vo52jpwoxtm3v",
+      "co2mtfe04a5iclqoo11c",
+      "hod8sle7imoqjh1zb7nj",
+      "x7pzfljardlljvtqcgv4"
+    ],
     "year": "2007",
     "developer": "Valve",
     "genres": [
@@ -1781,6 +2343,14 @@
     "bg": "metal-garden",
     "title": "Metal Garden",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9h5w.jpg",
+    "screenshots": [
+      "scvkqr",
+      "scvkqs",
+      "scvkqt",
+      "scvkqu",
+      "scvkqv",
+      "scvkqw"
+    ],
     "year": "2025",
     "developer": "Tinerasoft",
     "genres": [
@@ -1803,6 +2373,14 @@
     "bg": "half-life-blue-shift",
     "title": "Half-Life: Blue Shift",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co802z.jpg",
+    "screenshots": [
+      "djtgufmsju0hn11g0oqo",
+      "qkp7jamjsdm1d9qcuziw",
+      "flqzwg0oeml28nott3ht",
+      "bo3jv9zdmnlnhttrlfzx",
+      "sc7k3o",
+      "sc7k3n"
+    ],
     "year": "2001",
     "developer": "Gearbox Software",
     "genres": [
@@ -1827,6 +2405,13 @@
     "bg": "half-life-opposing-force",
     "title": "Half-Life: Opposing Force",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co802y.jpg",
+    "screenshots": [
+      "k1ynqwkfncyavxw4f5zg",
+      "h3bjy34o1tsu0iezziot",
+      "peqjcjnfrshznzsngfg9",
+      "indcjqnpef68p5zoqdrb",
+      "plecqtxlyt8qttaltvbb"
+    ],
     "year": "1999",
     "developer": "Gearbox Software",
     "genres": [
@@ -1851,6 +2436,14 @@
     "bg": "shipwrecked-64--2",
     "title": "Shipwrecked 64",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7oa2.jpg",
+    "screenshots": [
+      "scq928",
+      "scq929",
+      "scq92a",
+      "scq92b",
+      "scq92c",
+      "scq92d"
+    ],
     "year": "2024",
     "developer": "Squeaks D'Corgeh",
     "genres": [
@@ -1873,6 +2466,14 @@
     "bg": "what-remains-of-edith-finch",
     "title": "What Remains of Edith Finch",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1rbj.jpg",
+    "screenshots": [
+      "vvfjyxwyxctwik3bqoyn",
+      "scqgbd",
+      "scqgbe",
+      "scqgbh",
+      "scqgbf",
+      "scqgbg"
+    ],
     "year": "2017",
     "developer": "Giant Sparrow",
     "genres": [
@@ -1900,6 +2501,14 @@
     "bg": "half-life",
     "title": "Half-Life",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc2ea.jpg",
+    "screenshots": [
+      "bpyqlfhfbnhxf2jl5qao",
+      "g9cvvoi9ftpdax4dmwdp",
+      "scva59",
+      "scva5f",
+      "i8ey1ywk535qolfrwdf0",
+      "rthkfaau3znzdzzhtftq"
+    ],
     "year": "1998",
     "developer": "Valve",
     "genres": [
@@ -1924,6 +2533,14 @@
     "bg": "routine",
     "title": "Routine",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coay6e.jpg",
+    "screenshots": [
+      "sczgdz",
+      "iq5ylqhtfmaesdvh3jd5",
+      "sczgdx",
+      "czx4seanxcmy5cupts4y",
+      "cchl6jxhoj4uqsyvmkxm",
+      "sczge1"
+    ],
     "year": "2025",
     "developer": "Lunar Software",
     "genres": [
@@ -1947,6 +2564,13 @@
     "bg": "stray",
     "title": "Stray",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4tt2.jpg",
+    "screenshots": [
+      "sc8bil",
+      "sc8bik",
+      "sc8bii",
+      "sc8bim",
+      "sc8bij"
+    ],
     "year": "2022",
     "developer": "BlueTwelve Studio",
     "genres": [
@@ -1974,6 +2598,14 @@
     "bg": "crow-country",
     "title": "Crow Country",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7ab9.jpg",
+    "screenshots": [
+      "scp62z",
+      "scp631",
+      "scp632",
+      "scp630",
+      "scp633",
+      "scp634"
+    ],
     "year": "2024",
     "developer": "SFB Games",
     "genres": [
@@ -2000,6 +2632,14 @@
     "bg": "amnesia-the-bunker",
     "title": "Amnesia: The Bunker",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5us3.jpg",
+    "screenshots": [
+      "sck9j8",
+      "scmumy",
+      "scmumv",
+      "scmumx",
+      "scmumu",
+      "scmumw"
+    ],
     "year": "2023",
     "developer": "Frictional Games",
     "genres": [
@@ -2025,6 +2665,14 @@
     "bg": "cruelty-squad",
     "title": "Cruelty Squad",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9hn0.jpg",
+    "screenshots": [
+      "sc8wpe",
+      "sc8wpi",
+      "sc8wpd",
+      "sc8wpf",
+      "sc8wpg",
+      "sc8wph"
+    ],
     "year": "2021",
     "developer": "Consumer Softproducts",
     "genres": [
@@ -2047,6 +2695,14 @@
     "bg": "metal-gear-solid-3-snake-eater-hd-edition",
     "title": "Metal Gear Solid 3: Snake Eater - HD Edition",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co98hv.jpg",
+    "screenshots": [
+      "sc15a2x",
+      "sc15a2y",
+      "sc15a30",
+      "sc79cx",
+      "sc79cz",
+      "sc79cy"
+    ],
     "year": "2011",
     "developer": "Konami Digital Entertainment",
     "genres": [
@@ -2072,6 +2728,13 @@
     "bg": "metal-gear-solid-2-sons-of-liberty-hd-edition",
     "title": "Metal Gear Solid 2: Sons of Liberty - HD Edition",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co982l.jpg",
+    "screenshots": [
+      "ehf37izhw1q4jiuvvome",
+      "ib2r1juykydjy4oo1ziw",
+      "hyl7r9uwlh3gfujrekum",
+      "oqstckknhxsul6v6d1yj",
+      "kfmqfhxuxjre6m8u5x5t"
+    ],
     "year": "2011",
     "developer": "Konami Computer Entertainment Japan",
     "genres": [
@@ -2097,6 +2760,14 @@
     "bg": "metal-gear-solid",
     "title": "Metal Gear Solid",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobpak.jpg",
+    "screenshots": [
+      "scj0va",
+      "scj0v9",
+      "scj0vc",
+      "scj0vd",
+      "scj0vg",
+      "scj0vf"
+    ],
     "year": "1998",
     "developer": "Konami Computer Entertainment Japan",
     "genres": [
@@ -2121,6 +2792,14 @@
     "bg": "batman-arkham-city",
     "title": "Batman: Arkham City",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1voh.jpg",
+    "screenshots": [
+      "optmyqz2utbniy4abipu",
+      "ygltnojhp2e8dvo8yapm",
+      "zogoamnedpsulpqblwfn",
+      "ephvdh5mjs2jdadxzw4u",
+      "mpgh7k42h4gpg9saizpr",
+      "scu5ku"
+    ],
     "year": "2011",
     "developer": "Rocksteady Studios",
     "genres": [
@@ -2146,6 +2825,14 @@
     "bg": "batman-arkham-asylum",
     "title": "Batman: Arkham Asylum",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1voj.jpg",
+    "screenshots": [
+      "qrsf7hfmlwb4iscrq5xi",
+      "sczja8",
+      "wnyyjtde0ukieq8bbg2b",
+      "k6pmzhxdngxvrykjffvu",
+      "sczja9",
+      "ctdzxmrkdil0nbiqasyi"
+    ],
     "year": "2009",
     "developer": "Rocksteady Studios",
     "genres": [
@@ -2172,6 +2859,14 @@
     "bg": "hollow-knight-silksong",
     "title": "Hollow Knight: Silksong",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobebu.jpg",
+    "screenshots": [
+      "sc63aa",
+      "sc63a9",
+      "sc63ab",
+      "sc63a8",
+      "sc63ac",
+      "sc63a7"
+    ],
     "year": "2025",
     "developer": "Team Cherry",
     "genres": [
@@ -2199,6 +2894,13 @@
     "bg": "hollow-knight",
     "title": "Hollow Knight",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobfzp.jpg",
+    "screenshots": [
+      "p3svrq6ewzxnn7p1a3v9",
+      "ityinxmtkakwbokpcwws",
+      "q634ullxbvipm6q6mcq9",
+      "bkgxmg2m4h8wf5g9tblh",
+      "a3f72xprqkfuqdmha5ks"
+    ],
     "year": "2017",
     "developer": "Team Cherry",
     "genres": [
@@ -2226,6 +2928,13 @@
     "bg": "lies-of-p",
     "title": "Lies of P",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6lxr.jpg",
+    "screenshots": [
+      "sc9oa8",
+      "sc9oa7",
+      "sc9oa9",
+      "sc9oab",
+      "sc9oaa"
+    ],
     "year": "2023",
     "developer": "Round8 Studio",
     "genres": [
@@ -2252,6 +2961,14 @@
     "bg": "castlevania-symphony-of-the-night",
     "title": "Castlevania: Symphony of the Night",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co53m8.jpg",
+    "screenshots": [
+      "ioxxz5cyqrb56cginhj6",
+      "nl5xkzm1tlmerrgcqrw2",
+      "schy4n",
+      "scz9kp",
+      "schjh3",
+      "schjh4"
+    ],
     "year": "1997",
     "developer": "Konami Computer Entertainment Tokyo",
     "genres": [
@@ -2278,6 +2995,14 @@
     "bg": "kingdom-come-deliverance-ii",
     "title": "Kingdom Come: Deliverance II",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8qmv.jpg",
+    "screenshots": [
+      "scs1lj",
+      "scs1lk",
+      "scs1ln",
+      "scs1ll",
+      "scs1lm",
+      "scs1lo"
+    ],
     "year": "2025",
     "developer": "Warhorse Studios",
     "genres": [
@@ -2302,6 +3027,12 @@
     "bg": "call-of-cthulhu-dark-corners-of-the-earth",
     "title": "Call of Cthulhu: Dark Corners of the Earth",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1x4v.jpg",
+    "screenshots": [
+      "icwse07oq4jhzwq52q2f",
+      "s08eta74bgqqyg9dbqru",
+      "scsohf",
+      "scsohg"
+    ],
     "year": "2005",
     "developer": "Headfirst Productions",
     "genres": [
@@ -2325,6 +3056,13 @@
     "bg": "alisa",
     "title": "Alisa",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2jtu.jpg",
+    "screenshots": [
+      "sc8qhq",
+      "sc8qhr",
+      "sc8qhs",
+      "sc8qht",
+      "sc8qhu"
+    ],
     "year": "2021",
     "developer": "Casper Croes",
     "genres": [
@@ -2348,6 +3086,14 @@
     "bg": "arx-fatalis",
     "title": "Arx Fatalis",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2zpp.jpg",
+    "screenshots": [
+      "rh38jcrw6ergqz7g3wsf",
+      "akxbxzevbfrgv2ywwlhn",
+      "rdba8obyrubjt7ivvggw",
+      "bycqpwgplfx3hrdzyh3x",
+      "rgktmhmfoj6ggcn24n0w",
+      "scn88t"
+    ],
     "year": "2002",
     "developer": "Arkane Studios",
     "genres": [
@@ -2371,6 +3117,14 @@
     "bg": "raidou-remastered-the-mystery-of-the-soulless-army",
     "title": "Raidou Remastered: The Mystery of the Soulless Army",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9l0l.jpg",
+    "screenshots": [
+      "scvw2q",
+      "scvw2r",
+      "scvw2v",
+      "scvw2w",
+      "scvw2o",
+      "scvw2t"
+    ],
     "year": "2025",
     "developer": "Atlus",
     "genres": [
@@ -2397,6 +3151,14 @@
     "bg": "blasphemous",
     "title": "Blasphemous",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob0xj.jpg",
+    "screenshots": [
+      "sc6whb",
+      "sarl71afcl8woz1ph2bj",
+      "lglt9dkqc4vcndib1uej",
+      "sc6wha",
+      "sc6wh9",
+      "sc6wh8"
+    ],
     "year": "2019",
     "developer": "The Game Kitchen",
     "genres": [
@@ -2424,6 +3186,14 @@
     "bg": "system-shock-2-25th-anniversary-remaster",
     "title": "System Shock 2: 25th Anniversary Remaster",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9hdg.jpg",
+    "screenshots": [
+      "scvlc6",
+      "scvlc9",
+      "scvlc2",
+      "scvlc7",
+      "scvlc5",
+      "scvlca"
+    ],
     "year": "2025",
     "developer": "Nightdive Studios",
     "genres": [
@@ -2451,6 +3221,14 @@
     "bg": "dead-island-2",
     "title": "Dead Island 2",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5469.jpg",
+    "screenshots": [
+      "scii5v",
+      "scii5u",
+      "scii5w",
+      "sctdyg",
+      "scyqp4",
+      "scyqp5"
+    ],
     "year": "2023",
     "developer": "Dambuster Studios",
     "genres": [
@@ -2478,6 +3256,14 @@
     "bg": "grand-theft-auto-v",
     "title": "Grand Theft Auto V",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2lbd.jpg",
+    "screenshots": [
+      "n3t2agwuxlqggp3kryf9",
+      "sc10f91",
+      "sc10f92",
+      "sc10f93",
+      "sc10f94",
+      "sc10f95"
+    ],
     "year": "2013",
     "developer": "Rockstar North",
     "genres": [
@@ -2505,6 +3291,14 @@
     "bg": "grand-theft-auto-vice-city",
     "title": "Grand Theft Auto: Vice City",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2lbb.jpg",
+    "screenshots": [
+      "sc144pc",
+      "sc144pg",
+      "sc144pd",
+      "sc144pe",
+      "sc144pf",
+      "sc144sb"
+    ],
     "year": "2002",
     "developer": "Rockstar North",
     "genres": [
@@ -2530,6 +3324,14 @@
     "bg": "grand-theft-auto-iii",
     "title": "Grand Theft Auto III",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2lb8.jpg",
+    "screenshots": [
+      "sch5kq",
+      "sch5l1",
+      "sch5l2",
+      "sch5l3",
+      "sch5l4",
+      "sch5kw"
+    ],
     "year": "2001",
     "developer": "DMA Design",
     "genres": [
@@ -2556,6 +3358,14 @@
     "bg": "clair-obscur-expedition-33",
     "title": "Clair Obscur: Expedition 33",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9gam.jpg",
+    "screenshots": [
+      "scsoe2",
+      "scsoec",
+      "scsoe7",
+      "scsoee",
+      "scsoef",
+      "scsoe8"
+    ],
     "year": "2025",
     "developer": "Sandfall Interactive",
     "genres": [
@@ -2580,6 +3390,14 @@
     "bg": "fallout-new-vegas",
     "title": "Fallout: New Vegas",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1u60.jpg",
+    "screenshots": [
+      "xgoin1cr0uh9o26auuns",
+      "tiaygjcahvaxjsn9zlih",
+      "mvu2bm1u1jz4lgp9qrwg",
+      "yoqtxqgcq6ceoegzi5ii",
+      "jomecpizlep5k6jcaye7",
+      "drhrr5rfvavb1xiyxnr6"
+    ],
     "year": "2010",
     "developer": "Obsidian Entertainment",
     "genres": [
@@ -2602,6 +3420,12 @@
     "bg": "the-children-of-clay",
     "title": "The Children of Clay",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9nzf.jpg",
+    "screenshots": [
+      "scvo7d",
+      "scvo7c",
+      "scvo7e",
+      "scvo7b"
+    ],
     "year": "2024",
     "developer": "Balazs Ronyai",
     "genres": [
@@ -2623,6 +3447,14 @@
     "bg": "promise-mascot-agency",
     "title": "Promise Mascot Agency",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8u8y.jpg",
+    "screenshots": [
+      "scs3nc",
+      "scs3na",
+      "scs3nb",
+      "scs3nd",
+      "scs3ne",
+      "scs3nf"
+    ],
     "year": "2025",
     "developer": "Kaizen Game Works",
     "genres": [
@@ -2650,6 +3482,14 @@
     "bg": "the-elder-scrolls-iv-oblivion",
     "title": "The Elder Scrolls IV: Oblivion",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8fpz.jpg",
+    "screenshots": [
+      "scu5l1",
+      "lcggpti75aj21kw1ll1q",
+      "qkxismtaqjwpkcxr3ip0",
+      "uewfvvefkvqcgintaku7",
+      "cg7od52ithliykhezsjo",
+      "sctkqh"
+    ],
     "year": "2006",
     "developer": "Bethesda Game Studios",
     "genres": [
@@ -2673,6 +3513,14 @@
     "bg": "fallen-aces",
     "title": "Fallen Aces",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co39ua.jpg",
+    "screenshots": [
+      "scahmm",
+      "scahmn",
+      "scahmo",
+      "scahmp",
+      "scahmq",
+      "scahmr"
+    ],
     "year": "2024",
     "developer": "Trey Powell",
     "genres": [
@@ -2693,6 +3541,13 @@
     "bg": "the-elder-scrolls-v-skyrim-special-edition",
     "title": "The Elder Scrolls V: Skyrim - Special Edition",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1vco.jpg",
+    "screenshots": [
+      "jonqwskjocnykh9s6gug",
+      "f3fc6zqdew83zu4dgwdf",
+      "cfb4kvjf2ygttbreazar",
+      "oornljaohheldfdli4tx",
+      "e9wm1jbpfbaflmvvldio"
+    ],
     "year": "2016",
     "developer": "Bethesda Game Studios",
     "genres": [
@@ -2718,6 +3573,14 @@
     "bg": "kingdom-come-deliverance",
     "title": "Kingdom Come: Deliverance",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4aqi.jpg",
+    "screenshots": [
+      "olbzvi6zau7seirs88e3",
+      "d7xe9pzuqxeoqmrvt1me",
+      "fxmxcj6jstrhop3gxjma",
+      "bxvwknezzljvoaw6inww",
+      "husdtaexowgllpe3ho5n",
+      "we7i6lksiieqlynlx1vf"
+    ],
     "year": "2018",
     "developer": "Warhorse Studios",
     "genres": [
@@ -2744,6 +3607,14 @@
     "bg": "fallout-4",
     "title": "Fallout 4",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1yc6.jpg",
+    "screenshots": [
+      "twgwp1xobnae4kbky2hw",
+      "whhptvhci1bdoqolofjo",
+      "sctl85",
+      "sctl86",
+      "sctl87",
+      "acrxfc2grr69wfbql8ax"
+    ],
     "year": "2015",
     "developer": "Bethesda Game Studios",
     "genres": [
@@ -2768,6 +3639,14 @@
     "bg": "bendy-and-the-dark-revival",
     "title": "Bendy and the Dark Revival",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co683q.jpg",
+    "screenshots": [
+      "scjupu",
+      "scjupq",
+      "scjupv",
+      "scjupr",
+      "scjups",
+      "scjupt"
+    ],
     "year": "2022",
     "developer": "Joey Drew Studios",
     "genres": [
@@ -2794,6 +3673,13 @@
     "bg": "lorelei-and-the-laser-eyes",
     "title": "Lorelei and the Laser Eyes",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4x7e.jpg",
+    "screenshots": [
+      "schmdr",
+      "schmds",
+      "schmdt",
+      "schmdu",
+      "schmdv"
+    ],
     "year": "2024",
     "developer": "Simogo",
     "genres": [
@@ -2819,6 +3705,12 @@
     "bg": "bendy-and-the-ink-machine",
     "title": "Bendy and the Ink Machine",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co67zs.jpg",
+    "screenshots": [
+      "xp76ak3ysl1p7qom4c1q",
+      "wsqfchm36fcedoieziq7",
+      "pogfmoa6aailrn8oknik",
+      "p8kfzkc9wj032zdapais"
+    ],
     "year": "2017",
     "developer": "TheMeatly Games, Ltd.",
     "genres": [
@@ -2845,6 +3737,13 @@
     "bg": "bloodborne-the-old-hunters--1",
     "title": "Bloodborne: The Old Hunters",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob99k.jpg",
+    "screenshots": [
+      "rmoz2yumu3zknc5yslga",
+      "cu0js8nyhmxndnyfyndz",
+      "tzwvivn50ltc9lcu7x1p",
+      "meatzbiicsc3xmcvcirr",
+      "wtjs62faap4govjvcxna"
+    ],
     "year": "2015",
     "developer": "FromSoftware",
     "genres": [
@@ -2862,6 +3761,13 @@
     "bg": "unlucky-mummy",
     "title": "Unlucky Mummy",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc2c1.jpg",
+    "screenshots": [
+      "sc13bm8",
+      "sc13bm9",
+      "sc13bma",
+      "sc13bmb",
+      "sc13bmc"
+    ],
     "year": "2026",
     "developer": "Karaclan",
     "platforms": [
@@ -2876,6 +3782,13 @@
     "bg": "storyteller--1",
     "title": "Storyteller",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3hem.jpg",
+    "screenshots": [
+      "scbu7i",
+      "scbu7j",
+      "scbu7k",
+      "scbu7l",
+      "scbu7m"
+    ],
     "year": "2023",
     "developer": "Daniel Benmergui",
     "genres": [
@@ -2897,6 +3810,14 @@
     "bg": "baba-is-you",
     "title": "Baba Is You",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2hqt.jpg",
+    "screenshots": [
+      "sc6kyl",
+      "sc6kyk",
+      "sc6kym",
+      "scjonq",
+      "scjonr",
+      "vj6da7e5xmywxilgcdap"
+    ],
     "year": "2019",
     "developer": "hempuli",
     "genres": [
@@ -2921,6 +3842,14 @@
     "bg": "scritchy-scratchy",
     "title": "Scritchy Scratchy",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc2j8.jpg",
+    "screenshots": [
+      "sc101uw",
+      "sc101ux",
+      "sc101uy",
+      "sc101uz",
+      "sc101v0",
+      "sc101v1"
+    ],
     "year": "2026",
     "developer": "Lunch Money Games",
     "genres": [
@@ -2942,6 +3871,14 @@
     "bg": "animal-crossing-new-horizons",
     "title": "Animal Crossing: New Horizons",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3wls.jpg",
+    "screenshots": [
+      "sctl7m",
+      "sctl7n",
+      "sctl7o",
+      "sc836w",
+      "sc89a2",
+      "sc836u"
+    ],
     "year": "2020",
     "developer": "Nintendo EPD Production Group No. 5",
     "genres": [
@@ -2958,6 +3895,14 @@
     "bg": "super-smash-bros-ultimate",
     "title": "Super Smash Bros. Ultimate",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2255.jpg",
+    "screenshots": [
+      "mi0pns4kpvku1mt9rj3c",
+      "mx0rezw9cvublfnbjalm",
+      "sc5rl9",
+      "sc5rla",
+      "poy3a7v02a5g1wg4usfq",
+      "notn8ahnbkglatmokc86"
+    ],
     "year": "2018",
     "developer": "Sora",
     "genres": [
@@ -2975,6 +3920,14 @@
     "bg": "horripilant",
     "title": "Horripilant",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob1nd.jpg",
+    "screenshots": [
+      "sc10uq6",
+      "sc10uq2",
+      "sc10uq7",
+      "sc10uqa",
+      "sc10uqb",
+      "sc10uq8"
+    ],
     "year": "2026",
     "developer": "Alexandre Declos",
     "genres": [
@@ -2994,6 +3947,13 @@
     "bg": "resident-evil-4",
     "title": "Resident Evil 4",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2wk8.jpg",
+    "screenshots": [
+      "scif7p",
+      "scif7r",
+      "scif7n",
+      "scif7o",
+      "scif7q"
+    ],
     "year": "2005",
     "developer": "Capcom Production Studio 4",
     "genres": [
@@ -3016,6 +3976,14 @@
     "bg": "arc-raiders",
     "title": "ARC Raiders",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9rk1.jpg",
+    "screenshots": [
+      "scii62",
+      "sc11kk7",
+      "sc11kk8",
+      "sc11kk9",
+      "sc11kka",
+      "sc11kkc"
+    ],
     "year": "2025",
     "developer": "Embark Studios",
     "genres": [
@@ -3034,6 +4002,14 @@
     "bg": "ball-x-pit",
     "title": "Ball x Pit",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9xid.jpg",
+    "screenshots": [
+      "sc10dmp",
+      "sc10dml",
+      "sc10dmk",
+      "sc10dmn",
+      "sc10dmh",
+      "sc10dmm"
+    ],
     "year": "2025",
     "developer": "Kenny Sun",
     "genres": [
@@ -3057,6 +4033,14 @@
     "bg": "hades-ii",
     "title": "Hades II",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaknx.jpg",
+    "screenshots": [
+      "scka7e",
+      "scka7f",
+      "scka7g",
+      "scka7h",
+      "scka7i",
+      "scka7j"
+    ],
     "year": "2025",
     "developer": "Supergiant Games",
     "genres": [
@@ -3081,6 +4065,13 @@
     "bg": "deus-ex-invisible-war",
     "title": "Deus Ex: Invisible War",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coboyb.jpg",
+    "screenshots": [
+      "hh3dpuxkeg5sxt5etjyw",
+      "cmsyualloecuawmj4dc2",
+      "boaivf8bvafr9wohps1e",
+      "amz80bteucdquadhxeoc",
+      "dh6cylhwlb9lgn59ysya"
+    ],
     "year": "2003",
     "developer": "Ion Storm",
     "genres": [
@@ -3100,6 +4091,13 @@
     "bg": "e-y-e-divine-cybermancy",
     "title": "E.Y.E: Divine Cybermancy",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7eny.jpg",
+    "screenshots": [
+      "drul3y0xltj1vulpyb9y",
+      "n3aioofdsrmhkycfr74c",
+      "lwbnbmpcuvvesixchld7",
+      "ulvedmdsvll0cl6hquno",
+      "xytkptrq1ysojypxyofw"
+    ],
     "year": "2011",
     "developer": "Streum On Studio",
     "genres": [
@@ -3119,6 +4117,14 @@
     "bg": "poco",
     "title": "Poco",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9u38.jpg",
+    "screenshots": [
+      "scwlc8",
+      "scwlca",
+      "scwlc9",
+      "scwlcb",
+      "scwlc6",
+      "scwlc7"
+    ],
     "year": "2025",
     "developer": "Whalefall",
     "genres": [
@@ -3139,6 +4145,13 @@
     "bg": "vampire-the-masquerade-bloodlines",
     "title": "Vampire: The Masquerade - Bloodlines",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2n14.jpg",
+    "screenshots": [
+      "uhvnbk4ffkascq1gjl8s",
+      "iw7i5qtyrkpvd86zwihr",
+      "touscumdyispwjwgvp9g",
+      "mwbjpavj9vlj72gferdu",
+      "h0vzqwuqnmepah8ifkoo"
+    ],
     "year": "2004",
     "developer": "Troika Games",
     "genres": [
@@ -3155,6 +4168,14 @@
     "bg": "mafia-definitive-edition",
     "title": "Mafia: Definitive Edition",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co26vl.jpg",
+    "screenshots": [
+      "sc15az9",
+      "sc88v7",
+      "sc88v9",
+      "sc88va",
+      "sc88v8",
+      "sc88vc"
+    ],
     "year": "2020",
     "developer": "Hangar 13",
     "genres": [
@@ -3174,6 +4195,14 @@
     "bg": "path-of-exile-2",
     "title": "Path of Exile 2",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8ae0.jpg",
+    "screenshots": [
+      "scmwxx",
+      "sc13awp",
+      "sc13awq",
+      "sc13awr",
+      "sc13aws",
+      "sc13awt"
+    ],
     "year": "2026",
     "developer": "Grinding Gear Games",
     "genres": [
@@ -3195,6 +4224,13 @@
     "bg": "metaphor-refantazio",
     "title": "Metaphor: ReFantazio",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8d9t.jpg",
+    "screenshots": [
+      "scmwms",
+      "scmwmr",
+      "scmwmu",
+      "scmwmq",
+      "scmwmt"
+    ],
     "year": "2024",
     "developer": "Studio Zero",
     "genres": [
@@ -3217,6 +4253,14 @@
     "bg": "mouthwashing",
     "title": "Mouthwashing",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co70oi.jpg",
+    "screenshots": [
+      "scu0sk",
+      "scu0sl",
+      "scu0sm",
+      "scu0sn",
+      "scu0so",
+      "scu0sq"
+    ],
     "year": "2024",
     "developer": "Wrong Organ",
     "genres": [
@@ -3237,6 +4281,14 @@
     "bg": "silent-hill-2--1",
     "title": "Silent Hill 2",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coavaf.jpg",
+    "screenshots": [
+      "scu46k",
+      "scu46l",
+      "scjfme",
+      "scjfmb",
+      "scjfmc",
+      "scjfma"
+    ],
     "year": "2024",
     "developer": "Bloober Team",
     "genres": [
@@ -3256,6 +4308,14 @@
     "bg": "scorn",
     "title": "Scorn",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4v5c.jpg",
+    "screenshots": [
+      "vgpnyascxdbuoomvyd18",
+      "fmyt3ahdungh6ngyqiqe",
+      "uyqvqq7sreuce3mfq927",
+      "h0bl6le6rqd2rmi2ebfn",
+      "sc5s6d",
+      "sc5s6c"
+    ],
     "year": "2022",
     "developer": "Ebb Software",
     "genres": [
@@ -3276,6 +4336,14 @@
     "bg": "warhammer-40000-space-marine-ii",
     "title": "Warhammer 40,000: Space Marine II",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5vab.jpg",
+    "screenshots": [
+      "sctu2q",
+      "scka8d",
+      "scka8e",
+      "scka8c",
+      "scka8f",
+      "scka8g"
+    ],
     "year": "2024",
     "developer": "Saber Interactive",
     "genres": [
@@ -3297,6 +4365,14 @@
     "bg": "final-fantasy-x-slash-x-2-hd-remaster",
     "title": "Final Fantasy X/X-2 HD Remaster",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2zpl.jpg",
+    "screenshots": [
+      "sc9ids",
+      "sc9idv",
+      "sc9idu",
+      "sc9idt",
+      "sc9idr",
+      "sc9idw"
+    ],
     "year": "2013",
     "developer": "Virtuos",
     "genres": [
@@ -3318,6 +4394,14 @@
     "bg": "bayonetta-2",
     "title": "Bayonetta 2",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob9e9.jpg",
+    "screenshots": [
+      "sz8mna4pbyygl64qjncy",
+      "dwuogu4bsn0jrucevjaj",
+      "egaeoqdmwqgssdkbk7xl",
+      "khkzmosrvkbfio6btb4f",
+      "wda5k3mkcgtp4gdkwj9l",
+      "f1o3qcujifgzpspkxp6f"
+    ],
     "year": "2014",
     "developer": "PlatinumGames",
     "genres": [
@@ -3337,6 +4421,9 @@
     "bg": "bayonetta--1",
     "title": "Bayonetta",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9xp1.jpg",
+    "screenshots": [
+      "sclfjw"
+    ],
     "year": "2020",
     "developer": "PlatinumGames",
     "genres": [
@@ -3356,6 +4443,14 @@
     "bg": "final-fantasy-ix--1",
     "title": "Final Fantasy IX",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9okj.jpg",
+    "screenshots": [
+      "scwb3x",
+      "scwb3y",
+      "scwb3z",
+      "scwb40",
+      "scwb41",
+      "scwb3w"
+    ],
     "year": "2016",
     "developer": "Silicon Studio",
     "genres": [
@@ -3374,6 +4469,14 @@
     "bg": "devil-may-cry-5",
     "title": "Devil May Cry 5",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1rb4.jpg",
+    "screenshots": [
+      "x8zdwtbu8jscpfwilutp",
+      "wfxsioq77sx61kpxtei3",
+      "spp4f2yizibfaebjdvq2",
+      "hlaqalpjkonwnn0bfd1b",
+      "xkk6hhiewrrme7aj0uio",
+      "joccabfmqgxsyxqcum3j"
+    ],
     "year": "2019",
     "developer": "Capcom Development Division 1",
     "genres": [
@@ -3394,6 +4497,12 @@
     "bg": "devil-may-cry-4-special-edition",
     "title": "Devil May Cry 4: Special Edition",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobbuu.jpg",
+    "screenshots": [
+      "kkuurvnfdoa07mwlplgf",
+      "mukfde9m945vd73uzkda",
+      "vwpziocqduud3lk0ksdr",
+      "vaxmz6nzkmwzzpn0vrhp"
+    ],
     "year": "2015",
     "developer": "Capcom Production Studio 1",
     "genres": [
@@ -3413,6 +4522,14 @@
     "bg": "devil-may-cry--1",
     "title": "Devil May Cry",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5tkk.jpg",
+    "screenshots": [
+      "scjg1h",
+      "scjg1i",
+      "sc110ny",
+      "sc110nz",
+      "sc110o0",
+      "sc110o3"
+    ],
     "year": "2012",
     "developer": "Capcom Production Studio 4",
     "genres": [
@@ -3435,6 +4552,10 @@
     "bg": "devil-may-cry-2--1",
     "title": "Devil May Cry 2",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5mud.jpg",
+    "screenshots": [
+      "scjg1j",
+      "scjg1k"
+    ],
     "year": "2012",
     "developer": "Capcom Production Studio 1",
     "genres": [
@@ -3457,6 +4578,10 @@
     "bg": "devil-may-cry-3-dantes-awakening-special-edition--2",
     "title": "Devil May Cry 3: Dante's Awakening - Special Edition",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5mue.jpg",
+    "screenshots": [
+      "scjg1m",
+      "scjg1l"
+    ],
     "year": "2012",
     "developer": "Capcom Production Studio 1",
     "genres": [
@@ -3478,6 +4603,14 @@
     "bg": "max-payne-3",
     "title": "Max Payne 3",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2mjo.jpg",
+    "screenshots": [
+      "k5vsslwfcuevslbgnsup",
+      "scte3m",
+      "xaceurmpwijin0x7lszr",
+      "scte3l",
+      "hm5tkccid4wxgznrtsiz",
+      "exxw2bqmljwe47hwwu5p"
+    ],
     "year": "2012",
     "developer": "Rockstar Toronto",
     "genres": [
@@ -3497,6 +4630,13 @@
     "bg": "heretics-fork",
     "title": "Heretic's Fork",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6g1u.jpg",
+    "screenshots": [
+      "scjjot",
+      "scjjou",
+      "scjjov",
+      "scjjor",
+      "scjjos"
+    ],
     "year": "2023",
     "developer": "9FingerGames",
     "genres": [
@@ -3520,6 +4660,13 @@
     "bg": "max-payne-2-the-fall-of-max-payne",
     "title": "Max Payne 2: The Fall of Max Payne",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2lcl.jpg",
+    "screenshots": [
+      "qwaqp1uuyvezcf88rwyj",
+      "emdp8dyfmzbitsxbsdi3",
+      "ldymtknsdvwxchhnr7xk",
+      "cc0berjmosjw8u3znfv9",
+      "de7g6xhsy4hffuvvw0iy"
+    ],
     "year": "2003",
     "developer": "Remedy Entertainment",
     "genres": [
@@ -3540,6 +4687,13 @@
     "bg": "max-payne",
     "title": "Max Payne",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3wb2.jpg",
+    "screenshots": [
+      "ynx8jkcz0uvqt9zyenhn",
+      "sjswehm6zwc4wiurtobr",
+      "c76rbj1hmz7kdsyv6qfq",
+      "zdwbfncyf0nnjjq5fhbh",
+      "ny2ahlezesjnm1kwny92"
+    ],
     "year": "2001",
     "developer": "Remedy Entertainment",
     "genres": [
@@ -3561,6 +4715,14 @@
     "bg": "alan-wake-ii-night-springs",
     "title": "Alan Wake II: Night Springs",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8c6g.jpg",
+    "screenshots": [
+      "scso30",
+      "scso31",
+      "scso2x",
+      "scso2z",
+      "scso2y",
+      "scso32"
+    ],
     "year": "2024",
     "developer": "Remedy Entertainment",
     "genres": [
@@ -3580,6 +4742,14 @@
     "bg": "shin-megami-tensei-v-vengeance",
     "title": "Shin Megami Tensei V: Vengeance",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7sv4.jpg",
+    "screenshots": [
+      "scqqgr",
+      "scqqgu",
+      "scqqgq",
+      "scqqgp",
+      "scqqgs",
+      "scqqgt"
+    ],
     "year": "2024",
     "developer": "Atlus",
     "genres": [
@@ -3602,6 +4772,14 @@
     "bg": "dishonored-2",
     "title": "Dishonored 2",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9e29.jpg",
+    "screenshots": [
+      "gwzz1tjttrjdgoqokvdo",
+      "xrfbfmwnkacej9twdyuv",
+      "axfa10t9md3bcqvdyxlk",
+      "rgh8d9ockrwnduixjc5d",
+      "sc98zk",
+      "sc98zl"
+    ],
     "year": "2016",
     "developer": "Arkane Studios",
     "genres": [
@@ -3622,6 +4800,14 @@
     "bg": "gloomwood",
     "title": "Gloomwood",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3b61.jpg",
+    "screenshots": [
+      "sc8bqf",
+      "sc8bqg",
+      "scibsu",
+      "scibsv",
+      "sc8bqe",
+      "sc8bqh"
+    ],
     "year": "2022",
     "developer": "David Szymanski",
     "genres": [
@@ -3640,6 +4826,14 @@
     "bg": "control-awe",
     "title": "Control: AWE",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co97ix.jpg",
+    "screenshots": [
+      "sc8iq4",
+      "sc8iq5",
+      "sc8iq6",
+      "sc8iq7",
+      "sc8iq8",
+      "sc8iq9"
+    ],
     "year": "2020",
     "developer": "Remedy Entertainment",
     "genres": [
@@ -3662,6 +4856,13 @@
     "bg": "control-the-foundation",
     "title": "Control: The Foundation",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2eb5.jpg",
+    "screenshots": [
+      "sc8g8w",
+      "sc8g8x",
+      "sc8g8y",
+      "sc8g8z",
+      "sc8g90"
+    ],
     "year": "2020",
     "developer": "Remedy Entertainment",
     "genres": [
@@ -3684,6 +4885,12 @@
     "bg": "deus-ex-mankind-divided-a-criminal-past",
     "title": "Deus Ex: Mankind Divided - A Criminal Past",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co25kw.jpg",
+    "screenshots": [
+      "t2xhfa6egntzwix9k9m9",
+      "geicg6h9qn5vzmxv90wh",
+      "etgtw2pq2tvgqmc4apti",
+      "yfq1hhzyfdgzqxteetpn"
+    ],
     "year": "2017",
     "developer": "Eidos Montréal",
     "genres": [
@@ -3704,6 +4911,11 @@
     "bg": "deus-ex-mankind-divided-system-rift",
     "title": "Deus Ex: Mankind Divided - System Rift",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co25kv.jpg",
+    "screenshots": [
+      "sc8857",
+      "sc8856",
+      "znksiqz6tbjhdyxvlmx8"
+    ],
     "year": "2016",
     "developer": "Eidos Montréal",
     "genres": [
@@ -3724,6 +4936,11 @@
     "bg": "deus-ex-mankind-divided-desperate-measures",
     "title": "Deus Ex: Mankind Divided - Desperate Measures",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9a4q.jpg",
+    "screenshots": [
+      "scuwm7",
+      "scuwm8",
+      "scuwm9"
+    ],
     "year": "2016",
     "developer": "Eidos Montréal",
     "genres": [
@@ -3744,6 +4961,13 @@
     "bg": "deus-ex-mankind-divided",
     "title": "Deus Ex: Mankind Divided",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co25jt.jpg",
+    "screenshots": [
+      "mxhlbvtxsesq5swkjeqn",
+      "wjifd7dj08ukidronqzm",
+      "e8unuxdrdcsnp13cadnw",
+      "jrxs05lxntb8lys6du0a",
+      "z1fog4yosiqhvfokym1c"
+    ],
     "year": "2016",
     "developer": "Eidos Montréal",
     "genres": [
@@ -3766,6 +4990,14 @@
     "bg": "deus-ex-human-revolution-directors-cut",
     "title": "Deus Ex: Human Revolution - Director's Cut",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2tgb.jpg",
+    "screenshots": [
+      "d2wcvraczevvkpwauw2i",
+      "suoeg8j3ivf2c7wtjuvc",
+      "nsepei0fnlslpwipg6c1",
+      "gge7z7bbv281s2d5qabh",
+      "ts8kikr72sc1oibwzewp",
+      "kduv5nmnpbxxppxqaezm"
+    ],
     "year": "2013",
     "developer": "Eidos Montréal",
     "genres": [
@@ -3788,6 +5020,13 @@
     "bg": "deus-ex-game-of-the-year-edition",
     "title": "Deus Ex: Game of the Year Edition",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2hm2.jpg",
+    "screenshots": [
+      "k0lzonhinpsgaj3xy9vj",
+      "wegswr8qi76b5rzusyfp",
+      "apt2nwbsluwydix47yyt",
+      "omhzbml5j8o6ngkxu8eg",
+      "mrbbrudlx21da1jyjrrv"
+    ],
     "year": "2001",
     "developer": "Ion Storm",
     "genres": [
@@ -3808,6 +5047,13 @@
     "bg": "thief",
     "title": "Thief",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co22nc.jpg",
+    "screenshots": [
+      "sgbhfpclrk5udlowkpyq",
+      "fnymr7nmagyhaycwkftg",
+      "u9m4lnfpkv3u9sh1ufsw",
+      "mrhprawxqcaidwvhszch",
+      "zeqv7lvh8aaemeaa2bhl"
+    ],
     "year": "2014",
     "developer": "Eidos Montréal",
     "genres": [
@@ -3830,6 +5076,14 @@
     "bg": "final-fantasy-vii-rebirth",
     "title": "Final Fantasy VII Rebirth",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob9k6.jpg",
+    "screenshots": [
+      "scojfl",
+      "scojfp",
+      "scojfs",
+      "scojfu",
+      "scojfm",
+      "scojfi"
+    ],
     "year": "2024",
     "developer": "Square Enix Creative Business Unit I",
     "genres": [
@@ -3851,6 +5105,13 @@
     "bg": "prey--1",
     "title": "Prey",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9aoh.jpg",
+    "screenshots": [
+      "bfmh4zvh9ko9kbbfhjlr",
+      "a4bshpcah62lbxzxeyui",
+      "uivch74unugylmh3joqa",
+      "kdn9mk9gsdtgzmaqqvhp",
+      "mras4gtszut3dhwyq2n0"
+    ],
     "year": "2017",
     "developer": "Arkane Studios",
     "genres": [
@@ -3871,6 +5132,13 @@
     "bg": "lust-for-darkness",
     "title": "Lust for Darkness",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7hvu.jpg",
+    "screenshots": [
+      "gugug9akjxjhgzesxkyx",
+      "qgnqwfvo0vmb1ktzxori",
+      "qshvoschhqxvfohiakls",
+      "k8znstk3ckzyi7rkzcsl",
+      "m7m9mxhghi9wvkn9jwh0"
+    ],
     "year": "2018",
     "developer": "Movie Games Lunarium",
     "genres": [
@@ -3891,6 +5159,14 @@
     "bg": "persona-3-reload",
     "title": "Persona 3 Reload",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc4jz.jpg",
+    "screenshots": [
+      "scmww8",
+      "sco1d3",
+      "sco1d4",
+      "sco1d7",
+      "sco1d6",
+      "sco1d9"
+    ],
     "year": "2024",
     "developer": "P Studio",
     "genres": [
@@ -3913,6 +5189,14 @@
     "bg": "tekken-8",
     "title": "Tekken 8",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7lbb.jpg",
+    "screenshots": [
+      "scrysz",
+      "scryt2",
+      "scz8cj",
+      "scz8cg",
+      "scz8cf",
+      "scz8ci"
+    ],
     "year": "2024",
     "developer": "Bandai Namco Studios",
     "genres": [
@@ -3931,6 +5215,14 @@
     "bg": "mario-kart-super-circuit",
     "title": "Mario Kart: Super Circuit",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7o0u.jpg",
+    "screenshots": [
+      "wiggb2eusgk1dtsfmsw3",
+      "xzvnufbsgra2laqvdjfm",
+      "derdhrzkesimcmfnnch0",
+      "iu5ibnbntb1p5vmpjatq",
+      "d2gbml6dtpgnecloo3rn",
+      "ruzbecuxpimzlgf9jym1"
+    ],
     "year": "2001",
     "developer": "Nintendo",
     "genres": [
@@ -3950,6 +5242,11 @@
     "bg": "super-mario-bros--3",
     "title": "Super Mario Bros.",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k7b.jpg",
+    "screenshots": [
+      "scknvq",
+      "scknvr",
+      "scknvs"
+    ],
     "year": "1993",
     "developer": "Nintendo Entertainment Analysis & Development",
     "genres": [
@@ -3967,6 +5264,14 @@
     "bg": "mario-kart-wii",
     "title": "Mario Kart Wii",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co214e.jpg",
+    "screenshots": [
+      "sc88g5",
+      "sc88g7",
+      "sc88ga",
+      "sc88g9",
+      "sc88g4",
+      "sc88g6"
+    ],
     "year": "2008",
     "developer": "Nintendo EAD Software Development Group No.1",
     "genres": [
@@ -3983,6 +5288,14 @@
     "bg": "mario-kart-ds",
     "title": "Mario Kart DS",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob9rx.jpg",
+    "screenshots": [
+      "tzzh27poxj7ncdmizqeq",
+      "oxytd5dglihgmg42spz4",
+      "igtzgqmdvanjo6g1ch1y",
+      "dryzjcupu11qcxcqtyow",
+      "gmva8hvs4njfund5uzr4",
+      "oegtbmmfphaq9pkuzby4"
+    ],
     "year": "2005",
     "developer": "Nintendo EAD Software Development Group No.1",
     "genres": [
@@ -4001,6 +5314,14 @@
     "bg": "mario-kart-8-deluxe",
     "title": "Mario Kart 8 Deluxe",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co213p.jpg",
+    "screenshots": [
+      "k25mvvrzl2ko8rnjdpz7",
+      "xdzg7620kqx6i4zkm4tp",
+      "vmhgawm7zlvd8qqmk8ya",
+      "qoh5zyyom9pt9sfiu1vv",
+      "isnqp0khpg87nfpssd5k",
+      "sjmvyyxrudwmpfps77rt"
+    ],
     "year": "2017",
     "developer": "Nintendo Entertainment Planning & Development",
     "genres": [
@@ -4018,6 +5339,9 @@
     "bg": "kao-challengers",
     "title": "Kao Challengers",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co292o.jpg",
+    "screenshots": [
+      "scsu16"
+    ],
     "year": "2005",
     "developer": "Tate Interactive",
     "genres": [
@@ -4036,6 +5360,12 @@
     "bg": "the-simpsons-game",
     "title": "The Simpsons Game",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2ma9.jpg",
+    "screenshots": [
+      "vpxcg8i8ds0k6ghib47y",
+      "ikav1lrh5bkkgxs0quhy",
+      "jcdpwula1rs9uxeezpoc",
+      "yfjp44pnhvdygloasvtq"
+    ],
     "year": "2007",
     "developer": "EA Redwood Shores",
     "genres": [
@@ -4053,6 +5383,14 @@
     "bg": "mario-luigi-bowser-s-inside-story",
     "title": "Mario & Luigi: Bowser's Inside Story",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21vr.jpg",
+    "screenshots": [
+      "oiqinybnuh6wanbhpeqb",
+      "v8rmm2gxvv2sc7t3rrvo",
+      "fvruasrkq0ij18l9pm7c",
+      "dgdqeerqhckseeylj5uo",
+      "ie7scfwszyzzuevshnsl",
+      "ihtyvsuskxciokkwrv4z"
+    ],
     "year": "2009",
     "developer": "AlphaDream",
     "genres": [
@@ -4070,6 +5408,13 @@
     "bg": "goldeneye-007--2",
     "title": "GoldenEye 007",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3dx3.jpg",
+    "screenshots": [
+      "dowueogyrqbykmqlr76a",
+      "sc94lr",
+      "sc94lp",
+      "sc94lq",
+      "sc94ls"
+    ],
     "year": "2010",
     "developer": "Eurocom Entertainment Software",
     "genres": [
@@ -4086,6 +5431,13 @@
     "bg": "cars-2--2",
     "title": "Cars 2",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4zwr.jpg",
+    "screenshots": [
+      "scqauu",
+      "scqaur",
+      "scqaus",
+      "scqaut",
+      "scqauv"
+    ],
     "year": "2011",
     "developer": "Firebrand Games",
     "genres": [
@@ -4105,6 +5457,13 @@
     "bg": "day-of-the-tentacle-remastered",
     "title": "Day of the Tentacle Remastered",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2865.jpg",
+    "screenshots": [
+      "bezmdaluw2igxyg13jpd",
+      "xkaxq6hir7ilgyliobsg",
+      "l0ewyxj3uos11on6lxq5",
+      "rlgiqqmt0zckj7spaobs",
+      "hrsshropv5icvcrkws4l"
+    ],
     "year": "2016",
     "developer": "Double Fine Productions",
     "genres": [
@@ -4128,6 +5487,13 @@
     "bg": "thief-deadly-shadows",
     "title": "Thief: Deadly Shadows",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2rom.jpg",
+    "screenshots": [
+      "ggvkkgfccrlcgoduwnpc",
+      "ynrqiomcxtdigktqlnpd",
+      "ccvyu2a3t0ehowio0kcs",
+      "pcdj2kkzs7ydwrxtgszs",
+      "z8gvh3ozti5ct86ckhzo"
+    ],
     "year": "2004",
     "developer": "Ion Storm",
     "genres": [
@@ -4147,6 +5513,14 @@
     "bg": "firewatch",
     "title": "Firewatch",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob1ts.jpg",
+    "screenshots": [
+      "lv39uamjbc0zb0vtu8bl",
+      "zmzwkye0dfbfzl4h6cz8",
+      "opimnxkcrlmycittkjwy",
+      "bwpqwqxuiwc164v2kt73",
+      "qlapgaeuto9xntsonbz3",
+      "xtaqzyjki3cht8pk78jp"
+    ],
     "year": "2016",
     "developer": "Campo Santo",
     "genres": [
@@ -4169,6 +5543,14 @@
     "bg": "dead-space--1",
     "title": "Dead Space",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobkv5.jpg",
+    "screenshots": [
+      "scinmc",
+      "scinme",
+      "scinmd",
+      "sckeeq",
+      "sckees",
+      "sckeep"
+    ],
     "year": "2023",
     "developer": "Motive Studios",
     "genres": [
@@ -4189,6 +5571,12 @@
     "bg": "shin-megami-tensei-persona-2-innocent-sin",
     "title": "Shin Megami Tensei: Persona 2 - Innocent Sin",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6k6b.jpg",
+    "screenshots": [
+      "scmp0j",
+      "scmp0k",
+      "scmp0l",
+      "scmp0m"
+    ],
     "year": "2011",
     "developer": "Atlus",
     "genres": [
@@ -4205,6 +5593,14 @@
     "bg": "persona-q2-new-cinema-labyrinth",
     "title": "Persona Q2: New Cinema Labyrinth",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8l09.jpg",
+    "screenshots": [
+      "sc5ptt",
+      "sc5ptr",
+      "sc5ptp",
+      "sc5pto",
+      "sc5ptu",
+      "sc5pts"
+    ],
     "year": "2018",
     "developer": "Lancarse",
     "genres": [
@@ -4223,6 +5619,14 @@
     "bg": "persona-3-dancing-in-moonlight",
     "title": "Persona 3: Dancing in Moonlight",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1ob9.jpg",
+    "screenshots": [
+      "sc5pqp",
+      "sc5pqn",
+      "sc5pqq",
+      "sc5pql",
+      "sc5pqo",
+      "sc5pqm"
+    ],
     "year": "2018",
     "developer": "P Studio",
     "genres": [
@@ -4240,6 +5644,12 @@
     "bg": "persona-4-dancing-all-night",
     "title": "Persona 4: Dancing All Night",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4hmn.jpg",
+    "screenshots": [
+      "nzxraqwyvcfcvcvyltxi",
+      "ijtnmmwq9bngutel76qf",
+      "lwmcw3v2jgg2gymaqvna",
+      "hvqz3ni279vx3zt76sad"
+    ],
     "year": "2015",
     "developer": "Atlus",
     "genres": [
@@ -4257,6 +5667,14 @@
     "bg": "persona-5-dancing-in-starlight",
     "title": "Persona 5: Dancing in Starlight",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5cbi.jpg",
+    "screenshots": [
+      "uyghxxylgccwcpeoiu7d",
+      "af0hy9ukytjkqly5b5ug",
+      "ufataziif4yslfkmgajx",
+      "ks1apn737depyeos12oc",
+      "qcr2jiikjoqvv1sqx1h1",
+      "cwbdinrqffxbvxj8lzpx"
+    ],
     "year": "2018",
     "developer": "P Studio",
     "genres": [
@@ -4273,6 +5691,14 @@
     "bg": "persona-4-arena-ultimax",
     "title": "Persona 4 Arena Ultimax",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5k1y.jpg",
+    "screenshots": [
+      "sc7df4",
+      "sc7df5",
+      "sc7df3",
+      "sc8s75",
+      "sc8s77",
+      "sc8s76"
+    ],
     "year": "2013",
     "developer": "Atlus",
     "genres": [
@@ -4295,6 +5721,14 @@
     "bg": "persona-4-golden--1",
     "title": "Persona 4 Golden",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc4k1.jpg",
+    "screenshots": [
+      "sckwzo",
+      "sckwzp",
+      "sckwzq",
+      "sckwzr",
+      "sckwzs",
+      "sckx00"
+    ],
     "year": "2020",
     "developer": "Atlus",
     "genres": [
@@ -4317,6 +5751,14 @@
     "bg": "persona-3-portable",
     "title": "Persona 3 Portable",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1n1z.jpg",
+    "screenshots": [
+      "sc6v3v",
+      "sc6v3s",
+      "sc6v3t",
+      "sc6v3u",
+      "sc6v3p",
+      "sc6v3r"
+    ],
     "year": "2009",
     "developer": "Atlus",
     "genres": [
@@ -4336,6 +5778,13 @@
     "bg": "shin-megami-tensei-strange-journey-redux",
     "title": "Shin Megami Tensei: Strange Journey Redux",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2w7i.jpg",
+    "screenshots": [
+      "ieg8tqv9uyc0fy15on6w",
+      "fkhvyjofori3ug6uovay",
+      "f5qjk0mmok5gskzzshlk",
+      "v1s0thw9p0wssq0wooqi",
+      "gqh6qhyxkaninqqr879r"
+    ],
     "year": "2017",
     "developer": "Atlus",
     "genres": [
@@ -4354,6 +5803,14 @@
     "bg": "red-dead-redemption-2",
     "title": "Red Dead Redemption 2",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1q1f.jpg",
+    "screenshots": [
+      "xegpfnsvlyeld0zkjnrc",
+      "kcfpf8wa8esalk0qkpo5",
+      "dorsz0jbcecmkxvzi3t8",
+      "mptosgjarjlyqxy7lqsm",
+      "sctkgq",
+      "tdxv4zzkqyjnm9pmwxw0"
+    ],
     "year": "2018",
     "developer": "Rockstar Games",
     "genres": [
@@ -4376,6 +5833,13 @@
     "bg": "south-park-the-fractured-but-whole",
     "title": "South Park: The Fractured But Whole",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1v8w.jpg",
+    "screenshots": [
+      "yygxweuverxzutzjgslz",
+      "yypcjkiukbigyhbctack",
+      "cztu6t51nlxyih6n6hqw",
+      "ukoxosilgikxdqhcdnla",
+      "scjbky2zwlv9y8ehbgxr"
+    ],
     "year": "2017",
     "developer": "Ubisoft San Francisco",
     "genres": [
@@ -4397,6 +5861,13 @@
     "bg": "south-park-the-stick-of-truth",
     "title": "South Park: The Stick of Truth",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1v8x.jpg",
+    "screenshots": [
+      "bjwrnizsisnykyj2unls",
+      "vevt14vztlsidoewcrip",
+      "ijrnmongvn7vplw10bik",
+      "oyb4wcxtuc5egvqyw7u9",
+      "bvpwrzlwglbajs3dxzpk"
+    ],
     "year": "2014",
     "developer": "Obsidian Entertainment",
     "genres": [
@@ -4420,6 +5891,14 @@
     "bg": "thief-ii-the-metal-age",
     "title": "Thief II: The Metal Age",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co698n.jpg",
+    "screenshots": [
+      "sc83c5",
+      "puvydf5d6v0zirxfhzpg",
+      "z0b9mqcqbtmnnxigekjc",
+      "h4eotdbgoo30v40jtus0",
+      "yf2hsfdd4fe9ev6wmpye",
+      "ja4t61c1ndvtzufbdrf4"
+    ],
     "year": "2000",
     "developer": "Looking Glass Studios",
     "genres": [
@@ -4438,6 +5917,13 @@
     "bg": "thief-gold",
     "title": "Thief Gold",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co44le.jpg",
+    "screenshots": [
+      "zvf53bldfoclbloefrab",
+      "h0kkd3pmiyyqr7hxcskn",
+      "ur57iom2ssnmijqweffw",
+      "lmgttw9y3qcnfonrya1c",
+      "xgxybwer3y5ziehacmad"
+    ],
     "year": "1999",
     "developer": "Looking Glass Studios",
     "genres": [
@@ -4455,6 +5941,14 @@
     "bg": "inside",
     "title": "Inside",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2fca.jpg",
+    "screenshots": [
+      "guhljbryvlqg2kn25z7r",
+      "z4fkserflyby1nv5ispe",
+      "ldbfqsvfeptbvguzaqdy",
+      "kvxijejg9ueks3fowhv3",
+      "d5989qwb1b9l3ag8n448",
+      "sz0lscqqkhsi7ceao6og"
+    ],
     "year": "2016",
     "developer": "Playdead",
     "genres": [
@@ -4478,6 +5972,13 @@
     "bg": "the-last-of-us-remastered",
     "title": "The Last of Us Remastered",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5zks.jpg",
+    "screenshots": [
+      "iqzfweidhwepz0bf4fhr",
+      "oz4rxwu528bmckp1qqzt",
+      "wdzisarwedjsqeg5iah4",
+      "d64boffz2tkso1cuj1lk",
+      "lqz37tmv2r4lcjaxczwx"
+    ],
     "year": "2014",
     "developer": "Naughty Dog",
     "genres": [
@@ -4495,6 +5996,12 @@
     "bg": "american-arcadia",
     "title": "American Arcadia",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6pr7.jpg",
+    "screenshots": [
+      "scgq65",
+      "sco8va",
+      "scgq66",
+      "scgq67"
+    ],
     "year": "2023",
     "developer": "Out of the Blue Games",
     "genres": [
@@ -4518,6 +6025,14 @@
     "bg": "cyberpunk-2077-phantom-liberty",
     "title": "Cyberpunk 2077: Phantom Liberty",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7566.jpg",
+    "screenshots": [
+      "scoc9p",
+      "scoc9m",
+      "scoc9q",
+      "scpzog",
+      "scpzok",
+      "scpzof"
+    ],
     "year": "2023",
     "developer": "CD Projekt RED",
     "genres": [
@@ -4540,6 +6055,14 @@
     "bg": "cyberpunk-2077",
     "title": "Cyberpunk 2077",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaih8.jpg",
+    "screenshots": [
+      "vnv5cd9kvonsjvazpotx",
+      "quphnww1axg2mmsvxfux",
+      "scxw04",
+      "scxw02",
+      "ubbe5gewccx5ig3xy30t",
+      "c7usjg7gpo8rs0bfjkph"
+    ],
     "year": "2020",
     "developer": "CD Projekt RED",
     "genres": [
@@ -4564,6 +6087,14 @@
     "bg": "marvels-spider-man-2",
     "title": "Marvel's Spider-Man 2",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobg1k.jpg",
+    "screenshots": [
+      "scmwdi",
+      "scmwdk",
+      "scmwdl",
+      "scmwdm",
+      "scoq3o",
+      "scoq3p"
+    ],
     "year": "2023",
     "developer": "Insomniac Games",
     "genres": [
@@ -4582,6 +6113,14 @@
     "bg": "signalis",
     "title": "Signalis",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co62ig.jpg",
+    "screenshots": [
+      "sclnui",
+      "tfbr9z0bojikmtcbgryn",
+      "sclnum",
+      "x8wm6icrxrsyxfm5nqof",
+      "sclnuj",
+      "fofzalqb3kyoh5j25kqx"
+    ],
     "year": "2022",
     "developer": "rose-engine",
     "genres": [
@@ -4602,6 +6141,14 @@
     "bg": "a-plague-tale-requiem",
     "title": "A Plague Tale: Requiem",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5pwb.jpg",
+    "screenshots": [
+      "scg9lu",
+      "scg9lv",
+      "scg9lw",
+      "scg9m0",
+      "scg9m1",
+      "scg9m2"
+    ],
     "year": "2022",
     "developer": "Asobo Studio",
     "genres": [
@@ -4622,6 +6169,13 @@
     "bg": "cuphead",
     "title": "Cuphead",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co62ao.jpg",
+    "screenshots": [
+      "sqho6e7tv9verg6j1tvv",
+      "r9zt66wdgqohmhuukiir",
+      "ec5tsfhl7wjabwjnsshs",
+      "sngyjwqwzzlciy0ko0sq",
+      "eulkrcocd1zyuvvcv7k0"
+    ],
     "year": "2017",
     "developer": "Studio MDHR",
     "genres": [
@@ -4644,6 +6198,14 @@
     "bg": "mirror-s-edge",
     "title": "Mirror's Edge",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5gbw.jpg",
+    "screenshots": [
+      "xwaomtg5s5sutq2axbj9",
+      "bi3srx3js7stmhptq0vp",
+      "elhg6cg6hwhsz3k1k3bq",
+      "bsdwpibkpavvr8lwgobj",
+      "sctq3z",
+      "sctq3x"
+    ],
     "year": "2008",
     "developer": "EA Digital Illusions CE",
     "genres": [
@@ -4664,6 +6226,13 @@
     "bg": "dishonored",
     "title": "Dishonored",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coabgu.jpg",
+    "screenshots": [
+      "gket6hnfqf2o6btpluck",
+      "g7gj1dq82qv2wvv3izxg",
+      "feem9stvuzbeuhue9itk",
+      "tuxvvb4tqnnnatdy4c4b",
+      "utk6olfwdeqkw7bwxbd7"
+    ],
     "year": "2012",
     "developer": "Arkane Studios",
     "genres": [
@@ -4684,6 +6253,14 @@
     "bg": "death-stranding",
     "title": "Death Stranding",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobksf.jpg",
+    "screenshots": [
+      "sc6l0a",
+      "sc6l0g",
+      "sc6l0i",
+      "ot22cc6wsmhbrcnuo8ti",
+      "u8ylruedniehtc18wzin",
+      "sc6l0e"
+    ],
     "year": "2019",
     "developer": "Kojima Productions",
     "genres": [
@@ -4703,6 +6280,14 @@
     "bg": "alien-isolation",
     "title": "Alien: Isolation",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1vzu.jpg",
+    "screenshots": [
+      "bq2xsojs8vvr8hkkpdbn",
+      "nkvu96w7jyzcbkh0fsmi",
+      "scppqa",
+      "scppqb",
+      "scppq9",
+      "dek1ysjlwizlhh0z624o"
+    ],
     "year": "2014",
     "developer": "The Creative Assembly",
     "genres": [
@@ -4724,6 +6309,14 @@
     "bg": "bioshock-infinite",
     "title": "BioShock Infinite",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2n12.jpg",
+    "screenshots": [
+      "scpri1",
+      "scpri2",
+      "scpri5",
+      "scpri6",
+      "scijgs",
+      "scpri4"
+    ],
     "year": "2013",
     "developer": "Irrational Games",
     "genres": [
@@ -4745,6 +6338,13 @@
     "bg": "bioshock-2",
     "title": "BioShock 2",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2mlj.jpg",
+    "screenshots": [
+      "scijgm",
+      "scijgn",
+      "scijgp",
+      "scijgo",
+      "scijgq"
+    ],
     "year": "2010",
     "developer": "2K Marin",
     "genres": [
@@ -4766,6 +6366,13 @@
     "bg": "bioshock",
     "title": "BioShock",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2mli.jpg",
+    "screenshots": [
+      "usn4aw2k54ym8jcjbkmg",
+      "yg3j0yco50gq3wfcxujb",
+      "unvhwxrfzpjys4txfv4a",
+      "kjbwbdqemykovdzgidhu",
+      "wworjqefsfzc9ouvrpxd"
+    ],
     "year": "2007",
     "developer": "2K Boston",
     "genres": [
@@ -4786,6 +6393,14 @@
     "bg": "star-wars-jedi-fallen-order",
     "title": "Star Wars Jedi: Fallen Order",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1rbi.jpg",
+    "screenshots": [
+      "scgzto",
+      "scgztp",
+      "scgztq",
+      "scgztr",
+      "scgzts",
+      "scgztt"
+    ],
     "year": "2019",
     "developer": "Respawn Entertainment",
     "genres": [
@@ -4807,6 +6422,14 @@
     "bg": "the-legend-of-zelda-the-wind-waker-hd",
     "title": "The Legend of Zelda: The Wind Waker HD",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3ozi.jpg",
+    "screenshots": [
+      "aiu6fl40w05q0q9dbucl",
+      "wuzwp32ottzgkddskubf",
+      "wdz35ucjwiwr9deibpz1",
+      "ufxcarhopdgganl26on6",
+      "jq2qnvlctkpgdijoz9wa",
+      "dlbt4p89h0kgn68hnzkh"
+    ],
     "year": "2013",
     "developer": "Nintendo EAD Software Development Group No.3",
     "genres": [
@@ -4824,6 +6447,13 @@
     "bg": "the-legend-of-zelda-majoras-mask-3d",
     "title": "The Legend of Zelda: Majora's Mask 3D",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob9x9.jpg",
+    "screenshots": [
+      "sckj7m",
+      "sckj7n",
+      "sckj7o",
+      "sckj7p",
+      "sckj7q"
+    ],
     "year": "2015",
     "developer": "Grezzo",
     "genres": [
@@ -4841,6 +6471,14 @@
     "bg": "the-legend-of-zelda-twilight-princess-hd",
     "title": "The Legend of Zelda: Twilight Princess HD",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3mqa.jpg",
+    "screenshots": [
+      "sjqspf6qqnxumzfepgqk",
+      "pckzu00gmkuwltqtxdm5",
+      "zcv4p0kcalojk0osek3k",
+      "jt9rtpnbbvh16chhprxr",
+      "bulhcrz2ynpngwe1cvad",
+      "hig2sdtbq0uzysbtdjk5"
+    ],
     "year": "2016",
     "developer": "Nintendo EPD Production Group No. 3",
     "genres": [
@@ -4858,6 +6496,14 @@
     "bg": "the-legend-of-zelda-ocarina-of-time",
     "title": "The Legend of Zelda: Ocarina of Time",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3nnx.jpg",
+    "screenshots": [
+      "sckeaj",
+      "sckeag",
+      "sckeap",
+      "sckeah",
+      "sckeai",
+      "sckeaf"
+    ],
     "year": "1998",
     "developer": "Nintendo Entertainment Analysis & Development",
     "genres": [
@@ -4878,6 +6524,14 @@
     "bg": "persona-5-strikers",
     "title": "Persona 5 Strikers",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2zoq.jpg",
+    "screenshots": [
+      "sc7fgn",
+      "sc7fgg",
+      "sc7fgi",
+      "sc7fgf",
+      "sc7fgk",
+      "sc7fgh"
+    ],
     "year": "2020",
     "developer": "Omega Force",
     "genres": [
@@ -4898,6 +6552,14 @@
     "bg": "persona-5-royal",
     "title": "Persona 5 Royal",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coclf1.jpg",
+    "screenshots": [
+      "sc6vq2",
+      "sc6vps",
+      "sc6vpt",
+      "sc6vpu",
+      "sc6vpw",
+      "sc6vq0"
+    ],
     "year": "2019",
     "developer": "P Studio",
     "genres": [
@@ -4920,6 +6582,14 @@
     "bg": "the-last-of-us-part-ii",
     "title": "The Last of Us Part II",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5ziw.jpg",
+    "screenshots": [
+      "sc8i93",
+      "sc8i94",
+      "sc8i95",
+      "oh8a5shtmdbqx73cv765",
+      "dbqn4wax78tgvplrpf1m",
+      "sc8i97"
+    ],
     "year": "2020",
     "developer": "Naughty Dog",
     "genres": [
@@ -4938,6 +6608,14 @@
     "bg": "a-plague-tale-innocence",
     "title": "A Plague Tale: Innocence",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1lat.jpg",
+    "screenshots": [
+      "ua97c9hmezzpqh2yw7aq",
+      "sc68wl",
+      "sc5jte",
+      "sc5jtf",
+      "yl6vcx14pyvwfdf3epew",
+      "sfznzvx3uuwj9crqpmxd"
+    ],
     "year": "2019",
     "developer": "Asobo Studio",
     "genres": [
@@ -4958,6 +6636,14 @@
     "bg": "final-fantasy-vii-remake",
     "title": "Final Fantasy VII Remake",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobcwt.jpg",
+    "screenshots": [
+      "sc6viw",
+      "sc6viz",
+      "sc6vix",
+      "sc6viy",
+      "sc80go",
+      "sc6vj1"
+    ],
     "year": "2020",
     "developer": "Square Enix Creative Business Unit I",
     "genres": [
@@ -4979,6 +6665,14 @@
     "bg": "final-fantasy-vii",
     "title": "Final Fantasy VII",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2kx2.jpg",
+    "screenshots": [
+      "schnqk",
+      "schnql",
+      "schmzc",
+      "schmzd",
+      "schmze",
+      "schmzf"
+    ],
     "year": "1997",
     "developer": "Square Product Development Division 1",
     "genres": [
@@ -4998,6 +6692,11 @@
     "bg": "marvels-spider-man-miles-morales",
     "title": "Marvel's Spider-Man: Miles Morales",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobg1j.jpg",
+    "screenshots": [
+      "sc8bir",
+      "sc8bis",
+      "sctlb9"
+    ],
     "year": "2020",
     "developer": "Insomniac Games",
     "genres": [
@@ -5017,6 +6716,13 @@
     "bg": "demons-souls",
     "title": "Demon's Souls",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2kj9.jpg",
+    "screenshots": [
+      "sc8bl7",
+      "sc8bl8",
+      "sc8bl5",
+      "sc8bl4",
+      "sc8bl6"
+    ],
     "year": "2020",
     "developer": "Bluepoint Games",
     "genres": [
@@ -5035,6 +6741,13 @@
     "bg": "dark-souls",
     "title": "Dark Souls",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1x78.jpg",
+    "screenshots": [
+      "gdplcyvz8fvgxvgu2phn",
+      "xov2ga3zkudrtr0sqp8n",
+      "sylfmtzktmb4b0ext8nr",
+      "nz70mpjc7kszcyesgmqw",
+      "i16sgcogmkrvy0ixs0rt"
+    ],
     "year": "2011",
     "developer": "FromSoftware",
     "genres": [
@@ -5057,6 +6770,13 @@
     "bg": "dark-souls-ii",
     "title": "Dark Souls II",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobysr.jpg",
+    "screenshots": [
+      "mhk1t1av4jpcksxtvvdn",
+      "r4q8uvm342zueakmmzqc",
+      "t1jchjdx2vnhdywkfbu8",
+      "dgwkkzap0o6dqupe5atn",
+      "hj8wcegykk7dixcrzvf4"
+    ],
     "year": "2014",
     "developer": "FromSoftware",
     "genres": [
@@ -5076,6 +6796,14 @@
     "bg": "pokemon-legends-arceus",
     "title": "Pokémon Legends: Arceus",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3d03.jpg",
+    "screenshots": [
+      "sc93am",
+      "sc93an",
+      "sc93ak",
+      "sc93al",
+      "sc13026",
+      "sc13027"
+    ],
     "year": "2022",
     "developer": "Game Freak",
     "genres": [
@@ -5094,6 +6822,14 @@
     "bg": "sekiro-shadows-die-twice",
     "title": "Sekiro: Shadows Die Twice",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2a23.jpg",
+    "screenshots": [
+      "sn1rmqcvrwomyuttaoyq",
+      "ocxemodvr6oa72argpyo",
+      "tjxbj2hryec06ahdi2ep",
+      "sk8lqukaqalhq2mrzkqd",
+      "jo1pi5md3myj0pxynz9p",
+      "ozcogbafdzztevnidcvt"
+    ],
     "year": "2019",
     "developer": "FromSoftware",
     "genres": [
@@ -5113,6 +6849,14 @@
     "bg": "marvels-spider-man",
     "title": "Marvel's Spider-Man",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1r77.jpg",
+    "screenshots": [
+      "bjoksdiwvkatzql3gi95",
+      "vfmpwxgrk6lubydwm4it",
+      "fmjzieghsgjfks7akhhy",
+      "pegynjc4fge2jzwkqoqi",
+      "gc3cpzbpddhfxj4nvaq1",
+      "o25kbk0jom2uvfm37l62"
+    ],
     "year": "2018",
     "developer": "Insomniac Games",
     "genres": [
@@ -5130,6 +6874,14 @@
     "bg": "dark-souls-iii",
     "title": "Dark Souls III",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob9ed.jpg",
+    "screenshots": [
+      "wlefrkqqtxge3lo81cis",
+      "nwrsu8awczsx38hmnqx7",
+      "vdugyv42fp2jkh1w4lnz",
+      "acdyxftnekdkxob4leek",
+      "scknql",
+      "sctlc3"
+    ],
     "year": "2016",
     "developer": "FromSoftware",
     "genres": [
@@ -5149,6 +6901,14 @@
     "bg": "nier-automata",
     "title": "NieR: Automata",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5pcj.jpg",
+    "screenshots": [
+      "gzkc9kfusk2qss9vnuj4",
+      "m5ytymipeljiatfrblhs",
+      "bgmyc8eupb0coy0giatf",
+      "banme9peksg7gcxr26oa",
+      "et43nztghwnyzqd0br9q",
+      "sc942d"
+    ],
     "year": "2017",
     "developer": "PlatinumGames",
     "genres": [
@@ -5168,6 +6928,13 @@
     "bg": "bloodborne",
     "title": "Bloodborne",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob99l.jpg",
+    "screenshots": [
+      "uqmif3sshdrbbcd0pu8l",
+      "adssvwsfbaxcrucjolv9",
+      "aokcsspzrqyaaoug7jnn",
+      "bklmdxphzoflbgtushg0",
+      "hc9nb80b0xni5wxm5zh3"
+    ],
     "year": "2015",
     "developer": "FromSoftware",
     "genres": [
@@ -5185,6 +6952,14 @@
     "bg": "hades--1",
     "title": "Hades",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob9kr.jpg",
+    "screenshots": [
+      "sc8lik",
+      "sc8lim",
+      "sc8lij",
+      "sc8lil",
+      "sc8lin",
+      "sc5r7z"
+    ],
     "year": "2020",
     "developer": "Supergiant Games",
     "genres": [
@@ -5208,6 +6983,14 @@
     "bg": "the-legend-of-zelda-breath-of-the-wild",
     "title": "The Legend of Zelda: Breath of the Wild",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3p2d.jpg",
+    "screenshots": [
+      "sckj69",
+      "sckj6a",
+      "sckj6d",
+      "sckj6f",
+      "sckj6h",
+      "sckj6b"
+    ],
     "year": "2017",
     "developer": "Nintendo EPD Production Group No. 3",
     "genres": [
@@ -5226,6 +7009,14 @@
     "bg": "minecraft-java-edition",
     "title": "Minecraft: Java Edition",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coa77e.jpg",
+    "screenshots": [
+      "sc8d2z",
+      "sc8d30",
+      "sc8d32",
+      "sc8d33",
+      "sclnvg",
+      "sc8d31"
+    ],
     "year": "2011",
     "developer": "Mojang Studios",
     "genres": [
@@ -5245,6 +7036,14 @@
     "bg": "god-of-war--1",
     "title": "God of War",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobkt6.jpg",
+    "screenshots": [
+      "rm35ytrytuka9qkylqyk",
+      "ywrkjcrbeemmb51flsfj",
+      "o4mg2wvhlcikaogvvzqe",
+      "wunlbofh23trw0u67gms",
+      "w5eazrrf4wdxjl4idfya",
+      "sctzwg"
+    ],
     "year": "2018",
     "developer": "SIE Santa Monica Studio",
     "genres": [
@@ -5265,6 +7064,14 @@
     "bg": "resident-evil-2--1",
     "title": "Resident Evil 2",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1ir3.jpg",
+    "screenshots": [
+      "sctl9a",
+      "sctl98",
+      "z35arb0woqfqh4vimybc",
+      "pejumzcrmnf3xg12nhzt",
+      "jvlx4cy48s85achprwin",
+      "nb51k0xmfrgzxy8vth5p"
+    ],
     "year": "2019",
     "developer": "Capcom Development Division 1",
     "genres": [
@@ -5287,6 +7094,14 @@
     "bg": "resident-evil-3",
     "title": "Resident Evil 3",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co22l7.jpg",
+    "screenshots": [
+      "scifch",
+      "scifci",
+      "scifcj",
+      "scifck",
+      "scifcl",
+      "scifcm"
+    ],
     "year": "2020",
     "developer": "Capcom Development Division 1",
     "genres": [
@@ -5309,6 +7124,14 @@
     "bg": "resident-evil--3",
     "title": "Resident Evil",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1taw.jpg",
+    "screenshots": [
+      "dazfpqktlthtpolrvnod",
+      "kwjetq8xnsbkk0klqfyv",
+      "fjhmz38qrt4oxo7squw0",
+      "scoss7",
+      "pbq1fh7whyggpr0f2aln",
+      "lvhawyck3ss6jun8ezbb"
+    ],
     "year": "2014",
     "developer": "Capcom",
     "genres": [
@@ -5332,6 +7155,14 @@
     "bg": "shin-megami-tensei-devil-summoner-raidou-kuzunoha-vs-the-soulless-army",
     "title": "Shin Megami Tensei Devil Summoner: Raidou Kuzunoha vs. The Soulless Army",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co26ig.jpg",
+    "screenshots": [
+      "xsowsx1vmhqylctxiypb",
+      "sc9exo",
+      "sc9exp",
+      "sc9exq",
+      "sc9exr",
+      "sc9exs"
+    ],
     "year": "2006",
     "developer": "Atlus",
     "genres": [
@@ -5351,6 +7182,14 @@
     "bg": "devil-summoner-soul-hackers",
     "title": "Devil Summoner: Soul Hackers",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co84yg.jpg",
+    "screenshots": [
+      "scs361",
+      "scs366",
+      "scs362",
+      "scs363",
+      "scs364",
+      "scs368"
+    ],
     "year": "1997",
     "developer": "Atlus",
     "genres": [
@@ -5369,6 +7208,13 @@
     "bg": "shin-megami-tensei-devil-survivor-overclocked",
     "title": "Shin Megami Tensei: Devil Survivor Overclocked",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coavoq.jpg",
+    "screenshots": [
+      "m1c5qymlqo0mx8xsgfum",
+      "cxdlxqz9qorwgdp66yr8",
+      "dc4ptucgob5xfgq6yznm",
+      "lm882neaqo1ch5cbidvk",
+      "sxsnuirelq4vandl0l4s"
+    ],
     "year": "2011",
     "developer": "Atlus",
     "genres": [
@@ -5387,6 +7233,10 @@
     "bg": "shin-megami-tensei-digital-devil-saga-2",
     "title": "Shin Megami Tensei: Digital Devil Saga 2",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4psm.jpg",
+    "screenshots": [
+      "sc5rlq",
+      "sc5rlp"
+    ],
     "year": "2005",
     "developer": "Atlus",
     "genres": [
@@ -5405,6 +7255,13 @@
     "bg": "shin-megami-tensei-digital-devil-saga",
     "title": "Shin Megami Tensei: Digital Devil Saga",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2y4s.jpg",
+    "screenshots": [
+      "llglvpxihjp2lz8evrpf",
+      "q0ysbumieznvkvbmqrty",
+      "ztfr0wmqlygkdsqa6ufa",
+      "vvgtd3vjo3noq6qpvlfk",
+      "n3rcojotlt7xvqr50hkz"
+    ],
     "year": "2004",
     "developer": "Atlus",
     "genres": [
@@ -5422,6 +7279,13 @@
     "bg": "digital-devil-story-megami-tensei",
     "title": "Digital Devil Story: Megami Tensei",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2zhj.jpg",
+    "screenshots": [
+      "gjgdo6vn9vqaknth3lju",
+      "bb5dox39lzwwm0i9wv1h",
+      "uxs1ofhkrj7swuxgw1vo",
+      "thqooueve2hdxlovnvvy",
+      "n188fpixkgukio7mi0wl"
+    ],
     "year": "1987",
     "developer": "Atlus",
     "genres": [
@@ -5439,6 +7303,14 @@
     "bg": "shin-megami-tensei-strange-journey",
     "title": "Shin Megami Tensei: Strange Journey",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co26fw.jpg",
+    "screenshots": [
+      "mq7moenvlgnqyclhdsw0",
+      "scpuoq",
+      "scpuoy",
+      "scpuoo",
+      "scpuom",
+      "scpuoz"
+    ],
     "year": "2009",
     "developer": "Atlus",
     "genres": [
@@ -5456,6 +7328,14 @@
     "bg": "shin-megami-tensei-iv-apocalypse",
     "title": "Shin Megami Tensei IV: Apocalypse",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2ufc.jpg",
+    "screenshots": [
+      "hdhghr1pdbfqnkipdvqc",
+      "acrl5mncphchvijicx59",
+      "h0jcnguxypzxbq2pq6jt",
+      "ysnp9antu4hlzsd67j0i",
+      "jf7r5cdcbcacodoiarn7",
+      "lurqfog6xd5wrz7ofm9p"
+    ],
     "year": "2016",
     "developer": "Atlus",
     "genres": [
@@ -5473,6 +7353,14 @@
     "bg": "shin-megami-tensei-iv",
     "title": "Shin Megami Tensei IV",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1n26.jpg",
+    "screenshots": [
+      "pxrkjwnk8y7sd4xnmtcd",
+      "x5zyaerdygbil1llj2oi",
+      "l5v0dw2zgxooth1j1whr",
+      "g7wmpr8fgtknkxkeiox7",
+      "mphmk1s54ma8kgjd4tbi",
+      "x4pgomsdtbsmzi3olilu"
+    ],
     "year": "2013",
     "developer": "Atlus",
     "genres": [
@@ -5491,6 +7379,12 @@
     "bg": "shin-megami-tensei-if-dot-dot-dot",
     "title": "Shin Megami Tensei if...",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co26hy.jpg",
+    "screenshots": [
+      "sc8kto",
+      "sc8ktp",
+      "sc8ktq",
+      "sc8ktr"
+    ],
     "year": "1994",
     "developer": "Atlus",
     "genres": [
@@ -5509,6 +7403,14 @@
     "bg": "shin-megami-tensei-ii",
     "title": "Shin Megami Tensei II",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc1ye.jpg",
+    "screenshots": [
+      "sc9e2x",
+      "sc9e33",
+      "sc9e30",
+      "sc9e2z",
+      "sc9e2u",
+      "sc9e2v"
+    ],
     "year": "1994",
     "developer": "Atlus",
     "genres": [
@@ -5530,6 +7432,11 @@
     "bg": "shin-megami-tensei-nocturne",
     "title": "Shin Megami Tensei: Nocturne",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5rw7.jpg",
+    "screenshots": [
+      "scesko",
+      "sceskp",
+      "sceskq"
+    ],
     "year": "2004",
     "developer": "Atlus",
     "genres": [
@@ -5547,6 +7454,14 @@
     "bg": "shin-megami-tensei",
     "title": "Shin Megami Tensei",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co26i0.jpg",
+    "screenshots": [
+      "sc8zd6",
+      "sc8zd7",
+      "sc8zd8",
+      "sc8zd9",
+      "sc8zda",
+      "sc8zdb"
+    ],
     "year": "1992",
     "developer": "Atlus",
     "genres": [
@@ -5567,6 +7482,14 @@
     "bg": "shin-megami-tensei-v",
     "title": "Shin Megami Tensei V",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co39zk.jpg",
+    "screenshots": [
+      "ppzlvufypgbvtmpylz0h",
+      "plinfbfrezb1ikvotmpt",
+      "nohayrbz5araygyvhjj1",
+      "scdryg",
+      "scdryh",
+      "scdryi"
+    ],
     "year": "2021",
     "developer": "Atlus",
     "genres": [
@@ -5584,6 +7507,11 @@
     "bg": "shin-megami-tensei-persona",
     "title": "Shin Megami Tensei: Persona",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4ejn.jpg",
+    "screenshots": [
+      "zij3ovkn7qbcpgpz46px",
+      "whsqqvkuazcxoilaopko",
+      "iz4ktd7r8geeaatew9ym"
+    ],
     "year": "2009",
     "developer": "Atlus",
     "genres": [
@@ -5600,6 +7528,11 @@
     "bg": "persona-2-eternal-punishment",
     "title": "Persona 2: Eternal Punishment",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6k6n.jpg",
+    "screenshots": [
+      "sc6w46",
+      "sc6w48",
+      "sc6w47"
+    ],
     "year": "2000",
     "developer": "Atlus",
     "genres": [
@@ -5619,6 +7552,14 @@
     "bg": "persona-3-fes",
     "title": "Persona 3 FES",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6j8n.jpg",
+    "screenshots": [
+      "sc6vdy",
+      "sc6vdx",
+      "sc6vdv",
+      "sc6vdw",
+      "sc6ve1",
+      "sc6ve2"
+    ],
     "year": "2007",
     "developer": "Atlus",
     "genres": [
@@ -5637,6 +7578,14 @@
     "bg": "persona-5",
     "title": "Persona 5",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1r76.jpg",
+    "screenshots": [
+      "sclnuh",
+      "k9vp7u6khokwawwctcgc",
+      "hlev27g508rkq1prpghw",
+      "pm074uf0po31urbrjyxz",
+      "scllmh",
+      "tow7qunrq6rvwouracii"
+    ],
     "year": "2016",
     "developer": "P Studio",
     "genres": [
@@ -5655,6 +7604,13 @@
     "bg": "persona-4",
     "title": "Persona 4",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1u07.jpg",
+    "screenshots": [
+      "th1nw16odrnjuops4dix",
+      "c5djxl96svw2ekgmplq7",
+      "ld2ivje0omdnpqpcvqdt",
+      "enxg88z6qhoy47hrl09g",
+      "rpqtax9opv1tcizheaz0"
+    ],
     "year": "2008",
     "developer": "Atlus",
     "genres": [
@@ -5673,6 +7629,14 @@
     "bg": "american-mcgee-s-alice",
     "title": "American McGee's Alice",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2bwl.jpg",
+    "screenshots": [
+      "scppq7",
+      "scppq4",
+      "scppq5",
+      "scppq6",
+      "pcyuvpvdyuafcq2raovn",
+      "hpvpxfpbjic1bih5iz9s"
+    ],
     "year": "2000",
     "developer": "Rogue Entertainment",
     "genres": [
@@ -5694,6 +7658,14 @@
     "bg": "alice-madness-returns",
     "title": "Alice: Madness Returns",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2n91.jpg",
+    "screenshots": [
+      "g0yugaieoifltnzfx7in",
+      "mksvbgrwrfpgzcocbkkd",
+      "mom0aurfbwpd1vbj951r",
+      "scppqc",
+      "eorlzkhowdzavuvxez2x",
+      "zymsyaax1tjbgpa0b3em"
+    ],
     "year": "2011",
     "developer": "Spicy Horse Games",
     "genres": [
@@ -5715,6 +7687,14 @@
     "bg": "batman-arkham-knight",
     "title": "Batman: Arkham Knight",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coagib.jpg",
+    "screenshots": [
+      "scprhc",
+      "f7dtfyst1yempsfapqze",
+      "njfbulzuivfqqtavv8pi",
+      "gvexzjpbwq7aelsicwt1",
+      "hhpdzsjzt1rq0zfyztqh",
+      "ietlbq4wk9beejz4we8d"
+    ],
     "year": "2015",
     "developer": "Rocksteady Studios",
     "genres": [
@@ -5735,6 +7715,14 @@
     "bg": "clock-tower-3",
     "title": "Clock Tower 3",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1otl.jpg",
+    "screenshots": [
+      "scn7se",
+      "scn7sf",
+      "scn7sb",
+      "scn7sc",
+      "scn7sd",
+      "scn7sa"
+    ],
     "year": "2002",
     "developer": "Capcom",
     "genres": [
@@ -5751,6 +7739,13 @@
     "bg": "clock-tower-ii-the-struggle-within",
     "title": "Clock Tower II: The Struggle Within",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3wmj.jpg",
+    "screenshots": [
+      "kf0l1xg6too8uvwk9n8l",
+      "ho8zjti126giaplyxuqn",
+      "hmz3uesfvjljvu5hfc2i",
+      "izi1nblv5pf4on18dwiy",
+      "iqrr2lwzizrjb3coe3ry"
+    ],
     "year": "1998",
     "developer": "Human Entertainment",
     "genres": [
@@ -5771,6 +7766,12 @@
     "bg": "clock-tower--1",
     "title": "Clock Tower",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co23s2.jpg",
+    "screenshots": [
+      "seyinajcqp7qkzcld5yw",
+      "ng6ejk23ie445vkdhva8",
+      "scq6ij",
+      "scq6ik"
+    ],
     "year": "1996",
     "developer": "Human Entertainment",
     "genres": [
@@ -5791,6 +7792,13 @@
     "bg": "clock-tower",
     "title": "Clock Tower",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4q4f.jpg",
+    "screenshots": [
+      "scgplw",
+      "scgplx",
+      "sckehf",
+      "sckehg",
+      "sckehh"
+    ],
     "year": "1995",
     "developer": "Human Entertainment",
     "genres": [
@@ -5811,6 +7819,14 @@
     "bg": "beyond-good-evil",
     "title": "Beyond Good & Evil",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2n6b.jpg",
+    "screenshots": [
+      "xavtyicsj5g8rpaivyql",
+      "bzgwb8frax3exsccgx8n",
+      "ngwurg7trxelwrc6afxm",
+      "x1thqfyzk8eu0ynecs2d",
+      "tsemumywsr23zzjbmbiw",
+      "gssbqfz9g4qwwgxgrfbb"
+    ],
     "year": "2003",
     "developer": "Ubisoft Montpellier",
     "genres": [
@@ -5833,6 +7849,14 @@
     "bg": "system-shock--1",
     "title": "System Shock",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1ik8.jpg",
+    "screenshots": [
+      "schdyr",
+      "schdz0",
+      "schdyx",
+      "schdyw",
+      "schdyy",
+      "schdyz"
+    ],
     "year": "2023",
     "developer": "Nightdive Studios",
     "genres": [
@@ -5856,6 +7880,14 @@
     "bg": "paradise-killer",
     "title": "Paradise Killer",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9910.jpg",
+    "screenshots": [
+      "sc8732",
+      "sc8734",
+      "sc872z",
+      "sc8731",
+      "sc8733",
+      "sc8730"
+    ],
     "year": "2020",
     "developer": "Kaizen Game Works",
     "genres": [
@@ -5879,6 +7911,14 @@
     "bg": "star-wars-jedi-survivor",
     "title": "Star Wars Jedi: Survivor",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5uzk.jpg",
+    "screenshots": [
+      "sclchm",
+      "sclchn",
+      "scyqn9",
+      "scyqna",
+      "scyqnb",
+      "scyqnc"
+    ],
     "year": "2023",
     "developer": "Respawn Entertainment",
     "genres": [
@@ -5899,6 +7939,13 @@
     "bg": "metal-gear-rising-revengeance",
     "title": "Metal Gear Rising: Revengeance",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2l1t.jpg",
+    "screenshots": [
+      "wggh9gnigj6x0bzvpgvq",
+      "dhjxwdqqkcrodmogdzuw",
+      "rt4xktzs1l6aieikfa2h",
+      "nyzak3efjolrqz4twy0p",
+      "nknh9nxp4rotopyjan5r"
+    ],
     "year": "2013",
     "developer": "PlatinumGames",
     "genres": [
@@ -5920,6 +7967,14 @@
     "bg": "system-shock-2",
     "title": "System Shock 2",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4bak.jpg",
+    "screenshots": [
+      "kg9eb5wd5u5j9wtvafrw",
+      "gdanfmlxy57gzla4smbb",
+      "svqo3ngaapyvcvjza7yx",
+      "sc5j8p",
+      "sc5j8q",
+      "tn5gpywrvya92wq1ang8"
+    ],
     "year": "1999",
     "developer": "Looking Glass Studios",
     "genres": [
@@ -5939,6 +7994,14 @@
     "bg": "resident-evil-4--1",
     "title": "Resident Evil 4",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6bo0.jpg",
+    "screenshots": [
+      "scixzc",
+      "sch7rk",
+      "sch7rl",
+      "sch7rm",
+      "scixzd",
+      "sch7rn"
+    ],
     "year": "2023",
     "developer": "Capcom Development Division 1",
     "genres": [
@@ -5962,6 +8025,14 @@
     "bg": "hogwarts-legacy",
     "title": "Hogwarts Legacy",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaav6.jpg",
+    "screenshots": [
+      "sclo16",
+      "sclo10",
+      "sclo11",
+      "sclo13",
+      "sclo15",
+      "sclo14"
+    ],
     "year": "2023",
     "developer": "Avalanche Software",
     "genres": [
@@ -5984,6 +8055,13 @@
     "bg": "fire-emblem-engage",
     "title": "Fire Emblem Engage",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc5d3.jpg",
+    "screenshots": [
+      "sciwxz",
+      "sciwy1",
+      "sciwxy",
+      "sciwxx",
+      "sciwy0"
+    ],
     "year": "2023",
     "developer": "Intelligent Systems",
     "genres": [
@@ -6002,6 +8080,14 @@
     "bg": "undertale",
     "title": "Undertale",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob1t2.jpg",
+    "screenshots": [
+      "ze8i79ycm3gyymrjvxf0",
+      "dp7ytj3ouesyoq7ddrrx",
+      "scjtta",
+      "scjtt8",
+      "tz5ypjqhppmtypognq7o",
+      "scjtt5"
+    ],
     "year": "2015",
     "developer": "tobyfox",
     "genres": [
@@ -6025,6 +8111,14 @@
     "bg": "silent-hill-origins",
     "title": "Silent Hill: Origins",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2vyq.jpg",
+    "screenshots": [
+      "sc891e",
+      "sc891h",
+      "sc891f",
+      "sc891g",
+      "sc891j",
+      "sc891i"
+    ],
     "year": "2007",
     "developer": "Climax LA",
     "genres": [
@@ -6043,6 +8137,14 @@
     "bg": "silent-hill-4-the-room",
     "title": "Silent Hill 4: The Room",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2vyk.jpg",
+    "screenshots": [
+      "sc890o",
+      "sc890p",
+      "sc890t",
+      "sc890r",
+      "sc890n",
+      "sc890q"
+    ],
     "year": "2004",
     "developer": "Team Silent",
     "genres": [
@@ -6062,6 +8164,14 @@
     "bg": "silent-hill-3",
     "title": "Silent Hill 3",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3kol.jpg",
+    "screenshots": [
+      "sc8903",
+      "sc8900",
+      "sc8902",
+      "sc8901",
+      "sc8904",
+      "sc8905"
+    ],
     "year": "2003",
     "developer": "Konami Computer Entertainment Tokyo",
     "genres": [
@@ -6080,6 +8190,14 @@
     "bg": "silent-hill-2",
     "title": "Silent Hill 2",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2vyg.jpg",
+    "screenshots": [
+      "sc891a",
+      "sc8915",
+      "sc8917",
+      "sc8916",
+      "sc8919",
+      "sc891b"
+    ],
     "year": "2001",
     "developer": "Team Silent",
     "genres": [
@@ -6097,6 +8215,14 @@
     "bg": "silent-hill",
     "title": "Silent Hill",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2vye.jpg",
+    "screenshots": [
+      "sc89pv",
+      "sc89pu",
+      "sc89pt",
+      "sc89ps",
+      "sc89px",
+      "sc89pr"
+    ],
     "year": "1999",
     "developer": "Team Silent",
     "genres": [
@@ -6116,6 +8242,14 @@
     "bg": "god-of-war-ragnarok",
     "title": "God of War Ragnarök",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coba3d.jpg",
+    "screenshots": [
+      "scd71x",
+      "scd71v",
+      "scd71z",
+      "scd720",
+      "scd71w",
+      "scd71y"
+    ],
     "year": "2022",
     "developer": "SIE Santa Monica Studio",
     "genres": [
@@ -6136,6 +8270,13 @@
     "bg": "god-of-war-iii",
     "title": "God of War III",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3koi.jpg",
+    "screenshots": [
+      "dhcxv2v90uszksu4ljpe",
+      "jg63qorejusxwa2pt4i3",
+      "prguq8g59cjmm9na9zhp",
+      "jvsqsbt7din3rnaqzogq",
+      "rftjvydaahy95zoxlitw"
+    ],
     "year": "2010",
     "developer": "SCE Santa Monica Studio",
     "genres": [
@@ -6153,6 +8294,13 @@
     "bg": "god-of-war-ii",
     "title": "God of War II",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3dik.jpg",
+    "screenshots": [
+      "ftficp3du1j15ytxkeo8",
+      "tkuv8mhcx5rz1rickrxi",
+      "sg9zatezeiswrfkg7thk",
+      "jd6h0owfxrdefmmfcsln",
+      "noxffrxzv601ulzsj8ti"
+    ],
     "year": "2007",
     "developer": "SCE Santa Monica Studio",
     "genres": [
@@ -6171,6 +8319,14 @@
     "bg": "god-of-war",
     "title": "God of War",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3ddc.jpg",
+    "screenshots": [
+      "j11tguq3dy5fqmpsipsp",
+      "scz9kj",
+      "scz9ki",
+      "scz9kg",
+      "scz9kh",
+      "rewytwkukyvkcs6mlzsq"
+    ],
     "year": "2005",
     "developer": "SCE Santa Monica Studio",
     "genres": [
@@ -6189,6 +8345,14 @@
     "bg": "fire-emblem-three-houses",
     "title": "Fire Emblem: Three Houses",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1n8t.jpg",
+    "screenshots": [
+      "wgoxfasbgocvjf6wvxoj",
+      "xbfmiaqsxciduahpv6xk",
+      "amstvw2qfwncxduyeegb",
+      "vqxowfpq2xurqwfqiffx",
+      "ynbji1swyqkg0co3cgag",
+      "ivmxp2d95gugqj6583wr"
+    ],
     "year": "2019",
     "developer": "Intelligent Systems",
     "genres": [
@@ -6207,6 +8371,14 @@
     "bg": "baldurs-gate-iii",
     "title": "Baldur's Gate III",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co670h.jpg",
+    "screenshots": [
+      "sc81fj",
+      "scxvxn",
+      "scxvy0",
+      "scxvy1",
+      "sc81fh",
+      "sc81fe"
+    ],
     "year": "2023",
     "developer": "Larian Studios",
     "genres": [
@@ -6230,6 +8402,14 @@
     "bg": "outer-wilds",
     "title": "Outer Wilds",
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co65ac.jpg",
+    "screenshots": [
+      "t794u9kjqyfxhgvl5o2y",
+      "yjycncgevwe969ydemvo",
+      "g3wcomoxrsuet9cuhl9q",
+      "sctwiy",
+      "orzxlqmjgfz1p8rcvjt8",
+      "cbpowo64w2mrilceihsx"
+    ],
     "year": "2019",
     "developer": "Mobius Digital",
     "genres": [

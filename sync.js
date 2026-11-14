@@ -398,7 +398,7 @@ function sortGames(list, originalIndex, libIndex) {
     changes.push(`  ? ${favorites.length} favoris trouvés au lieu de 5 — vérifier la page de profil`);
   }
 
-  const ORDER = ['slug', 'bg', 'title', 'cover', 'year', 'developer', 'genres', 'platforms',
+  const ORDER = ['slug', 'bg', 'title', 'cover', 'screenshots', 'year', 'developer', 'genres', 'platforms',
     'platform', 'rating', 'favorite', 'replay', 'date_start', 'date', 'summary', 'review'];
   const serialise = () => sortGames(merged.filter(g => !enCours(g)), originalIndex, libIndex)
     .map(g => Object.fromEntries(ORDER.filter(k => g[k] !== undefined && g[k] !== null).map(k => [k, g[k]])));
