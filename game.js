@@ -134,6 +134,9 @@ function bindGallery(game) {
   let current = 0;
   const show = i => {
     current = (i + shots.length) % shots.length;
+    // lazy évite de télécharger la 1080p avant l'ouverture, mais Chrome ne la
+    // charge jamais dans un <dialog> qui s'ouvre : on repasse en eager ici.
+    img.loading = 'eager';
     img.src = shotURL(shots[current], 't_1080p');
     count.textContent = `${current + 1} / ${shots.length}`;
   };
@@ -182,7 +185,7 @@ function galleryHTML(game, label) {
       </div>
     </div>
     <dialog class="viewer" id="viewer" aria-label="Images du jeu">
-      <img alt="">
+      <img src="${shotURL(shots[0], 't_1080p')}" alt="Capture d'écran de ${escAttr(game.title)}" loading="lazy">
       <button type="button" class="round viewer-prev" aria-label="Image précédente">←</button>
       <button type="button" class="round viewer-next" aria-label="Image suivante">→</button>
       <button type="button" class="round viewer-close" aria-label="Fermer">✕</button>
