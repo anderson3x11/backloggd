@@ -9,7 +9,6 @@ let currentReview = params.get('critique') || 'tous';
 
 // La grille étant construite en JS, le navigateur restaure le défilement avant
 // qu'elle existe et retombe donc à zéro. On le fait nous-mêmes, après le rendu.
-// nav.js efface cette même clé au clic sur le logo : garder les deux en phase.
 const SCROLL_KEY = 'backloggd:listScroll';
 
 if ('scrollRestoration' in window.history) {

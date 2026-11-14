@@ -24,7 +24,8 @@
   /* Écran large : la grille de jeux gagne des colonnes plutôt que des pixels. */
   --container: 1600px;
   --gutter: clamp(1.25rem, 4vw, 4rem);
-  --header-h: 64px;
+  /* Plus de barre en haut : les éléments collants se calent sur le bord. */
+  --header-h: 0px;
 
   /* Rounded-square corners, not pills. Nested elements step down a size. */
   --radius-lg: 16px;
@@ -55,7 +56,7 @@ img { display: block; }
 ::selection { background: var(--accent); color: var(--bg); }
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 
-header, .page-wrap { position: relative; z-index: 1; }
+.page-wrap { position: relative; z-index: 1; }
 
 /* ─── CONTAINED SHELL ────────────────────────────────────── */
 
@@ -65,124 +66,6 @@ header, .page-wrap { position: relative; z-index: 1; }
   margin: 0 auto;
   padding-inline: var(--gutter);
 }
-
-/* ─── HEADER ─────────────────────────────────────────────── */
-
-/* Barre collante, pleine largeur, fond plein : elle ne change plus de forme au
-   défilement, comme la barre des études de cas du portfolio. */
-header {
-  position: sticky;
-  top: 0;
-  z-index: 20;
-  background: rgba(18, 20, 28, 0.86);
-  backdrop-filter: blur(14px) saturate(140%);
-  -webkit-backdrop-filter: blur(14px) saturate(140%);
-  border-bottom: 1px solid var(--border);
-}
-
-header .shell {
-  height: var(--header-h);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1.5rem;
-}
-
-.site-title {
-  font-family: var(--font-display);
-  font-size: 1.65rem;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-  line-height: 1;
-  color: var(--accent);
-  transition: opacity 0.15s;
-}
-
-.site-title:hover { opacity: 0.75; }
-.site-title .dot { color: var(--muted); }
-
-.nav-left {
-  display: flex;
-  align-items: baseline;
-  gap: 0.6rem;
-  min-width: 0;
-}
-
-.site-handle {
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  color: var(--muted);
-  white-space: nowrap;
-  transition: color 0.15s;
-}
-
-a.site-handle:hover { color: var(--accent); }
-
-.site-handle::before {
-  content: '/';
-  margin-right: 0.6rem;
-  color: var(--muted2);
-}
-
-.nav-right {
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-}
-
-/* Lien texte souligné au survol, comme la nav du portfolio. */
-.nav-text {
-  position: relative;
-  margin-right: 0.9rem;
-  font-family: var(--font-mono);
-  font-size: 0.6875rem;
-  font-weight: 500;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-  color: var(--muted);
-  transition: color 0.15s;
-}
-
-.nav-text::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: -3px;
-  height: 1px;
-  background: currentColor;
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 0.3s;
-}
-
-.nav-text:hover { color: var(--text); }
-.nav-text:hover::after { transform: scaleX(1); }
-
-.nav-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  font-family: var(--font-mono);
-  font-size: 0.6875rem;
-  font-weight: 500;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-  color: var(--muted);
-  border: 1px solid var(--border);
-  border-radius: 99px;
-  padding: 0.42rem 1rem;
-  background: var(--surface);
-  white-space: nowrap;
-  transition: color 0.15s, border-color 0.15s, transform 0.2s;
-}
-
-.nav-link:hover { color: var(--accent); border-color: var(--border2); }
-
-/* Bouton principal : la pastille citron du portfolio. */
-.nav-link.is-primary { background: var(--accent); border-color: var(--accent); color: var(--bg); }
-.nav-link.is-primary:hover { color: var(--bg); transform: translateY(-1px); }
 
 /* ─── MAIN WRAPPER ───────────────────────────────────────── */
 
@@ -762,6 +645,9 @@ a.site-handle:hover { color: var(--accent); }
 }
 
 .game-head > :not(.head-bg) { position: relative; z-index: 1; }
+.game-head .cap a { transition: color 0.15s; }
+.game-head .cap a:hover { color: var(--accent); }
+
 .game-head .cap { display: flex; justify-content: space-between; color: var(--text); margin-bottom: 1.6rem; }
 
 .head-main { display: flex; align-items: flex-end; gap: 2rem; }
@@ -1054,11 +940,9 @@ footer.shell { position: relative; z-index: 1; }
   .facts { gap: 0.9rem 1.2rem; }
   .bp .cell:empty { display: none; }
   .next-link.older { text-align: left; }
-  .nav-text { display: none; }
 }
 
 @media (max-width: 520px) {
-  .site-handle { display: none; }
 
   /* Le filtre tient sur une ligne : on resserre plutôt que de le replier. */
   .review-filter { gap: 1.1rem; }

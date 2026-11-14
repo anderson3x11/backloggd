@@ -6,7 +6,7 @@ const MONTHS_FR = [
 // Si on arrive depuis la liste, « ← Retour » ramène à la liste telle qu'elle
 // était (recherche et tri compris) plutôt qu'à l'accueil par défaut.
 function restoreBackLink() {
-  const back = document.querySelector('header .nav-link');
+  const back = document.querySelector('.game-head .back');
   if (!back || !document.referrer) return;
   try {
     const ref = new URL(document.referrer);
@@ -19,7 +19,6 @@ function restoreBackLink() {
 }
 
 async function init() {
-  restoreBackLink();
   const slug = new URLSearchParams(window.location.search).get('slug');
   const page = document.getElementById('game-page');
 
@@ -51,6 +50,7 @@ async function init() {
   document.title = `${game.title} - backloggd`;
   updateMeta(game);
   page.innerHTML = renderGame(game, newer, older, i, games.length);
+  restoreBackLink();
   bindArrowKeys(newer, older);
   bindGallery(game);
   markClippedSummary();
@@ -273,7 +273,7 @@ function renderGame(game, newer, older, index, total) {
   const head = `
     <div class="game-head">
       ${backdrop}
-      <div class="cap"><span>(A) Journal</span><span>${String(index + 1).padStart(3, '0')} / ${total}</span></div>
+      <div class="cap"><a class="back" href="./index.html">← Journal</a><span>${String(index + 1).padStart(3, '0')} / ${total}</span></div>
       <div class="head-main">
         <div class="head-cover">${cover}</div>
         <div class="head-text">
