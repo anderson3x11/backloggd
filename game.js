@@ -50,9 +50,7 @@ async function init() {
 
   document.title = `${game.title} - backloggd`;
   updateMeta(game);
-  page.innerHTML = renderGame(game, newer, older);
-  // Fond flouté tiré de la jaquette, en haut de page.
-  if (game.cover) document.getElementById('backdrop').style.backgroundImage = `url("${game.cover}")`;
+  page.innerHTML = renderGame(game, newer, older, i, games.length);
   bindArrowKeys(newer, older);
 }
 
@@ -95,52 +93,32 @@ function starsHTML(rating) {
     `</span>`;
 }
 
-// Bas de colonne : jeu plus récent / plus ancien, en cartes avec vignette.
-function navCard(game, dir) {
-  if (!game) return '<span></span>';
-  const thumb = game.cover ? `<img src="${game.cover}" alt="" loading="lazy">` : '<span class="nav-thumb-empty"></span>';
+// Le titre doit tenir dans sa cellule sans couper de mot : la taille suit le
+// mot le plus long, et les titres à rallonge restent plus sobres.
+function titleSize(title) {
+  const longest = Math.max(...title.split(/\s+/).map(w => w.length));
+  return `--w:${longest};--cap:${title.length > 24 ? 'min(84px, 16cqi)' : '128px'}`;
+}
+
+function fact(key, value) {
+  return value ? `<div><dt>${key}</dt><dd>${value}</dd></div>` : '';
+}
+
+// Bas de page : précédent / suivant en grand, comme le « projet suivant »
+// des études de cas du portfolio.
+function nextCell(game, dir) {
+  if (!game) return '<div class="cell"></div>';
   return `
-    <a class="nav-card ${dir}" href="${gameURL(game)}">
-      ${thumb}
-      <span class="nav-card-text">
-        <span class="nav-card-dir">${dir === 'newer' ? '← Précédent' : 'Suivant →'}</span>
-        <span class="nav-card-title">${escHtml(game.title)}</span>
-      </span>
+    <a class="cell next-link ${dir}" href="${gameURL(game)}">
+      <span class="lab">${dir === 'newer' ? '← Précédent' : 'Suivant →'}</span>
+      <strong>${escHtml(game.title)}</strong>
     </a>`;
 }
 
-// Colonne de gauche : tout ce qui décrit le jeu lui-même, sous la jaquette.
-// Le résumé y est borné à quelques lignes : la colonne est collante, elle ne
-// doit pas dépasser la hauteur de l'écran.
-function gameInfo(game) {
-  const rows = [
-    game.year ? infoRow('Sortie', escHtml(game.year)) : '',
-    game.developer ? infoRow('Studio', escHtml(game.developer)) : '',
-    game.genres && game.genres.length ? infoRow('Genre', escHtml(game.genres.slice(0, 3).join(', '))) : '',
-    game.platforms && game.platforms.length
-      ? infoRow('Support', escHtml(game.platforms.slice(0, 4).join(', '))) : '',
-  ].filter(Boolean).join('');
-  const summary = game.summary
-    ? `<p class="game-summary" title="${escAttr(game.summary)}">${escHtml(game.summary)}</p>`
-    : '';
-  if (!rows && !summary) return '';
-  return `<div class="game-info">${rows}${summary}</div>`;
-}
-
-function infoRow(key, value) {
-  return `<div class="info-row"><span class="info-key">${key}</span><span class="info-val">${value}</span></div>`;
-}
-
-function renderGame(game, newer, older) {
+function renderGame(game, newer, older, index, total) {
   const cover = game.cover
-    ? `<img class="game-cover-full" src="${game.cover}" alt="${escAttr(game.title)}">`
+    ? `<img src="${game.cover}" alt="${escAttr(game.title)}">`
     : `<div class="game-cover-placeholder-full">${escHtml(game.title[0])}</div>`;
-
-  const chips = [
-    buildDateText(game) ? `<span class="chip">${buildDateText(game)}</span>` : '',
-    game.platform ? `<span class="chip">${escHtml(game.platform)}</span>` : '',
-    game.replay ? '<span class="chip is-accent">↺ Rejoué</span>' : '',
-  ].join('');
 
   const rating = game.rating != null ? `
     <div class="rating-block">
@@ -149,29 +127,46 @@ function renderGame(game, newer, older) {
       ${starsHTML(game.rating)}
     </div>` : '<div class="rating-block"><span class="stars-none">Pas encore noté</span></div>';
 
-  // Sans critique, pas d'encadré : une boîte vide souligne l'absence.
-  const review = game.review ? `
-    <div class="panel section">
-      <div class="panel-label">Critique</div>
-      <div class="review-body">${formatReview(game.review)}</div>
-    </div>` : '';
+  const facts = [
+    fact('Joué', buildDateText(game)),
+    fact('Plateforme', game.platform ? escHtml(game.platform) + (game.replay ? ' <span class="replay">↺ Rejoué</span>' : '') : ''),
+    fact('Sortie', game.year ? escHtml(game.year) : ''),
+    fact('Studio', game.developer ? escHtml(game.developer) : ''),
+    fact('Genre', game.genres && game.genres.length ? escHtml(game.genres.slice(0, 3).join(', ')) : ''),
+    fact('Support', game.platforms && game.platforms.length ? escHtml(game.platforms.slice(0, 4).join(', ')) : ''),
+  ].join('');
+
+  // Lettrage (B), (C)… comme les cellules du portfolio, sans trou quand une
+  // section manque.
+  let n = 0;
+  const letter = () => `(${'BCDE'[n++]})`;
 
   return `
-    <div class="game-layout">
-      <aside class="game-left">
-        <div class="panel cover-frame">${cover}</div>
-        ${gameInfo(game)}
-      </aside>
-      <div class="game-right">
-        <div class="game-head">
-          ${chips ? `<div class="chips">${chips}</div>` : ''}
-          <h1 class="game-title">${escHtml(game.title)}</h1>
-        </div>
+    <div class="row head">
+      <div class="cell">
+        <div class="cap"><span>(A) Journal</span><span>${String(index + 1).padStart(3, '0')} / ${total}</span></div>
+        <h1 class="game-title" style="${titleSize(game.title)}">${escHtml(game.title)}</h1>
         ${rating}
-        ${review}
-        ${newer || older ? `<nav class="game-nav">${navCard(newer, 'newer')}${navCard(older, 'older')}</nav>` : ''}
       </div>
-    </div>`;
+      <div class="cell media">${cover}</div>
+    </div>
+    <div class="row">
+      <div class="cell">
+        <span class="lab">${letter()} Fiche</span>
+        <dl class="facts">${facts}</dl>
+      </div>
+      <div class="cell">
+        ${game.summary ? `<span class="lab">${letter()} Résumé</span><p class="game-summary">${escHtml(game.summary)}</p>` : ''}
+      </div>
+    </div>
+    ${game.review ? `
+    <div class="row full">
+      <div class="cell">
+        <span class="lab">${letter()} Critique</span>
+        <div class="review-body">${formatReview(game.review)}</div>
+      </div>
+    </div>` : ''}
+    ${newer || older ? `<div class="row next">${nextCell(newer, 'newer')}${nextCell(older, 'older')}</div>` : ''}`;
 }
 
 function buildDateText(game) {
