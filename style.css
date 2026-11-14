@@ -549,8 +549,9 @@ a.site-handle:hover { color: var(--accent); }
 
 .card-rating {
   flex: none;
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  line-height: 1;
   color: var(--accent);
 }
 
@@ -583,35 +584,34 @@ a.site-handle:hover { color: var(--accent); }
   margin-bottom: 0;
 }
 
-/* Filtre Tous / Avec / Sans critique, habillé comme les intitulés de section. */
+/* Filtre Tous / Avec / Sans critique : une barre d'onglets soulignés. */
 .review-filter {
-  display: inline-flex;
-  flex-wrap: wrap;
-  gap: 0.2rem;
-  padding: 3px;
-  border: 1px solid var(--border);
-  border-radius: 99px;
-  margin-bottom: 1.1rem;
+  display: flex;
+  gap: 1.75rem;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 1.5rem;
 }
 
 .review-filter-btn {
   background: none;
   border: none;
-  border-radius: 99px;
-  padding: 0.38rem 0.85rem;
-  font-family: var(--font-mono);
-  font-size: 0.6875rem;
+  border-bottom: 2px solid transparent;
+  /* Le soulignement recouvre le filet de la barre. */
+  margin-bottom: -1px;
+  padding: 0.55rem 0 0.7rem;
+  font-family: var(--font-body);
+  font-size: 0.92rem;
   font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 0.16em;
   color: var(--muted);
+  white-space: nowrap;
   cursor: pointer;
-  transition: color 0.15s, background 0.15s;
+  transition: color 0.15s, border-color 0.15s;
 }
 
 .review-filter-btn:hover { color: var(--text); }
-.review-filter-btn[aria-pressed="true"] { background: var(--accent); color: var(--bg); }
-.review-filter-btn[aria-pressed="true"] .grid-label-count { color: var(--deep); }
+.review-filter-btn[aria-pressed="true"] { color: var(--text); border-bottom-color: var(--accent); }
+.review-filter-btn .grid-label-count { font-family: var(--font-mono); font-size: 0.75rem; }
+.review-filter-btn[aria-pressed="true"] .grid-label-count { color: var(--accent); }
 
 .grid-label-count {
   color: #6f7486;
@@ -682,14 +682,16 @@ a.site-handle:hover { color: var(--accent); }
   inset: 0;
   background-size: cover;
   background-position: center 30%;
-  filter: blur(56px) saturate(1.3);
-  opacity: 0.3;
-  transform: scale(1.15);
+  filter: blur(18px) saturate(1.2);
+  opacity: 0.28;
+  transform: scale(1.08);
 }
 
 .game-layout {
   display: grid;
-  grid-template-columns: minmax(0, 340px) minmax(0, 1fr);
+  /* 700 px : environ 80 caractères par ligne dans la critique. */
+  grid-template-columns: minmax(0, 340px) minmax(0, 700px);
+  justify-content: center;
   gap: 3.5rem;
   align-items: start;
   padding-top: 1rem;
@@ -768,7 +770,6 @@ a.site-handle:hover { color: var(--accent); }
   flex-direction: column;
   gap: 1.75rem;
   min-width: 0;
-  max-width: 900px;
 }
 
 .game-head {
@@ -841,25 +842,19 @@ a.site-handle:hover { color: var(--accent); }
   font-weight: 400;
   line-height: 1.75;
   color: #e4e1d8;
-  /* ~73 caractères par ligne : le « 0 » d'Inter Tight est large, donc ch
-     surestime la mesure réelle d'environ un tiers. */
-  max-width: 64ch;
 }
 
 .review-body p + p { margin-top: 1.1rem; }
 
-.summary-block {
-  display: flex;
-  flex-direction: column;
-  gap: 0.7rem;
-  padding: 0 0.25rem;
-}
-
 .game-summary {
-  font-size: 0.9rem;
-  line-height: 1.65;
+  margin-top: 1rem;
+  font-size: 0.82rem;
+  line-height: 1.6;
   color: var(--muted);
-  max-width: 70ch;
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 /* ─── PRÉCÉDENT / SUIVANT ────────────────────────────────── */
@@ -999,9 +994,9 @@ footer.shell { position: relative; z-index: 1; }
   .site-handle { display: none; }
 
   /* Le filtre tient sur une ligne : on resserre plutôt que de le replier. */
-  .review-filter { display: flex; flex-wrap: nowrap; gap: 0; padding: 2px; }
-  .review-filter-btn { flex: 1; padding: 0.38rem 0.3rem; font-size: 0.6875rem; letter-spacing: 0.02em; white-space: nowrap; }
-  .grid-label-count { margin-left: 0.2rem; letter-spacing: 0; }
+  .review-filter { gap: 1.1rem; }
+  .review-filter-btn { font-size: 0.85rem; }
+  .review-filter-btn .grid-label-count { margin-left: 0.25rem; }
 }
 
 /* Plus étroit encore : les compteurs du filtre sautent, les libellés restent. */

@@ -103,13 +103,15 @@ function navCard(game, dir) {
     <a class="nav-card ${dir}" href="${gameURL(game)}">
       ${thumb}
       <span class="nav-card-text">
-        <span class="nav-card-dir">${dir === 'newer' ? '← Plus récent' : 'Plus ancien →'}</span>
+        <span class="nav-card-dir">${dir === 'newer' ? '← Précédent' : 'Suivant →'}</span>
         <span class="nav-card-title">${escHtml(game.title)}</span>
       </span>
     </a>`;
 }
 
-// Colonne de gauche : la fiche technique du jeu, sous la jaquette.
+// Colonne de gauche : tout ce qui décrit le jeu lui-même, sous la jaquette.
+// Le résumé y est borné à quelques lignes : la colonne est collante, elle ne
+// doit pas dépasser la hauteur de l'écran.
 function gameInfo(game) {
   const rows = [
     game.year ? infoRow('Sortie', escHtml(game.year)) : '',
@@ -118,7 +120,11 @@ function gameInfo(game) {
     game.platforms && game.platforms.length
       ? infoRow('Support', escHtml(game.platforms.slice(0, 4).join(', '))) : '',
   ].filter(Boolean).join('');
-  return rows ? `<div class="game-info">${rows}</div>` : '';
+  const summary = game.summary
+    ? `<p class="game-summary" title="${escAttr(game.summary)}">${escHtml(game.summary)}</p>`
+    : '';
+  if (!rows && !summary) return '';
+  return `<div class="game-info">${rows}${summary}</div>`;
 }
 
 function infoRow(key, value) {
@@ -150,12 +156,6 @@ function renderGame(game, newer, older) {
       <div class="review-body">${formatReview(game.review)}</div>
     </div>` : '';
 
-  const summary = game.summary ? `
-    <div class="summary-block">
-      <div class="panel-label">Résumé</div>
-      <p class="game-summary">${escHtml(game.summary)}</p>
-    </div>` : '';
-
   return `
     <div class="game-layout">
       <aside class="game-left">
@@ -169,7 +169,6 @@ function renderGame(game, newer, older) {
         </div>
         ${rating}
         ${review}
-        ${summary}
         ${newer || older ? `<nav class="game-nav">${navCard(newer, 'newer')}${navCard(older, 'older')}</nav>` : ''}
       </div>
     </div>`;

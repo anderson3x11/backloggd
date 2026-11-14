@@ -139,6 +139,11 @@ const REPLAY_ICON = `
     </svg>
   </span>`;
 
+// Comme sur Letterboxd : autant d'étoiles que la note, plus « ½ » s'il le faut.
+function starsText(rating) {
+  return '★'.repeat(Math.floor(rating)) + (rating % 1 ? '½' : '');
+}
+
 function cardHTML(game) {
   const cover = game.cover
     ? `<img class="card-cover" src="${game.cover}" alt="${escAttr(game.title)}" loading="lazy">`
@@ -149,7 +154,7 @@ function cardHTML(game) {
       <div class="card-cover-wrap">${cover}</div>
       <div class="card-meta">
         <span class="card-title" title="${escAttr(game.title)}">${escHtml(game.title)}</span>
-        ${game.rating != null ? `<span class="card-rating">★ ${game.rating}</span>` : ''}
+        ${game.rating != null ? `<span class="card-rating" title="${game.rating} / 5" aria-label="${game.rating} sur 5">${starsText(game.rating)}</span>` : ''}
         ${game.review ? REVIEW_ICON : ''}
         ${game.replay ? REPLAY_ICON : ''}
       </div>
